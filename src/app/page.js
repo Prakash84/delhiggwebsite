@@ -12,7 +12,7 @@ import { Sparkles, Camera, MapPin } from "lucide-react";
 export default function Home({
   images = ['/images/6631.jpg'], // keep single image or pass swiper images externally
   imageUrl = '/images/6631.jpg',
-  title = 'Luxury Companion Services',
+  title = 'Affordable & Luxury Escort Services in Delhi',
   subtitle = 'Experience elegance, discretion & premium companionship',
   cta = 'Book Now',
   ctaHref = '#',
@@ -672,10 +672,10 @@ const locations = [
                         transition={{ delay: 0.3 }}
                         viewport={{ once: true }}
                       >
-                        Delhi Escorts Agency -{" "}
+                        Trusted Escort Services in Delhi –{" "}
                         <span className="relative">
                           <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            No Compromise on Quality Escorts Service
+                            Safe, Secure & Confidential
                           </span>
                           <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                         </span>
@@ -814,10 +814,10 @@ const locations = [
                     transition={{ delay: 0.3 }}
                     viewport={{ once: true }}
                   >
-                    Variety of{" "}
+                    24/7 Call Girl Services in Delhi –{" "}
                     <span className="relative">
                       <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                        Escort Services in Delhi for Your
+                        Discreet, Safe & Reliable
                       </span>
                       <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                     </span>
@@ -1039,7 +1039,7 @@ const locations = [
                   🌸
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 ml-4 tracking-tight">
-                  Personalized Experiences with Sexy Escort in Delhi
+                  High-Class Call Girl Services in Delhi – Choose Your Perfect Companion
                 </h2>
               </div>
     
@@ -1122,7 +1122,7 @@ const locations = [
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Delhi Escort Service Available Categories
+            Trusted Call Girl Services in Delhi – VIP Companions for Every Occasion
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Meet our diverse team of professionals who bring excellence and passion to every engagement.
