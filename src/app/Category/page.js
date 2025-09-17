@@ -7,7 +7,30 @@ import { FaCheck, FaStar, FaCrown, FaPlane, FaGraduationCap, FaGlobeAsia, FaSpa 
 import { FiSearch, FiChevronDown, FiMail, FiMessageSquare, FiHelpCircle } from 'react-icons/fi';
 import { AnimatePresence } from "framer-motion";
 import { FaTelegram } from "react-icons/fa";
+import { FaUniversity,  FaInstagram, } from "react-icons/fa";
 export default function Category() {
+  const categories2 = [
+    {
+      icon: <FaUniversity className="text-pink-500 text-4xl" />,
+      title: "College Escorts in Delhi",
+      desc: "Young, energetic, and charming companions who bring freshness and joy to your evenings.",
+    },
+    {
+      icon: <FaCrown className="text-red-500 text-4xl" />,
+      title: "Russian Escort in Delhi",
+      desc: "If you are looking for elegance, boldness, and beauty, then Russian escorts in Delhi are the best choice. They are stylish, sophisticated, and perfect for social as well as private companionship.",
+    },
+    {
+      icon: <FaInstagram className="text-purple-500 text-4xl" />,
+      title: "Insta Models in Delhi",
+      desc: "Trendy, stylish, and glamorous escorts who give you a modern and fashionable experience.",
+    },
+    {
+      icon: <FaPlane className="text-blue-500 text-4xl" />,
+      title: "Air Hostess Escorts in Delhi",
+      desc: "Classy, elegant, and professional companions with a refined personality – perfect for high-profile clients.",
+    },
+  ];
   {/* staff showcase */}
     const [activeCategory, setActiveCategory] = useState('all');
     const categories = [
@@ -234,15 +257,16 @@ export default function Category() {
               setOpenQuestion(openQuestion === id ? null : id);
             };
               //End FAQ Section
+              
   return (
     <>
     {/* banner */}
-            <div className="relative overflow-hidden rounded-2xl shadow-xl border border-gray-200 min-h-[420px] md:min-h-[520px]">
+            <div className="relative overflow-hidden rounded-2xl shadow-xl border border-gray-200 min-h-[500px] md:min-h-[800px]">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         {/* Use `fill` and `object-cover` (no layout/objectFit) + sizes for responsive loading */}
         <Image
-          src="/images/32586.jpg"
+          src="/images/young-woman.jpg"
           alt="Spa and Wellness Background"
           fill
           className="object-cover w-full h-full opacity-90"
@@ -300,6 +324,39 @@ export default function Category() {
       </div>
     </div>
         {/* end banner */}
+        <section className="bg-gradient-to-r from-amber-50 to-white py-20">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+        <motion.h2
+          className="text-3xl md:text-4xl font-bold text-gray-800 mb-12"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                     Our Escort Categories
+                  </h2>
+         
+        </motion.h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {categories2.map((cat, index) => (
+            <motion.div
+              key={index}
+              className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+            >
+              <div className="flex justify-center mb-4">{cat.icon}</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                {cat.title}
+              </h3>
+              <p className="text-gray-600 text-sm">{cat.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
         {/* staff showcase */}
          <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
