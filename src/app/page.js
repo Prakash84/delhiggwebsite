@@ -635,6 +635,7 @@ const locations = [
       </div>
     </section>
     {/* End Banner */}
+    
         <section className="py-10 bg-white">
 <div className="max-w-7xl mx-auto px-6">
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 items-start">
@@ -1241,7 +1242,7 @@ const locations = [
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Our Premium Location
+            Best Call Girl Services in Delhi – Elegant, Professional & Friendly
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Meet our diverse team of professionals who bring excellence and passion to every engagement.
@@ -1329,10 +1330,10 @@ View All Cities
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Selected Call Girls {" "}
+                Luxury Call Girl in Aerocity – {" "}
                 <span className="relative">
                   <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                    Available in Delhi Escort Service Agency
+                    Experience Class & Comfort Near Airport
                   </span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                 </span>
@@ -1482,7 +1483,7 @@ View All Cities
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            HIGH-PROFILE ESCORTS IN DELHI GIRLS WAITING FOR YOU!
+            High-Class Call Girl in Delhi – Stylish Companions for Unforgettable Nights
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Discover the vibrant style culture of India&apos;s capital. Empowerment through fashion, beauty, and community.
@@ -1555,7 +1556,7 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Maximum Satisfaction <span className="text-rose-600">with 100% Verified Escorts in Delhi</span>
+            Elite Call Girl in Gurgaon – <span className="text-rose-600">Exclusive Companionship for VIP Clients</span>
           </h2>
           <p className="text-lg text-gray-700">
             Step into a world of intimacy, warmth, and pleasure. Our luxury spa
@@ -1629,7 +1630,7 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            Meet the <span className="text-pink-600">Delhi Girl</span>
+            Top-Rated Call Girl in Aerocity – <span className="text-pink-600">Confidential & Reliable Services</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             Bold, confident, and full of life – she represents the modern spirit
@@ -1671,7 +1672,7 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Things to Do in <span className="text-pink-600">5 Star Hotel with Sexy Call Girl in Delhi</span>
+            Premium Call Girl in Delhi – <span className="text-pink-600">Where Elegance Meets Pleasure</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             A Delhi Girl is more than just a style icon — she’s the perfect
