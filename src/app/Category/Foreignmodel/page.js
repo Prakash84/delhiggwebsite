@@ -286,7 +286,7 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900"
+              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white"
             >
               Variety of <span className="text-pink-500">Escort Services</span>
               <br /> in Delhi for <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Your</span>

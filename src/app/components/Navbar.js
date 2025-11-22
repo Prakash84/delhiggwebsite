@@ -10,6 +10,7 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isLocationsOpen, setIsLocationsOpen] = useState(false);
 
   // scroll effect
   useEffect(() => {
@@ -22,12 +23,21 @@ export default function Navbar() {
 
   const Services = [
     { name: "Foreigner Staff", href: "/Category/Foreignmodel" },
-    { name: "Air Hostess", href: "/Category/airhostess" },
-    { name: "Independent Profile", href: "/Category/independentindianprofile" },
-    { name: "Russian Model", href: "/Category/russianmodel" },
+    { name: "Air Hostess", href: "/Category/Airhostess" },
+    { name: "Independent Profile", href: "/Category/Independentprofile" },
+    { name: "Russian Model", href: "/Category/Russianmodels" },
     { name: "Celebrity Profile", href: "/Category/celebrityprofile" },
     { name: "Spa Staff", href: "/Category/spastaff" },
     { name: "COllege Girl", href: "/Category/spastaff" },
+    
+  ];
+  const Locations = [
+    { name: "Delhi Escorts", href: "/Locations/Delhiescorts" },
+    { name: "Gurugram Escorts", href: "/Locations/Gurugramescorts" },
+    { name: "NOida Escorts", href: "/Locations/NOidaescorts" },
+    { name: "Aerocity Escorts", href: "/Locations/Aerocityescorts" },
+    { name: "Celebrity Escorts", href: "/Locations/Celebrityescorts" },
+   
     
   ];
 
@@ -93,9 +103,42 @@ export default function Navbar() {
           <Link href="/Services" className="hover:text-pink-600 transition">
             Services
           </Link>
-           <Link href="/Locations" className="hover:text-pink-600 transition">
-            Locations
-          </Link>
+          
+
+          {/* Locations Dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={() => setIsLocationsOpen(true)}
+            onMouseLeave={() => setIsLocationsOpen(false)}
+          >
+            <Link 
+              href="/Locations" // <-- यहां तू default category page ka route दे
+              className="flex items-center gap-1 hover:text-pink-600 transition"
+            >
+              Locations <ChevronDown className="w-4 h-4" />
+            </Link>
+            <AnimatePresence>
+              {isLocationsOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute top-8 left-0 bg-white rounded-xl shadow-lg p-4 space-y-2 w-56"
+                >
+                  {Locations.map((item, idx) => (
+                    <Link
+                      key={idx}
+                      href={item.href}
+                      className="block text-gray-700 hover:text-pink-600 transition"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
 
           {/* Social Icons */}
           <div className="flex gap-4 ml-4">

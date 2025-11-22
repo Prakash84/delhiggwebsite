@@ -175,74 +175,74 @@ export default function Home({
     // 5 start hotel 
     const [activeHotel, setActiveHotel] = useState(null);
   
-  const hotels = [
-    {
-      id: 1,
-      name: "Grand Royale Palace",
-      location: "Bangkok, Thailand",
-      rating: 5,
-      description: "An iconic luxury hotel offering breathtaking views of the city skyline and the Chao Phraya River.",
-      image: "/hotel-royale.jpg",
-      amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
-      price: "₹25,000",
-      features: ["Ocean View", "Private Beach", "Helipad"]
-    },
-    {
-      id: 2,
-      name: "Azure Waters Resort",
-      location: "Maldives",
-      rating: 5,
-      description: "Experience paradise in our overwater villas with direct access to crystal-clear lagoons.",
-      image: "/hotel-azure.jpg",
-      amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
-      price: "₹45,000",
-      features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
-    },
-    {
-      id: 3,
-      name: "Alpine Peak Lodge",
-      location: "Swiss Alps, Switzerland",
-      rating: 5,
-      description: "Majestic mountain retreat with ski-in/ski-out access and panoramic alpine views.",
-      image: "/hotel-alpine.jpg",
-      amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
-      price: "₹38,000",
-      features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
-    },
-    {
-      id: 4,
-      name: "Oasis Desert Mirage",
-      location: "Dubai, UAE",
-      rating: 5,
-      description: "Luxurious desert sanctuary blending traditional Arabian hospitality with modern opulence.",
-      image: "/hotel-oasis.jpg",
-      amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
-      price: "₹32,000",
-      features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
-    },
-    {
-      id: 5,
-      name: "Emerald Bay Retreat",
-      location: "Bali, Indonesia",
-      rating: 5,
-      description: "Tropical paradise nestled in lush rainforest with stunning ocean vistas and traditional Balinese architecture.",
-      image: "/hotel-emerald.jpg",
-      amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
-      price: "₹28,000",
-      features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
-    },
-    {
-      id: 6,
-      name: "Sapphire Sky Tower",
-      location: "New York City, USA",
-      rating: 5,
-      description: "Ultra-modern luxury in the heart of Manhattan with panoramic city views from every suite.",
-      image: "/hotel-sapphire.jpg",
-      amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
-      price: "₹52,000",
-      features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
-    }
-  ];
+   const hotels = [
+          {
+            id: 1,
+            name: "Grand Royale Palace",
+            location: "Bangkok, Thailand",
+            rating: 5,
+            description: "An iconic luxury hotel offering breathtaking views of the city skyline and the Chao Phraya River.",
+            image: "/images/lajpatnagahotel.avif",
+            amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
+            price: "₹25,000",
+            features: ["Ocean View", "Private Beach", "Helipad"]
+          },
+          {
+            id: 2,
+            name: "Azure Waters Resort",
+            location: "Maldives",
+            rating: 5,
+            description: "Experience paradise in our overwater villas with direct access to crystal-clear lagoons.",
+            image: "/images/JwMarriott_CP.jpg",
+            amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
+            price: "₹45,000",
+            features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
+          },
+          {
+            id: 3,
+            name: "Alpine Peak Lodge",
+            location: "Swiss Alps, Switzerland",
+            rating: 5,
+            description: "Majestic mountain retreat with ski-in/ski-out access and panoramic alpine views.",
+            image: "/images/jaypeeVasantAerocity.png",
+            amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
+            price: "₹38,000",
+            features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
+          },
+          {
+            id: 4,
+            name: "Oasis Desert Mirage",
+            location: "Dubai, UAE",
+            rating: 5,
+            description: "Luxurious desert sanctuary blending traditional Arabian hospitality with modern opulence.",
+            image: "/images/holidayIn_CP.jpg",
+            amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
+            price: "₹32,000",
+            features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
+          },
+          {
+            id: 5,
+            name: "Emerald Bay Retreat",
+            location: "Bali, Indonesia",
+            rating: 5,
+            description: "Tropical paradise nestled in lush rainforest with stunning ocean vistas and traditional Balinese architecture.",
+            image: "/images/pullmanAerocity.jpg",
+            amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
+            price: "₹28,000",
+            features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
+          },
+          {
+            id: 6,
+            name: "Sapphire Sky Tower",
+            location: "New York City, USA",
+            rating: 5,
+            description: "Ultra-modern luxury in the heart of Manhattan with panoramic city views from every suite.",
+            image: "/images/tajmahalhotel_lajpatnagar.jpg",
+            amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
+            price: "₹52,000",
+            features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
+          }
+        ];
 
   const amenitiesIcons = {
     "Infinity Pool": <FaSwimmingPool className="text-blue-500" />,
@@ -636,29 +636,40 @@ const locations = [
     </section>
     {/* End Banner */}
     
-        <section className="py-10 bg-white">
-<div className="max-w-7xl mx-auto px-6">
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 items-start">
-{items.map((it, idx) => (
-<div key={idx} className="flex flex-col items-center text-center">
-<div className="p-4 rounded-full bg-white shadow-sm hover:shadow-lg transition-shadow duration-200 flex items-center justify-center">
-<Image src={it.src} alt={it.title} width={80} height={80} className="object-contain" />
-</div>
+            <section className="py-10 bg-white">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Responsive grid: 1 on xs, 2 on sm, 3 on md, 4 on lg, 6 on xl */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-x-8 gap-y-10 items-start">
+          {items.map((it, idx) => (
+            <div
+              key={idx}
+              className="flex flex-col items-center text-center px-2"
+            >
+              {/* Image wrapper: responsive sizes, relative for Image fill */}
+              <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full bg-white shadow-sm hover:shadow-lg transition-shadow duration-200 flex items-center justify-center overflow-hidden">
+                <Image
+                  src={it.src}
+                  alt={it.title}
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 640px) 56px, (max-width: 1024px) 80px, 96px"
+                  priority={false}
+                />
+              </div>
 
+              {/* Ensure title & subtitle have room and don't overlap */}
+              <h3 className="mt-4 text-base sm:text-lg font-semibold text-gray-800 leading-tight">
+                {it.title}
+              </h3>
 
-<h3 className="mt-4 text-lg font-semibold text-gray-800 leading-5">
-{it.title}
-</h3>
-
-
-<p className="mt-2 text-sm text-gray-600 max-w-[140px]">
-{it.subtitle}
-</p>
-</div>
-))}
-</div>
-</div>
-</section>
+              <p className="mt-2 text-sm text-gray-600 max-w-[160px]">
+                {it.subtitle}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
     {/* Content Hero Section */}
                   <section className="bg-gray-50 py-24">
@@ -2016,143 +2027,150 @@ View All Cities
     </div>
     {/* 5 star hotel */}
       {/* 5 star hotel */}
-<div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
-  <div className="max-w-7xl mx-auto">
-    <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="text-center mb-16"
-    >
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-        Our 5-Star Hotel Collection
-      </h2>
-      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        Discover the world&apos;s most exclusive luxury hotels and resorts, each offering unparalleled service and unforgettable experiences.
-      </p>
-    </motion.div>
-
-    {/* Hotel Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {hotels.map((hotel) => (
-        <motion.div
-          key={hotel.id}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          whileHover={{ y: -10 }}
-          className={`bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group ${
-            activeHotel === hotel.id ? "ring-4 ring-purple-500" : ""
-          }`}
-          onClick={() => setActiveHotel(activeHotel === hotel.id ? null : hotel.id)}
-        >
-          {/* Hotel Image */}
-          <div className="relative h-60 overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
-            <div className="absolute top-4 right-4 z-20 flex items-center bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
-              <FaStar className="mr-1" />
-              {hotel.rating}
-            </div>
-            <div className="absolute bottom-4 left-4 z-20 text-white">
-              <h3 className="text-xl font-bold">{hotel.name}</h3>
-              <p className="text-sm">{hotel.location}</p>
-            </div>
-            {/* Placeholder Image */}
-            <div className="bg-gradient-to-br from-purple-100 to-pink-200 w-full h-full flex items-center justify-center">
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-            </div>
-          </div>
-
-          {/* Hotel Info */}
-          <div className="p-6">
-            <p className="text-gray-600 mb-4">{hotel.description}</p>
-            {/* Amenities */}
-            <div className="mb-6">
-              <h4 className="font-bold text-gray-800 mb-2">Key Amenities</h4>
-              <div className="flex flex-wrap gap-2">
-                {hotel.amenities.slice(0, 4).map((amenity, index) => (
-                  <div key={index} className="flex items-center bg-gray-100 px-3 py-1.5 rounded-full text-sm">
-                    <span className="mr-2">{amenitiesIcons[amenity]}</span>
-                    {amenity}
-                  </div>
-                ))}
-              </div>
-            </div>
-            {/* Price and Features */}
-            <div className="flex justify-between items-center">
-              <div>
-                <div className="text-2xl font-bold text-purple-700">{hotel.price}</div>
-                <div className="text-sm text-gray-500">per night</div>
-              </div>
-              <div className="flex space-x-2">
-                {hotel.features.slice(0, 2).map((feature, index) => (
-                  <div key={index} className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">
-                    {feature}
-                  </div>
-                ))}
-              </div>
-            </div>
-            {/* Button */}
-            <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all">
-              View Details
-            </button>
-          </div>
-        </motion.div>
-      ))}
-    </div>
-
-    {/* Featured Hotel - Theme matched */}
-    <motion.div 
-      className="mt-16 bg-gradient-to-r from-purple-700 to-pink-700 rounded-3xl overflow-hidden shadow-2xl"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.3 }}
-    >
-      <div className="grid grid-cols-1 lg:grid-cols-2">
-        {/* Image */}
-        <div className="relative min-h-[400px]">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
-          <div className="absolute bottom-6 left-6 z-20 text-white">
-            <h3 className="text-2xl font-bold">Luxury Experience Package</h3>
-            <p className="mt-2 max-w-md">Book 3 nights and receive complimentary spa treatments, airport transfers, and dining credits</p>
-          </div>
-          {/* Placeholder Image */}
-          <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
-            <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-          </div>
-        </div>
-
-        {/* Details */}
-        <div className="p-8 text-white">
-          <div className="flex items-center mb-4">
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <span className="ml-2 font-semibold">Top Rated</span>
-          </div>
-          <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
-          <ul className="space-y-3 mb-6">
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Complimentary airport transfers</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Personal concierge service</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> VIP lounge access</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li>
-          </ul>
-          <div className="flex space-x-4">
-            <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
-              Explore Packages
-            </button>
-            <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
-              Contact Concierge
-            </button>
-          </div>
-        </div>
-      </div>
-    </motion.div>
-  </div>
-</div>
-{/* END Hotel */}
+                          <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+                            <div className="max-w-7xl mx-auto">
+                              <motion.div
+                                initial={{ opacity: 0, y: -20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                className="text-center mb-16"
+                              >
+                                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                                  Our 5-Star Hotel Collection
+                                </h2>
+                                <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                                  Discover the world&apos;s most exclusive luxury hotels and resorts, each offering unparalleled service and unforgettable experiences.
+                                </p>
+                              </motion.div>
+                          
+                              {/* Hotel Grid */}
+                              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                {hotels.map((hotel) => (
+                                  <motion.div
+                                    key={hotel.id}
+                                    initial={{ opacity: 0, y: 30 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5 }}
+                                    whileHover={{ y: -10 }}
+                                    className={`bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group ${
+                                      activeHotel === hotel.id ? "ring-4 ring-purple-500" : ""
+                                    }`}
+                                    onClick={() => setActiveHotel(activeHotel === hotel.id ? null : hotel.id)}
+                                  >
+                                    {/* Hotel Image */}
+                                    <div className="relative h-60 overflow-hidden">
+                                       <Image
+                                          src={hotel.image} // string URL or local import
+                                          alt={hotel.name}
+                                          fill                                        // fills the parent container
+                                          className="object-cover object-center"     // cover behavior
+                                          priority={false}                            // set true if critical for LCP
+                                      />
+                                      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+                                      <div className="absolute top-4 right-4 z-20 flex items-center bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
+                                        <FaStar className="mr-1" />
+                                        {hotel.rating}
+                                      </div>
+                                      <div className="absolute bottom-4 left-4 z-20 text-white">
+                                        <h3 className="text-xl font-bold">{hotel.name}</h3>
+                                        <p className="text-sm">{hotel.location}</p>
+                                      </div>
+                                      {/* Placeholder Image */}
+                                      <div className="bg-gradient-to-br from-purple-100 to-pink-200 w-full h-full flex items-center justify-center">
+                                        <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                                      </div>
+                                    </div>
+                          
+                                    {/* Hotel Info */}
+                                    <div className="p-6">
+                                      <p className="text-gray-600 mb-4">{hotel.description}</p>
+                                      {/* Amenities */}
+                                      <div className="mb-6">
+                                        <h4 className="font-bold text-gray-800 mb-2">Key Amenities</h4>
+                                        <div className="flex flex-wrap gap-2">
+                                          {hotel.amenities.slice(0, 4).map((amenity, index) => (
+                                            <div key={index} className="flex items-center bg-gray-100 px-3 py-1.5 rounded-full text-sm">
+                                              <span className="mr-2">{amenitiesIcons[amenity]}</span>
+                                              {amenity}
+                                            </div>
+                                          ))}
+                                        </div>
+                                      </div>
+                                      {/* Price and Features */}
+                                      <div className="flex justify-between items-center">
+                                        <div>
+                                          <div className="text-2xl font-bold text-purple-700">{hotel.price}</div>
+                                          <div className="text-sm text-gray-500">per night</div>
+                                        </div>
+                                        <div className="flex space-x-2">
+                                          {hotel.features.slice(0, 2).map((feature, index) => (
+                                            <div key={index} className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">
+                                              {feature}
+                                            </div>
+                                          ))}
+                                        </div>
+                                      </div>
+                                      {/* Button */}
+                                      <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all">
+                                        View Details
+                                      </button>
+                                    </div>
+                                  </motion.div>
+                                ))}
+                              </div>
+                          
+                              {/* Featured Hotel - Theme matched */}
+                              <motion.div 
+                                className="mt-16 bg-gradient-to-r from-purple-700 to-pink-700 rounded-3xl overflow-hidden shadow-2xl"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 0.3 }}
+                              >
+                                <div className="grid grid-cols-1 lg:grid-cols-2">
+                                  {/* Image */}
+                                  <div className="relative min-h-[400px]">
+                                    <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
+                                    <div className="absolute bottom-6 left-6 z-20 text-white">
+                                      <h3 className="text-2xl font-bold">Luxury Experience Package</h3>
+                                      <p className="mt-2 max-w-md">Book 3 nights and receive complimentary spa treatments, airport transfers, and dining credits</p>
+                                    </div>
+                                    {/* Placeholder Image */}
+                                    <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
+                                      <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                                    </div>
+                                  </div>
+                          
+                                  {/* Details */}
+                                  <div className="p-8 text-white">
+                                    <div className="flex items-center mb-4">
+                                      <FaStar className="text-yellow-400 mr-1" />
+                                      <FaStar className="text-yellow-400 mr-1" />
+                                      <FaStar className="text-yellow-400 mr-1" />
+                                      <FaStar className="text-yellow-400 mr-1" />
+                                      <FaStar className="text-yellow-400 mr-1" />
+                                      <span className="ml-2 font-semibold">Top Rated</span>
+                                    </div>
+                                    <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
+                                    <ul className="space-y-3 mb-6">
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Complimentary airport transfers</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Personal concierge service</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> VIP lounge access</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li>
+                                    </ul>
+                                    <div className="flex space-x-4">
+                                      <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+                                        Explore Packages
+                                      </button>
+                                      <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
+                                        Contact Concierge
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </motion.div>
+                            </div>
+                          </div>
+                          {/* END Hotel */}
 {/* CCCC */}
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -2274,9 +2292,13 @@ View All Cities
                 </button>
               </div>
               <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden">
-                <div className="bg-gradient-to-br from-purple-500 to-pink-500 w-full h-full flex items-center justify-center">
-                  <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-                </div>
+                <Image
+                  src='/images/cda1687d-1464-4b62-9549-2dd04a5cbb05.jpeg'// string URL or local import
+                  alt='{hotel.name}'
+                  fill                                        // fills the parent container
+                  className="object-cover object-center"     // cover behavior
+                  priority={false}                            // set true if critical for LCP
+                />
               </div>
             </div>
           </div>

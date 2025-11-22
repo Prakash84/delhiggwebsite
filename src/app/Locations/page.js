@@ -717,7 +717,6 @@ const profiles = [
             </div>
             </div>
             </section>
-            
                 {/* End Location */}
            
             {/* iCON LOCATION */}
