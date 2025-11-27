@@ -352,25 +352,25 @@ export default function Home({
     {
       id: 1,
       title: "BOOKING 24*7 OPEN",
-      description: "Curated fashion guides for Delhi's diverse occasions and seasons",
+      description: "Anxiety-free company of the daring male who needs a contact.",
       icon: "📅"
     },
     {
       id: 2,
       title: "GET DISCOUNT UPTO 50%",
-      description: "Localized beauty secrets for Delhi's climate and pollution challenges",
+      description: "High-end friendship with people that suit your mood and craziness.",
       icon: "💸"
     },
     {
       id: 3,
       title: "SAFE SEX SERVICES",
-      description: "Exclusive gatherings for Delhi's fashion-forward community",
+      description: "Complete privacy and reliable escorting services throughout the NCR of Delhi.",
       icon: "🔒"
     },
     {
       id: 4,
       title: "ONLY FOR 18+ ADULTS",
-      description: "Featured designers and boutiques from Delhi's fashion scene",
+      description: "Pleasure, passion, chemistry and comfort are some of the elite experiences designed.",
       icon: "🔞"
     }
   ];
@@ -684,10 +684,10 @@ const locations = [
                         transition={{ delay: 0.3 }}
                         viewport={{ once: true }}
                       >
-                        Trusted Escort Services in Delhi –{" "}
+                        Top Notch Escort Service–{" "}
                         <span className="relative">
                           <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            Safe, Secure & Confidential
+                            in Delhi To Fulfill All Your Needs
                           </span>
                           <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                         </span>
@@ -701,47 +701,18 @@ const locations = [
                         viewport={{ once: true }}
                       >
                         <p className="text-gray-600 text-lg leading-relaxed">
-                          Welcome to{" "}
+                          Delhi Girl is most suitable because it brings your long-held desires to life. The allure, the chemistry, the intimacy, the fire -it all comes easy when you bring our elite companions into your world. Each moment is a heady mix of silk, scent, and skin, designed to dissolve your stress and start with raw, delicious pleasure.{" "}
                           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            Delhi Body Spa
+                            
                           </strong>
-                          , where we offer a range of{" "}
-                          <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            luxury spa
-                          </strong>{" "}
-                          treatments including{" "}
-                          <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            female to male spa
-                          </strong>
-                          ,{" "}
-                          <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            couple massages
-                          </strong>
-                          , and much more. Escape the hustle of Delhi and immerse yourself
-                          in rejuvenating treatments tailored to your needs.
-                          Our expert therapists combine ancient and modern techniques to release stress, improve circulation, and restore balance.
+                          
                         </p>
                         <p className="text-gray-600 text-lg leading-relaxed">
-                          Welcome to{" "}
+                          The thing is that you do not simply book an escort; you get a woman who comprehends your mood, syncs up with your rhythm, arouses your senses, and makes you to feel like the sole man in the room. The list in Delhi Girl is full of high-end models, daring professionals, ardent sweethearts, and seductive enchantresses who are well aware of how to make your night.{" "}
                           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            Delhi Body Spa
+                            
                           </strong>
-                          , where we offer a range of{" "}
-                          <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            luxury spa
-                          </strong>{" "}
-                          treatments including{" "}
-                          <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            female to male spa
-                          </strong>
-                          ,{" "}
-                          <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                            couple massages
-                          </strong>
-                          , and much more. Escape the hustle of Delhi and immerse yourself
-                          in rejuvenating treatments tailored to your needs.
-                          Our expert therapists combine ancient and modern techniques to release stress, improve circulation, and restore balance.
-                        </p>
+                         </p>
                       </motion.div>
           {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
             {title.split('\n').map((line, i) => (
@@ -1051,19 +1022,19 @@ const locations = [
                   🌸
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 ml-4 tracking-tight">
-                  High-Class Call Girl Services in Delhi – Choose Your Perfect Companion
+                  High Class Centre For Call Girls in Gurgaon
                 </h2>
               </div>
     
-              <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">24+ Exclusive Body Spa Outlets</span>
+              {/* <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">24+ Exclusive Body Spa Outlets</span> */}
               <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                Each spa is designed as a sanctuary of serenity, blending luxury with natural healing.
+                Delhi Girl makes your nights a story in case they are boring. And our high-class call girls put that intoxicating combination of beauty, assurance, and madcap that strikes you in the nerves, and drags you into the world where every breath is heavier and every caress is forbidden in the best sense of the word.
               </p>
     
-              <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">The Finest Massages in Delhi</span>
+              {/* <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">The Finest Massages in Delhi</span>
               <p className="text-gray-700 text-lg mb-8 leading-relaxed">
                 Experience world-class therapies with unmatched comfort, elegance, and rejuvenation.
-              </p>
+              </p> */}
     
               {/* Locations */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -1086,14 +1057,20 @@ const locations = [
               {/* Description */}
               <div className="prose max-w-none mb-8">
                 <p className="text-gray-700">
-                  Our expert therapists combine ancient and modern techniques to release stress, improve circulation, and restore balance. From the moment you step inside, you’ll be welcomed into a space of peace, care, and luxury.
+                  These places remain swarming, and our own people enliven them still more with their charms and passion. You want to spend a slow, teasing evening of sensual connection or a full-engagement, large-scale, passionate night, where she takes charge and makes you mad, then Delhi Girl shows the exact route of pleasure as you always want. 
                 </p>
-                <p className="text-gray-700">
-                  Whether for pain relief, post-workout recovery, or pure relaxation, our spa treatments are designed around you.
-                </p>
-                <p className="text-gray-700">
-                  Every session ensures hygiene, comfort, and personalized care — because your wellness deserves the best.
-                </p>
+                <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Trusted Companion for the escort service in gurgaon</span>
+              <p className="text-gray-700 text-lg mb-8 leading-relaxed">
+                It is unsurpassed beauty, compelling presence, and chemistry that hits directly in your pulse.
+              </p> 
+              <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">World Class Call Girls in Delhi: 100+ Profiles, Multiple Locations and Professional Team</span>
+              <p className="text-gray-700 text-lg mb-8 leading-relaxed">
+                An exclusive collection that is designed to meet the needs of men that desire sophistication, fire, adventure, and perfect closeness.
+              </p> 
+              <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Claim Best Delhi Escorts Service: Enjoy Ultimate Comfort</span>
+              <p className="text-gray-700 text-lg mb-8 leading-relaxed">
+                Get lost in sheer delight, tender skin, sensual warmth, seductive curves and memorable intimacy with our classiest beauties who know how to make you go all the way.
+              </p> 
               </div>
     
               {/* Buttons */}
@@ -1494,10 +1471,10 @@ View All Cities
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            High-Class Call Girl in Delhi – Stylish Companions for Unforgettable Nights
+           Benefits of Delhi Escort Service in Delhi
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover the vibrant style culture of India&apos;s capital. Empowerment through fashion, beauty, and community.
+            Where pleasure flourishes, confidence is enhanced, and all the time is too riskily addictive.
           </p>
         </motion.div>
         </div>
@@ -1567,43 +1544,17 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Elite Call Girl in Gurgaon – <span className="text-rose-600">Exclusive Companionship for VIP Clients</span>
+            Luxury Call Girls <span className="text-rose-600">in Delhi At Your Service</span>
           </h2>
           <p className="text-lg text-gray-700">
-            Step into a world of intimacy, warmth, and pleasure. Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
-            Step into a world of intimacy, warmth, and pleasure. Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
-            Welcome to Delhi Body Spa, where we offer a range of luxury spa treatments including female to male spa, couple massages, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
+           Delhi Girl is the place to go for men who like class, chemistry, and seduction in an ideal combination. Our luxury call girls come in with mesmerising eyes, curvy forms, addictive charm, and a warm, seductive manner that goes round and round you like velvet. They can make you forget your worries, tempt your body, make you relax, or burn your entire night down.
+These friends take your nights to the next level of whispers, intimate love, audaciousness, and smooth relationships, making it feel genuine and natural. 
+
           </p>
           <p className="text-lg text-gray-700">
-            Step into a world of intimacy, warmth, and pleasure. Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
-            Step into a world of intimacy, warmth, and pleasure. Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
+            You want a person sensual, a person playful, a person charming, a person fiercely seductive, you want to feel all that you had in your pocket and had always wanted to do. Delhi Girl is the discoverer of a range of collections that touch all the longings you had previously in your pocket.
           </p>
-          <p className="text-lg text-gray-700">
-            Step into a world of intimacy, warmth, and pleasure. Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
-            Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
-            Our luxury spa
-            sessions are designed to ignite passion while giving your body the
-            relaxation it truly deserves. Let every touch take you deeper into
-            comfort, leaving you renewed and desired.
-          </p>
+          
           <button className="bg-rose-600 hover:bg-rose-700 text-white px-8 py-3 rounded-full shadow-lg transition-all text-lg">
             Experience the Passion
           </button>
@@ -1641,23 +1592,16 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            Top-Rated Call Girl in Aerocity – <span className="text-pink-600">Confidential & Reliable Services</span>
+            Top-Rated Call Girl in Aerocity <span className="text-pink-600">Girls Service in Noida</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Bold, confident, and full of life – she represents the modern spirit
-            of Delhi. From the buzzing Connaught Place streets to the calm vibes
-            of Lodhi Garden, her style blends tradition with a contemporary
-            charm. She’s not just a trendsetter, she’s a storyteller of her own
-            journey.
-            
+            No one can solve that Noida nights can be turned into memorable escapes as well as Delhi Girl. The top-rated call girls reinvent the meaning of luxury due to their daring confidence and their gracious charm and natural chemistry. They understand how to get things to go when necessary, leave it to you when you desire, and that just right speed where pleasure is not in a hurry and that grows, rises, and explodes right when you want it the most.
           </p>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Bold, confident, and full of life – she represents the modern spirit
-            of Delhi. From the buzzing Connaught Place streets to the calm vibes
-            of Lodhi Garden, her style blends tradition with a contemporary
-            charm. She’s not just a trendsetter, she’s a storyteller of her own
-            journey.
-           
+            It is the air of Noida that is intoxicating with the entry of our companions into the room. Their soft skin touch, warm breath running down your neck, naughty strokes, slow mesmerizing moves all create a rhythmic beat with your heart and make you get more into the moment.
+          </p>
+          <p className="text-gray-600 text-lg leading-relaxed">
+            These are not just escorts. They are women who know fantasy, romance, flirtation, seduction, and smacking hot, sweet sex. They fit any of your moods, from quiet to passionate to adventurous. Your nights in Noida end up being tales you would love to repeat over and over after watching Delhi Girl.
           </p>
           <div className="flex gap-4">
             <button className="px-6 py-3 rounded-xl bg-pink-600 text-white font-semibold shadow-lg hover:bg-pink-700 transition">
@@ -1683,36 +1627,12 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Premium Call Girl in Delhi – <span className="text-pink-600">Where Elegance Meets Pleasure</span>
+            Enjoy pleasure and luxury <span className="text-pink-600">with the elite Delhi Escort Service</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
+            There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
           </p>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
-            
-          </p>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
-            
-          </p>
+          
 
           {/* Highlights */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
@@ -1770,7 +1690,7 @@ View All Cities
             Premium Companionship Services
           </motion.h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Select from our exclusive range of premium companionship experiences tailored to your preferences
+           A luxury experience created for the male customer segment who are thrill seekers, passionate, luxurious, and memorable nights.
           </p>
         </div>
 
@@ -1878,12 +1798,14 @@ View All Cities
           <div className="max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Premium Experience Guarantee</h3>
+                <h3 className="text-2xl font-bold mb-4">Premium service with Delhi Girl to the rescue</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Discreet and professional service</li>
-                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Verified and background-checked companions</li>
-                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Flexible scheduling options</li>
-                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Custom experiences available upon request</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Confidential arrangements</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Verified elite companions</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Smooth booking experience</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Multiple location availability</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	24/7 support</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Individualized escort services.</li>
                 </ul>
               </div>
               <div className="bg-gray-700/50 rounded-xl p-6 min-w-[300px]">
