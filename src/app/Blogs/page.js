@@ -275,7 +275,7 @@ export default function Blogs() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
                 <p className="font-semibold">Delhi Girl</p>
-                <p className="text-sm">"How to Build a Better Routine"</p>
+                <p className="text-sm">How to Build a Better Routine</p>
               </div>
             </div>
 
