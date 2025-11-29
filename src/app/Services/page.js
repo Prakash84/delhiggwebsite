@@ -269,6 +269,53 @@ export default function Services() {
       icon: "📍"
     }
   ];
+
+  // End Features
+  const services = [
+  {
+    title: "BUSTY BOOBS",
+    description:
+      "We have busty female models with big boobs to provide boobs pressing services to young boys and men.",
+    icon: "/path-to-your-icon1.svg",
+    image: "/images/client-1.webp",
+  },
+  {
+    title: "CUM IN MOUTH",
+    description:
+      "Most of the men enjoy when he climax in the mouth of their girl. Now you can enjoy Cum in mouth with Sonal.",
+    icon: "/path-to-your-icon2.svg",
+    image: "/images/client-2.webp",
+  },
+  {
+    title: "GIRL FOR DATE",
+    description:
+      "Want Real Dating Service Experience? We have real girlfriends who are available to give you real dating experience.",
+    icon: "/path-to-your-icon3.svg",
+    image: "/images/client-3.webp",
+  },
+  {
+    title: "ANAL SEX",
+    description:
+      "We all know that Anal Sex is hard to find, but with Sexy Sonal, you can enjoy Anal or DP Sex service with your girl.",
+    icon: "/path-to-your-icon4.svg",
+    image: "/images/client-4.webp",
+  },
+  {
+    title: "RUSSIAN GIRL",
+    description:
+      "Are you a real fan of Russian Girls? We have most beautiful Russian Call Girls in Delhi starting from Rs. 6000 only.",
+    icon: "/path-to-your-icon5.svg",
+    image: "/images/client-5.webp",
+  },
+  {
+    title: "PAY PER HOUR",
+    description:
+      "Need Delhi Escorts but you are out of your budget? Don't worry, take our service and pay hourly after getting satisfaction.",
+    icon: "/path-to-your-icon6.svg",
+    image: "/images/client-6.webp",
+  },
+];
+
   return (
     <>
     {/* banner */}
@@ -443,6 +490,26 @@ n                </a>
       </div>
     </section>
         {/* end banner */}
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-6 gap-6 p-6">
+      {services.map((service, index) => (
+        <div
+          key={index}
+          className="bg-white shadow-lg rounded-lg p-4 text-center hover:shadow-xl transition duration-300 ease-in-out"
+        >
+          <div className="w-16 h-16 mx-auto mb-4">
+            <Image
+              src={service.image}
+              alt={service.title}
+              width={64}
+              height={64}
+              className="object-contain"
+            />
+          </div>
+          <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
+          <p className="mt-2 text-gray-600">{service.description}</p>
+        </div>
+      ))}
+    </div>
         {/* content */}
             <section className="bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
   {/* Decorative elements */}
