@@ -315,7 +315,71 @@ export default function Services() {
     image: "/images/client-6.webp",
   },
 ];
+//
 
+const services1= [
+  {
+    title: "Airhostess Escorts",
+    description:
+      "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
+    image: "/images/smiling.jpg", // Add your image path here
+  },
+  {
+    title: "College Girls Escorts",
+    description:
+      "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
+    image: "/images/cheerful-attractive-young-woman-standing-with-hands-head.jpg", // Add your image path here
+  },
+  {
+    title: "Hign Profile Escorts",
+    description:
+      "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
+    image: "/images/Celebrity_girl.jpg", // Add your image path here
+  },
+  {
+    title: "Housewife Escorts",
+    description:
+      "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
+    image: "/images/housewife.webp", // Add your image path here
+  },
+  {
+    title: "Independent Escorts",
+    description:
+      "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
+    image: "/images/Cindy.jpeg", // Add your image path here
+  },
+  {
+    title: "Model Escorts",
+    description:
+      "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
+    image: "/images/model1.jpeg", // Add your image path here
+  },
+  {
+    title: "Party Girl Escorts",
+    description:
+      "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
+    image: "/images/party-escorts.webp", // Add your image path here
+  },
+  {
+    title: "Russian Escorts",
+    description:
+      "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
+    image: "/images/Signin.jpeg", // Add your image path here
+  },
+  {
+    title: "Strip Escorts",
+    description:
+      "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
+    image: "/images/strip-club.webp", // Add your image path here
+  },
+  {
+    title: "VIP Escorts",
+    description:
+      "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
+    image: "/images/neww1.jpg", // Add your image path here
+  },
+  // Add more categories as needed
+];
   return (
     <>
     {/* banner */}
@@ -490,6 +554,7 @@ n                </a>
       </div>
     </section>
         {/* end banner */}
+        {/* hOT Service */}
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-6 gap-6 p-6">
       {services.map((service, index) => (
         <div
@@ -507,6 +572,27 @@ n                </a>
           </div>
           <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
           <p className="mt-2 text-gray-600">{service.description}</p>
+        </div>
+      ))}
+    </div>
+        {/* hOT End Service */}
+        {/* Service */}
+        <div className="max-w-6xl mx-auto space-y-6">
+      {services1.map((service, index) => (
+        <div key={index} className="flex items-start space-x-4 p-4 border-b border-gray-300">
+          <div className="w-14 h-14 flex-shrink-0">
+            <Image
+              src={service.image}
+              alt={service.title}
+              width={56}
+              height={56}
+              className="rounded-full object-cover"
+            />
+          </div>
+          <div className="flex-1">
+            <h3 className="text-lg font-semibold text-gray-800">{service.title}</h3>
+            <p className="mt-2 text-gray-600">{service.description}</p>
+          </div>
         </div>
       ))}
     </div>
