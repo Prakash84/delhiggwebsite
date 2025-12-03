@@ -262,6 +262,58 @@ export default function Delhiescorts({
         <path d="M0 40 C360 120 1080 -40 1440 40 L1440 120 L0 120 Z" fill="rgba(255,255,255,0.06)" />
       </svg>
     </header>
+    {/* content */}
+     <section className="py-20">
+      <div className="container mx-auto px-4">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+
+          {/* IMAGE AREA */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl">
+            <Image
+              src="/images/beautiful-woman-with-healthy-body-black-background.jpg" // 👉 apni image yaha lagao
+              alt="Luxury Spa Image"
+              width={700}
+              height={500}
+              className="rounded-2xl transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl"></div>
+          </div>
+
+          {/* CONTENT AREA */}
+          <div>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                            Experience Pure Luxury & Ultimate Relaxation
+                          </h2>
+            {/* <h2 className="text-4xl md:text-5xl font-bold from-purple-600 to-pink-600 bg-clip-text font-serif mb-6">
+              Experience Pure Luxury & Ultimate Relaxation
+            </h2> */}
+
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              {/* 👉 Yaha apna 300 words ka content paste kar do */}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis 
+              dignissim lorem, nec cursus massa sollicitudin et. Integer pretium, ipsum 
+              nec tincidunt cursus, libero justo tincidunt dui, eget facilisis tortor 
+              risus vitae nulla. Sed non sapien eget nisl convallis porttitor. Nam 
+              mattis orci eu elit fermentum, vitae consequat tortor malesuada. Nulla 
+              facilisi. Suspendisse potenti. Mauris vel suscipit ex, ut tempus sem. 
+              Donec at lorem id sapien convallis tempor. Integer iaculis sem vel velit 
+              fringilla malesuada. Vivamus luctus fringilla lorem non viverra. Cras 
+              aliquet, felis vel tempus iaculis, nisi orci volutpat felis, non varius 
+              velit nibh vitae neque. Phasellus efficitur ex at mauris dictum, sit amet 
+              posuere massa ultricies. Mauris elementum rhoncus nulla eget fermentum. 
+            </p>
+            
+
+            <button className="mt-6 px-8 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold text-lg shadow-md hover:bg-emerald-700 transition-all">
+              Book Appointment
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    {/* end content */}
+    
     {/* Location */}
                     <section className="py-12 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-6">
@@ -326,6 +378,98 @@ export default function Delhiescorts({
                 </div>
                 </section>
                     {/* End Location */}
+                    {/* content */}
+                   <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-6">
+
+        {/* Heading */}
+        <div className="text-center mb-14">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+            Experience Luxury Like Never Before
+          </h2>
+
+          <p className="text-gray-600 max-w-2xl mx-auto mt-4 text-lg">
+            Step into a world of comfort, elegance, and unforgettable hospitality.
+            Designed for premium travellers, these luxury spaces combine world-class
+            amenities with breathtaking views and exceptional service.
+          </p>
+        </div>
+
+        {/* Main Card */}
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+
+          {/* Left Image */}
+          <div className="relative rounded-2xl overflow-hidden shadow-xl group">
+            <Image
+              src="/images/@stepsister_videos_2025_hd • Milkshake Website Builder.jpeg"  // ⭐ apni image yaha lagao
+              alt="Luxury Hotel"
+              width={800}
+              height={550}
+              className="rounded-2xl transition-all duration-700 group-hover:scale-105"
+            />
+
+            {/* Rating Badge */}
+            <div className="absolute top-4 right-4 bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-md">
+              ★ 5-Star
+            </div>
+          </div>
+
+          {/* Right Content */}
+          <div>
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Grand Royale Luxury Suites
+            </h3>
+
+            <p className="text-gray-700 text-lg leading-relaxed mb-6">
+              Discover absolute perfection in the heart of the city. Our luxury
+              suites are crafted with premium interiors, warm lighting, and
+              breathtaking skyline views. Enjoy 24/7 butler service, multi-cuisine
+              dining, infinity pools, and world-class spa therapies — all designed
+              to offer an unforgettable stay for global travellers, couples, and
+              families seeking the highest standard of comfort and privacy.
+            </p>
+             <p className="text-gray-700 text-lg leading-relaxed mb-6">
+              Discover absolute perfection in the heart of the city. Our luxury
+              suites are crafted with premium interiors, warm lighting, and
+              breathtaking skyline views. Enjoy 24/7 butler service, multi-cuisine
+              dining, infinity pools, and world-class spa therapies — all designed
+              to offer an unforgettable stay for global travellers, couples, and
+              families seeking the highest standard of comfort and privacy.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-6">
+              Discover absolute perfection in the heart of the city. Our luxury
+              suites are crafted with premium interiors, warm lighting, and
+              breathtaking skyline views.
+            </p>
+
+            {/* Key Amenities */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <span className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
+                Infinity Pool
+              </span>
+              <span className="px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm font-semibold">
+                Luxury Spa
+              </span>
+              <span className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
+                24/7 Butler
+              </span>
+              <span className="px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm font-semibold">
+                Fine Dining
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+              <p className="text-2xl font-bold text-purple-600">₹25,000</p>
+              <button className="px-7 py-3 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl font-medium shadow-md hover:opacity-90 transition-all">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+                    
                     {/* 5 star hotel */}
                     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
                       <div className="max-w-7xl mx-auto">
