@@ -2,10 +2,11 @@
 "use client";
 
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from 'next/image';
 import React, { useState } from 'react';
 import {  FaSwimmingPool, FaWifi, FaUtensils, FaConciergeBell, FaParking, FaSpa, FaStar, FaCheck } from 'react-icons/fa';
+import { FiSearch, FiChevronDown, FiMail, FiMessageSquare, FiHelpCircle } from 'react-icons/fi';
 
 
 
@@ -117,6 +118,83 @@ export default function Delhiescorts({
           "Broadway Concierge": <FaConciergeBell className="text-red-500" />
         };
           //end 5 start hotel 
+          // sds
+          
+    // FAQ Section
+    const [activeCategory1, setActiveCategory1] = useState('all');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [openQuestion, setOpenQuestion] = useState(null);
+
+  const categories = [
+    { id: 'all', name: 'All Questions' },
+    { id: 'account', name: 'Account' },
+    { id: 'booking', name: 'Bookings' },
+    { id: 'payments', name: 'Payments' },
+    { id: 'services', name: 'Services' },
+  ];
+
+  const faqs = [
+    {
+      id: 1,
+      question: 'How do I create an account?',
+      answer: 'Creating an account is simple. Click on the "Sign Up" button in the top right corner, fill in your details including name, email, and password, then verify your email address.',
+      category: 'account',
+    },
+    {
+      id: 2,
+      question: 'What payment methods do you accept?',
+      answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers. All transactions are securely processed with 256-bit encryption.',
+      category: 'payments',
+    },
+    {
+      id: 3,
+      question: 'Can I modify my booking after confirmation?',
+      answer: 'Yes, you can modify your booking up to 24 hours before your scheduled appointment. Simply log into your account, go to "My Bookings", and select "Modify". Changes are subject to availability.',
+      category: 'booking',
+    },
+    {
+      id: 4,
+      question: 'How do I cancel a reservation?',
+      answer: 'To cancel a reservation, go to "My Bookings" in your account dashboard, select the booking you wish to cancel, and click "Cancel". Cancellation policies vary by service type - please review before confirming.',
+      category: 'booking',
+    },
+    {
+      id: 5,
+      question: 'What is your refund policy?',
+      answer: 'We offer full refunds for cancellations made at least 48 hours in advance. Cancellations within 24-48 hours receive a 50% refund. No refunds are available for cancellations within 24 hours of the appointment.',
+      category: 'payments',
+    },
+    {
+      id: 6,
+      question: 'Are your services available internationally?',
+      answer: 'Yes, we currently operate in 15 countries worldwide. Please check our locations page for specific service availability in your region. Additional fees may apply for international bookings.',
+      category: 'services',
+    },
+    {
+      id: 7,
+      question: 'How do I reset my password?',
+      answer: 'Click "Forgot Password" on the login page, enter your registered email, and you will receive a password reset link. This link expires in 30 minutes for security reasons.',
+      category: 'account',
+    },
+    {
+      id: 8,
+      question: 'What safety measures do you have in place?',
+      answer: 'All our staff undergo thorough background checks and professional training. We offer contactless payment options, 24/7 support, and an emergency contact system for your safety.',
+      category: 'services',
+    },
+  ];
+
+  const filteredFaqs = faqs.filter(faq => {
+    const matchesCategory = activeCategory1 === 'all' || faq.category === activeCategory1;
+    const matchesSearch = faq.question.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                          faq.answer.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
+
+  const toggleQuestion = (id) => {
+    setOpenQuestion(openQuestion === id ? null : id);
+  };
+    //End FAQ Section
     const cities = [
 { name: 'DELHI', img: '/images/hotel3.webp' },
 { name: 'MUMBAI', img: '/images/lajpatnagahotel.avif' },
@@ -316,7 +394,7 @@ export default function Delhiescorts({
     {/* end content */}
     
     {/* Location */}
-                    <section className="py-12 bg-gray-50">
+                <section className="py-12 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-6">
                   <motion.div
                           initial={{ opacity: 0, y: 20 }}
@@ -469,7 +547,7 @@ export default function Delhiescorts({
         </div>
 
       </div>
-    </section>
+                    </section>
                     
                     {/* 5 star hotel */}
                     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
@@ -617,129 +695,400 @@ export default function Delhiescorts({
                     </div>
                     {/* END Hotel */}
                     {/* cont */}
-     <div className="min-h-screen flex items-center justify-center p-4 md:p-8">
-      <div className="max-w-7xl w-full">
-        <div className="relative">
-          {/* Main content card */}
-          <div className="bg-white rounded-3xl overflow-hidden shadow-2xl shadow-purple-500/10">
-            
-            {/* Gradient header stripe */}
-            {/* <div className="relative h-2 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600"></div> */}
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 md:p-10">
-              
-              {/* Text Content */}
-              <div className="space-y-6 lg:pr-8">
-                <div>
-                  <span className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-600/10 to-pink-600/10 text-purple-600 text-sm font-medium mb-4">
-                    Featured Content
-                  </span>
-                  <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-                    Modern Design with <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Stunning Gradient</span> Effects
-                  </h1>
-                </div>
-                
-                <div className="space-y-4 text-gray-600 leading-relaxed">
-                  <p>
-                    Welcome to our modern content section, designed with a captivating purple-to-pink gradient theme. 
-                    This design leverages Next.js and Tailwind CSS to create a visually stunning and performant user 
-                    experience. The gradient flow from purple-600 to pink-600 creates a dynamic visual hierarchy that 
-                    guides the user's attention through the content.
-                  </p>
-                  
-                  <p>
-                    The implementation uses Tailwind's gradient utilities for a subtle yet engaging effect. Notice how 
-                    the gradient accents create depth without overwhelming the content. This approach ensures readability 
-                    while maintaining visual appeal.
-                  </p>
-                  
-                  <p>
-                    Responsive design is built in with mobile-first breakpoints. The layout adapts seamlessly from 
-                    mobile to desktop, with the image and text reordering naturally. The clean white background ensures 
-                    the content remains the focal point while gradient elements provide visual interest.
-                  </p>
-                  
-                  <p>
-                    This component demonstrates how to effectively use color gradients in modern web design. The 
-                    purple-pink combination evokes creativity, innovation, and energy - perfect for technology, 
-                    design, or creative industry applications.
-                  </p>
-                </div>
-                
-                <div className="flex flex-wrap gap-4 pt-4">
-                  <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30">
-                    Learn More
-                  </button>
-                  <button className="px-6 py-3 rounded-xl bg-transparent text-gray-700 font-semibold border border-gray-300 hover:border-purple-400 hover:text-purple-700 transition-all duration-300">
-                    View Examples
-                  </button>
-                </div>
-                
-                {/* Stats */}
-                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">98%</div>
-                    <div className="text-sm text-gray-500">Satisfaction</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">24/7</div>
-                    <div className="text-sm text-gray-500">Support</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">5.0</div>
-                    <div className="text-sm text-gray-500">Rating</div>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Image Section */}
-              <div className="relative flex items-center justify-center lg:justify-end">
-                <div className="relative w-full max-w-md">
-                  {/* Main image container */}
-                  <div className="relative rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
-                    <div className="aspect-video relative bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center">
-                      {/* Placeholder image - replace with your actual image */}
-                      <div className="text-center p-8">
-                        <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center">
-                          <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                          </svg>
+                    <div className="min-h-screen flex items-center justify-center p-4 md:p-8">
+                      <div className="max-w-7xl w-full">
+                        <div className="relative">
+                          {/* Main content card */}
+                          <div className="bg-white rounded-3xl overflow-hidden shadow-2xl shadow-purple-500/10">
+                            
+                            {/* Gradient header stripe */}
+                            {/* <div className="relative h-2 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600"></div> */}
+                            
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 md:p-10">
+                              
+                              {/* Text Content */}
+                              <div className="space-y-6 lg:pr-8">
+                                <div>
+                                  <span className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-600/10 to-pink-600/10 text-purple-600 text-sm font-medium mb-4">
+                                    Featured Content
+                                  </span>
+                                  <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
+                                    Modern Design with <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Stunning Gradient</span> Effects
+                                  </h1>
+                                </div>
+                                
+                                <div className="space-y-4 text-gray-600 leading-relaxed">
+                                  <p>
+                                    Welcome to our modern content section, designed with a captivating purple-to-pink gradient theme. 
+                                    This design leverages Next.js and Tailwind CSS to create a visually stunning and performant user 
+                                    experience. The gradient flow from purple-600 to pink-600 creates a dynamic visual hierarchy that 
+                                    guides the user's attention through the content.
+                                  </p>   
+                                  <p>
+                                    The implementation uses Tailwind's gradient utilities for a subtle yet engaging effect. Notice how 
+                                    the gradient accents create depth without overwhelming the content. This approach ensures readability 
+                                    while maintaining visual appeal.
+                                  </p>                          
+                                  <p>
+                                    Responsive design is built in with mobile-first breakpoints. The layout adapts seamlessly from 
+                                    mobile to desktop, with the image and text reordering naturally. The clean white background ensures 
+                                    the content remains the focal point while gradient elements provide visual interest.
+                                  </p>                               
+                                  <p>
+                                    This component demonstrates how to effectively use color gradients in modern web design. The 
+                                    purple-pink combination evokes creativity, innovation, and energy - perfect for technology, 
+                                    design, or creative industry applications.
+                                  </p>
+                                </div>
+                                
+                                <div className="flex flex-wrap gap-4 pt-4">
+                                  <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30">
+                                    Learn More
+                                  </button>
+                                  <button className="px-6 py-3 rounded-xl bg-transparent text-gray-700 font-semibold border border-gray-300 hover:border-purple-400 hover:text-purple-700 transition-all duration-300">
+                                    View Examples
+                                  </button>
+                                </div>
+                                
+                                {/* Stats */}
+                                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
+                                  <div className="text-center">
+                                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">98%</div>
+                                    <div className="text-sm text-gray-500">Satisfaction</div>
+                                  </div>
+                                  <div className="text-center">
+                                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">24/7</div>
+                                    <div className="text-sm text-gray-500">Support</div>
+                                  </div>
+                                  <div className="text-center">
+                                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">5.0</div>
+                                    <div className="text-sm text-gray-500">Rating</div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              {/* Image Section */}
+                              <div className="relative flex items-center justify-center lg:justify-end">
+                                <div className="relative w-full max-w-md">
+                                  {/* Main image container */}
+                                  <div className="relative rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
+                                    <div className="aspect-video relative bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center">
+                                      {/* Placeholder image - replace with your actual image */}
+                                      <div className="text-center p-8">
+                                        <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center">
+                                          <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                          </svg>
+                                        </div>
+                                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Visual Content</h3>
+                                        <p className="text-gray-600">Replace with your image</p>
+                                        <p className="text-sm text-purple-600 mt-4">Recommended: 800×600px</p>
+                                      </div>
+                                    </div>
+                                    {/* Image caption with gradient */}
+                                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-purple-600 to-pink-600 p-3">
+                                      <p className="text-white text-sm font-medium text-center">Modern gradient design</p>
+                                    </div>
+                                  </div>
+                                  {/* Gradient accent element */}
+                                  <div className="absolute -bottom-3 -right-3 w-16 h-16 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center text-white font-bold text-sm shadow-lg">
+                                    NEW
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            {/* Footer with subtle gradient */}
+                            <div className="px-8 py-4 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-gray-200">
+                              <div className="flex flex-wrap justify-between items-center text-sm text-gray-600">
+                                <div>Gradient Content Section • Built with Next.js & Tailwind</div>
+                                <div className="flex space-x-4">
+                                  <a href="#" className="hover:text-purple-600 transition-colors font-medium">Share</a>
+                                  <a href="#" className="hover:text-pink-600 transition-colors font-medium">Save</a>
+                                  <a href="#" className="hover:text-purple-600 transition-colors font-medium">Export</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Visual Content</h3>
-                        <p className="text-gray-600">Replace with your image</p>
-                        <p className="text-sm text-purple-600 mt-4">Recommended: 800×600px</p>
                       </div>
                     </div>
-                    
-                    {/* Image caption with gradient */}
-                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-purple-600 to-pink-600 p-3">
-                      <p className="text-white text-sm font-medium text-center">Modern gradient design</p>
-                    </div>
-                  </div>
-                  
-                  {/* Gradient accent element */}
-                  <div className="absolute -bottom-3 -right-3 w-16 h-16 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center text-white font-bold text-sm shadow-lg">
-                    NEW
-                  </div>
-                </div>
-              </div>
+
+                    {/* hhhh */}
+                    <section className="w-full py-16 px-6 bg-gradient-to-r from-pink-600 to-purple-600 text-white">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+        
+        {/* Text Section */}
+        <div className="space-y-6">
+          <h2 className="text-4xl font-bold leading-tight">
+            Discover the Ultimate Luxury Experience
+          </h2>
+          <p className="text-lg opacity-90 leading-relaxed">
+            Experience a premium level of relaxation, comfort, and personalized care. 
+            Our professional therapists ensure that each session is tailored to your needs, 
+            offering deep relief, stress reduction, and complete mind-body rejuvenation.
+          </p>
+          <p className="text-lg opacity-90 leading-relaxed">
+            With world-class ambiance, premium oils, and international techniques, 
+            each therapy gives you a blissful escape from your daily routine. 
+            Book your session today and feel the transformation.
+          </p>
+
+          <button className="mt-4 bg-white text-pink-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:bg-gray-100 transition">
+            Book Now
+          </button>
+        </div>
+
+        {/* Image Section */}
+        <div>
+          <img
+            src="/images/spa-banner.jpg"
+            alt="Luxury Spa"
+            className="rounded-2xl shadow-xl w-full object-cover"
+          />
+        </div>
+
+      </div>
+    </section>
+    {/* content section */}
+    <section className="w-full py-16 px-6 bg-white">
+      <div className="max-w-6xl mx-auto text-center space-y-6">
+
+        {/* Gradient Heading */}
+        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+          Premium Spa & Wellness Experience
+        </h2>
+
+        {/* Subtitle */}
+        <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          Indulge in a world-class spa experience designed to relax your mind, body, 
+          and soul. Enjoy soothing therapies, premium oils, and 5-star hospitality.
+        </p>
+
+        {/* bottom pink-purple line */}
+        <div className="w-32 h-1 mx-auto bg-gradient-to-r from-pink-600 to-purple-600 rounded-full"></div>
+
+        {/* White Card */}
+        <div className="mt-12 bg-white rounded-2xl shadow-xl p-10 text-left space-y-4">
+
+          {/* Badge */}
+          <span className="inline-block px-4 py-2 text-sm font-semibold 
+            text-white bg-gradient-to-r from-pink-600 to-purple-600 rounded-full shadow-lg">
+            5-Star Wellness
+          </span>
+
+          {/* Title */}
+          <h3 className="text-2xl font-semibold text-gray-900">
+            Why Choose Our Luxury Spa?
+          </h3>
+
+          {/* Paragraph */}
+          <p className="text-gray-700 leading-relaxed text-lg">
+            We offer a unique combination of traditional healing and modern wellness therapies. 
+            From deep tissue and aromatherapy to relaxing hot stone sessions, every experience is 
+            tailored for complete relaxation. Our certified therapists, premium oils, and serene 
+            ambiance ensure an unforgettable wellness journey.
+          </p>
+
+          {/* Gradient Tags */}
+          <div className="flex flex-wrap gap-3 mt-4">
+            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
+              Premium Oils
+            </span>
+            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
+              Aromatherapy
+            </span>
+            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
+              Luxury Rooms
+            </span>
+            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
+              Certified Experts
+            </span>
+          </div>
+
+        </div>
+
+        {/* CTA Button */}
+        <button className="mt-8 px-8 py-4 font-semibold rounded-xl shadow-lg
+          bg-gradient-to-r from-pink-600 to-purple-600 text-white hover:opacity-90 transition">
+          Book Now
+        </button>
+
+      </div>
+    </section>
+
+    {/* FAQ Section */}
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-flex items-center justify-center mb-4"
+          >
+            <FiHelpCircle className="text-3xl text-purple-600 mr-3" />
+            <span className="text-sm font-semibold bg-purple-100 text-purple-800 px-4 py-1.5 rounded-full">
+              Frequently Asked Questions
+            </span>
+          </motion.div>
+          
+          <motion.h2 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+          >
+            How can we help?
+          </motion.h2>
+          
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+            className="text-lg text-gray-600 max-w-2xl mx-auto"
+          >
+            Find answers to common questions about our services, bookings, payments, and more.
+          </motion.p>
+        </div>
+
+        {/* Search Bar */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 0.5 }}
+          className="mb-12"
+        >
+          <div className="relative max-w-2xl mx-auto">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <FiSearch className="h-5 w-5 text-gray-400" />
             </div>
-            
-            {/* Footer with subtle gradient */}
-            <div className="px-8 py-4 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-gray-200">
-              <div className="flex flex-wrap justify-between items-center text-sm text-gray-600">
-                <div>Gradient Content Section • Built with Next.js & Tailwind</div>
-                <div className="flex space-x-4">
-                  <a href="#" className="hover:text-purple-600 transition-colors font-medium">Share</a>
-                  <a href="#" className="hover:text-pink-600 transition-colors font-medium">Save</a>
-                  <a href="#" className="hover:text-purple-600 transition-colors font-medium">Export</a>
+            <input
+              type="text"
+              placeholder="Search for questions..."
+              className="block w-full pl-12 pr-4 py-4 border border-gray-300 rounded-2xl bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          </div>
+        </motion.div>
+
+        {/* Category Filters */}
+        <motion.div 
+          className="flex flex-wrap justify-center gap-3 mb-12"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7, duration: 0.5 }}
+        >
+          {categories.map(category => (
+            <button
+              key={category.id}
+              onClick={() => setActiveCategory1(category.id)}
+              className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 flex items-center ${
+                activeCategory1 === category.id
+                  ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg'
+                  : 'bg-white text-gray-700 hover:bg-gray-100 shadow'
+              }`}
+            >
+              {category.name}
+            </button>
+          ))}
+        </motion.div>
+
+        {/* FAQ List */}
+        <div className="space-y-4 mb-16">
+          {filteredFaqs.length > 0 ? (
+            filteredFaqs.map(faq => (
+              <motion.div
+                key={faq.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4 }}
+                className="bg-white rounded-2xl shadow-lg overflow-hidden"
+              >
+                <button
+                  onClick={() => toggleQuestion(faq.id)}
+                  className="w-full flex justify-between items-center p-6 text-left focus:outline-none"
+                >
+                  <h3 className="text-lg font-semibold text-gray-900">{faq.question}</h3>
+                  <motion.div
+                    animate={{ rotate: openQuestion === faq.id ? 180 : 0 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <FiChevronDown className={`h-6 w-6 ${openQuestion === faq.id ? 'text-purple-600' : 'text-gray-400'}`} />
+                  </motion.div>
+                </button>
+                
+                <AnimatePresence>
+                  {openQuestion === faq.id && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3 }}
+                      className="px-6 pb-6 text-gray-600"
+                    >
+                      <div className="pt-2 border-t border-gray-100">
+                        {faq.answer}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
+            ))
+          ) : (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center py-12"
+            >
+              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16 mx-auto mb-4" />
+              <h3 className="text-xl font-medium text-gray-900 mb-2">No questions found</h3>
+              <p className="text-gray-600">Try adjusting your search or filter criteria</p>
+            </motion.div>
+          )}
+        </div>
+
+        {/* Support CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.9, duration: 0.5 }}
+          className="bg-gradient-to-r from-purple-700 to-indigo-800 rounded-3xl overflow-hidden shadow-2xl"
+        >
+          <div className="p-8 md:p-12">
+            <div className="max-w-4xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-4">Still have questions?</h3>
+                  <p className="text-purple-200 max-w-md">
+                    Our support team is available 24/7 to assist you with any questions or concerns you may have.
+                  </p>
+                </div>
+                
+                <div className="space-y-4">
+                  <a 
+                    href="mailto:support@example.com" 
+                    className="flex items-center justify-center bg-white text-purple-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
+                  >
+                    <FiMail className="mr-2" />
+                    Email Support
+                  </a>
+                  <a 
+                    href="/contact" 
+                    className="flex items-center justify-center bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors"
+                  >
+                    <FiMessageSquare className="mr-2" />
+                    Live Chat
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
+    {/* End FAQ Section */}
     </>
     
   );

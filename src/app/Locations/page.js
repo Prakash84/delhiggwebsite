@@ -281,18 +281,17 @@ const profiles = [
 
           <h1 className="text-5xl md:text-6xl font-bold font-serif leading-tight">
   <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-    Our Premium
+    Top-Tier Bliss
   </span>{' '}
-  <span className="text-amber-500">Wellness</span>
+  <span className="text-amber-500">With Gurugram</span>
   <br />
   <span className="bg-black text-white px-3 py-1 rounded-md inline-block mt-2">
-    Spa Outlets
+     Escorts
   </span>
 </h1>
 
           <p className="text-gray-600 max-w-md">
-            Relax your body and mind with our premium spa and wellness care. 
-            Experience tranquility, beauty, and complete rejuvenation in one place.
+            Where real charm, close comfort, and those genuine adult moments make your night feel all kinds of different.
           </p>
 
           {/* CTA Buttons */}
