@@ -11,7 +11,7 @@ import { Sparkles, Camera, MapPin } from "lucide-react";
 
 export default function Home({
   images = ['/images/6631.jpg'], // keep single image or pass swiper images externally
-  imageUrl = '/images/6631.jpg',
+  imageUrl = '/images/pretty-sensual-blonde-model-laying-bed-enjoy-her-morning-luxury-hotel-wearing-burgundy-silk-nightdress-robe-blind-hairs-beauty-face-boudoir-style.jpg',
   title = 'Affordable & Luxury Escort Services in Delhi',
   subtitle = 'Experience elegance, discretion & premium companionship',
   cta = 'Book Now',
@@ -517,7 +517,7 @@ const locations = [
       {/* Background image with dark gradient overlay */}
       <div className="relative w-full overflow-hidden rounded-2xl shadow-2xl">
         {/* Responsive height: mobile 60vh, md 80vh, lg 90vh */}
-        <div className="relative h-[60vh] md:h-[80vh] lg:h-[100vh] w-full">
+        <div className="relative h-[50vh] md:h-[70vh] lg:h-[90vh] w-full">
           <Image
             src={imageUrl}
             alt="Luxury model"
@@ -579,7 +579,7 @@ const locations = [
                 </motion.div>
 
                 {/* Right side - subtle framed card (visible on md+) */}
-                <motion.div
+                {/* <motion.div
                   initial={{ opacity: 0, scale: 0.98 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: 0.12 }}
@@ -595,7 +595,7 @@ const locations = [
                       />
                     </div>
                   </div>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </div>
