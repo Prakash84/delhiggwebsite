@@ -33,10 +33,10 @@ export default function Navbar() {
   ];
   const Locations = [
     { name: "Delhi Escorts", href: "/Locations/Delhiescorts" },
-    { name: "Gurugram Escorts", href: "/Locations/Gurugramescorts" },
-    { name: "NOida Escorts", href: "/Locations/NOidaescorts" },
-    { name: "Aerocity Escorts", href: "/Locations/Aerocityescorts" },
-    { name: "Celebrity Escorts", href: "/Locations/Celebrityescorts" },
+    { name: "Gurugram Escorts", href: "/Locations/GurgaonEscort" },
+    { name: "NOida Escorts", href: "/Locations/NoidaEscort"},
+    { name: "Aerocity Escorts", href: "/Locations/Aerocityescort" },
+    { name: "Connaught Place Escorts", href: "/Locations/ConnaughtPlaceescorts" },
    
     
   ];
