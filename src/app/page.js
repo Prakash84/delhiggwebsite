@@ -180,9 +180,9 @@ export default function Home({
           {
             id: 1,
             name: "The Leela Palace, Delhi",
-            location: "Bangkok, Thailand",
+            location: "Delhi, India",
             rating: 5,
-            description: "An iconic luxury hotel offering breathtaking views of the city skyline and the Chao Phraya River.",
+            description: "Royal ambience with our entourage, where we make your night hot with classy seduction, friendly vibe, and luxury intimate gay company.",
             image: "/images/lajpatnagahotel.avif",
             amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
             price: "₹25,000",
@@ -190,10 +190,10 @@ export default function Home({
           },
           {
             id: 2,
-            name: "Azure Waters Resort",
-            location: "Maldives",
+            name: "The Imperial, Delhi",
+            location: "Delhi, India",
             rating: 5,
-            description: "Experience paradise in our overwater villas with direct access to crystal-clear lagoons.",
+            description: "A legendary dreamy den in which your friend transforms the atmosphere into a seductive memorable experience that would satisfy your most secret desires.",
             image: "/images/JwMarriott_CP.jpg",
             amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
             price: "₹45,000",
@@ -201,10 +201,10 @@ export default function Home({
           },
           {
             id: 3,
-            name: "Alpine Peak Lodge",
-            location: "Swiss Alps, Switzerland",
+            name: "Taj Palace, Delhi",
+            location: "Delhi, India",
             rating: 5,
-            description: "Majestic mountain retreat with ski-in/ski-out access and panoramic alpine views.",
+            description: "A grand hotel where beauty meets and savors in the presence of your companion aspires a moment of warmth, enticement, and unruffled delight.",
             image: "/images/jaypeeVasantAerocity.png",
             amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
             price: "₹38,000",
@@ -289,50 +289,50 @@ export default function Home({
   const faqs = [
     {
       id: 1,
-      question: 'How do I create an account?',
-      answer: 'Creating an account is simple. Click on the "Sign Up" button in the top right corner, fill in your details including name, email, and password, then verify your email address.',
+      question: 'Are your Delhi escorts real or just edited profiles like many fake agencies show?',
+      answer: 'Yes, our escorts are 100 percent genuine, checked and as presented. There are no Photoshop tricks, no bait and switch, no drama. You end up with the real model that you select - same face, same body, same chemistry. Delhi Girl does not play around with men who want to have real pleasure.',
       category: 'account',
     },
     {
       id: 2,
-      question: 'What payment methods do you accept?',
-      answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers. All transactions are securely processed with 256-bit encryption.',
+      question: 'Can I request a bold or adventurous escort who matches my exact fantasies?',
+      answer: 'Absolutely. You are flirtatious, extreme, leisurely, romantic, domineering or playful in your desires; we will find you the exact business partner. Just share your preference. We can rely on our escorts to know more about fantasy-building than most men care to imagine - and they will not mind chemistry heated.',
       category: 'payments',
     },
     {
       id: 3,
-      question: 'Can I modify my booking after confirmation?',
-      answer: 'Yes, you can modify your booking up to 24 hours before your scheduled appointment. Simply log into your account, go to "My Bookings", and select "Modify". Changes are subject to availability.',
+      question: 'Is it safe to book escort service in Delhi through your platform?',
+      answer: 'Yes. The safety, privacy, and confidentiality cannot be compromised in this case. No ringing, no leaks, no drama, no chat tapes. It is all secret between us and you. Personal information is not accessed or read. Nothing else is as important to us as discretion.',
       category: 'booking',
     },
     {
       id: 4,
-      question: 'How do I cancel a reservation?',
-      answer: 'To cancel a reservation, go to "My Bookings" in your account dashboard, select the booking you wish to cancel, and click "Cancel". Cancellation policies vary by service type - please review before confirming.',
+      question: 'Do escorts provide full service or only companionship?',
+      answer: 'Different models have different experiences. Others are sensual, others provide intimate and others prefer the brash chemistry based on comfort. You select the escort, she selects her boundaries and the two of you have a good fun experience that is a mutual respect, fun experience.',
       category: 'booking',
     },
     {
       id: 5,
-      question: 'What is your refund policy?',
-      answer: 'We offer full refunds for cancellations made at least 48 hours in advance. Cancellations within 24-48 hours receive a 50% refund. No refunds are available for cancellations within 24 hours of the appointment.',
+      question: 'Can I meet escorts in top hotels without any trouble?',
+      answer: 'Yes. We have all experienced polite and professional escorts. They merge like any posh visitor and keep a low profile. Whether it is a 5-star hotel or a home, the meeting is relaxed, secure and is totally stress-free.',
       category: 'payments',
     },
     {
       id: 6,
-      question: 'Are your services available internationally?',
-      answer: 'Yes, we currently operate in 15 countries worldwide. Please check our locations page for specific service availability in your region. Additional fees may apply for international bookings.',
+      question: 'Do you provide late-night escort service in Gurgaon and Noida?',
+      answer: 'Yes, our service runs 24/7. Midnight craving? Early morning loneliness? Sudden desire? All you have to do is dial, and your desired beauty is knocking at your door with all her vibrant energy, alluring glamour and a night with a touch of magic and sex.',
       category: 'services',
     },
     {
       id: 7,
-      question: 'How do I reset my password?',
-      answer: 'Click "Forgot Password" on the login page, enter your registered email, and you will receive a password reset link. This link expires in 30 minutes for security reasons.',
+      question: 'Can I book a specific kind of companion, like bold, shy, curvy, slim, or model-type?',
+      answer: 'Of course. We have copies, air-hostesses, college cuties, daring businesspeople, slim-bodied princesses, voluptuous queens, and gorgeous, posh girls. With whatever taste you have, Delhi Girl has a woman who was made specifically to it.',
       category: 'account',
     },
     {
       id: 8,
-      question: 'What safety measures do you have in place?',
-      answer: 'All our staff undergo thorough background checks and professional training. We offer contactless payment options, 24/7 support, and an emergency contact system for your safety.',
+      question: 'Do escorts offer extended or overnight experiences?',
+      answer: 'Yes. The most popular are overnight ones since you will experience slow intimacy, more of connection, and hours of uninhibited pleasure without any time checking.',
       category: 'services',
     },
   ];
@@ -426,13 +426,13 @@ export default function Home({
   {/* End Sample content data */}
   const cities = [
 { name: 'DELHI', img: '/images/hotel3.webp' },
-{ name: 'MUMBAI', img: '/images/lajpatnagahotel.avif' },
+{ name: ' MAHIPALPURE', img: '/images/lajpatnagahotel.avif' },
 { name: 'NOIDA', img: '/images/RoseateHouse.jpg' },
-{ name: 'BANGALORE', img: '/images/paschimvihar.jpg' },
-{ name: 'PUNE', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg' },
+{ name: 'AEROCITY', img: '/images/paschimvihar.jpg' },
+{ name: 'LAJPATNAGAR', img: '/images/JwMarriott_CP.jpg' },
+{ name: 'CP', img: '/images/Andazhat.jpg' },
 { name: 'GURGAON', img: '/images/holidayIn_CP.jpg' },
-{ name: 'HYDERABAD', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
+{ name: 'PAHARGANJ', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
 { name: 'KOLKATA', img: '/images/paschimvihar.jpg' },
 { name: 'CHENNAI', img: '/images/hotel2.jpg' },
 { name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
@@ -2072,8 +2072,8 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                                   <div className="relative min-h-[400px]">
                                     <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
                                     <div className="absolute bottom-6 left-6 z-20 text-white">
-                                      <h3 className="text-2xl font-bold">Luxury Experience Package</h3>
-                                      <p className="mt-2 max-w-md">Book 3 nights and receive complimentary spa treatments, airport transfers, and dining credits</p>
+                                      <h3 className="text-2xl font-bold">Luxury Package for Escort Service in Gurgaon</h3>
+                                      <p className="mt-2 max-w-md">An exquisite, luxurious, male-oriented experience aimed at men who are longing to have intimacy, bond, seduce, and the full body experience.</p>
                                     </div>
                                     {/* Placeholder Image */}
                                     <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
@@ -2093,11 +2093,11 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                                     </div>
                                     <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
                                     <ul className="space-y-3 mb-6">
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Complimentary airport transfers</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Personal concierge service</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> VIP lounge access</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Elite model selection</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Completely personalized pleasure experience.</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> The level of privacy and covert operation.</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Multiple time-slot options</li>
+                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Professional escorts who are safe and verified.</li>
                                     </ul>
                                     <div className="flex space-x-4">
                                       <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
@@ -2219,16 +2219,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl lg:text-3xl font-bold mb-4">The Evolution of Delhi&apos;s Fashion Identity</h3>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">Enjoy the Finest Pleasure to your doorstep with Escort Service in Noida</h3>
                 <p className="mb-6">
-                  Delhi&apos;s fashion landscape has transformed dramatically over the past decade. What began as a fusion of traditional Punjabi suits and Western influences has evolved into a distinctive style that celebrates diversity and individuality. The city&apos;s unique fashion identity reflects its complex history, with Mughal-era craftsmanship blending seamlessly with contemporary silhouettes.
-                </p>
-                <p className="mb-6">
-                  The rise of local designers like Masaba Gupta and Ritu Kumar has put Delhi on the global fashion map. These designers draw inspiration from Delhi&apos;s vibrant street culture, historic monuments, and multicultural neighborhoods. The result is a fashion scene that honors heritage while embracing innovation.
-                </p>
-                <p className="mb-6">
-                  Social media has played a crucial role in this evolution. Delhi&apos;s fashion influencers have created communities that transcend traditional boundaries, showcasing how to style traditional garments in modern ways. Platforms like Instagram have become virtual runways where young Delhiites express their unique fashion sensibilities.
-                </p>
+                  Delhi Girl is best at those who like pure sensual magic right to your door in Noida. Our escorts come with charisma dripping with their grin, the self-belief in their walk and an erotic vulnerability that adjoins your area when she walks in. It can be a passionate, intimate affair, leisurely and erotic, fun and games, rendezvous, a blend of all these or some combination of all these — these friends know how to mould the night to your requirements. Each motion, each word, each touch, seems to be purposeful, alluring, and designed to drag you further into the realm of pleasure.                </p>
+                
                 <button className="px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-gray-100 transition-colors">
                   Read Full Story
                 </button>
@@ -2401,10 +2395,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Escorts Service For Other Locations
+            Book the Best Escort Service in Delhi Today
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Meet our diverse team of professionals who bring excellence and passion to every engagement.
+           The luxurious beauty, cozy romance and sexually charged dates are designed to experience memorable nights.
           </p>
         </motion.div>
 

@@ -25,10 +25,10 @@ export default function Navbar() {
     { name: "Foreigner Staff", href: "/Category/Foreignmodel" },
     { name: "Air Hostess", href: "/Category/Airhostess" },
     { name: "Independent Profile", href: "/Category/Independentprofile" },
-    { name: "Russian Model", href: "/Category/Russianmodels" },
-    { name: "Celebrity Profile", href: "/Category/celebrityprofile" },
-    { name: "Spa Staff", href: "/Category/spastaff" },
-    { name: "COllege Girl", href: "/Category/spastaff" },
+    // { name: "Russian Model", href: "/Category/Russianmodels" },
+    { name: "High Profile", href: "/Category/celebrityprofile" },
+    // { name: "Spa Staff", href: "/Category/spastaff" },
+    { name: "College Girl", href: "/Category/spastaff" },
     
   ];
   const Locations = [
