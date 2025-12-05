@@ -518,7 +518,7 @@ const locations = [
       {/* Background image with dark gradient overlay */}
       <div className="relative w-full overflow-hidden rounded-2xl shadow-2xl">
         {/* Responsive height: mobile 60vh, md 80vh, lg 90vh */}
-        <div className="relative h-[50vh] md:h-[70vh] lg:h-[90vh] w-full">
+        <div className="relative h-[70vh] md:h-[80vh] lg:h-[90vh] w-full">
           <Image
             src={imageUrl}
             alt="Luxury model"
@@ -603,7 +603,7 @@ const locations = [
 
           {/* Mobile sticky mini CTA (center bottom) */}
           <div className="absolute left-1/2 transform -translate-x-1/2 bottom-5 md:hidden w-full px-4">
-  <div className="flex items-center justify-between gap-4 bg-white/95 rounded-full px-4 py-1 shadow-sm backdrop-blur-sm max-w-[92vw]">
+  <div className="flex items-center justify-between gap-4 bg-white/95 rounded-full px-4 py-3 shadow-sm backdrop-blur-sm max-w-[92vw]">
     
     <div className="truncate">
       <p className="text-sm font-semibold truncate">{title}</p>
