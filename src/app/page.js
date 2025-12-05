@@ -587,7 +587,7 @@ const locations = [
 
       {/* MOBILE STICKY CTA */}
       <div className="absolute left-1/2 -translate-x-1/2 bottom-5 md:hidden w-full px-4">
-        <div className="flex items-center justify-between gap-4 bg-white/95 rounded-full px-4 py-10 shadow-md backdrop-blur-sm">
+        <div className="flex items-center justify-between gap-4 bg-white/95 rounded-full px-4 py-1 shadow-md backdrop-blur-sm">
           <div className="truncate">
             <p className="text-sm font-semibold truncate">{title}</p>
             <p className="text-xs text-gray-600 truncate">{subtitle}</p>
