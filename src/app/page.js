@@ -1704,10 +1704,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4"
           >
-            Premium Companionship Services
+            Get Pocket - Friendly Escort Services in Delhi With High-Profile Models
           </motion.h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-           A luxury experience created for the male customer segment who are thrill seekers, passionate, luxurious, and memorable nights.
+           Enjoy with affordable call girls in Delhi at 5 star hotels. We offer 5 star rates escort service in Delhi.
           </p>
         </div>
 
@@ -1798,7 +1798,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                     ? 'bg-gradient-to-r from-purple-700 to-pink-700 text-white hover:from-purple-800 hover:to-pink-800' 
                     : 'bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 hover:from-gray-200 hover:to-gray-300'
                 }`}>
-                  Select Package
+                  Book Now
                 </button>
               </div>
             </motion.div>
