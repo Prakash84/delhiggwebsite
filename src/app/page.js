@@ -641,39 +641,58 @@ const locations = [
     {/* End Banner */}
     
             <section className="py-10 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        {/* Responsive grid: 1 on xs, 2 on sm, 3 on md, 4 on lg, 6 on xl */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-x-8 gap-y-10 items-start">
-          {items.map((it, idx) => (
-            <div
-              key={idx}
-              className="flex flex-col items-center text-center px-2"
-            >
-              {/* Image wrapper: responsive sizes, relative for Image fill */}
-              <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full bg-white shadow-sm hover:shadow-lg transition-shadow duration-200 flex items-center justify-center overflow-hidden">
-                <Image
-                  src={it.src}
-                  alt={it.title}
-                  fill
-                  style={{ objectFit: "contain" }}
-                  sizes="(max-width: 640px) 56px, (max-width: 1024px) 80px, 96px"
-                  priority={false}
-                />
-              </div>
+  <div className="max-w-7xl mx-auto px-6">
 
-              {/* Ensure title & subtitle have room and don't overlap */}
-              <h3 className="mt-4 text-base sm:text-lg font-semibold text-gray-800 leading-tight">
-                {it.title}
-              </h3>
+    {/* ===== SECTION HEADING ===== */}
+    <div className="text-center max-w-2xl mx-auto mb-12">
+      <p className="text-sm font-medium text-pink-600 tracking-wide">
+        Our Premium Services
+      </p>
 
-              <p className="mt-2 text-sm text-gray-600 max-w-[160px]">
-                {it.subtitle}
-              </p>
-            </div>
-          ))}
+      <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
+        Explore Our Exclusive Massage & Spa Categories
+      </h2>
+
+      <p className="mt-3 text-sm sm:text-base text-gray-600">
+        Choose from a wide range of luxury therapies designed to relax your mind,
+        body, and soul — crafted for a premium spa experience.
+      </p>
+    </div>
+    {/* ===== END HEADING ===== */}
+
+    {/* Responsive grid: 1 on xs, 2 on sm, 3 on md, 4 on lg, 6 on xl */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-x-8 gap-y-10 items-start">
+      {items.map((it, idx) => (
+        <div
+          key={idx}
+          className="flex flex-col items-center text-center px-2"
+        >
+          {/* Image */}
+          <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full bg-white shadow-sm hover:shadow-lg transition duration-200 flex items-center justify-center overflow-hidden">
+            <Image
+              src={it.src}
+              alt={it.title}
+              fill
+              style={{ objectFit: "contain" }}
+              sizes="(max-width: 640px) 56px, (max-width: 1024px) 80px, 96px"
+              priority={false}
+            />
+          </div>
+
+          {/* Title */}
+          <h3 className="mt-4 text-base sm:text-lg font-semibold text-gray-800 leading-tight">
+            {it.title}
+          </h3>
+
+          {/* Subtitle */}
+          <p className="mt-2 text-sm text-gray-600 max-w-[160px]">
+            {it.subtitle}
+          </p>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+  </div>
+</section>
 
     {/* Content Hero Section */}
                   <section className="bg-gray-50 py-24">
