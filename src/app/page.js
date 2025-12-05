@@ -517,7 +517,7 @@ const locations = [
   <div className="relative w-full overflow-hidden rounded-2xl shadow-2xl">
     
     {/* Background section */}
-    <div className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] w-full">
+    <div className="relative h-[60vh] sm:h-[75vh] md:h-[80vh] lg:h-[90vh] w-full">
       <Image
         src={imageUrl}
         alt="Luxury model"
