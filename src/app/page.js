@@ -518,7 +518,7 @@ const locations = [
       {/* Background image with dark gradient overlay */}
       <div className="relative w-full overflow-hidden rounded-2xl shadow-2xl">
         {/* Responsive height: mobile 60vh, md 80vh, lg 90vh */}
-        <div className="relative h-[70vh] md:h-[80vh] lg:h-[90vh] w-full">
+        <div className="relative h-[70vh] md:h-[75vh] lg:h-[90vh] w-full">
           <Image
             src={imageUrl}
             alt="Luxury model"
