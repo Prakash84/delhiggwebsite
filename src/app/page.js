@@ -38,7 +38,7 @@ export default function Home({
       name: 'Sophia Martinez',
       role: 'Senior Airhostess',
       category: 'airhostess',
-      description: '5+ years experience with international airlines. Fluent in 4 languages.',
+      description: 'A seasoned airhostess, working with global airlines, loves to work with the travelers, their safety and comfort, as well as cultural communication with them, and mentoring new cabin crew members every day all over the world.',
       image: '/images/Airhostess_girl.jpg', // Placeholder image path
     },
     {
@@ -46,7 +46,7 @@ export default function Home({
       name: 'Alex Johnson',
       role: 'TV Personality',
       category: 'celebrity',
-      description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
+      description: 'To use TV personalities to connect with people through talk shows, presenting entertainment programs, motivating viewers, spotting fads, and promoting creative discourse on various media channels.',
       image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
     },
     {
@@ -54,7 +54,7 @@ export default function Home({
       name: 'Emma Wilson',
       role: 'Marketing Student',
       category: 'college',
-      description: 'Top of her class at NYU. Passionate about digital marketing trends.',
+      description: 'The marketing student investigates brand strategy, online campaigns, audience and insights, and ethical advertising, dedicated to innovative communication that enhances customer experiences across all places.',
       image: '/images/spaStaffInsta.jpg', // Placeholder image path
     },
     {
@@ -62,7 +62,7 @@ export default function Home({
       name: 'Isabella Rossi',
       role: 'International Model',
       category: 'foreign',
-      description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
+      description: 'Global brand symbolizing high-end fashion brands, celebrity style, sustainable development, runway perfection, innovative partnerships, magazine production, the motivation of upcoming models around the world.',
       image: '/images/celebrityspastaff.jpg', // Placeholder image path
     },
     {
@@ -70,7 +70,7 @@ export default function Home({
       name: 'Olivia Chen',
       role: 'Corporate Executive',
       category: 'highprofile',
-      description: 'Fortune 500 company board member. MBA from Harvard Business School.',
+      description: 'Top management executive overseeing strategic growth, operational innovation, and inclusive leadership, empowering the teams, driving performance, and promoting technological-based business success around the world.',
       image: '/images/49.jpg',
     },
     {
@@ -78,7 +78,7 @@ export default function Home({
       name: 'Mia Thompson',
       role: 'First Class Hostess',
       category: 'airhostess',
-      description: 'Specialized in luxury travel experience. Trained in hospitality management.',
+      description: 'First-class hosts who provide superiorly luxurious services, custom-made experience for the guests, safety superiority, exquisite hospitality, cultural insight, and on-board glamour on a daily basis.',
       image: '/images/smiling.jpg', // Placeholder image path
     },
     {
@@ -86,7 +86,7 @@ export default function Home({
       name: 'Chloe Williams',
       role: 'Film Actress',
       category: 'celebrity',
-      description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
+      description: 'A film actress who plays various characters enjoys character development, joint film production, art storytelling, and contributing to the new talent development of cinema in the world.',
       image: '/images/413965.jpg', // Placeholder image path
     },
     {
@@ -94,7 +94,7 @@ export default function Home({
       name: 'Ava Garcia',
       role: 'Engineering Student',
       category: 'college',
-      description: 'Robotics club president. Developing AI solutions for sustainable energy.',
+      description: 'Engineering Student: passionate about the sustainable potentials of innovation, robotics, research, engagement in problems, acting across disciplines and designing technology that helps make people, infrastructure, and our environment more resilient, better, and easier.',
       image: '/images/1.jpg', // Placeholder image path
     },
   ];
@@ -358,19 +358,19 @@ export default function Home({
     },
     {
       id: 2,
-      title: "GET DISCOUNT UPTO 50%",
+      title: "No Advance payment",
       description: "High-end friendship with people that suit your mood and craziness.",
       icon: "💸"
     },
     {
       id: 3,
-      title: "SAFE SEX SERVICES",
+      title: "5 Star Hotels",
       description: "Complete privacy and reliable escorting services throughout the NCR of Delhi.",
       icon: "🔒"
     },
     {
       id: 4,
-      title: "ONLY FOR 18+ ADULTS",
+      title: "100% Satisfaction",
       description: "Pleasure, passion, chemistry and comfort are some of the elite experiences designed.",
       icon: "🔞"
     }
@@ -425,18 +425,18 @@ export default function Home({
     : articles.filter(article => article.category === activeCategory);
   {/* End Sample content data */}
   const cities = [
-{ name: 'DELHI', img: '/images/hotel3.webp' },
-{ name: ' MAHIPALPURE', img: '/images/lajpatnagahotel.avif' },
-{ name: 'NOIDA', img: '/images/RoseateHouse.jpg' },
-{ name: 'AEROCITY', img: '/images/paschimvihar.jpg' },
-{ name: 'LAJPATNAGAR', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'CP', img: '/images/Andazhat.jpg' },
-{ name: 'GURGAON', img: '/images/holidayIn_CP.jpg' },
-{ name: 'PAHARGANJ', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-{ name: 'KOLKATA', img: '/images/paschimvihar.jpg' },
-{ name: 'CHENNAI', img: '/images/hotel2.jpg' },
-{ name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
-{ name: 'JAIPUR', img: '/images/jwmarriott.jpeg' },
+{ name: 'Noida', img: '/images/hotel3.webp' },
+{ name: 'Gurgaon', img: '/images/lajpatnagahotel.avif' },
+{ name: 'Faridabaad', img: '/images/RoseateHouse.jpg' },
+{ name: 'Mahipalpur', img: '/images/paschimvihar.jpg' },
+{ name: 'Aerocity', img: '/images/JwMarriott_CP.jpg' },
+{ name: 'Connaught Place', img: '/images/Andazhat.jpg' },
+{ name: 'New Friends Colony', img: '/images/holidayIn_CP.jpg' },
+{ name: 'Dwarka', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
+{ name: 'Paharganj', img: '/images/paschimvihar.jpg' },
+{ name: 'Vasant kunj', img: '/images/hotel2.jpg' },
+{ name: 'Lajpat Nagar ', img: '/images/pullmanAerocity.jpg' },
+{ name: 'Kalkaji', img: '/images/jwmarriott.jpeg' },
 ]
 const profiles = [
   { image: '/images/modelg.jpg' },
@@ -544,7 +544,7 @@ const locations = [
                   <p className="inline-block px-3 py-1 rounded-full bg-white/10 text-xs sm:text-sm mb-3">Premium • Discreet • Verified</p>
 
                   <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mt-2">
-                    Affordable & Luxurious Escort Services in Delhi
+                    Book Luxurious Escort Service in Delhi By Delhi Girl
                   </h1>
 
                   <p className="mt-3 text-sm sm:text-base md:text-lg text-white/90 max-w-prose">Call Girl Services by Delhi Girl in all 5 Star Hotels</p>
@@ -650,12 +650,11 @@ const locations = [
       </p>
 
       <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-        Explore Our Exclusive Massage & Spa Categories
+        A Complete Range of Delhi escort service
       </h2>
 
       <p className="mt-3 text-sm sm:text-base text-gray-600">
-        Choose from a wide range of luxury therapies designed to relax your mind,
-        body, and soul — crafted for a premium spa experience.
+        We have a wide range of escort services in Delhi with Verified profiles. With Over 10+ Years Of Experience We Offer 24/7 Services.
       </p>
     </div>
     {/* ===== END HEADING ===== */}
@@ -707,10 +706,10 @@ const locations = [
                         transition={{ delay: 0.3 }}
                         viewport={{ once: true }}
                       >
-                        Top Notch Escort Service–{" "}
+                        Get Genuine Delhi Girl Service{" "}
                         <span className="relative">
                           <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            in Delhi To Fulfill All Your Needs
+                            For Fulfill Your Needs 
                           </span>
                           <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                         </span>
@@ -752,7 +751,7 @@ const locations = [
               href="#"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow duration-200"
             >
-              View Properties
+              Book Now
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
               </svg>
@@ -891,7 +890,7 @@ const locations = [
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7v4a1 1 0 001 1h3m10 0h3a1 1 0 001-1V7M5 7V5a2 2 0 012-2h10a2 2 0 012 2v2" />
                   </svg>
                 </div>
-                <h4 className="text-sm font-semibold">Discreet Booking</h4>
+                <h4 className="text-sm font-semibold">No Advance Payment</h4>
                 <p className="mt-1 text-xs text-gray-500">Secure & private handling</p>
               </div>
 
@@ -902,7 +901,7 @@ const locations = [
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14v6" />
                   </svg>
                 </div>
-                <h4 className="text-sm font-semibold">Personal Concierge</h4>
+                <h4 className="text-sm font-semibold">High Profile Model</h4>
                 <p className="mt-1 text-xs text-gray-500">Tailored experiences & planning</p>
               </div>
             </div>
@@ -913,8 +912,8 @@ const locations = [
             <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-100 bg-white p-4">
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-700">Featured Companions</h3>
-                  <p className="text-xs text-gray-500">Curated for quality & style</p>
+                  <h3 className="text-sm font-semibold text-gray-700">Featured Profiles</h3>
+                  <p className="text-xs text-gray-500">Trusted & Verified Profiles</p>
                 </div>
                 <div className="text-xs text-gray-400">Delhi</div>
               </div>
@@ -939,8 +938,8 @@ const locations = [
       </div>
 
       <div className="mt-3">
-        <div className="font-medium text-sm">Ari • 26</div>
-        <div className="text-xs text-gray-500">Events • Travel • Dining</div>
+        <div className="font-medium text-sm">Natalia • 23</div>
+        <div className="text-xs text-gray-500">Instagram Model</div>
       </div>
 
       <div className="mt-3">
@@ -1045,7 +1044,7 @@ const locations = [
                   🌸
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 ml-4 tracking-tight">
-                  High Class Centre For Call Girls in Gurgaon
+                  High Class Delhi Call Girls At 5 Star Hotel
                 </h2>
               </div>
     
@@ -1063,9 +1062,9 @@ const locations = [
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 {[
                   {icon: "💆‍♀️", title: "Lajpat Nagar", desc: "Prime Location"},
-                  {icon: "🕯️", title: "Aerocity", desc: "Luxury Spa"},
-                  {icon: "🏨", title: "Connaught Place", desc: "Central Access"},
-                  {icon: "🌱", title: "Dwarka", desc: "Exclusive Service"}
+                  {icon: "🕯️", title: "Aerocity", desc: "High Profile"},
+                  {icon: "🏨", title: "Connaught Place", desc: "Instagram Model"},
+                  {icon: "🌱", title: "Dwarka", desc: "Indian Tv Actor"}
                 ].map((loc, i) => (
                   <div key={i} className="bg-purple-50/60 p-4 rounded-xl flex items-start hover:shadow-md transition-all">
                     <div className="text-purple-600 text-2xl mr-3 mt-1">{loc.icon}</div>
@@ -1224,7 +1223,7 @@ const locations = [
           transition={{ delay: 0.4, duration: 0.5 }}
         >
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-6 text-center">Why Our Team Stands Out</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center">Why Our Escort Service in Delhi Stand Out</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 { value: '200+', label: 'Professionals' },
@@ -1253,10 +1252,10 @@ const locations = [
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Best Call Girl Services in Delhi – Elegant, Professional & Friendly
+           We serve our services at primes location of Delhi Or Nearby Areas
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Meet our diverse team of professionals who bring excellence and passion to every engagement.
+            We provide our escort services at top locations in Delhi and NCR. With professional and high profile models we are the one of the best call girl providers in Delhi.
           </p>
         </motion.div>
 
@@ -1331,7 +1330,7 @@ View All Cities
                 transition={{ delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <span className="mr-2">✦</span> About Our Luxury Spa
+                <span className="mr-2">✦</span> Call Girls In Delhi
               </motion.div>
     
               <motion.h2
@@ -1341,10 +1340,10 @@ View All Cities
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Luxury Call Girls in  {" "}
+                Trusted Call Girls in  {" "}
                 <span className="relative">
                   <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                    Delhi At Your Service
+                    Delhi with Professional Services
                   </span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                 </span>
@@ -1387,10 +1386,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                 viewport={{ once: true }}
               >
                 {[
-                  { title: "Foreigner Therapist", icon: "🌏" },
-                  { title: "Female To Male Massage", icon: "💆‍♂️" },
-                  { title: "Best Body To Body Spa", icon: "✨" },
-                  { title: "Couple Massage", icon: "👩‍❤️‍👨" },
+                  { title: "Verified Call Girls", icon: "🌏" },
+                  { title: "Professional Profiles", icon: "💆‍♂️" },
+                  { title: "Independent Call Girls", icon: "✨" },
+                  { title: "Russian Call Girls", icon: "👩‍❤️‍👨" },
                 ].map((feature, index) => (
                   <motion.div
                     key={index}
@@ -1406,7 +1405,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                         {feature.title}
                       </h4>
                       <p className="text-gray-600 text-xs">
-                        Luxurious and personalized treatments
+                        
                       </p>
                     </div>
                   </motion.div>
@@ -1493,10 +1492,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-           Benefits of Delhi Escort Service in Delhi
+           Benefits of Choosing Delhi Girl For Genuine call girl Service in Delhi
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Where pleasure flourishes, confidence is enhanced, and all the time is too riskily addictive.
+           Get many benefits with trusted call girls in Delhi, Gurgaon and Noida with high-quality services at 5 star hotels.
           </p>
         </motion.div>
         </div>
@@ -1566,7 +1565,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Enjoy Top-Rated Call <span className="text-rose-600">Girls Service in Noida</span>
+            Experience Independent escorts <span className="text-rose-600">in Delhi with Trusted Delhi Girls</span>
           </h2>
           <p className="text-lg text-gray-700">
           No one can solve that Noida nights can be turned into memorable escapes as well as Delhi Girl. The top-rated call girls reinvent the meaning of luxury due to their daring confidence and their gracious charm and natural chemistry. They understand how to get things to go when necessary, leave it to you when you desire, and that just right speed where pleasure is not in a hurry and that grows, rises, and explodes right when you want it the most.
@@ -1579,7 +1578,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           </p>
           
           <button className="bg-rose-600 hover:bg-rose-700 text-white px-8 py-3 rounded-full shadow-lg transition-all text-lg">
-            Experience the Passion
+            Book Now 
           </button>
         </motion.div>
       </div>
@@ -1615,7 +1614,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            Enjoy pleasure and luxury with  <span className="text-pink-600">the elite Delhi Escort Service</span>
+            Relax and Rejuvenate At 5 sta  <span className="text-pink-600">hotels with VIP call girls in Delhi</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
@@ -1623,10 +1622,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           
           <div className="flex gap-4">
             <button className="px-6 py-3 rounded-xl bg-pink-600 text-white font-semibold shadow-lg hover:bg-pink-700 transition">
-              Know More
+              View Services
             </button>
             <button className="px-6 py-3 rounded-xl border border-pink-600 text-pink-600 font-semibold hover:bg-pink-50 transition">
-              Follow Her
+              Book Now 
             </button>
           </div>
         </motion.div>
@@ -1645,7 +1644,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Enjoy pleasure and luxury <span className="text-pink-600">with the elite Delhi Escort Service</span>
+            Enjoy At Prime locations with <span className="text-pink-600">High profile escort services in Delhi</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
@@ -1656,15 +1655,15 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
             <div className="flex flex-col items-center text-center bg-pink-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
               <Sparkles className="w-10 h-10 text-pink-600 mb-2" />
-              <p className="font-semibold text-gray-800">Trendy</p>
+              <p className="font-semibold text-gray-800">Trusted Girls</p>
             </div>
             <div className="flex flex-col items-center text-center bg-pink-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
               <Camera className="w-10 h-10 text-pink-600 mb-2" />
-              <p className="font-semibold text-gray-800">Fashion Icon</p>
+              <p className="font-semibold text-gray-800">Model profile</p>
             </div>
             <div className="flex flex-col items-center text-center bg-pink-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
               <MapPin className="w-10 h-10 text-pink-600 mb-2" />
-              <p className="font-semibold text-gray-800">City Explorer</p>
+              <p className="font-semibold text-gray-800">Foreigner girls</p>
             </div>
           </div>
         </motion.div>
