@@ -20,10 +20,10 @@ export default function Locations() {
     const hotels = [
       {
         id: 1,
-        name: "Grand Royale Palace",
+        name: "The Oberoi, Gurgaon",
         location: "Bangkok, Thailand",
         rating: 5,
-        description: "An iconic luxury hotel offering breathtaking views of the city skyline and the Chao Phraya River.",
+        description: "Modern architecture, close luxury. She walks in, and suddenly the room feels warmer and more welcoming — like you actually want to stay in.",
         image: "/hotel-royale.jpg",
         amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
         price: "₹25,000",
@@ -31,10 +31,10 @@ export default function Locations() {
       },
       {
         id: 2,
-        name: "Azure Waters Resort",
+        name: "The Leela Ambience, Gurugram",
         location: "Maldives",
         rating: 5,
-        description: "Experience paradise in our overwater villas with direct access to crystal-clear lagoons.",
+        description: "The vibe’s upscale, but not stiff. She’ll stroll right through, turn the space into a relaxed night, and lift your spirits without a word.",
         image: "/hotel-azure.jpg",
         amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
         price: "₹45,000",
@@ -42,10 +42,10 @@ export default function Locations() {
       },
       {
         id: 3,
-        name: "Alpine Peak Lodge",
+        name: "Trident, Gurgaon",
         location: "Swiss Alps, Switzerland",
         rating: 5,
-        description: "Majestic mountain retreat with ski-in/ski-out access and panoramic alpine views.",
+        description: "Known for being peaceful and polished. It’s the kind of place you can talk for hours, laugh, and genuinely feel lighter with someone beside you.",
         image: "/hotel-alpine.jpg",
         amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
         price: "₹38,000",
@@ -53,10 +53,10 @@ export default function Locations() {
       },
       {
         id: 4,
-        name: "Oasis Desert Mirage",
+        name: "OITC Grand Bharat (Gurgaon region)",
         location: "Dubai, UAE",
         rating: 5,
-        description: "Luxurious desert sanctuary blending traditional Arabian hospitality with modern opulence.",
+        description: "Feels like a weekend getaway even if you’re here for work — she brings the same energy, making it less about the crowd and more about you two.",
         image: "/hotel-oasis.jpg",
         amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
         price: "₹32,000",
@@ -64,10 +64,10 @@ export default function Locations() {
       },
       {
         id: 5,
-        name: "Emerald Bay Retreat",
+        name: "Taj City Centre, Gurugram",
         location: "Bali, Indonesia",
         rating: 5,
-        description: "Tropical paradise nestled in lush rainforest with stunning ocean vistas and traditional Balinese architecture.",
+        description: "Fun, upbeat, colorful. She fits right in, brightens things up, and makes sure there’s never a dull minute in your stay.",
         image: "/hotel-emerald.jpg",
         amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
         price: "₹28,000",
@@ -75,10 +75,10 @@ export default function Locations() {
       },
       {
         id: 6,
-        name: "Sapphire Sky Tower",
+        name: "The Westin, Gurgaon",
         location: "New York City, USA",
         rating: 5,
-        description: "Ultra-modern luxury in the heart of Manhattan with panoramic city views from every suite.",
+        description: "Luxury with a homey touch. The room feels just right — calm, private, and personal, the way you want after a long day.",
         image: "/hotel-sapphire.jpg",
         amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
         price: "₹52,000",
@@ -139,50 +139,50 @@ export default function Locations() {
               const faqs = [
                 {
                   id: 1,
-                  question: 'How do I create an account?',
-                  answer: 'Creating an account is simple. Click on the "Sign Up" button in the top right corner, fill in your details including name, email, and password, then verify your email address.',
+                  question: 'Are Gurugram escorts actually the same women shown online?',
+                  answer: 'You get the same person in the photo — no mismatches or fake profiles. What you see is exactly who shows up to meet you.',
                   category: 'account',
                 },
                 {
                   id: 2,
-                  question: 'What payment methods do you accept?',
-                  answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers. All transactions are securely processed with 256-bit encryption.',
+                  question: 'Can escorts enter five-star hotels in Gurugram without issues?',
+                  answer: 'Yes, escorts arrive without any dramas — dressed smart and fitting in. Hotels don’t interfere, so your meeting stays private and breezy.',
                   category: 'payments',
                 },
                 {
                   id: 3,
-                  question: 'Can I modify my booking after confirmation?',
-                  answer: 'Yes, you can modify your booking up to 24 hours before your scheduled appointment. Simply log into your account, go to "My Bookings", and select "Modify". Changes are subject to availability.',
+                  question: 'Do you offer escorts who fit corporate settings and formal events?',
+                  answer: 'Of course. These women know their way around a dinner table, a client event, and they’ll make you look way more comfortable when things feel stiff in a crowd.',
                   category: 'booking',
                 },
                 {
                   id: 4,
-                  question: 'How do I cancel a reservation?',
-                  answer: 'To cancel a reservation, go to "My Bookings" in your account dashboard, select the booking you wish to cancel, and click "Cancel". Cancellation policies vary by service type - please review before confirming.',
+                  question: 'How discreet is the booking process in Gurugram?',
+                  answer: 'Your details are never stored or shared. From texting to meeting, everything is on the down-low — your privacy matters as much to us as to you.',
                   category: 'booking',
                 },
                 {
                   id: 5,
-                  question: 'What is your refund policy?',
-                  answer: 'We offer full refunds for cancellations made at least 48 hours in advance. Cancellations within 24-48 hours receive a 50% refund. No refunds are available for cancellations within 24 hours of the appointment.',
+                  question: 'Are escorts available for late-night companionship in Gurugram?',
+                  answer: 'Always. Even if you get free after midnight, escorts are available at any hour — from business hotels to city apartments.',
                   category: 'payments',
                 },
                 {
                   id: 6,
-                  question: 'Are your services available internationally?',
-                  answer: 'Yes, we currently operate in 15 countries worldwide. Please check our locations page for specific service availability in your region. Additional fees may apply for international bookings.',
+                  question: 'Can I choose a specific personality type or vibe?',
+                  answer: 'Absolutely, you can be clear about what you want. Whether you want someone calm, outgoing, playful, or totally sophisticated, you’ll be matched with the right companion.',
                   category: 'services',
                 },
                 {
                   id: 7,
-                  question: 'How do I reset my password?',
-                  answer: 'Click "Forgot Password" on the login page, enter your registered email, and you will receive a password reset link. This link expires in 30 minutes for security reasons.',
+                  question: 'Is the service limited to hotels only?',
+                  answer: 'Not at all. Escorts work in hotels, serviced flats, gated communities, and private homes — you name it, as long as it’s safe.',
                   category: 'account',
                 },
                 {
                   id: 8,
-                  question: 'What safety measures do you have in place?',
-                  answer: 'All our staff undergo thorough background checks and professional training. We offer contactless payment options, 24/7 support, and an emergency contact system for your safety.',
+                  question: 'How do I trust the quality of escorts in Gurugram?',
+                  answer: 'Delhi Girl screens every woman for style, smarts, and honesty. You get someone who’s real — no awkward surprises, only genuine conversation and a good atmosphere every time.',
                   category: 'services',
                 },
               ];
@@ -254,6 +254,73 @@ const profiles = [
   { image: '/images/49.jpg' },
   { image: '/images/2291.jpg' },
 ]
+
+const services = [
+    {
+      id: "01",
+      title: "Professional Corporate Companionship",
+      desc: "Need someone at your event or business meetup? These escorts get the scene. They’re comfortable in formal wear, spark up clever banter, and make you look right at home.",
+      tag: "Business Meets",
+    },
+    {
+      id: "02",
+      title: "Private Hotel Companions",
+      desc: "Just want time to chill in your room? They’ll join you for an easy, quiet evening — no rush, no scripts, just good company.",
+      tag: "Private Time",
+    },
+    {
+      id: "03",
+      title: "Social Event Partners",
+      desc: "Taking them out means the room feels lighter. They know how to work a party, strike up conversation, and make sure you’re having fun.",
+      tag: "Parties & Events",
+    },
+    {
+      id: "04",
+      title: "Dinner Date Escorts",
+      desc: "Enjoy your food, have some laughs, and don’t stress about awkward silences. They know how to keep a dinner flowing and make the night stick in your mind.",
+      tag: "Dinner Dates",
+    },
+    {
+      id: "05",
+      title: "Travel & Short Trip Companions",
+      desc: "Exploring the city? Rolling out for a short trip? Their energy turns a normal ride into a shared adventure — you’ll actually have someone to talk to and laugh with on the go.",
+      tag: "Trips & Travel",
+    },
+    {
+      id: "06",
+      title: "Premium Independent Companionship",
+      desc: "Want things relaxed? Go for an independent escort — what you see is what you get, with zero pressure and totally real company.",
+      tag: "Independent",
+    },
+  ];
+  // sfdsa
+  const benefits = [
+    {
+      title: "No Guesswork, Total Privacy",
+      desc: "No public noise — it’s just you and your chosen company, completely private and interruption-free.",
+      icon: "🔒",
+    },
+    {
+      title: "High Standards & Professionalism",
+      desc: "Escorts with polished grooming, style, and presence — perfect for blending in or standing out when needed.",
+      icon: "💎",
+    },
+    {
+      title: "Reliable Across Gurugram",
+      desc: "Hotels, apartments, business districts — they reach anywhere on time with no hassle.",
+      icon: "📍",
+    },
+    {
+      title: "Real Relaxation",
+      desc: "Break away from stress and long work weeks with someone who genuinely knows how to ease your mind.",
+      icon: "🌿",
+    },
+    {
+      title: "Service You Can Count On",
+      desc: "Smooth, confusion-free meetings that build trust — the reason people keep coming back.",
+      icon: "✨",
+    },
+  ];
   return (
     <>
     
@@ -341,6 +408,8 @@ const profiles = [
       </div>
     </section>
             {/* end banner */}
+            
+            {/* aadsd */}
                 <section className="bg-gradient-to-b from-amber-50 to-white py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -524,10 +593,10 @@ const profiles = [
                     transition={{ delay: 0.3 }}
                     viewport={{ once: true }}
                   >
-                    Experience the{" "}
+                    Gurugram Escorts:{" "}
                     <span className="relative">
                       <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                        Art of Relaxation
+                        Your Destination for Elite Escort Service in Gurgaon
                       </span>
                       <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                     </span>
@@ -541,44 +610,19 @@ const profiles = [
                     viewport={{ once: true }}
                   >
                     <p className="text-gray-600 text-lg leading-relaxed">
-                      Welcome to{" "}
+                      Everyone in Gurugram is always in a rush — you see sharp workspaces, glitzy buildings, and five-star hotels packed with folks chasing big dreams. Delhi Girl gets that vibe, sending in someone who turns heads with style, walks in with sure confidence, and just has this peaceful energy that puts you at ease and makes you forget the day.{" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        Delhi Body Spa
                       </strong>
-                      , where we offer a range of{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        luxury spa
-                      </strong>{" "}
-                      treatments including{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        female to male spa
-                      </strong>
-                      ,{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        couple massages
-                      </strong>
-                      , and much more. Escape the hustle of Delhi and immerse yourself
-                      in rejuvenating treatments tailored to your needs.
                     </p>
                     <p className="text-gray-600 text-lg leading-relaxed">
-                      Welcome to{" "}
+                      It’s not only about good looks. These women carry themselves with assurance and know how to settle the room. They’ll pick up on your mood right away, chatting with you without awkward small talk or fake lines. Maybe you’ve had a weird meeting or just want someone to shake off the work day with — either way, the women know when to lighten things up or make things meaningful.{" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        Delhi Body Spa
                       </strong>
-                      , where we offer a range of{" "}
+                    </p>
+                    <p className="text-gray-600 text-lg leading-relaxed">
+                      What sticks is how it never feels forced. They meet you with a smile, listen, and make sure every second feels natural — never awkward or rehearsed. With Delhi Girl, it’s not just another night out. It’s a grown-up escape that feels like it was built exactly for you.{" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        luxury spa
-                      </strong>{" "}
-                      treatments including{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        female to male spa
                       </strong>
-                      ,{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        couple massages
-                      </strong>
-                      , and much more. Escape the hustle of Delhi and immerse yourself
-                      in rejuvenating treatments tailored to your needs.
                     </p>
                   </motion.div>
       {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
@@ -663,10 +707,10 @@ const profiles = [
                       className="text-center mb-16"
                     >
                       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                        Our Premium Location
+                        Our Prime Locations for Escort Service in Gurugram
                       </h2>
                       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Meet our diverse team of professionals who bring excellence and passion to every engagement.
+                        Easy access across high-end spots, main business areas, and all the prime neighborhoods — smooth connection, wherever you are.
                       </p>
                     </motion.div>
             
@@ -841,10 +885,10 @@ const profiles = [
       className="text-center mb-16"
     >
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-        Our 5-Star Hotel Collection
+        5-Star Hotels for Gurugram Escort Service
       </h2>
       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        Discover the world&apos;s most exclusive luxury hotels and resorts, each offering unparalleled service and unforgettable experiences.
+        Kick back with a top companion inside Gurugram’s best hotel lobbies and suites — where the setting matches the company every time.
       </p>
     </motion.div>
 
@@ -970,6 +1014,79 @@ const profiles = [
   </div>
 </div>
 {/* END Hotel */}
+<section className="w-full bg-slate-950 py-16 lg:py-24">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+
+        {/* Heading */}
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="inline-flex rounded-full border border-purple-500/40 bg-purple-500/10 px-4 py-1 text-xs font-medium tracking-wide text-purple-300 uppercase">
+            Our Escort Services in Gurugram
+          </p>
+
+          <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+            Our Escort{" "}
+            <span className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text text-transparent">
+              Services in Gurugram
+            </span>
+          </h2>
+
+          <p className="mt-4 text-sm sm:text-base text-slate-300/80">
+            For guys who want more than just company — here’s a simple list that
+            covers every mood.
+          </p>
+        </div>
+
+        {/* Grid */}
+        <div className="mt-10 grid gap-6 md:mt-14 md:grid-cols-2">
+          {services.map((service) => (
+            <article
+              key={service.id}
+              className="group relative overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900/80 via-slate-900 to-slate-950/80 p-6 shadow-[0_18px_45px_rgba(0,0,0,0.65)] transition-transform duration-300 hover:-translate-y-1 hover:border-purple-500/60 hover:shadow-[0_24px_60px_rgba(0,0,0,0.85)] sm:p-7"
+            >
+              {/* Top row */}
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-xs font-semibold text-purple-300 ring-1 ring-purple-500/40">
+                    {service.id}
+                  </span>
+                  <h3 className="text-base font-semibold leading-snug text-white sm:text-lg">
+                    {service.title}
+                  </h3>
+                </div>
+
+                <span className="rounded-full bg-purple-500/10 px-3 py-1 text-[11px] font-medium text-purple-200 ring-1 ring-purple-500/30">
+                  {service.tag}
+                </span>
+              </div>
+
+              {/* Divider */}
+              <div className="mt-4 h-px w-full bg-gradient-to-r from-slate-700/60 via-slate-800 to-slate-900" />
+
+              {/* Description */}
+              <p className="mt-4 text-sm leading-relaxed text-slate-300/90">
+                {service.desc}
+              </p>
+
+              {/* Footer Line */}
+              <div className="mt-5 flex items-center justify-between text-xs text-slate-400">
+                <span className="flex items-center gap-1.5">
+                  <span className="h-1.5 w-1.5 rounded-full bg-purple-400/80 group-hover:bg-pink-400" />
+                  Tailored for modern, discreet experiences
+                </span>
+
+                <span className="hidden text-[11px] uppercase tracking-wide text-slate-500 sm:inline">
+                  Gurugram · Premium Companionship
+                </span>
+              </div>
+
+              {/* Hover Glow */}
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 translate-y-10 bg-gradient-to-t from-purple-700/20 via-pink-600/10 to-transparent opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100" />
+            </article>
+          ))}
+        </div>
+
+      </div>
+    </section>
 {/* content section  */}
 <section className="relative py-24 px-4 md:px-8 bg-gradient-to-b from-[#fefaf6] to-[#fdf9f5] overflow-hidden">
   {/* Enhanced Decorative Elements */}
@@ -1140,7 +1257,7 @@ const profiles = [
       <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto rounded-full"></div>
     </motion.div>
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+    <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
       {/* Left Column */}
       <div>
         {/* Foreigner Staff */}
@@ -1157,16 +1274,20 @@ const profiles = [
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
-            <h2 className="text-3xl font-bold text-purple-800">Foreigner Staff</h2>
+            <h2 className="text-3xl font-bold text-purple-800">Why Choose Delhi Girl as Centre for Best Escort Service in Gurugram</h2>
           </div>
           <p className="text-gray-600 leading-relaxed mb-6">
-            We believe true wellness emerges from harmony between physical, mental, and energetic dimensions. Unlike conventional spas, our approach integrates three core principles:
+            Trust is everything here — see why Delhi Girl keeps regulars coming back.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             {[
-              {title: 'Russian Therapist', desc: 'Therapists trained in meditation techniques to create truly present healing experiences'},
-              {title: 'Afgani Therapist', desc: 'Therapies designed to activate your body\'s innate healing capabilities'},
-              {title: 'Uzbeki Therapist', desc: 'Space designed with sacred geometry to enhance therapeutic benefits'}
+              {title: ' Verified Premium Profiles Only', desc: 'Every woman is checked for the real deal — looks, style, manners, and confidence are non-negotiable. You spot her online, that’s who you’re getting.'},
+              {title: 'Full Confidentiality & Discreet Coordination', desc: 'Your time stays yours. No leaking info, no weird calls, just quick bookings and subtle arrivals.'},
+              {title: ' 24/7 Availability for Gurugram Clients', desc: 'No matter if it’s early morning or late at night, someone’s always on hand for your work schedule or unpredictable plans.'},
+              {title:'Personalized Companionship Experience',desc:'Your mood, your pace. They adjust to chill nights, lively outings, or something quiet and private.'},
+              {title:'Refined, Well-Groomed, Mature Escorts',desc:'Expect someone who looks the part, knows how to talk, and fits every kind of scene — from a hotel to a swanky bar.'},
+              {title:' Trusted Reputation in Delhi NCR',desc:'Ask around — repeat clients choose Delhi Girl because every detail is sorted, and the premium feeling never slips.'}
+
             ].map((item, index) => (
               <div key={index} className="bg-pink-50 p-4 rounded-xl">
                 <h3 className="font-bold text-purple-800 mb-2">{item.title}</h3>
@@ -1174,9 +1295,9 @@ const profiles = [
               </div>
             ))}
           </div>
-          <p className="text-gray-600 leading-relaxed">
+          {/* <p className="text-gray-600 leading-relaxed">
             This holistic framework allows us to create treatments that don&apos;t just relax temporarily but catalyze lasting change. Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
-          </p>
+          </p> */}
           <div className="mt-6">
             <span className="inline-block bg-purple-100 text-purple-700 py-1 px-4 rounded-full text-sm font-medium">
               60-90 min | From ₹2,800
@@ -1198,16 +1319,15 @@ const profiles = [
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
               </svg>
             </div>
-            <h2 className="text-3xl font-bold text-purple-800">Why Go For Delhi Spa</h2>
+            <h2 className="text-3xl font-bold text-purple-800">How to Book Our Call Girls in Gurugram</h2>
           </div>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Our team of 23 therapists represents the pinnacle of spa craftsmanship. Each practitioner undergoes 500+ hours of training in our proprietary modalities before touching clients. We source talent globally, with specialists in:
+            Quick, private, and easy — the process is a breeze.
           </p>
           <ul className="grid grid-cols-2 gap-3 mb-6">
             {[
-              'Thai Herbal Compress', 'Shiatsu', 'Lymphatic Drainage', 
-              'Ayurvedic Abhyanga', 'Hot Stone Therapy', 'Aromatherapy',
-              'Deep Tissue Sculpting', 'Craniosacral'
+              'Pick your match from real profiles — there’s always enough variety for any mood or preference.', 'Drop the location and your preferred meeting time.', 'Book with one tap and relax — you get a fast, secure reply, and your privacy is locked in all the way.', 
+              'AYour escort shows up right on time, looking sharp and setting the right vibe from the start.', 'The rest? Conversation, comfort, and fun — all revolving around you.'
             ].map((item, index) => (
               <li key={index} className="flex items-center">
                 <div className="w-2 h-2 bg-purple-700 rounded-full mr-3"></div>
@@ -1215,99 +1335,12 @@ const profiles = [
               </li>
             ))}
           </ul>
-          <p className="text-gray-600 leading-relaxed">
+          {/* <p className="text-gray-600 leading-relaxed">
             Beyond technical excellence, we select therapists for their intuitive healing abilities. Monthly training includes emotional intelligence development and energy work certification. This investment shows in our 98% client retention rate and numerous industry awards.
-          </p>
+          </p> */}
           <div className="mt-6">
             <span className="inline-block bg-purple-100 text-purple-700 py-1 px-4 rounded-full text-sm font-medium">
               75-90 min | From ₹3,200
-            </span>
-          </div>
-        </motion.div>
-      </div>
-
-      {/* Right Column */}
-      <div>
-        {/* Top Rated Services */}
-        <motion.div 
-          className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-purple-100"
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="flex items-center gap-4 mb-6">
-            <div className="bg-purple-100 p-3 rounded-xl">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h2 className="text-3xl font-bold text-purple-800">Top Rated Services</h2>
-          </div>
-          <p className="text-gray-600 leading-relaxed mb-6">
-            Our commitment extends beyond individual wellness to planetary health. We&apos;re proud to be the first Carbon Neutral spa in our region, with initiatives including:
-          </p>
-          <div className="flex flex-wrap gap-4 mb-6">
-            {[
-              {icon: '♻️', text: 'Zero-Waste Policy'},
-              {icon: '🌱', text: 'Organic Linens'},
-              {icon: '💧', text: 'Water Recycling'},
-              {icon: '🌎', text: 'Carbon Offsetting'},
-            ].map((item, index) => (
-              <span key={index} className="bg-pink-50 text-purple-800 px-4 py-2 rounded-full flex items-center">
-                <span className="mr-2 text-xl">{item.icon}</span>
-                {item.text}
-              </span>
-            ))}
-          </div>
-          <p className="text-gray-600 leading-relaxed">
-            Our product line features sustainably harvested ingredients from ethical cooperatives. We&apos;ve partnered with local environmental initiatives, donating 5% of profits to wetland conservation.
-          </p>
-          <div className="mt-6">
-            <span className="inline-block bg-purple-100 text-purple-700 py-1 px-4 rounded-full text-sm font-medium">
-              60-120 min | From ₹2,500
-            </span>
-          </div>
-        </motion.div>
-
-        {/* Home & Hotel Spa */}
-        <motion.div 
-          className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-purple-100"
-          initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-        >
-          <div className="flex items-center gap-4 mb-6">
-            <div className="bg-purple-100 p-3 rounded-xl">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-              </svg>
-            </div>
-            <h2 className="text-2xl font-bold text-purple-800">Home & Hotel Spa</h2>
-          </div>
-          <p className="text-gray-600 leading-relaxed mb-6">
-            We bring the spa to you with personalized luxury experiences in premium 5-star hotels across Delhi.
-          </p>
-          <div className="flex flex-wrap gap-4 mb-6">
-            {[
-              {icon: '🏨', text: 'JW Marriott Hotel Aerocity'},
-              {icon: '🏩', text: 'The Ashok (Chanakyapuri)'},
-              {icon: '🏨', text: 'The Park Connaught Place'},
-              {icon: '🏩', text: 'The Suryaa New Delhi (NFC)'},
-            ].map((item, index) => (
-              <span key={index} className="bg-pink-50 text-purple-800 px-4 py-2 rounded-full flex items-center">
-                <span className="mr-2 text-xl">{item.icon}</span>
-                {item.text}
-              </span>
-            ))}
-          </div>
-          <p className="text-gray-600 leading-relaxed">
-            Our exclusive partnerships with luxury hotels ensure world-class treatments in the comfort of iconic destinations.
-          </p>
-          <div className="mt-6">
-            <span className="inline-block bg-purple-100 text-purple-700 py-1 px-4 rounded-full text-sm font-medium">
-              3-6 hours | From ₹8,500
             </span>
           </div>
         </motion.div>
@@ -1324,13 +1357,11 @@ const profiles = [
     >
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-2xl font-bold mb-4">Personalized Spa Journeys</h3>
+          <h3 className="text-2xl font-bold mb-4">Book the Top Rated Professional For Escort Services in Gurugram</h3>
           <p className="mb-4 opacity-90">
-            Every visit begins with a confidential wellness consultation where our specialists listen to your concerns and goals. We create a truly personalized treatment plan that restores balance.
+            Pick up the phone, get matched to a fresh face, and treat yourself to a night that feels made for you. Whether it’s a low-key night, classy dinner, or something spontaneous, Delhi Girl means you get all comfort and charm in one place.
           </p>
-          <p className="opacity-90">
-            Our exclusive loyalty program offers priority booking, complimentary upgrades, and special members-only events. Corporate wellness packages are available for businesses looking to invest in their team&apos;s wellbeing.
-          </p>
+          
         </div>
         <div className="flex justify-center">
           <a 
@@ -1347,6 +1378,49 @@ const profiles = [
     </motion.div>
   </div>
 </section>
+{/* ffa */}
+ <section className="w-full bg-[#FFF9EC] py-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Heading */}
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#1B1B1E]">
+            Benefits of Booking{" "}
+            <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+              Escort Services in Gurugram
+            </span>
+          </h2>
+
+          <p className="mt-4 text-slate-600">
+            Why more men prefer premium companionship crafted for comfort,
+            privacy, and the best experience possible.
+          </p>
+        </div>
+
+        {/* Cards Grid */}
+        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {benefits.map((item, i) => (
+            <div
+              key={i}
+              className="rounded-3xl bg-white shadow-[0_10px_40px_rgba(0,0,0,0.04)] border border-slate-100 p-7 hover:shadow-[0_14px_50px_rgba(0,0,0,0.08)] transition-all"
+            >
+              <div className="text-4xl mb-4">{item.icon}</div>
+
+              <h3 className="text-lg font-semibold text-[#1B1B1E]">
+                {item.title}
+              </h3>
+
+              <p className="mt-2 text-slate-600 leading-relaxed">
+                {item.desc}
+              </p>
+
+              {/* Gradient underline hover */}
+              <div className="mt-4 h-1 w-14 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 opacity-40 group-hover:opacity-100 transition" />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 {/* 300 content section */}
 <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fefaf6] to-[#fdf9f5] relative overflow-hidden">
   {/* Decorative Elements */}
