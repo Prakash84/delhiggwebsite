@@ -921,10 +921,10 @@ export default function Delhiescorts({
                                     Welcome to our modern content section, designed with a captivating purple-to-pink gradient theme. 
                                     This design leverages Next.js and Tailwind CSS to create a visually stunning and performant user 
                                     experience. The gradient flow from purple-600 to pink-600 creates a dynamic visual hierarchy that 
-                                    guides the user's attention through the content.
+                                    guides the users attention through the content.
                                   </p>   
                                   <p>
-                                    The implementation uses Tailwind's gradient utilities for a subtle yet engaging effect. Notice how 
+                                    The implementation uses Tailwinds gradient utilities for a subtle yet engaging effect. Notice how 
                                     the gradient accents create depth without overwhelming the content. This approach ensures readability 
                                     while maintaining visual appeal.
                                   </p>                          
