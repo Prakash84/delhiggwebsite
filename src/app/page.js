@@ -7,6 +7,7 @@ import { FaCheck, FaStar, FaCrown, FaPlane, FaGraduationCap, FaGlobeAsia, FaSpa 
 import {  FaSwimmingPool, FaWifi, FaUtensils, FaConciergeBell, FaParking } from 'react-icons/fa';
 import { FiSearch, FiChevronDown, FiMail, FiMessageSquare, FiHelpCircle } from 'react-icons/fi';
 import { Sparkles, Camera, MapPin } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 export default function Home({
@@ -601,20 +602,23 @@ const locations = [
           </div>
 
           {/* Mobile sticky mini CTA (center bottom) */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 bottom-5 md:hidden">
-            <div className="flex items-center justify-between gap-4 bg-white/95 rounded-full px-4 py-1 shadow-sm backdrop-blur-sm max-w-[92vw]">
-              <div className="truncate">
-                <p className="text-sm font-semibold truncate">{title}</p>
-                <p className="text-xs text-gray-600 truncate">{subtitle}</p>
-              </div>
-              <a
-                href={ctaHref}
-                className="inline-flex items-center justify-center rounded-full px-4 py-2 bg-gradient-to-r from-red-500 to-pink-600 text-white font-medium text-sm"
-              >
-                Book Now
-              </a>
-            </div>
-          </div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 bottom-5 md:hidden w-full px-4">
+  <div className="flex items-center justify-between gap-4 bg-white/95 rounded-full px-4 py-1 shadow-sm backdrop-blur-sm max-w-[92vw]">
+    
+    <div className="truncate">
+      <p className="text-sm font-semibold truncate">{title}</p>
+      <p className="text-xs text-gray-600 truncate">{subtitle}</p>
+    </div>
+
+    <a
+      href={ctaHref}
+      className="inline-flex items-center justify-center rounded-full p-2 bg-green-500 text-white"
+      aria-label="Chat on WhatsApp"
+    >
+      <FaWhatsapp size={20} />
+    </a>
+  </div>
+</div>
         </div>
       </div>
 
