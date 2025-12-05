@@ -12,8 +12,8 @@ import { Sparkles, Camera, MapPin } from "lucide-react";
 export default function Home({
   images = ['/images/6631.jpg'], // keep single image or pass swiper images externally
   imageUrl = '/images/pretty-sensual-blonde-model-laying-bed-enjoy-her-morning-luxury-hotel-wearing-burgundy-silk-nightdress-robe-blind-hairs-beauty-face-boudoir-style.jpg',
-  title = 'Affordable & Luxury Escort Services in Delhi',
-  subtitle = 'Experience elegance, discretion & premium companionship',
+  title = 'Affordable Escort Services',
+  subtitle = '• Pay after Meeting, NO Advance Payment',
   cta = 'Book Now',
   ctaHref = '#',
 }) {
@@ -178,7 +178,7 @@ export default function Home({
    const hotels = [
           {
             id: 1,
-            name: "Grand Royale Palace",
+            name: "The Leela Palace, Delhi",
             location: "Bangkok, Thailand",
             rating: 5,
             description: "An iconic luxury hotel offering breathtaking views of the city skyline and the Chao Phraya River.",
@@ -543,10 +543,10 @@ const locations = [
                   <p className="inline-block px-3 py-1 rounded-full bg-white/10 text-xs sm:text-sm mb-3">Premium • Discreet • Verified</p>
 
                   <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mt-2">
-                    {title}
+                    Affordable & Luxurious Escort Services in Delhi
                   </h1>
 
-                  <p className="mt-3 text-sm sm:text-base md:text-lg text-white/90 max-w-prose">{subtitle}</p>
+                  <p className="mt-3 text-sm sm:text-base md:text-lg text-white/90 max-w-prose">Call Girl Services by Delhi Girl in all 5 Star Hotels</p>
 
                   <div className="mt-6 flex items-center gap-3 flex-wrap">
                     <a
@@ -1318,10 +1318,10 @@ View All Cities
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Luxury Call Girl in Aerocity – {" "}
+                Luxury Call Girls in  {" "}
                 <span className="relative">
                   <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                    Experience Class & Comfort Near Airport
+                    Delhi At Your Service
                   </span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                 </span>
@@ -1335,24 +1335,23 @@ View All Cities
                 viewport={{ once: true }}
               >
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  Welcome to{" "}
+                  Delhi Girl is the place to go for men who like class, chemistry, and seduction in an ideal combination. Our luxury call girls come in with mesmerising eyes, curvy forms, addictive charm, and a warm, seductive manner that goes round and round you like velvet. They can make you forget your worries, tempt your body, make you relax, or burn your entire night down.
+These friends take your nights to the next level of whispers, intimate love, audaciousness, and smooth relationships, making it feel genuine and natural. 
+{" "}
                   <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                    Delhi Body Spa
+                    
                   </strong>
-                  , where we offer a range of{" "}
+                  
+                </p>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                 
+You want a person sensual, a person playful, a person charming, a person fiercely seductive, you want to feel all that you had in your pocket and had always wanted to do. Delhi Girl is the discoverer of a range of collections that touch all the longings you had previously in your pocket.
+
+{" "}
                   <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                    luxury spa
-                  </strong>{" "}
-                  treatments including{" "}
-                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                    female to male spa
+                    
                   </strong>
-                  ,{" "}
-                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                    couple massages
-                  </strong>
-                  , and much more. Escape the hustle of Delhi and immerse yourself
-                  in rejuvenating treatments tailored to your needs.
+                  
                 </p>
               </motion.div>
     
@@ -1544,15 +1543,16 @@ View All Cities
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Luxury Call Girls <span className="text-rose-600">in Delhi At Your Service</span>
+            Enjoy Top-Rated Call <span className="text-rose-600">Girls Service in Noida</span>
           </h2>
           <p className="text-lg text-gray-700">
-           Delhi Girl is the place to go for men who like class, chemistry, and seduction in an ideal combination. Our luxury call girls come in with mesmerising eyes, curvy forms, addictive charm, and a warm, seductive manner that goes round and round you like velvet. They can make you forget your worries, tempt your body, make you relax, or burn your entire night down.
-These friends take your nights to the next level of whispers, intimate love, audaciousness, and smooth relationships, making it feel genuine and natural. 
-
+          No one can solve that Noida nights can be turned into memorable escapes as well as Delhi Girl. The top-rated call girls reinvent the meaning of luxury due to their daring confidence and their gracious charm and natural chemistry. They understand how to get things to go when necessary, leave it to you when you desire, and that just right speed where pleasure is not in a hurry and that grows, rises, and explodes right when you want it the most.
           </p>
           <p className="text-lg text-gray-700">
-            You want a person sensual, a person playful, a person charming, a person fiercely seductive, you want to feel all that you had in your pocket and had always wanted to do. Delhi Girl is the discoverer of a range of collections that touch all the longings you had previously in your pocket.
+            It is the air of Noida that is intoxicating with the entry of our companions into the room. Their soft skin touch, warm breath running down your neck, naughty strokes, slow mesmerizing moves all create a rhythmic beat with your heart and make you get more into the moment.
+          </p>
+          <p className="text-lg text-gray-700">
+            These are not just escorts. They are women who know fantasy, romance, flirtation, seduction, and smacking hot, sweet sex. They fit any of your moods, from quiet to passionate to adventurous. Your nights in Noida end up being tales you would love to repeat over and over after watching Delhi Girl.
           </p>
           
           <button className="bg-rose-600 hover:bg-rose-700 text-white px-8 py-3 rounded-full shadow-lg transition-all text-lg">
@@ -1592,17 +1592,12 @@ These friends take your nights to the next level of whispers, intimate love, aud
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            Top-Rated Call Girl in Aerocity <span className="text-pink-600">Girls Service in Noida</span>
+            Enjoy pleasure and luxury with  <span className="text-pink-600">the elite Delhi Escort Service</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            No one can solve that Noida nights can be turned into memorable escapes as well as Delhi Girl. The top-rated call girls reinvent the meaning of luxury due to their daring confidence and their gracious charm and natural chemistry. They understand how to get things to go when necessary, leave it to you when you desire, and that just right speed where pleasure is not in a hurry and that grows, rises, and explodes right when you want it the most.
+            There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
           </p>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            It is the air of Noida that is intoxicating with the entry of our companions into the room. Their soft skin touch, warm breath running down your neck, naughty strokes, slow mesmerizing moves all create a rhythmic beat with your heart and make you get more into the moment.
-          </p>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            These are not just escorts. They are women who know fantasy, romance, flirtation, seduction, and smacking hot, sweet sex. They fit any of your moods, from quiet to passionate to adventurous. Your nights in Noida end up being tales you would love to repeat over and over after watching Delhi Girl.
-          </p>
+          
           <div className="flex gap-4">
             <button className="px-6 py-3 rounded-xl bg-pink-600 text-white font-semibold shadow-lg hover:bg-pink-700 transition">
               Know More
@@ -1879,21 +1874,23 @@ These friends take your nights to the next level of whispers, intimate love, aud
               transition={{ duration: 0.7, delay: 0.2 }}
             >
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-                The Evolution of Delhi&apos;s Fashion Identity
+                Invite Best Call Girls for ultimate Pleasure in Gurgaon&apos;
               </h3>
               
               <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
                 <p>
-                  Delhi&apos;s fashion landscape has transformed dramatically over the past decade. What began as a fusion of traditional Punjabi suits and Western influences has evolved into a distinctive style that celebrates diversity and individuality. The city&apos;s unique fashion identity reflects its complex history, with Mughal-era craftsmanship blending seamlessly with contemporary silhouettes.
+                 Delhi Girl is the best option as far as irresistible pleasure is concerned, the models know how to seduce, tease, and thrill you with each move. The Gurgaon call girls we have are carrying that kind of magnetic appeal that is of soft lips, aggressive curves, warm touches, playful strokes, and seductive rhythm that makes you find yourself right in the moment.
                 </p>
                 
                 <p>
-                  The rise of local designers like Masaba Gupta and Ritu Kumar has put Delhi on the global fashion map. These designers draw inspiration from Delhi&apos;s vibrant street culture, historic monuments, and multicultural neighborhoods. The result is a fashion scene that honors heritage while embracing innovation. Young Delhiites are increasingly mixing traditional fabrics like Banarasi silk with modern cuts, creating looks that are both rooted and revolutionary.
+                 These are the people who understand how to make you feel the slow sensual sparks to the highs of passion without you even noticing when the transition took place. They are there to steal your stress and touch to light fires inside you without you even realizing you had them. Spending the night with them is like desire freed in the most amiable way.
+                Highlights:
+
                 </p>
                 
-                <p>
+                {/* <p>
                   Social media has played a crucial role in this evolution. Delhi&apos;s fashion influencers have created communities that transcend traditional boundaries, showcasing how to style traditional garments in modern ways.
-                </p>
+                </p> */}
               </div>
               
               <div className="mt-8 flex flex-wrap gap-4">
@@ -1914,7 +1911,7 @@ These friends take your nights to the next level of whispers, intimate love, aud
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span className="text-gray-600">Delhi blends traditional craftsmanship with contemporary designs</span>
+                    <span className="text-gray-600">●	Corruption that goes to the very bottom.</span>
                   </li>
                   <li className="flex items-start">
                     <div className="bg-purple-100 text-purple-800 rounded-full p-2 mr-3">
@@ -1922,7 +1919,7 @@ These friends take your nights to the next level of whispers, intimate love, aud
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span className="text-gray-600">Social media has democratized fashion expression</span>
+                    <span className="text-gray-600">●	Natural explosive chemistry.</span>
                   </li>
                   <li className="flex items-start">
                     <div className="bg-purple-100 text-purple-800 rounded-full p-2 mr-3">
@@ -1930,7 +1927,7 @@ These friends take your nights to the next level of whispers, intimate love, aud
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span className="text-gray-600">Sustainability is driving innovation in local design</span>
+                    <span className="text-gray-600">●	Sometimes it becomes memories.</span>
                   </li>
                   <li className="flex items-start">
                     <div className="bg-purple-100 text-purple-800 rounded-full p-2 mr-3">
@@ -1938,7 +1935,7 @@ These friends take your nights to the next level of whispers, intimate love, aud
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span className="text-gray-600">Distinct markets cater to diverse fashion needs</span>
+                    <span className="text-gray-600">●	Shaped in your own way by pleasure.</span>
                   </li>
                 </ul>
               </div>
@@ -1957,10 +1954,10 @@ These friends take your nights to the next level of whispers, intimate love, aud
                                 className="text-center mb-16"
                               >
                                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                                  Our 5-Star Hotel Collection
+                                  Best in class Escort Service at Top Hotels
                                 </h2>
                                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                                  Discover the world&apos;s most exclusive luxury hotels and resorts, each offering unparalleled service and unforgettable experiences.
+                                 Spend on luxurious time with high-end friends who take your experience to the next level in the best hotels in Delhi NCR.
                                 </p>
                               </motion.div>
                           
