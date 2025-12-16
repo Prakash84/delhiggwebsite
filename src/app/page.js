@@ -1584,10 +1584,9 @@ You want a person sensual, a person playful, a person charming, a person fiercel
       </div>
     </section>
     {/* ///////////// */}
-      <section className="relative bg-gradient-to-r from-pink-100 via-rose-50 to-pink-200 py-20 px-6 md:px-16">
+      {/* <section className="relative bg-gradient-to-r from-pink-100 via-rose-50 to-pink-200 py-20 px-6 md:px-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
-        {/* Left Side Image */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -1596,7 +1595,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/32586.jpg" // apni image ka path dalna
+              src="/images/32586.jpg" 
               alt="Delhi Girl"
               width={500}
               height={600}
@@ -1606,7 +1605,6 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           </div>
         </motion.div>
 
-        {/* Right Side Content */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -1614,7 +1612,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            Relax and Rejuvenate At 5 sta  <span className="text-pink-600">hotels with VIP call girls in Delhi</span>
+            Relax and Rejuvenate At 5 star  <span className="text-pink-600">hotels with VIP call girls in Delhi</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
@@ -1630,7 +1628,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           </div>
         </motion.div>
       </div>
-    </section>
+    </section> */}
     {/* /////? */}
     <section className="relative bg-white py-24 px-6 md:px-16">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -1644,7 +1642,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Enjoy At Prime locations with <span className="text-pink-600">High profile escort services in Delhi</span>
+            Relax and Rejuvenate At 5 star <span className="text-pink-600">hotels with VIP call girls in Delhi</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.

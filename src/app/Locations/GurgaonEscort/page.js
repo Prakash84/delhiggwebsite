@@ -891,257 +891,257 @@ const services = [
                 {/* End Location */}
            
             {/* iCON LOCATION */}
-<section className="py-24 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <motion.div 
-      className="text-center mb-20 relative z-10"
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.8 }}
-    >
-      {/* Decorative Tag */}
-      <motion.div
-        className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20 px-5 py-2 rounded-full mb-6"
-        initial={{ opacity: 0, scale: 0.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 0.2, duration: 0.5 }}
-      >
-        <div className="w-2 h-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 animate-pulse"></div>
-        <span className="text-purple-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
-      </motion.div>
-      
-      {/* Heading */}
-      <motion.h2
-        className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3, duration: 0.6 }}
-      >
-        Premium{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
-          Hotel Outlets
-        </span>
-      </motion.h2>
-      
-      {/* Subheading */}
-      <motion.p
-        className="text-gray-600 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.4, duration: 0.5 }}
-      >
-        Discover our exclusive spa outlets at top luxury hotels across the city
-      </motion.p>
-      
-      {/* Decorative line */}
-      <motion.div
-        className="flex justify-center mt-10"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-      >
-        <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
-      </motion.div>
-    </motion.div>
+            <section className="py-24 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <motion.div 
+                  className="text-center mb-20 relative z-10"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.8 }}
+                >
+                  {/* Decorative Tag */}
+                  <motion.div
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20 px-5 py-2 rounded-full mb-6"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}
+                  >
+                    <div className="w-2 h-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 animate-pulse"></div>
+                    <span className="text-purple-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
+                  </motion.div>
+                  
+                  {/* Heading */}
+                  <motion.h2
+                    className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3, duration: 0.6 }}
+                  >
+                    Premium{" "}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
+                      Hotel Outlets
+                    </span>
+                  </motion.h2>
+                  
+                  {/* Subheading */}
+                  <motion.p
+                    className="text-gray-600 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.4, duration: 0.5 }}
+                  >
+                    Discover our exclusive spa outlets at top luxury hotels across the city
+                  </motion.p>
+                  
+                  {/* Decorative line */}
+                  <motion.div
+                    className="flex justify-center mt-10"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5, duration: 0.5 }}
+                  >
+                    <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
+                  </motion.div>
+                </motion.div>
 
-    {/* Outlets Grid */}
-    <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-      {outlets.map((outlet, index) => (
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ 
-            duration: 0.6, 
-            delay: index * 0.1,
-            type: "spring",
-            stiffness: 100
-          }}
-          viewport={{ once: true, amount: 0.2 }}
-          whileHover={{ 
-            y: -10,
-            boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-          }}
-          className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl border border-purple-100 relative overflow-hidden group"
-        >
-          {/* Rating Ribbon */}
-          <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
-            <Star className="w-3 h-3 fill-white" />
-            <span>{outlet.rating}</span>
-          </div>
-          
-          {/* Icon */}
-          <div className="flex justify-center mb-6">
-            <div className="relative">
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-5 rounded-full shadow-inner group-hover:shadow-md transition-all duration-300">
-                {outlet.icon}
+                {/* Outlets Grid */}
+                <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+                  {outlets.map((outlet, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 30 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ 
+                        duration: 0.6, 
+                        delay: index * 0.1,
+                        type: "spring",
+                        stiffness: 100
+                      }}
+                      viewport={{ once: true, amount: 0.2 }}
+                      whileHover={{ 
+                        y: -10,
+                        boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+                      }}
+                      className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl border border-purple-100 relative overflow-hidden group"
+                    >
+                      {/* Rating Ribbon */}
+                      <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
+                        <Star className="w-3 h-3 fill-white" />
+                        <span>{outlet.rating}</span>
+                      </div>
+                      
+                      {/* Icon */}
+                      <div className="flex justify-center mb-6">
+                        <div className="relative">
+                          <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-5 rounded-full shadow-inner group-hover:shadow-md transition-all duration-300">
+                            {outlet.icon}
+                          </div>
+                          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                        </div>
+                      </div>
+
+                      {/* Hotel Name */}
+                      <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">
+                        {outlet.name}
+                      </h3>
+                      
+                      {/* Tag */}
+                      <div className="inline-block bg-purple-50 border border-purple-200 text-purple-700 text-xs px-3 py-1 rounded-full mb-4">
+                        {outlet.tag}
+                      </div>
+
+                      {/* Description */}
+                      <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                        {outlet.desc}
+                      </p>
+                      
+                      {/* Decorative line */}
+                      <div className="h-0.5 bg-gradient-to-r from-transparent via-purple-200 to-transparent w-3/4 mx-auto group-hover:via-pink-400 transition-colors duration-300"></div>
+                    </motion.div>
+                  ))}
+                </div>
               </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
-            </div>
-          </div>
-
-          {/* Hotel Name */}
-          <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">
-            {outlet.name}
-          </h3>
-          
-          {/* Tag */}
-          <div className="inline-block bg-purple-50 border border-purple-200 text-purple-700 text-xs px-3 py-1 rounded-full mb-4">
-            {outlet.tag}
-          </div>
-
-          {/* Description */}
-          <p className="text-gray-600 text-sm leading-relaxed mb-6">
-            {outlet.desc}
-          </p>
-          
-          {/* Decorative line */}
-          <div className="h-0.5 bg-gradient-to-r from-transparent via-purple-200 to-transparent w-3/4 mx-auto group-hover:via-pink-400 transition-colors duration-300"></div>
-        </motion.div>
-      ))}
-    </div>
-  </div>
-</section>
-{/* END iCON LOCATION */}
+            </section>
+            {/* END iCON LOCATION */}
             {/* 5 star hotel */}
-<div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
-  <div className="max-w-7xl mx-auto">
-    <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="text-center mb-16"
-    >
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-        5-Star Hotels for Gurugram Escort Service
-      </h2>
-      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        Kick back with a top companion inside Gurugram’s best hotel lobbies and suites — where the setting matches the company every time.
-      </p>
-    </motion.div>
+        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                5-Star Hotels for Gurugram Escort Service
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Kick back with a top companion inside Gurugram’s best hotel lobbies and suites — where the setting matches the company every time.
+              </p>
+            </motion.div>
 
-    {/* Hotel Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {hotels.map((hotel) => (
-        <motion.div
-          key={hotel.id}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          whileHover={{ y: -10 }}
-          className={`bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group ${
-            activeHotel === hotel.id ? "ring-4 ring-purple-500" : ""
-          }`}
-          onClick={() => setActiveHotel(activeHotel === hotel.id ? null : hotel.id)}
-        >
-          {/* Hotel Image */}
-          <div className="relative h-60 overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
-            <div className="absolute top-4 right-4 z-20 flex items-center bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
-              <FaStar className="mr-1" />
-              {hotel.rating}
-            </div>
-            <div className="absolute bottom-4 left-4 z-20 text-white">
-              <h3 className="text-xl font-bold">{hotel.name}</h3>
-              <p className="text-sm">{hotel.location}</p>
-            </div>
-            {/* Placeholder Image */}
-            <div className="bg-gradient-to-br from-purple-100 to-pink-200 w-full h-full flex items-center justify-center">
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-            </div>
-          </div>
-
-          {/* Hotel Info */}
-          <div className="p-6">
-            <p className="text-gray-600 mb-4">{hotel.description}</p>
-            {/* Amenities */}
-            <div className="mb-6">
-              <h4 className="font-bold text-gray-800 mb-2">Key Amenities</h4>
-              <div className="flex flex-wrap gap-2">
-                {hotel.amenities.slice(0, 4).map((amenity, index) => (
-                  <div key={index} className="flex items-center bg-gray-100 px-3 py-1.5 rounded-full text-sm">
-                    <span className="mr-2">{amenitiesIcons[amenity]}</span>
-                    {amenity}
+            {/* Hotel Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {hotels.map((hotel) => (
+                <motion.div
+                  key={hotel.id}
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  whileHover={{ y: -10 }}
+                  className={`bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group ${
+                    activeHotel === hotel.id ? "ring-4 ring-purple-500" : ""
+                  }`}
+                  onClick={() => setActiveHotel(activeHotel === hotel.id ? null : hotel.id)}
+                >
+                  {/* Hotel Image */}
+                  <div className="relative h-60 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+                    <div className="absolute top-4 right-4 z-20 flex items-center bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
+                      <FaStar className="mr-1" />
+                      {hotel.rating}
+                    </div>
+                    <div className="absolute bottom-4 left-4 z-20 text-white">
+                      <h3 className="text-xl font-bold">{hotel.name}</h3>
+                      <p className="text-sm">{hotel.location}</p>
+                    </div>
+                    {/* Placeholder Image */}
+                    <div className="bg-gradient-to-br from-purple-100 to-pink-200 w-full h-full flex items-center justify-center">
+                      <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                    </div>
                   </div>
-                ))}
-              </div>
-            </div>
-            {/* Price and Features */}
-            <div className="flex justify-between items-center">
-              <div>
-                <div className="text-2xl font-bold text-purple-700">{hotel.price}</div>
-                <div className="text-sm text-gray-500">per night</div>
-              </div>
-              <div className="flex space-x-2">
-                {hotel.features.slice(0, 2).map((feature, index) => (
-                  <div key={index} className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">
-                    {feature}
-                  </div>
-                ))}
-              </div>
-            </div>
-            {/* Button */}
-            <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all">
-              View Details
-            </button>
-          </div>
-        </motion.div>
-      ))}
-    </div>
 
-    {/* Featured Hotel - Theme matched */}
-    <motion.div 
-      className="mt-16 bg-gradient-to-r from-purple-700 to-pink-700 rounded-3xl overflow-hidden shadow-2xl"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.3 }}
-    >
-      <div className="grid grid-cols-1 lg:grid-cols-2">
-        {/* Image */}
-        <div className="relative min-h-[400px]">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
-          <div className="absolute bottom-6 left-6 z-20 text-white">
-            <h3 className="text-2xl font-bold">Luxury Experience Package</h3>
-            <p className="mt-2 max-w-md">Book 3 nights and receive complimentary spa treatments, airport transfers, and dining credits</p>
-          </div>
-          {/* Placeholder Image */}
-          <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
-            <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                  {/* Hotel Info */}
+                  <div className="p-6">
+                    <p className="text-gray-600 mb-4">{hotel.description}</p>
+                    {/* Amenities */}
+                    <div className="mb-6">
+                      <h4 className="font-bold text-gray-800 mb-2">Key Amenities</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {hotel.amenities.slice(0, 4).map((amenity, index) => (
+                          <div key={index} className="flex items-center bg-gray-100 px-3 py-1.5 rounded-full text-sm">
+                            <span className="mr-2">{amenitiesIcons[amenity]}</span>
+                            {amenity}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    {/* Price and Features */}
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="text-2xl font-bold text-purple-700">{hotel.price}</div>
+                        <div className="text-sm text-gray-500">per night</div>
+                      </div>
+                      <div className="flex space-x-2">
+                        {hotel.features.slice(0, 2).map((feature, index) => (
+                          <div key={index} className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">
+                            {feature}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    {/* Button */}
+                    <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all">
+                      View Details
+                    </button>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Featured Hotel - Theme matched */}
+            <motion.div 
+              className="mt-16 bg-gradient-to-r from-purple-700 to-pink-700 rounded-3xl overflow-hidden shadow-2xl"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
+            >
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                {/* Image */}
+                <div className="relative min-h-[400px]">
+                  <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
+                  <div className="absolute bottom-6 left-6 z-20 text-white">
+                    <h3 className="text-2xl font-bold">Luxury Experience Package</h3>
+                    <p className="mt-2 max-w-md">Book 3 nights and receive complimentary spa treatments, airport transfers, and dining credits</p>
+                  </div>
+                  {/* Placeholder Image */}
+                  <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
+                    <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                  </div>
+                </div>
+
+                {/* Details */}
+                <div className="p-8 text-white">
+                  <div className="flex items-center mb-4">
+                    <FaStar className="text-yellow-400 mr-1" />
+                    <FaStar className="text-yellow-400 mr-1" />
+                    <FaStar className="text-yellow-400 mr-1" />
+                    <FaStar className="text-yellow-400 mr-1" />
+                    <FaStar className="text-yellow-400 mr-1" />
+                    <span className="ml-2 font-semibold">Top Rated</span>
+                  </div>
+                  <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
+                  <ul className="space-y-3 mb-6">
+                    <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Complimentary airport transfers</li>
+                    <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Personal concierge service</li>
+                    <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> VIP lounge access</li>
+                    <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
+                    <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li>
+                  </ul>
+                  <div className="flex space-x-4">
+                    <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+                      Explore Packages
+                    </button>
+                    <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
+                      Contact Concierge
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
-
-        {/* Details */}
-        <div className="p-8 text-white">
-          <div className="flex items-center mb-4">
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <FaStar className="text-yellow-400 mr-1" />
-            <span className="ml-2 font-semibold">Top Rated</span>
-          </div>
-          <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
-          <ul className="space-y-3 mb-6">
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Complimentary airport transfers</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Personal concierge service</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> VIP lounge access</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li>
-          </ul>
-          <div className="flex space-x-4">
-            <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
-              Explore Packages
-            </button>
-            <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
-              Contact Concierge
-            </button>
-          </div>
-        </div>
-      </div>
-    </motion.div>
-  </div>
-</div>
-{/* END Hotel */}
+        {/* END Hotel */}
 <section className="w-full bg-slate-950 py-16 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 
