@@ -38,15 +38,15 @@ export default function Home({
       name: 'Sophia Martinez',
       role: 'Senior Airhostess',
       category: 'airhostess',
-      description: 'A seasoned airhostess, working with global airlines, loves to work with the travelers, their safety and comfort, as well as cultural communication with them, and mentoring new cabin crew members every day all over the world.',
+      description: 'Our airhostess escorts are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess escort in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
       image: '/images/Airhostess_girl.jpg', // Placeholder image path
     },
-    {
+    { 
       id: 2,
       name: 'Alex Johnson',
       role: 'TV Personality',
       category: 'celebrity',
-      description: 'To use TV personalities to connect with people through talk shows, presenting entertainment programs, motivating viewers, spotting fads, and promoting creative discourse on various media channels.',
+      description: 'Alex Johnson is a confident and stylish TV personality with a charming presence. She knows how to connect easily and make every moment enjoyable. If you are looking for a celebrity escort in Delhi with class, confidence, and elegance, Alex offers premium companionship for parties, events, and private meetings with full discretion.',
       image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
     },
     {
@@ -54,7 +54,7 @@ export default function Home({
       name: 'Emma Wilson',
       role: 'Marketing Student',
       category: 'college',
-      description: 'The marketing student investigates brand strategy, online campaigns, audience and insights, and ethical advertising, dedicated to innovative communication that enhances customer experiences across all places.',
+      description: 'Emma Wilson is a smart and confident marketing student with a friendly and positive nature. She is well-spoken and easy to connect with, making her a great choice for relaxed companionship. If you are looking for a college girl escort in Delhi with a modern mindset and classy presence, Emma offers a comfortable and discreet experience.',
       image: '/images/spaStaffInsta.jpg', // Placeholder image path
     },
     {
@@ -62,7 +62,7 @@ export default function Home({
       name: 'Isabella Rossi',
       role: 'International Model',
       category: 'foreign',
-      description: 'Global brand symbolizing high-end fashion brands, celebrity style, sustainable development, runway perfection, innovative partnerships, magazine production, the motivation of upcoming models around the world.',
+      description: 'Isabella Rossi is a stunning international model with a confident personality and elegant style. She carries herself with grace and knows how to make every meeting special. If you are looking for a foreign escort in Delhi with premium looks and classy companionship, Isabella offers a luxurious and discreet experience.',
       image: '/images/celebrityspastaff.jpg', // Placeholder image path
     },
     {
@@ -70,7 +70,7 @@ export default function Home({
       name: 'Olivia Chen',
       role: 'Corporate Executive',
       category: 'highprofile',
-      description: 'Top management executive overseeing strategic growth, operational innovation, and inclusive leadership, empowering the teams, driving performance, and promoting technological-based business success around the world.',
+      description: 'Olivia Chen is a smart and confident corporate executive with a polished personality. She understands professionalism, good conversation, and classy company. If you are looking for a high profile escort in Delhi for business dinners, meetings, or private time, Olivia offers premium companionship with complete discretion and comfort.',
       image: '/images/49.jpg',
     },
     {
@@ -78,7 +78,7 @@ export default function Home({
       name: 'Mia Thompson',
       role: 'First Class Hostess',
       category: 'airhostess',
-      description: 'First-class hosts who provide superiorly luxurious services, custom-made experience for the guests, safety superiority, exquisite hospitality, cultural insight, and on-board glamour on a daily basis.',
+      description: 'Mia Thompson is a well-groomed and elegant first class hostess with a calm and confident personality. She knows how to make people feel comfortable with her polite nature and smooth conversation. If you are looking for an airhostess escort in Delhi who offers premium companionship with class and discretion, Mia is a perfect choice.',
       image: '/images/smiling.jpg', // Placeholder image path
     },
     {
@@ -86,7 +86,7 @@ export default function Home({
       name: 'Chloe Williams',
       role: 'Film Actress',
       category: 'celebrity',
-      description: 'A film actress who plays various characters enjoys character development, joint film production, art storytelling, and contributing to the new talent development of cinema in the world.',
+      description: 'Chloe Williams is a graceful film actress with a strong screen presence and elegant personality. She is confident, well-mannered, and knows how to carry herself with style. If you are looking for a celebrity escort in Delhi who offers premium companionship for events, parties, or private meetings, Chloe brings class, charm, and complete discretion.',
       image: '/images/413965.jpg', // Placeholder image path
     },
     {
@@ -94,7 +94,7 @@ export default function Home({
       name: 'Ava Garcia',
       role: 'Engineering Student',
       category: 'college',
-      description: 'Engineering Student: passionate about the sustainable potentials of innovation, robotics, research, engagement in problems, acting across disciplines and designing technology that helps make people, infrastructure, and our environment more resilient, better, and easier.',
+      description: 'Ava Garcia is a smart and confident engineering student with a friendly and calm personality. She is well-spoken and easy to connect with. If you are looking for a college girl escort in Delhi who offers comfortable companionship with privacy and respect, Ava is a great choice.',
       image: '/images/1.jpg', // Placeholder image path
     },
   ];
@@ -182,7 +182,7 @@ export default function Home({
             name: "The Leela Palace, Delhi",
             location: "Delhi, India",
             rating: 5,
-            description: "Royal ambience with our entourage, where we make your night hot with classy seduction, friendly vibe, and luxury intimate gay company.",
+            description: "The Leela Palace with our entourage, where we make your night hot with classy seduction, friendly vibe, and luxury intimate gay company.",
             image: "/images/lajpatnagahotel.avif",
             amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
             price: "₹25,000",
@@ -2064,54 +2064,86 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                                 animate={{ opacity: 1 }}
                                 transition={{ delay: 0.3 }}
                               >
-                                <div className="grid grid-cols-1 lg:grid-cols-2">
-                                  {/* Image */}
-                                  <div className="relative min-h-[400px]">
-                                    <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
-                                    <div className="absolute bottom-6 left-6 z-20 text-white">
-                                      <h3 className="text-2xl font-bold">Luxury Package for Escort Service in Gurgaon</h3>
-                                      <p className="mt-2 max-w-md">An exquisite, luxurious, male-oriented experience aimed at men who are longing to have intimacy, bond, seduce, and the full body experience.</p>
-                                    </div>
-                                    {/* Placeholder Image */}
-                                    <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
-                                      <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-                                    </div>
-                                  </div>
-                          
-                                  {/* Details */}
-                                  <div className="p-8 text-white">
-                                    <div className="flex items-center mb-4">
-                                      <FaStar className="text-yellow-400 mr-1" />
-                                      <FaStar className="text-yellow-400 mr-1" />
-                                      <FaStar className="text-yellow-400 mr-1" />
-                                      <FaStar className="text-yellow-400 mr-1" />
-                                      <FaStar className="text-yellow-400 mr-1" />
-                                      <span className="ml-2 font-semibold">Top Rated</span>
-                                    </div>
-                                    <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
-                                    <ul className="space-y-3 mb-6">
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Elite model selection</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Completely personalized pleasure experience.</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> The level of privacy and covert operation.</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Multiple time-slot options</li>
-                                      <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Professional escorts who are safe and verified.</li>
-                                    </ul>
-                                    <div className="flex space-x-4">
-                                      <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
-                                        Explore Packages
-                                      </button>
-                                      <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
-                                        Contact Concierge
-                                      </button>
-                                    </div>
-                                  </div>
+                                
+                            <div className="grid grid-cols-1 lg:grid-cols-2">
+                              {/* Image */}
+                              <div className="relative min-h-[400px]">
+                                {/* Gradient Overlay */}
+                                <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
+
+                                {/* Text on Image */}
+                                <div className="absolute bottom-6 left-6 z-20 text-white">
+                                  <h3 className="text-2xl font-bold">
+                                    Luxury Package for Escort Service in Gurgaon
+                                  </h3>
+                                  <p className="mt-2 max-w-md">
+                                    An exquisite, luxurious, male-oriented experience aimed at men who are
+                                    longing to have intimacy, bond, seduce, and the full body experience.
+                                  </p>
                                 </div>
+
+                                {/* Real Image */}
+                                <Image
+                                  src="/images/luxury-escort-gurgaon.jpg" // 👈 apni image ka path
+                                  alt="Luxury Escort Service in Gurgaon"
+                                  fill
+                                  className="object-cover"
+                                  priority
+                                />
+                              </div>
+
+                              {/* Details */}
+                              <div className="p-8 text-white">
+                                <div className="flex items-center mb-4">
+                                  <FaStar className="text-yellow-400 mr-1" />
+                                  <FaStar className="text-yellow-400 mr-1" />
+                                  <FaStar className="text-yellow-400 mr-1" />
+                                  <FaStar className="text-yellow-400 mr-1" />
+                                  <FaStar className="text-yellow-400 mr-1" />
+                                  <span className="ml-2 font-semibold">Top Rated</span>
+                                </div>
+
+                                <h3 className="text-3xl font-bold mb-4">
+                                  Exclusive Benefits for Our Guests
+                                </h3>
+
+                                <ul className="space-y-3 mb-6">
+                                  <li className="flex items-center">
+                                    <FaCheck className="text-green-400 mr-2" /> Elite model selection
+                                  </li>
+                                  <li className="flex items-center">
+                                    <FaCheck className="text-green-400 mr-2" /> Completely personalized
+                                    pleasure experience
+                                  </li>
+                                  <li className="flex items-center">
+                                    <FaCheck className="text-green-400 mr-2" /> High level privacy & discreet
+                                    service
+                                  </li>
+                                  <li className="flex items-center">
+                                    <FaCheck className="text-green-400 mr-2" /> Multiple time-slot options
+                                  </li>
+                                  <li className="flex items-center">
+                                    <FaCheck className="text-green-400 mr-2" /> Safe & verified professionals
+                                  </li>
+                                </ul>
+
+                                <div className="flex space-x-4">
+                                  <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+                                    Explore Packages
+                                  </button>
+                                  <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
+                                    Contact Concierge
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+
                               </motion.div>
                             </div>
                           </div>
                           {/* END Hotel */}
 {/* CCCC */}
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+    {/* <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -2127,7 +2159,6 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           </p>
         </motion.div>
 
-        {/* Category Filters */}
         <motion.div 
           className="flex flex-wrap justify-center gap-3 mb-12"
           initial={{ opacity: 0 }}
@@ -2149,7 +2180,6 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           ))}
         </motion.div>
 
-        {/* Articles Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {filteredArticles.map((article) => (
             <motion.div
@@ -2172,7 +2202,6 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                   {categories3.find(cat => cat.id === article.category)?.name}
                 </div>
                 
-                {/* Placeholder for image */}
                 <div className="bg-gradient-to-br from-purple-100 to-pink-100 w-full h-full flex items-center justify-center">
                   <div className="relative w-full h-full">
                     <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full flex items-center justify-center">
@@ -2206,7 +2235,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
             </motion.div>
           ))}
         </div>
-        {/* Featured Article */}
+
         <motion.div 
           className="mt-16 bg-gradient-to-r from-purple-700 to-pink-700 rounded-3xl p-8 text-white shadow-2xl overflow-hidden"
           initial={{ opacity: 0, y: 20 }}
@@ -2226,18 +2255,18 @@ You want a person sensual, a person playful, a person charming, a person fiercel
               </div>
               <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden">
                 <Image
-                  src='/images/cda1687d-1464-4b62-9549-2dd04a5cbb05.jpeg'// string URL or local import
+                  src='/images/cda1687d-1464-4b62-9549-2dd04a5cbb05.jpeg'
                   alt='{hotel.name}'
-                  fill                                        // fills the parent container
-                  className="object-cover object-center"     // cover behavior
-                  priority={false}                            // set true if critical for LCP
+                  fill                                        
+                  className="object-cover object-center"     
+                  priority={false}                            
                 />
               </div>
             </div>
           </div>
         </motion.div>
       </div>
-    </div>
+    </div> */}
     {/* ///theme difference 5 star hotel section */}
     {/* <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
