@@ -38,7 +38,7 @@ export default function Home({
       name: 'Sophia Martinez',
       role: 'Senior Airhostess',
       category: 'airhostess',
-      description: 'Our airhostess escorts are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess escort in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
+      description: 'Our airhostess escorts are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess call girls in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
       image: '/images/Airhostess_girl.jpg', // Placeholder image path
     },
     { 
@@ -46,7 +46,7 @@ export default function Home({
       name: 'Alex Johnson',
       role: 'TV Personality',
       category: 'celebrity',
-      description: 'Alex Johnson is a confident and stylish TV personality with a charming presence. She knows how to connect easily and make every moment enjoyable. If you are looking for a celebrity escort in Delhi with class, confidence, and elegance, Alex offers premium companionship for parties, events, and private meetings with full discretion.',
+      description: 'Alex Johnson is a confident and stylish TV personality with a charming presence. She knows how to connect easily and make every moment enjoyable. If you are looking for a celebrity call Girls in Delhi with class, confidence, and elegance, Alex offers premium companionship for parties, events, and private meetings with full discretion.',
       image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
     },
     {
@@ -54,7 +54,7 @@ export default function Home({
       name: 'Emma Wilson',
       role: 'Marketing Student',
       category: 'college',
-      description: 'Emma Wilson is a smart and confident marketing student with a friendly and positive nature. She is well-spoken and easy to connect with, making her a great choice for relaxed companionship. If you are looking for a college girl escort in Delhi with a modern mindset and classy presence, Emma offers a comfortable and discreet experience.',
+      description: 'Emma Wilson is a smart and confident marketing student with a friendly and positive nature. She is well-spoken and easy to connect with, making her a great choice for relaxed companionship. If you are looking for a Delhi college girl with a modern mindset and classy presence, Emma offers a comfortable and discreet experience.',
       image: '/images/spaStaffInsta.jpg', // Placeholder image path
     },
     {
@@ -62,7 +62,7 @@ export default function Home({
       name: 'Isabella Rossi',
       role: 'International Model',
       category: 'foreign',
-      description: 'Isabella Rossi is a stunning international model with a confident personality and elegant style. She carries herself with grace and knows how to make every meeting special. If you are looking for a foreign escort in Delhi with premium looks and classy companionship, Isabella offers a luxurious and discreet experience.',
+      description: 'Isabella Rossi is a stunning international model with a confident personality and elegant style. She carries herself with grace and knows how to make every meeting special. If you are looking for a foreign call Girls in Delhi with premium looks and classy companionship, Isabella offers a luxurious and discreet experience.',
       image: '/images/celebrityspastaff.jpg', // Placeholder image path
     },
     {
@@ -70,7 +70,7 @@ export default function Home({
       name: 'Olivia Chen',
       role: 'Corporate Executive',
       category: 'highprofile',
-      description: 'Olivia Chen is a smart and confident corporate executive with a polished personality. She understands professionalism, good conversation, and classy company. If you are looking for a high profile escort in Delhi for business dinners, meetings, or private time, Olivia offers premium companionship with complete discretion and comfort.',
+      description: 'Olivia Chen is a smart and confident corporate executive with a polished personality. She understands professionalism, good conversation, and classy company. If you are looking for a high profile call Girls in Delhi for business dinners, meetings, or private time, Olivia offers premium companionship with complete discretion and comfort.',
       image: '/images/49.jpg',
     },
     {
@@ -78,7 +78,7 @@ export default function Home({
       name: 'Mia Thompson',
       role: 'First Class Hostess',
       category: 'airhostess',
-      description: 'Mia Thompson is a well-groomed and elegant first class hostess with a calm and confident personality. She knows how to make people feel comfortable with her polite nature and smooth conversation. If you are looking for an airhostess escort in Delhi who offers premium companionship with class and discretion, Mia is a perfect choice.',
+      description: 'Mia Thompson is a well-groomed and elegant first class hostess with a calm and confident personality. She knows how to make people feel comfortable with her polite nature and smooth conversation. If you are looking for an airhostess call Girls in Delhi who offers premium companionship with class and discretion, Mia is a perfect choice.',
       image: '/images/smiling.jpg', // Placeholder image path
     },
     {
@@ -86,7 +86,7 @@ export default function Home({
       name: 'Chloe Williams',
       role: 'Film Actress',
       category: 'celebrity',
-      description: 'Chloe Williams is a graceful film actress with a strong screen presence and elegant personality. She is confident, well-mannered, and knows how to carry herself with style. If you are looking for a celebrity escort in Delhi who offers premium companionship for events, parties, or private meetings, Chloe brings class, charm, and complete discretion.',
+      description: 'Chloe Williams is a graceful film actress with a strong screen presence and elegant personality. She is confident, well-mannered, and knows how to carry herself with style. If you are looking for a celebrity call Girls in Delhi who offers premium companionship for events, parties, or private meetings, Chloe brings class, charm, and complete discretion.',
       image: '/images/413965.jpg', // Placeholder image path
     },
     {
@@ -94,7 +94,7 @@ export default function Home({
       name: 'Ava Garcia',
       role: 'Engineering Student',
       category: 'college',
-      description: 'Ava Garcia is a smart and confident engineering student with a friendly and calm personality. She is well-spoken and easy to connect with. If you are looking for a college girl escort in Delhi who offers comfortable companionship with privacy and respect, Ava is a great choice.',
+      description: 'Ava Garcia is a smart and confident engineering student with a friendly and calm personality. She is well-spoken and easy to connect with. If you are looking for a college girl call Girls in Delhi who offers comfortable companionship with privacy and respect, Ava is a great choice.',
       image: '/images/1.jpg', // Placeholder image path
     },
   ];
@@ -289,50 +289,62 @@ export default function Home({
   const faqs = [
     {
       id: 1,
-      question: 'Are your Delhi escorts real or just edited profiles like many fake agencies show?',
-      answer: 'Yes, our escorts are 100 percent genuine, checked and as presented. There are no Photoshop tricks, no bait and switch, no drama. You end up with the real model that you select - same face, same body, same chemistry. Delhi Girl does not play around with men who want to have real pleasure.',
+      question: 'Are airhostess call girls in Delhi listed on Delhi Girl verified and trustworthy?',
+      answer: 'Yes, Delhi Girl verifies every airhostess call girls in Delhi through proper checks. These Delhi call girls are professionally managed, well-mannered, and focused on providing safe, comfortable, and premium companionship with complete client satisfaction.',
       category: 'account',
     },
     {
       id: 2,
-      question: 'Can I request a bold or adventurous escort who matches my exact fantasies?',
-      answer: 'Absolutely. You are flirtatious, extreme, leisurely, romantic, domineering or playful in your desires; we will find you the exact business partner. Just share your preference. We can rely on our escorts to know more about fantasy-building than most men care to imagine - and they will not mind chemistry heated.',
+      question: 'Can I book an airhostess Delhi call girls for hotels or private locations?',
+      answer: 'Yes, airhostess Delhi call girls from Delhi Girl are available for hotels and private locations. Bookings are handled smoothly with proper coordination, ensuring privacy, comfort, and a stress-free experience for clients.',
       category: 'payments',
     },
     {
       id: 3,
-      question: 'Is it safe to book escort service in Delhi through your platform?',
-      answer: 'Yes. The safety, privacy, and confidentiality cannot be compromised in this case. No ringing, no leaks, no drama, no chat tapes. It is all secret between us and you. Personal information is not accessed or read. Nothing else is as important to us as discretion.',
+      question: 'What makes celebrity call girls in Delhi from Delhi Girl special and premium?',
+      answer: 'Celebrity call girls in Delhi offer glamorous looks, confident personalities, and high-profile companionship. Delhi Girl carefully manages these profiles to deliver premium experiences with class, elegance, and complete discretion.',
       category: 'booking',
     },
     {
       id: 4,
-      question: 'Do escorts provide full service or only companionship?',
-      answer: 'Different models have different experiences. Others are sensual, others provide intimate and others prefer the brash chemistry based on comfort. You select the escort, she selects her boundaries and the two of you have a good fun experience that is a mutual respect, fun experience.',
+      question: 'Can celebrity Delhi girls attend parties, events, or private meetings?',
+      answer: 'Yes, celebrity Delhi girls are available for parties, social events, and private meetings. Delhi Girl ensures proper coordination so clients enjoy smooth companionship without stress or unnecessary complications.',
       category: 'booking',
     },
     {
       id: 5,
-      question: 'Can I meet escorts in top hotels without any trouble?',
-      answer: 'Yes. We have all experienced polite and professional escorts. They merge like any posh visitor and keep a low profile. Whether it is a 5-star hotel or a home, the meeting is relaxed, secure and is totally stress-free.',
+      question: 'Are Delhi college girls on Delhi Girl genuine and properly verified?',
+      answer: 'Yes, every Delhi college girls profile listed on Delhi Girl is verified for safety and authenticity. These Delhi college girls are managed professionally to ensure reliable and comfortable companionship.',
       category: 'payments',
     },
     {
       id: 6,
-      question: 'Do you provide late-night escort service in Gurgaon and Noida?',
-      answer: 'Yes, our service runs 24/7. Midnight craving? Early morning loneliness? Sudden desire? All you have to do is dial, and your desired beauty is knocking at your door with all her vibrant energy, alluring glamour and a night with a touch of magic and sex.',
+      question: 'Can I book a Delhi college girls for short duration meetings?',
+      answer: 'Yes, Delhi Girl offers flexible booking options for Delhi college girl services. You can choose short or extended time slots based on your comfort and requirement.',
       category: 'services',
     },
     {
       id: 7,
-      question: 'Can I book a specific kind of companion, like bold, shy, curvy, slim, or model-type?',
-      answer: 'Of course. We have copies, air-hostesses, college cuties, daring businesspeople, slim-bodied princesses, voluptuous queens, and gorgeous, posh girls. With whatever taste you have, Delhi Girl has a woman who was made specifically to it.',
+      question: 'Are foreign call girls in Delhi available through Delhi Girl brand?',
+      answer: 'Yes, Delhi Girl offers verified foreign call girls in Delhi for clients seeking premium and international-style companionship with professional service standards.',
       category: 'account',
     },
     {
       id: 8,
-      question: 'Do escorts offer extended or overnight experiences?',
-      answer: 'Yes. The most popular are overnight ones since you will experience slow intimacy, more of connection, and hours of uninhibited pleasure without any time checking.',
+      question: 'What kind of experience do foreign Delhi girls usually provide?',
+      answer: 'Foreign Delhi girls provide classy, modern, and premium companionship. Their confident personalities and international style make them suitable for clients wanting a luxury call girl in Delhi.',
+      category: 'services',
+    },
+    {
+      id: 9,
+      question: 'Who should book high profile call girls in Delhi from Delhi Girl?',
+      answer: 'High profile call girls in Delhi are ideal for businessmen, corporate clients, and VIP guests seeking mature, professional, and premium companionship through Delhi Girl.',
+      category: 'account',
+    },
+    {
+      id: 10,
+      question: 'Are high profile Delhi girls trained and experienced companions?',
+      answer: 'Yes, high profile Delhi girls are well-trained, confident, and experienced. Delhi Girl ensures they meet premium standards of behavior, communication, and professionalism.',
       category: 'services',
     },
   ];
@@ -650,11 +662,11 @@ const locations = [
       </p>
 
       <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-        A Complete Range of Delhi escort service
+        A Complete Range of Delhi Call Girlservice
       </h2>
 
       <p className="mt-3 text-sm sm:text-base text-gray-600">
-        We have a wide range of escort services in Delhi with Verified profiles. With Over 10+ Years Of Experience We Offer 24/7 Services.
+        We have a wide range of Call Girlservices in Delhi with Verified profiles. With Over 10+ Years Of Experience We Offer 24/7 Services.
       </p>
     </div>
     {/* ===== END HEADING ===== */}
@@ -1081,7 +1093,7 @@ const locations = [
                 <p className="text-gray-700">
                   These places remain swarming, and our own people enliven them still more with their charms and passion. You want to spend a slow, teasing evening of sensual connection or a full-engagement, large-scale, passionate night, where she takes charge and makes you mad, then Delhi Girl shows the exact route of pleasure as you always want. 
                 </p>
-                <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Trusted Companion for the escort service in gurgaon</span>
+                <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Trusted Companion for the Call Girlservice in gurgaon</span>
               <p className="text-gray-700 text-lg mb-8 leading-relaxed">
                 It is unsurpassed beauty, compelling presence, and chemistry that hits directly in your pulse.
               </p> 
@@ -1255,7 +1267,7 @@ const locations = [
            We serve our services at primes location of Delhi Or Nearby Areas
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            We provide our escort services at top locations in Delhi and NCR. With professional and high profile models we are the one of the best call girl providers in Delhi.
+            We provide our Call Girlservices at top locations in Delhi and NCR. With professional and high profile models we are the one of the best call girl providers in Delhi.
           </p>
         </motion.div>
 
@@ -1705,7 +1717,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
             Get Pocket - Friendly Escort Services in Delhi With High-Profile Models
           </motion.h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-           Enjoy with affordable call girls in Delhi at 5 star hotels. We offer 5 star rates escort service in Delhi.
+           Enjoy with affordable call girls in Delhi at 5 star hotels. We offer 5 star rates Call Girlservice in Delhi.
           </p>
         </div>
 
@@ -1820,7 +1832,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
                   <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Smooth booking experience</li>
                   <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Multiple location availability</li>
                   <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	24/7 support</li>
-                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Individualized escort services.</li>
+                  <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> ●	Individualized Call Girlservices.</li>
                 </ul>
               </div>
               <div className="bg-gray-700/50 rounded-xl p-6 min-w-[300px]">

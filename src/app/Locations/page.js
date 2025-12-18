@@ -9,6 +9,7 @@ import { FaTelegram } from 'react-icons/fa';
 import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
 import { FiSearch, FiChevronDown, FiMail, FiMessageSquare, FiHelpCircle } from 'react-icons/fi';
 import {  Star, MapPin, Sparkles, Hotel, Building2 } from 'lucide-react';
+import { Content } from 'next/font/google';
 
 
 
@@ -20,10 +21,10 @@ export default function Locations() {
     const hotels = [
       {
         id: 1,
-        name: "The Oberoi, Gurgaon",
-        location: "Bangkok, Thailand",
+        name: "The Leela Palace, New Delhi",
+        location: "New Delhi",
         rating: 5,
-        description: "Modern architecture, close luxury. She walks in, and suddenly the room feels warmer and more welcoming — like you actually want to stay in.",
+        description: "Royal escapades with your own cavalry of style, blending grace with hot titillation, grinding bodies, kisses, caressing touches and a night to fuse you, both inward and out. The atmosphere, the sumptuousness, the woman, all that becomes hard to resist the sense of pleasure.",
         image: "/hotel-royale.jpg",
         amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
         price: "₹25,000",
@@ -31,10 +32,10 @@ export default function Locations() {
       },
       {
         id: 2,
-        name: "The Leela Ambience, Gurugram",
-        location: "Maldives",
+        name: "Taj Palace, Diplomatic Enclave",
+        location: "New Delhi",
         rating: 5,
-        description: "The vibe’s upscale, but not stiff. She’ll stroll right through, turn the space into a relaxed night, and lift your spirits without a word.",
+        description: "A private fantasy playground. She moves up, lips rubbing your skin, fingers making a dangerous path, the body being wrapped around you, and the night becomes wild, passionate and addictive.",
         image: "/hotel-azure.jpg",
         amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
         price: "₹45,000",
@@ -42,10 +43,10 @@ export default function Locations() {
       },
       {
         id: 3,
-        name: "Trident, Gurgaon",
-        location: "Swiss Alps, Switzerland",
+        name: "The Oberoi, New Delhi",
+        location: "New Delhi",
         rating: 5,
-        description: "Known for being peaceful and polished. It’s the kind of place you can talk for hours, laugh, and genuinely feel lighter with someone beside you.",
+        description: "Blameless high-fashion and eroticism. Your escort knows how to strip your stress, get into your arms and ride your urges with the perfect measure of control, slow, deep, intense or fast and heated.",
         image: "/hotel-alpine.jpg",
         amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
         price: "₹38,000",
@@ -53,10 +54,10 @@ export default function Locations() {
       },
       {
         id: 4,
-        name: "OITC Grand Bharat (Gurgaon region)",
-        location: "Dubai, UAE",
+        name: "ITC Maurya, Chanakyapuri",
+        location: "New Delhi",
         rating: 5,
-        description: "Feels like a weekend getaway even if you’re here for work — she brings the same energy, making it less about the crowd and more about you two.",
+        description: "A classics of luxury in which passion strikes more. She anticipates warm mouths, cooing moans, tight hugs, intense orgasms, and a night filled with an intoxicating touch that she dominates and makes you go through exciting pleasure heights.",
         image: "/hotel-oasis.jpg",
         amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
         price: "₹32,000",
@@ -64,10 +65,10 @@ export default function Locations() {
       },
       {
         id: 5,
-        name: "Taj City Centre, Gurugram",
-        location: "Bali, Indonesia",
+        name: "JW Marriott, Aerocity",
+        location: "New Delhi",
         rating: 5,
-        description: "Fun, upbeat, colorful. She fits right in, brightens things up, and makes sure there’s never a dull minute in your stay.",
+        description: "A glamorous mixture of fashion and passion. She understands how to creep into your bed, and put her thighs around you, and coo all kinds of foul allurements, and get you out of the world beyond your room.",
         image: "/hotel-emerald.jpg",
         amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
         price: "₹28,000",
@@ -75,10 +76,10 @@ export default function Locations() {
       },
       {
         id: 6,
-        name: "The Westin, Gurgaon",
-        location: "New York City, USA",
+        name: "The Imperial, Janpath",
+        location: "New Delhi",
         rating: 5,
-        description: "Luxury with a homey touch. The room feels just right — calm, private, and personal, the way you want after a long day.",
+        description: "There is classic opulence combined with fire and brim. Your retinue is slow, voluptuous, then fierce, wild love-making, riding you, teasing you, holding you, and making a night to remember.",
         image: "/hotel-sapphire.jpg",
         amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
         price: "₹52,000",
@@ -139,50 +140,50 @@ export default function Locations() {
               const faqs = [
                 {
                   id: 1,
-                  question: 'Are Gurugram escorts actually the same women shown online?',
-                  answer: 'You get the same person in the photo — no mismatches or fake profiles. What you see is exactly who shows up to meet you.',
+                  question: 'Are your Delhi escorts actually real, or will I get scammed like other agencies?',
+                  answer: 'Only real escorts are offered at Delhi Girl. No false photos, no substituted models, no excuses. You get the very woman you select, the same face, same curves, the same vitality, the same experience. No deceits, no disillusionment, no cheating',
                   category: 'account',
                 },
                 {
                   id: 2,
-                  question: 'Can escorts enter five-star hotels in Gurugram without issues?',
-                  answer: 'Yes, escorts arrive without any dramas — dressed smart and fitting in. Hotels don’t interfere, so your meeting stays private and breezy.',
+                  question: 'Do the escorts offer full intimate service or only companionship?',
+                  answer: 'Majority of escorts provide full service based on comfort, chemistry, and behavior of the clients. In case the vibe is correct and both of them agree with each other, the session is wild, intimate, and very satisfying. It is not forced, feigned, Delhi Girl always develops naturally.',
                   category: 'payments',
                 },
                 {
                   id: 3,
-                  question: 'Do you offer escorts who fit corporate settings and formal events?',
-                  answer: 'Of course. These women know their way around a dinner table, a client event, and they’ll make you look way more comfortable when things feel stiff in a crowd.',
+                  question: 'Can escorts visit top 5-star hotels without any issues?',
+                  answer: 'Yes. Our escorts will know how to fit in as high-end guests do. They do this in a discreet manner, act in a business manner, and cause no form of disturbance. Privacy and comfort are completely guaranteed during the booking.',
                   category: 'booking',
                 },
                 {
                   id: 4,
-                  question: 'How discreet is the booking process in Gurugram?',
-                  answer: 'Your details are never stored or shared. From texting to meeting, everything is on the down-low — your privacy matters as much to us as to you.',
+                  question: 'What if I want a bold, adventurous, kinky, or wild experience?',
+                  answer: 'Just share what you crave. You want to have the slow sensual kissing, deep riding, playful domination, or for some people who desire passion, we will match you with the correct woman. Our escorts will fit your fantasies and make your nights to be worth remembering.',
                   category: 'booking',
                 },
                 {
                   id: 5,
-                  question: 'Are escorts available for late-night companionship in Gurugram?',
-                  answer: 'Always. Even if you get free after midnight, escorts are available at any hour — from business hotels to city apartments.',
+                  question: 'Are Russian escorts hotter or more passionate than Indian escorts?',
+                  answer: 'Each of the two categories possesses its fire. Russians have daring, aggressive sexual closeness and sheer strength whereas the Indian escorts have warmth, erotic bodies, charm and great emotional connection. It is a matter of what type of night you would want.',
                   category: 'payments',
                 },
                 {
                   id: 6,
-                  question: 'Can I choose a specific personality type or vibe?',
-                  answer: 'Absolutely, you can be clear about what you want. Whether you want someone calm, outgoing, playful, or totally sophisticated, you’ll be matched with the right companion.',
+                  question: 'Does it have late-night or early-morning escort service in Delhi?',
+                  answer: 'Yes. We operate 24/7. The urge to snack in the middle of the night, the need to feel lonely in the early morning, the need to feel desperate after a night party, at any hour that you get the urge to feel the fire, your favorite companion is ready with suggestive power and inescapable warmth.',
                   category: 'services',
                 },
                 {
                   id: 7,
-                  question: 'Is the service limited to hotels only?',
-                  answer: 'Not at all. Escorts work in hotels, serviced flats, gated communities, and private homes — you name it, as long as it’s safe.',
+                  question: 'Are you absolutely confidential when making bookings?',
+                  answer: 'Absolutely. None is stored, exchanged, spilled, and talked about. The identity, hotel data and activities remain completely confidential. Delhi Girl is a company that deals with the clients of the most prestigious professions- privacy is a very strict principle.',
                   category: 'account',
                 },
                 {
                   id: 8,
-                  question: 'How do I trust the quality of escorts in Gurugram?',
-                  answer: 'Delhi Girl screens every woman for style, smarts, and honesty. You get someone who’s real — no awkward surprises, only genuine conversation and a good atmosphere every time.',
+                  question: 'How do I know the escort will match my sexual preferences?',
+                  answer: 'We want to know what you like and book it beforehand body type, personality, level of confidence, explicitness, and intimacy style. Sensual, wild, dominant, or playful, we propose a woman who will strike the right sexual tempo to you.',
                   category: 'services',
                 },
               ];
@@ -321,6 +322,65 @@ const services = [
       icon: "✨",
     },
   ];
+
+  // Content
+  const services2 = [
+    {
+      title: "Independent Escorts in Delhi",
+      desc: "Independent escorts take their raw personality, natural beauty and their hot sexuality directly to your room. They are confident, flirting, seductive and in full control of their own vibe hence intimacy is organic and exciting.",
+      hedlin: "Why men choose them",
+      points: [
+        "No acted chemistry, Real chemistry.",
+        "More boldness, more freedom, more passion",
+        "Greater intimate relationship."
+      ],
+      para:"These women are familiar with how to ride you slow, tease you deep, kiss you wild, and make you addicted."
+    },
+    {
+      title: "Foreigner Models",
+      desc: "Russians, Europeans, Latin beauties- our foreign escorts come with exotic curves, eye spell and hot passion. Their seductively choreographed moves, smooth rhythm, strong grip, and adventurousness of the night leave an ever-lasting mark.",
+      hedlin: "What they offer:",
+      points: [
+        "Bold body language",
+        "Playful dominance",
+        "Sensual kissing and teasing"
+      ],
+      para:"Their relationship is fresh, exciting and dangerously addictive."
+    },
+    {
+      title: "Celebrity Call Girls in Delhi",
+      desc: "Experience evenings with women that resemble the celebs that you have always dreamed about model-like body, sexy glamour, sexy swagger, and liquor store agglomeration. Such escorts possess that sleek celebrity attitude with unashamed sexual competencies.",
+      hedlin: "Highlights:",
+      points: [
+        "Sizzling body and sexy appearance.",
+        "High-end sensuality",
+        "Seduction that feels unreal"
+      ],
+      para:"Their presence is sufficient to make the night on fire."
+    },
+    {
+      title: "Air Hostess Escort Service",
+      desc: "That posh attitude, that appealing smile, slim toned physique and that alluring sensuality is brought by air hostesses. Their low voice, cozy atmosphere, and outgoing attitude make up a fantasy every single man desires.",
+      headlin: "Men love them because:",
+      points: [
+        "Slim tall figure",
+        "Sensual elegance",
+        "Addictive intimate warmth"
+      ],
+      para:"They understand how to play jokes and end with madness."
+    },
+    {
+      title: "Russian Escorts",
+      desc: "Russian escorts will provide a combination of rough sensuality and warmness - angularity, silky skin, sultriness, and stamina. These women are knowledgeable on how to control, allure and love with passion.",
+      headlin: "Why Russians are top picks:",
+      points: [
+        "Bold moves",
+        "Naughty energy",
+        "Intense physical chemistry"
+      ],
+      para:"Anticipate seductive riding, teasing kisses, curvy goodness and a memorable night."
+    }
+  ];
   return (
     <>
     
@@ -348,17 +408,17 @@ const services = [
 
           <h1 className="text-5xl md:text-6xl font-bold font-serif leading-tight">
   <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-    Top-Tier Bliss
+    Premium Outlets for
   </span>{' '}
-  <span className="text-amber-500">With Gurugram</span>
+  <span className="text-amber-500">Luxury Escort</span>
   <br />
   <span className="bg-black text-white px-3 py-1 rounded-md inline-block mt-2">
-     Escorts
+     Service in Delhi
   </span>
 </h1>
 
           <p className="text-gray-600 max-w-md">
-            Where real charm, close comfort, and those genuine adult moments make your night feel all kinds of different.
+           Book the best escort service in Delhi and enjoy your best moments with top-class models at premium and luxury outlets.
           </p>
 
           {/* CTA Buttons */}
@@ -422,10 +482,10 @@ const services = [
                     transition={{ delay: 0.3 }}
                     viewport={{ once: true }}
                   >
-                    Experience the{" "}
+                    Enjoy the pleasure at your{" "}
                     <span className="relative">
                       <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                        Premium Company & Curated Moments
+                        doorstep with the escort service in Delhi
                       </span>
                       <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                     </span>
@@ -440,15 +500,15 @@ const services = [
                   >
                     <p className="text-gray-600 text-lg leading-relaxed">
                          
-                      Trusted,{" "}
+                      Lady-love companionship,{" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        discreet and professional
+                        daring chemistry,
                       </strong>
-                      , companionship for events,{" "}
+                       and irresistible closeness brought back to your{" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                       travel,
+                       home or hotel
                       </strong>{" "}
-                      and curated experiences across Delhi.{" "}
+                      at any hour when you request them.{" "}
                       
                     </p>
                     
@@ -593,10 +653,10 @@ const services = [
                     transition={{ delay: 0.3 }}
                     viewport={{ once: true }}
                   >
-                    Gurugram Escorts:{" "}
+                    Get An Demand Escort{" "}
                     <span className="relative">
                       <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                        Your Destination for Elite Escort Service in Gurgaon
+                        Service in Delhi To the 5 Star Hotel Outlet
                       </span>
                       <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                     </span>
@@ -610,20 +670,18 @@ const services = [
                     viewport={{ once: true }}
                   >
                     <p className="text-gray-600 text-lg leading-relaxed">
-                      Everyone in Gurugram is always in a rush — you see sharp workspaces, glitzy buildings, and five-star hotels packed with folks chasing big dreams. Delhi Girl gets that vibe, sending in someone who turns heads with style, walks in with sure confidence, and just has this peaceful energy that puts you at ease and makes you forget the day.{" "}
+                      Delhi Girl is the best at providing high-end pleasure to women who know how to transform a boring room into a heated fantasy realm. As soon as she enters your five-star suite, everything becomes different: the smell of her comes in your direction, her body language flirts with you, her gaze fixes on you, and the night turns out to be dangerous in all the right ways.
+                      These escorts do not come by; they slide in assuredly, sensuously, whispers, caresses, and a sensual beat that makes you get involved in their world. 
+                      {" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
                       </strong>
                     </p>
                     <p className="text-gray-600 text-lg leading-relaxed">
-                      It’s not only about good looks. These women carry themselves with assurance and know how to settle the room. They’ll pick up on your mood right away, chatting with you without awkward small talk or fake lines. Maybe you’ve had a weird meeting or just want someone to shake off the work day with — either way, the women know when to lighten things up or make things meaningful.{" "}
+                      Do you prefer going at a slow, sensual pace with low lights or would you prefer to have a wild ride, fast, close, and personal with her, having complete control of your body and breath? Delhi Girl would make sure your ride is as much fun as you. Your suite is your plaything, her body your escape, the night something you have to remember even after she is gone, that becomes stuck to your skin.{" "}
                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
                       </strong>
                     </p>
-                    <p className="text-gray-600 text-lg leading-relaxed">
-                      What sticks is how it never feels forced. They meet you with a smile, listen, and make sure every second feels natural — never awkward or rehearsed. With Delhi Girl, it’s not just another night out. It’s a grown-up escape that feels like it was built exactly for you.{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                      </strong>
-                    </p>
+                    
                   </motion.div>
       {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
         {title.split('\n').map((line, i) => (
@@ -707,10 +765,10 @@ const services = [
                       className="text-center mb-16"
                     >
                       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                        Our Prime Locations for Escort Service in Gurugram
+                        Our Prime Locations for Delhi Escort Services
                       </h2>
                       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Easy access across high-end spots, main business areas, and all the prime neighborhoods — smooth connection, wherever you are.
+                        The best places in Delhi NCR are abuzz with good looks, chemistry, and undeniable company.
                       </p>
                     </motion.div>
             
@@ -790,9 +848,9 @@ const services = [
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6 }}
       >
-        Premium{" "}
+        Our Top-Notch 5 Star{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
-          Hotel Outlets
+          Hotels for Escort Service in Delhi
         </span>
       </motion.h2>
       
@@ -885,10 +943,10 @@ const services = [
       className="text-center mb-16"
     >
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-        5-Star Hotels for Gurugram Escort Service
+        Our Top-Notch 5 Star Hotels for Escort Service in Delhi
       </h2>
       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        Kick back with a top companion inside Gurugram’s best hotel lobbies and suites — where the setting matches the company every time.
+       It is a personal luxury heaven when our escorts step in your suite making your hotel experience a one-to-one pleasure. Their warm gestures, smooth contours, firmer grip, teasing manoeuvres, and sultry voice turn your five star stay into a night that is oozing with pleasure. Delhi Girl escorts know how to beat you when you wish, give up when you wish, and follow you note-by-note. The following are the luxury hotels, which our escorts often attend with clients (we do not own hotels; we just service them):
       </p>
     </motion.div>
 
@@ -973,8 +1031,8 @@ const services = [
         <div className="relative min-h-[400px]">
           <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
           <div className="absolute bottom-6 left-6 z-20 text-white">
-            <h3 className="text-2xl font-bold">Luxury Experience Package</h3>
-            <p className="mt-2 max-w-md">Book 3 nights and receive complimentary spa treatments, airport transfers, and dining credits</p>
+            <h3 className="text-2xl font-bold">Exclusive Packages For Escort Service in Delhi</h3>
+            <p className="mt-2 max-w-md">The ultimate packages of pleasure are made to fatten you with beauty, fire, intimacy, and wild satisfaction.</p>
           </div>
           {/* Placeholder Image */}
           <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
@@ -992,13 +1050,13 @@ const services = [
             <FaStar className="text-yellow-400 mr-1" />
             <span className="ml-2 font-semibold">Top Rated</span>
           </div>
-          <h3 className="text-3xl font-bold mb-4">Exclusive Benefits for Our Guests</h3>
+          <h3 className="text-3xl font-bold mb-4">World Class Call Girls in Delhi: 100+ Profiles, Multiple Locations and Professional Team</h3>
           <ul className="space-y-3 mb-6">
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Complimentary airport transfers</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Personal concierge service</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> VIP lounge access</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
-            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li>
+            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Ready Elite high-profile models 24/7</li>
+            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Erotic fantasies made to order</li>
+            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Confirmed escorts keeping class, discretion and passion.</li>
+            {/* <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
+            <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li> */}
           </ul>
           <div className="flex space-x-4">
             <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
@@ -1014,10 +1072,55 @@ const services = [
   </div>
 </div>
 {/* END Hotel */}
-<section className="w-full bg-slate-950 py-16 lg:py-24">
+
+    {/* content section  */}
+    <section className="py-20 bg-gradient-to-br from-zinc-900 via-black to-zinc-900 text-white">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Heading */}
+        <div className="text-center mb-14">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            Our most demanded Escort Service in Delhi
+          </h2>
+          <p className="text-gray-400 max-w-3xl mx-auto">
+            Unresistible types that rule all the fantasies of men in Delhi NCR.
+          </p>
+        </div>
+
+        {/* Cards */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {services2.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 hover:border-pink-500"
+            >
+              <h3 className="text-2xl font-semibold mb-3 text-pink-400">
+                {item.title}
+              </h3>
+
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                {item.desc}
+              </p>
+              <h3>{item.hedlin}</h3>
+
+              <ul className="space-y-2 text-sm text-gray-400">
+                {item.points.map((point, i) => (
+                  <li key={i} className="flex items-center gap-2">
+                    <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
+                    {point}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-white">{item.para}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {/* end of previous code */}
+{/* <section className="w-full bg-slate-950 py-16 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 
-        {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
           <p className="inline-flex rounded-full border border-purple-500/40 bg-purple-500/10 px-4 py-1 text-xs font-medium tracking-wide text-purple-300 uppercase">
             Our Escort Services in Gurugram
@@ -1036,14 +1139,13 @@ const services = [
           </p>
         </div>
 
-        {/* Grid */}
         <div className="mt-10 grid gap-6 md:mt-14 md:grid-cols-2">
           {services.map((service) => (
             <article
               key={service.id}
               className="group relative overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900/80 via-slate-900 to-slate-950/80 p-6 shadow-[0_18px_45px_rgba(0,0,0,0.65)] transition-transform duration-300 hover:-translate-y-1 hover:border-purple-500/60 hover:shadow-[0_24px_60px_rgba(0,0,0,0.85)] sm:p-7"
             >
-              {/* Top row */}
+            
               <div className="flex items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-xs font-semibold text-purple-300 ring-1 ring-purple-500/40">
@@ -1059,15 +1161,14 @@ const services = [
                 </span>
               </div>
 
-              {/* Divider */}
+              
               <div className="mt-4 h-px w-full bg-gradient-to-r from-slate-700/60 via-slate-800 to-slate-900" />
 
-              {/* Description */}
+              
               <p className="mt-4 text-sm leading-relaxed text-slate-300/90">
                 {service.desc}
               </p>
 
-              {/* Footer Line */}
               <div className="mt-5 flex items-center justify-between text-xs text-slate-400">
                 <span className="flex items-center gap-1.5">
                   <span className="h-1.5 w-1.5 rounded-full bg-purple-400/80 group-hover:bg-pink-400" />
@@ -1079,14 +1180,13 @@ const services = [
                 </span>
               </div>
 
-              {/* Hover Glow */}
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 translate-y-10 bg-gradient-to-t from-purple-700/20 via-pink-600/10 to-transparent opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100" />
             </article>
           ))}
         </div>
 
       </div>
-    </section>
+    </section> */}
 {/* content section  */}
 <section className="relative py-24 px-4 md:px-8 bg-gradient-to-b from-[#fefaf6] to-[#fdf9f5] overflow-hidden">
   {/* Enhanced Decorative Elements */}
@@ -1151,9 +1251,9 @@ const services = [
       <div className="relative">
         <div className="absolute -left-6 top-3 w-4 h-4 rounded-full bg-gradient-to-r from-purple-400 to-pink-400"></div>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-          The{" "}
+          Witness the ultimate comfort{" "}
           <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent relative">
-            Ultimate Spa Journey
+            to your hotel with Best Delhi Escorts Service
             <div className="absolute bottom-2 left-0 w-full h-1 bg-gradient-to-r from-purple-400/40 to-pink-400/40 rounded-full"></div>
           </span>
         </h2>
@@ -1162,14 +1262,11 @@ const services = [
       {/* Enhanced Content with modern list */}
       <div className="text-gray-600 text-lg leading-relaxed space-y-6">
         <p>
-          At <strong className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Delhi Body Spa</strong>, 
-          every treatment is designed to be more than just a service—it&apos;s an 
-          experience. Our luxurious spa is a haven for those seeking tranquility, 
-          where elegant interiors blend seamlessly with calming aromas and soothing 
-          melodies.
+          The <strong className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">escorts of Delhi Girl</strong>, 
+          are created in honor of men who need profound, uncontrollable pleasure and soft seductive chemistry. The instant she sits next you, her gentle thighs pressing yours, her hands caressing your chest, her lips caressing your ears — you have a sensation that your entire mind has changed to hunger.
         </p>
         
-        <div className="bg-purple-50/50 p-5 rounded-2xl border border-purple-100">
+        {/* <div className="bg-purple-50/50 p-5 rounded-2xl border border-purple-100">
           <h3 className="font-semibold text-purple-900 mb-3 flex items-center">
             <svg className="w-5 h-5 mr-2 text-pink-500" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
@@ -1190,13 +1287,12 @@ const services = [
               <span>Rejuvenating body-to-body massages</span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <p>
-          With skilled foreign therapists and expert techniques, our treatments merge ancient healing 
-          traditions with modern relaxation methods. Step into a world of indulgence, let go of your worries, 
-          and embrace the true essence of wellness.
+         These escorts have a feeler of when to be slow and cozy, when to brush your skin with warm breaths, and when to switch the gears, immobilize you, straddling you, thrusting passion into you with grabs that are full of confidence and authority.
         </p>
+        <p>Each one of them will be worth satisfying your body, exciting your senses and making you breathless. A long, luxurious night of kisses, cuddles, intimate, deep riding or a fast, wild, hot affair - Delhi Girl introduces you to women who know just how to get to the right places.</p>
       </div>
 
       {/* Enhanced CTA Buttons */}
@@ -1241,7 +1337,7 @@ const services = [
 <section className="bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] py-20 px-6 md:px-16 relative overflow-hidden">
   <div className="max-w-6xl mx-auto">
     {/* Section Header */}
-    <motion.div 
+    {/* <motion.div 
       className="text-center mb-16"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -1255,12 +1351,12 @@ const services = [
         Premium Spa Experiences
       </h1>
       <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto rounded-full"></div>
-    </motion.div>
+    </motion.div> */}
 
-    <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
-      {/* Left Column */}
+    {/* <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
+      
       <div>
-        {/* Foreigner Staff */}
+        
         <motion.div 
           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-purple-100"
           initial={{ opacity: 0, x: 30 }}
@@ -1295,9 +1391,9 @@ const services = [
               </div>
             ))}
           </div>
-          {/* <p className="text-gray-600 leading-relaxed">
+          <p className="text-gray-600 leading-relaxed">
             This holistic framework allows us to create treatments that don&apos;t just relax temporarily but catalyze lasting change. Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
-          </p> */}
+          </p>
           <div className="mt-6">
             <span className="inline-block bg-purple-100 text-purple-700 py-1 px-4 rounded-full text-sm font-medium">
               60-90 min | From ₹2,800
@@ -1305,7 +1401,6 @@ const services = [
           </div>
         </motion.div>
 
-        {/* Why Go For Delhi Spa */}
         <motion.div 
           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-purple-100"
           initial={{ opacity: 0, x: -30 }}
@@ -1335,9 +1430,9 @@ const services = [
               </li>
             ))}
           </ul>
-          {/* <p className="text-gray-600 leading-relaxed">
+          <p className="text-gray-600 leading-relaxed">
             Beyond technical excellence, we select therapists for their intuitive healing abilities. Monthly training includes emotional intelligence development and energy work certification. This investment shows in our 98% client retention rate and numerous industry awards.
-          </p> */}
+          </p>
           <div className="mt-6">
             <span className="inline-block bg-purple-100 text-purple-700 py-1 px-4 rounded-full text-sm font-medium">
               75-90 min | From ₹3,200
@@ -1345,7 +1440,7 @@ const services = [
           </div>
         </motion.div>
       </div>
-    </div>
+    </div> */}
 
     {/* Additional Information */}
     <motion.div 
@@ -1357,9 +1452,11 @@ const services = [
     >
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-2xl font-bold mb-4">Book the Top Rated Professional For Escort Services in Gurugram</h3>
+          <h3 className="text-2xl font-bold mb-4">Get personalized Escort Services to Your Doorstep</h3>
           <p className="mb-4 opacity-90">
-            Pick up the phone, get matched to a fresh face, and treat yourself to a night that feels made for you. Whether it’s a low-key night, classy dinner, or something spontaneous, Delhi Girl means you get all comfort and charm in one place.
+            Delhi Girl makes your pleasure event a tailor-made affair. Your escort can go slow romantic, rough and passionate, deep sensual riding, deep encounters, whatever you desire it to be.
+Your room turns into the comfort zone, your fantasy turns out to be the way, and her body turns out to be the door to absolute satisfaction
+
           </p>
           
         </div>
@@ -1379,10 +1476,9 @@ const services = [
   </div>
 </section>
 {/* ffa */}
- <section className="w-full bg-[#FFF9EC] py-20">
+ {/* <section className="w-full bg-[#FFF9EC] py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Heading */}
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#1B1B1E]">
             Benefits of Booking{" "}
@@ -1397,7 +1493,6 @@ const services = [
           </p>
         </div>
 
-        {/* Cards Grid */}
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((item, i) => (
             <div
@@ -1414,13 +1509,13 @@ const services = [
                 {item.desc}
               </p>
 
-              {/* Gradient underline hover */}
+
               <div className="mt-4 h-1 w-14 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 opacity-40 group-hover:opacity-100 transition" />
             </div>
           ))}
         </div>
       </div>
-    </section>
+    </section> */}
 {/* 300 content section */}
 <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fefaf6] to-[#fdf9f5] relative overflow-hidden">
   {/* Decorative Elements */}
@@ -1472,35 +1567,20 @@ const services = [
     >
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
-        The{" "}
+        Enjoy Most Satisfying{" "}
         <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          Ultimate Spa Journey
+          Escort Services in Delhi
         </span>
       </h2>
 
       {/* Long Content */}
       <div className="text-gray-600 text-lg leading-relaxed space-y-5 mb-8">
         <p>
-          At <strong className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Delhi Body Spa</strong>, 
-          every treatment is designed to be more than just a service—it’s an 
-          experience. Our luxurious spa is a haven for those seeking tranquility, 
-          where elegant interiors blend seamlessly with calming aromas and soothing 
-          melodies to transport you away from the stress of daily life.
+           <strong className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"></strong>, 
+          Delhi Girl introduces the women who are familiar with how to release your inner desires using your lips, wild kissing, warm thighs, seductive curves, and risky intimate acts. These escorts are aware of how to take charge, be it mounting you, grinds, riding deep, flipping you any time into explosive passion.
         </p>
         <p>
-          We specialize in{" "}
-          <strong className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            female-to-male therapies, couple spa sessions, and rejuvenating body-to-body massages
-          </strong>, 
-          all tailored to refresh your body and mind. With skilled foreign 
-          therapists and expert techniques, our treatments merge ancient healing 
-          traditions with modern relaxation methods.
-        </p>
-        <p>
-          Whether you desire deep relaxation, muscle relief, or a romantic retreat, 
-          our spa offers personalized experiences that elevate self-care to an art. 
-          Step into a world of indulgence, let go of your worries, and embrace the 
-          true essence of wellness at Delhi Body Spa.
+          Their chemistry is addictive, their presence magnetic and their sensual rhythm is exactly what your body needs. Be it a short, intense session or a lengthy night of deep penetration, these escorts can guarantee that you can make away with a satisfied, relaxed, and needing more.
         </p>
       </div>
 
