@@ -9,15 +9,32 @@ import { AnimatePresence } from "framer-motion";
 import { FaTelegram } from "react-icons/fa";
 import { FaHotel, FaHome, FaBuilding } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
+import {
+  ShieldCheckIcon,
+  SparklesIcon,
+  HeartIcon,
+  BriefcaseIcon,
+} from "@heroicons/react/24/outline";
+import {
+  MoonIcon,
+  CheckBadgeIcon,
+  GlobeAltIcon,
+} from "@heroicons/react/24/outline";
+import { Check, Shield, Clock, Star, Hotel, CreditCard, MessageCircle, UserCheck } from 'lucide-react';
+import {  FaSwimmingPool, FaWifi, FaUtensils, FaConciergeBell, FaParking } from 'react-icons/fa';
+import {
+  BuildingOfficeIcon,
+  CakeIcon,
+  HomeModernIcon,
+} from "@heroicons/react/24/outline";
 
-
-export default function Independentprofile() {
+export default function Foreignmodel() {
   {/* staff showcase */}
-    const [activeCategory, setActiveCategory] = useState('Independentprofile');
+    const [activeCategory, setActiveCategory] = useState('foreign');
     const categories = [
-        { id: 'Independent Profile', name: 'Independentprofile' },
         { id: 'foreign', name: 'Foreign Girls' },
       { id: 'all', name: 'All Staff' },
+      { id: 'airhostess', name: 'Airhostess' },
       { id: 'celebrity', name: 'Celebrity' },
       { id: 'college', name: 'College Girls' },     
       { id: 'highprofile', name: 'High Profile' },
@@ -27,7 +44,7 @@ export default function Independentprofile() {
       id: 1,
       name: 'Sophia Martinez',
       role: 'Senior Airhostess',
-      category: 'Independentprofile',
+      category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
       image: '/images/Airhostess_girl.jpg', // Placeholder image path
     },
@@ -35,7 +52,7 @@ export default function Independentprofile() {
       id: 2,
       name: 'Alex Johnson',
       role: 'TV Personality',
-      category: 'Independentprofile',
+      category: 'foreign',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
       image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
     },
@@ -121,50 +138,50 @@ const current = priceMap[tier]
             const faqs = [
               {
                 id: 1,
-                question: 'How do I create an account?',
-                answer: 'Creating an account is simple. Click on the "Sign Up" button in the top right corner, fill in your details including name, email, and password, then verify your email address.',
+                question: 'Are your independent escorts in Delhi verified and real?',
+                answer: 'Yes. Every independent escort in Delhi goes through ID and behaviour checks. You meet real girls with genuine profiles, ensuring a safe and smooth independent escorts service in Delhi.',
                 category: 'account',
               },
               {
                 id: 2,
-                question: 'What payment methods do you accept?',
-                answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers. All transactions are securely processed with 256-bit encryption.',
+                question: 'Do independent call girls in Delhi visit 5-star hotels?',
+                answer: 'Yes. Independent call girls in Delhi visit hotels such as JW Marriott, The Oberoi, and The Leela. They enter discreetly and behave professionally for a private experience.',
                 category: 'payments',
               },
               {
                 id: 3,
-                question: 'Can I modify my booking after confirmation?',
-                answer: 'Yes, you can modify your booking up to 24 hours before your scheduled appointment. Simply log into your account, go to "My Bookings", and select "Modify". Changes are subject to availability.',
+                question: 'Do you offer independent college girl profiles?',
+                answer: 'Yes. We provide independent college girls who stay clean, polite, friendly, and easy to speak with. Ideal for clients seeking youthful and light companionship.',
                 category: 'booking',
               },
               {
                 id: 4,
-                question: 'How do I cancel a reservation?',
-                answer: 'To cancel a reservation, go to "My Bookings" in your account dashboard, select the booking you wish to cancel, and click "Cancel". Cancellation policies vary by service type - please review before confirming.',
+                question: 'Are independent escorts better than agency escorts?',
+                answer: 'Many clients choose independent female escorts in Delhi for their natural behaviour, relaxed presence, and genuine connection. The experience feels smooth and unscripted.',
                 category: 'booking',
               },
               {
                 id: 5,
-                question: 'What is your refund policy?',
-                answer: 'We offer full refunds for cancellations made at least 48 hours in advance. Cancellations within 24-48 hours receive a 50% refund. No refunds are available for cancellations within 24 hours of the appointment.',
+                question: 'How much does an independent girl in Delhi cost?',
+                answer: 'Rates depend on profile, duration, and location. We also list low-price independent call girls in Delhi without compromising hygiene or conduct.',
                 category: 'payments',
               },
               {
                 id: 6,
-                question: 'Are your services available internationally?',
-                answer: 'Yes, we currently operate in 15 countries worldwide. Please check our locations page for specific service availability in your region. Additional fees may apply for international bookings.',
+                question: 'Are independent escorts safe to book in Delhi?',
+                answer: 'Yes. All profiles get verified, and escorts meet only at secure premium hotels. Privacy stays protected throughout the process.',
                 category: 'services',
               },
               {
                 id: 7,
-                question: 'How do I reset my password?',
-                answer: 'Click "Forgot Password" on the login page, enter your registered email, and you will receive a password reset link. This link expires in 30 minutes for security reasons.',
+                question: 'Can I book independent call girls for late-night service?',
+                answer: 'Yes. Independent escorts service in Delhi runs 24/7, ideal for late-night hotel bookings, especially for corporate travellers.',
                 category: 'account',
               },
               {
                 id: 8,
-                question: 'What safety measures do you have in place?',
-                answer: 'All our staff undergo thorough background checks and professional training. We offer contactless payment options, 24/7 support, and an emergency contact system for your safety.',
+                question: 'How do I choose the right independent Delhi girl?',
+                answer: 'Browse profiles and select based on personality, appearance, and comfort level. We help you match with the right independent Delhi girl for your preference.',
                 category: 'services',
               },
             ];
@@ -198,16 +215,6 @@ const current = priceMap[tier]
   { image: '/images/49.jpg' },
   { image: '/images/2291.jpg' },
 ]
-
-const features = [
-  { id: 1, title: 'Expertise', desc: 'We leverage over 15 years of experience to deliver high-quality, tailored solutions for every client.', color: 'from-yellow-100 to-yellow-50', dot: 'bg-yellow-400' },
-  { id: 2, title: 'Custom Solutions', desc: 'Each solution is personalized, ensuring your business gets the exact tools it needs to succeed.', color: 'from-violet-100 to-violet-50', dot: 'bg-violet-500' },
-  { id: 3, title: 'Customer-Focused', desc: 'We prioritize your satisfaction and aim to exceed your expectations in every project we take on.', color: 'from-pink-100 to-pink-50', dot: 'bg-pink-400' },
-  { id: 4, title: 'Innovation', desc: 'We stay ahead of the curve, implementing the latest technologies to keep your business on the cutting edge.', color: 'from-sky-100 to-sky-50', dot: 'bg-sky-500' },
-  { id: 5, title: 'Flexibility', desc: 'We understand that businesses change, and we offer solutions that can adapt to your evolving needs.', color: 'from-green-100 to-green-50', dot: 'bg-green-400' },
-  { id: 6, title: 'Quality Commitment', desc: 'We are committed to delivering solutions that meet the highest standards of quality, ensuring long-term success.', color: 'from-rose-100 to-rose-50', dot: 'bg-rose-400' },
-]
-
 const content = `At Delhi Escorts Agency, we redefine personalised luxury by combining professional care, complete discretion, and a client-first approach. Our team of highly trained therapists and hosts are selected for their skills, professionalism, and commitment to exceptional service. Every interaction is handled with respect and sensitivity, ensuring you feel comfortable, valued, and understood from the moment you connect with us.
 
 We take privacy seriously: appointments are confidential, records are protected, and every booking is managed with discrete communication. Whether you prefer a tranquil home visit or the refined setting of a premium hotel, our team adapts to your needs while maintaining the highest safety and hygiene standards. Our rigorous background checks, ongoing training, and quality audits ensure consistency and trust in every experience.
@@ -225,38 +232,138 @@ const features1 = [
   { title: "Premium Standards", desc: "High hygiene, quality linens, and curated products for relaxation." },
 ];
 
-const locations = [
-{
-title: "Escort Services in Aerocity",
-subtitle: "Premium hotel bookings near the airport",
-icon: <FaHotel className="text-3xl" />,
-points: ["Roseate", "Pullman", "JW Marriott", "Lemon Tree", "Novotel"],
-},
-{
-title: "Escort Services in Connaught Place (CP)",
-subtitle: "Central, classy & close to the best nightlife",
-icon: <FaBuilding className="text-3xl" />,
-points: ["The Park", "Le Meridien"],
-},
-{
-title: "Escort Services in NFC",
-subtitle: "Luxury stays at The Suryaa and nearby hotels",
-icon: <FaHotel className="text-3xl" />,
-points: ["The Suryaa Hotel"],
-},
-{
-title: "Escort Services in Gurgaon",
-subtitle: "Corporate hubs & upscale hotel options",
-icon: <FaBuilding className="text-3xl" />,
-points: ["Gurgaon luxury hotels & business districts"],
-},
-{
-title: "Private Home Escort Services in Delhi NCR",
-subtitle: "Discreet, secure & verified companions at your doorstep",
-icon: <FaHome className="text-3xl" />,
-points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"],
-},
-];
+
+// End Locations
+ const features3 = [
+    { icon: ShieldCheckIcon, title: "Verified Profiles" },
+    { icon: SparklesIcon, title: "Spa-Like Experience" },
+    { icon: HeartIcon, title: "Calm & Respectful" },
+    { icon: BriefcaseIcon, title: "Corporate Friendly" },
+  ];
+
+  //aedfa
+  const points = [
+    {
+      icon: SparklesIcon,
+      text: "Natural charm and respectful manners",
+    },
+    {
+      icon: MoonIcon,
+      text: "Clean, hygienic, well-kept appearance",
+    },
+    {
+      icon: CheckBadgeIcon,
+      text: "Friendly attitude and easy bonding",
+    },
+    {
+      icon: GlobeAltIcon,
+      text: "No agency control or fixed behaviour",
+    },
+    {
+      icon: BriefcaseIcon,
+      text: "Clear talk and warm presence",
+    },
+  ];
+
+     // 5 start hotel 
+        const [activeHotel, setActiveHotel] = useState(null);
+      
+      const hotels = [
+        {
+          id: 1,
+          name: "The Leela Palace, New Delhi",
+          location: "New Delhi",
+          rating: 5,
+          description: "An elegant space suited for clients who value calm and grace. Independent escorts walk freely here in light behaviour and well-dressed appearance that mixes organically.",
+          image: "/images/theleela.jpg",
+          amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
+          price: "₹25,000",
+          features: ["Ocean View", "Private Beach", "Helipad"]
+        },
+        {
+          id: 2,
+          name: "JW Marriott, Aerocity",
+          location: "New Delhi",
+          rating: 5,
+          description: "Ideal for business travellers. Independent call girls enter discreetly and offer relaxed, friendly company after flights or meetings.",
+          image: "/images/jwmarriott.webp",
+          amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
+          price: "₹45,000",
+          features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
+        },
+        {
+          id: 3,
+          name: "Taj Palace, Chanakyapuri  ",
+          location: "New Delhi",
+          rating: 5,
+          description: "A peaceful hotel for quiet evenings. Independent escorts add gentle talk and comfortable company that feels easy and unforced.",
+          image: "/images/tajpalace.webp",
+          amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
+          price: "₹38,000",
+          features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
+        },
+        {
+          id: 4,
+          name: "The Oberoi, New Delhi ",
+          location: "New Delhi",
+          rating: 5,
+          description: "Perfect for clients wanting a relaxed, spa-like feel. Independent female escorts bring balanced interaction that helps you fully unwind.",
+          image: "/images/oberoihotel.webp",
+          amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
+          price: "₹32,000",
+          features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
+        },
+        {
+          id: 5,
+          name: "ITC Maurya, New Delhi ",
+          location: "New Delhi",
+          rating: 5,
+          description: "A professional setting popular with corporate guests. Independent escorts maintain mature conduct and neat grooming to suit premium surroundings.",
+          image: "/images/itcmaurya.jpg",
+          amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
+          price: "₹28,000",
+          features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
+        },
+        {
+          id: 6,
+          name: "The Imperial, Janpath ",
+          location: "New Delhi",
+          rating: 5,
+          description: "A chic mood and welcoming independent girls ensure that the evening is very smooth, light, and enjoyable",
+          image: "/images/imperial.webp",
+          amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
+          price: "₹52,000",
+          features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
+        }
+      ];
+    
+      const amenitiesIcons = {
+        "Infinity Pool": <FaSwimmingPool className="text-blue-500" />,
+        "Michelin-star Restaurant": <FaUtensils className="text-red-500" />,
+        "Luxury Spa": <FaSpa className="text-pink-500" />,
+        "24/7 Butler Service": <FaConciergeBell className="text-amber-500" />,
+        "Overwater Bungalows": <FaSwimmingPool className="text-cyan-500" />,
+        "Coral Reef Access": <FaSwimmingPool className="text-teal-500" />,
+        "Underwater Restaurant": <FaUtensils className="text-indigo-500" />,
+        "Spa Sanctuary": <FaSpa className="text-purple-500" />,
+        "Ski Valet": <FaParking className="text-blue-600" />,
+        "Heated Indoor Pool": <FaSwimmingPool className="text-amber-500" />,
+        "Mountain Spa": <FaSpa className="text-emerald-500" />,
+        "Fondue Restaurant": <FaUtensils className="text-yellow-600" />,
+        "Private Oasis Pool": <FaSwimmingPool className="text-amber-500" />,
+        "Camel Rides": <FaConciergeBell className="text-orange-800" />,
+        "Desert Spa": <FaSpa className="text-orange-600" />,
+        "Starlight Dining": <FaUtensils className="text-indigo-500" />,
+        "Cliffside Infinity Pool": <FaSwimmingPool className="text-emerald-500" />,
+        "Jungle Spa": <FaSpa className="text-green-600" />,
+        "Rice Terrace Dining": <FaUtensils className="text-lime-600" />,
+        "Cultural Workshops": <FaConciergeBell className="text-amber-700" />,
+        "Rooftop Pool": <FaSwimmingPool className="text-sky-500" />,
+        "Sky Lounge": <FaConciergeBell className="text-purple-500" />,
+        "Personal Shopper": <FaConciergeBell className="text-pink-500" />,
+        "Broadway Concierge": <FaConciergeBell className="text-red-500" />
+      };
+        //end 5 start hotel 
   return (
     <>
        
@@ -286,10 +393,10 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900"
+              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white"
             >
-              Variety of <span className="text-pink-500">Escort Services</span>
-              <br /> in Delhi for <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Your</span>
+              Try Independent <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Escorts in Delhi for</span>
+              <br /> Private & Premium Companionship <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">| Book Now</span>
             </motion.h1>
 
             <motion.p
@@ -298,7 +405,7 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
               transition={{ delay: 0.2, duration: 0.6 }}
               className="mt-6 max-w-2xl text-gray-600"
             >
-              Trusted, discreet and professional companionship for events, travel, and curated experiences across Delhi. Book verified profiles for safe and tailored services.
+              Enjoy soft-spoken, well-groomed, mature independent call girls in Delhi who create comfort, grace, and a natural feel inside your 5-star hotel room. Booking stays simple, service stays safe, and companionship feels warm and easy.
             </motion.p>
 
             <motion.div
@@ -398,10 +505,10 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
                             transition={{ delay: 0.3 }}
                             viewport={{ once: true }}
                           >
-                            Variety of{" "}
+                            Verified Foreigner{" "}
                             <span className="relative">
                               <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                                Escort Services in Delhi for Your
+                                 Call Girls in Delhi For Corporate Tycoons
                               </span>
                               <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                             </span>
@@ -416,16 +523,10 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
                           >
                             <p className="text-gray-600 text-lg leading-relaxed">
                                  
-                              Trusted,{" "}
+                              {" "}
                               <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                                discreet and professional
                               </strong>
-                              , companionship for events,{" "}
-                              <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                               travel,
-                              </strong>{" "}
-                              and curated experiences across Delhi.{" "}
-                              
+                              European and Russian models of the highest rank, available to corporate clients, for peaceful, elegant, and business companionship.
                             </p>
                             
                           </motion.div>
@@ -557,6 +658,7 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
               </div>
             </section>
             {/* content section */}
+            
         {/* staff showcase */}
          <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
@@ -567,10 +669,10 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
                   className="text-center mb-16"
                 >
                   <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                    Our Exceptional Team
+                    Choose Independent Call Girls in Delhi for Genuine, Comfortable Companionship
                   </h2>
                   <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Meet our diverse team of professionals who bring excellence and passion to every engagement.
+                    Independent escorts connect personally, keeping the evening smooth, calm, and unrushed.
                   </p>
                 </motion.div>
         
@@ -676,21 +778,98 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
               </div>
             </div>
             {/* End Staff Showcase */}
+            <section className="relative bg-white py-24 px-4 md:px-10 overflow-hidden">
+      
+      {/* Soft Gradient Accent */}
+      <div className="absolute -top-32 -right-32 w-[420px] h-[420px] bg-pink-500/10 rounded-full blur-[140px]" />
+      <div className="absolute -bottom-32 -left-32 w-[420px] h-[420px] bg-purple-600/10 rounded-full blur-[140px]" />
+
+      <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+        
+        {/* Left Content */}
+        <div>
+          <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 leading-snug">
+            Independent Delhi Girl for <span className="text-pink-600">Corporate, Travel & Hotel</span> Companionship
+          </h2>
+
+          <p className="mt-6 text-gray-600 leading-relaxed">
+            Delhi runs on speed, and many men prefer company that understands that pace. An independent Delhi girl fits naturally through her calm conduct, soft way of talking, and personal appeal.
+          </p>
+
+          <p className="mt-4 text-gray-600 leading-relaxed">
+            Majority of the independent escorts are students, professionals or educated women who take good care of themselves. This makes the time feel balanced and refined. Their relaxed manner, neat look, and polite conduct suit clients looking for:
+          </p>
+
+          {/* Feature List */}
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className="flex items-center gap-3">
+              <BriefcaseIcon className="h-6 w-6 text-pink-600" />
+              <span className="text-gray-700">Business Travellers</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <BuildingOfficeIcon className="h-6 w-6 text-pink-600" />
+              <span className="text-gray-700">Corporate Clients</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <HomeModernIcon className="h-6 w-6 text-pink-600" />
+              <span className="text-gray-700">Hotel Companionship</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <CakeIcon className="h-6 w-6 text-pink-600" />
+              <span className="text-gray-700">Dinner & Lounge Dates</span>
+            </div>
+          </div>
+
+          <p className="mt-8 text-gray-700 font-medium">
+           You enjoy good company without tension or formality.
+          </p>
+        </div>
+
+        {/* Right Image */}
+        <div className="relative">
+          <img
+            src="/images/download.jpg"
+            alt="Elegant Independent Delhi Girl"
+            className="rounded-3xl shadow-xl object-cover"
+          />
+
+          <div className="absolute -bottom-6 -left-6 bg-white px-6 py-4 rounded-2xl shadow-lg">
+            <p className="text-sm font-semibold text-gray-800">
+              Calm • Educated • Well-Mannered
+            </p>
+            <p className="text-xs text-gray-500 mt-1">
+              Perfect for professional companionship
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
             {/* /// */}
                 <section className="bg-white py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         {/* Left column - Text */}
         <div className="lg:col-span-6">
           <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight text-gray-900">
-            Delhi Escorts Agency - <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">No Compromise</span> on Quality
-            <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-fuchsia-600">Escorts Service</span>
+            Independent Escorts <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">in Delhi for</span> Men Who Want
+            <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-fuchsia-600"> Real Connection</span>
           </h2>
 
           <p className="mt-8 text-gray-600 max-w-xl">
-            Welcome to <span className="font-semibold text-purple-600">Delhi Body Spa</span>, where we offer a range of luxury spa treatments including female to male spa, couple massages, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
+            <span className="font-semibold text-purple-600"> </span>
+            Independent escorts in Delhi are unique when the aim will be actual comfort and a sense of personal touch. These women have their own fashion, self-confidence and warmth. They are self-managed, work individually, and present themselves to the clients in an honest and relaxed way. They do not stick to the patterns or training, which makes each meeting relaxed and real.
+          </p>
+          <p className="mt-8 text-gray-600 max-w-xl">
+            If the plan includes calm conversation, a polished dinner partner, or quiet company inside your hotel room, an independent female escort in Delhi reads your mood well. Her courteousness, clean look, respectful voice, and plain manner befits both first-time visitors and business clients.
+          </p>
+          <p className="mt-8 text-gray-600 max-w-xl">
+           The time becomes relaxed rather than rigid with an independent Delhi girl, and this is the reason why most people favor them to formal escort arrangements.
           </p>
 
-          <ul className="mt-8 space-y-4 text-gray-700 max-w-md">
+          {/* <ul className="mt-8 space-y-4 text-gray-700 max-w-md">
             <li className="flex items-start gap-3">
               <span className="mt-1 inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">✓</span>
               <div>
@@ -714,7 +893,7 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
                 <p className="text-sm text-gray-600">Multiple premium locations across Delhi NCR—book at your convenience.</p>
               </div>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="mt-8">
             <a href="#book" className="inline-flex items-center gap-3 px-6 py-3 rounded-full font-medium bg-gradient-to-r from-purple-600 to-pink-500 text-white shadow-lg">
@@ -762,113 +941,534 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
       `}</style>
     </section>
             {/* /// */}
-            <section className="min-h-screen flex items-center justify-center bg-white p-8">
-<div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-{/* Left gradient circle content */}
-<div className="lg:col-span-5 relative">
-<div className="absolute -left-24 -top-24 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-purple-700 via-pink-500 to-rose-400 shadow-lg transform -translate-x-6 -translate-y-6 lg:block hidden"></div>
+            {/* new section */}
+            {/* // */}
+            <section className="relative bg-[#fafafa] py-28 px-4 md:px-10 overflow-hidden">
 
+      {/* Gradient Blobs */}
+      <div className="absolute -top-32 -left-32 w-[520px] h-[520px] bg-pink-500/20 rounded-full blur-[150px]" />
+      <div className="absolute -bottom-32 -right-32 w-[520px] h-[520px] bg-purple-600/20 rounded-full blur-[150px]" />
 
-<div className="relative z-10 p-10 lg:py-24 lg:px-12 text-white">
-<h3 className="text-4xl font-semibold">Why Choose Us</h3>
-<div className="w-16 h-1 bg-white rounded mt-4 mb-6"></div>
-<p className="text-white/90 leading-relaxed">
-Insert your desired text here. This is a simple text. 
-A brief introduction about your cybersecurity company. Highlight your key
-strengths and build trust with short, confident copy.
-</p>
-</div>
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        {/* RIGHT – IMAGE */}
+        <div className="relative">
+          <div className="relative rounded-[28px] overflow-hidden shadow-2xl">
+            <img
+              src="/images/download (3).jpg"
+              alt="Luxury lounge ambience"
+              className="w-full h-[650px] object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+            <div className="absolute bottom-6 left-6 right-6 text-white">
+              <p className="text-lg font-semibold">
+                Calm • Classy • Professional
+              </p>
+              <p className="text-sm opacity-90">
+                Designed for refined companionship
+              </p>
+            </div>
+          </div>
+        </div>
 
+        {/* LEFT – CONTENT */}
+        <div>
+          <span className="inline-flex items-center gap-2 px-5 py-2 mb-6 text-xs font-semibold tracking-widest text-pink-700 bg-white shadow rounded-full">
+            FOREIGN & RUSSIAN ESCORTS
+          </span>
 
-{/* bottom-right small curved gradient for logo */}
-<div className="absolute right-0 bottom-0 w-40 h-28 rounded-tl-2xl bg-gradient-to-br from-purple-700 via-pink-500 to-rose-400 flex items-center justify-center text-white p-3 shadow-md">
-<div className="flex items-center gap-3">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 1L3 5v6c0 5 4 9 9 11 5-2 9-6 9-11V5l-9-4z" stroke="white" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9.5 12.5l1.75 1.75L15.5 10" stroke="white" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
-<div className="text-sm font-medium">YOUR<br/>LOGO HERE</div>
-</div>
-</div>
-</div>
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-extrabold text-gray-900 leading-tight mb-8">
+            Independent College Girl
+            <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">
+              in Delhi for Simple & Friendly Company
+            </span>
+          </h2>
 
+          <div className="space-y-6 text-gray-600 text-base md:text-lg leading-relaxed">
+            <p>
+              For those who enjoy light-hearted and friendly presence, an independent college girl in Delhi fits perfectly. These girls bring a fresh and easy vibe that helps you settle instantly. They attend established colleges and handle their profiles themselves, and this makes their behaviour natural and unscripted. The conversations are unproblematic, etiquette is mild, and coziness is kept in the center to all clients.
+            </p>
+            <p>
+             College girls are appropriate with clients who appreciate simplicity such as easy conversation, friendly smiles, natural communication, and youthful vitality that boosts the mood. They are also polite, clean and very soft-spoken, thereby appealing to first time users, travellers or any other people seeking quiet companionship in a hotel.
+            </p>
+            <p>With an independent college girl, there is no rush or stress. Her friendly nature, positive outlook, and neat casual style help the time feel smooth and pleasant.</p>
+            <p>If you want company that feels easy to talk to, share a laugh with, and relax around, an independent college girl in Delhi fits well.</p>
+          </div>
 
-{/* Right cards */}
-<div className="lg:col-span-7">
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-{/* Card 1 */}
-<div className="relative bg-white rounded-2xl p-6 shadow-md overflow-hidden">
-<div className="flex items-start gap-4">
-<div className="w-12 h-12 rounded-lg flex items-center justify-center border border-gray-100">
-<svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-pink-500">
-<path d="M12 2l7 3v5c0 5-3.58 9.74-7 11-3.42-1.26-7-6-7-11V5l7-3z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-</svg>
-</div>
-<div>
-<h4 className="font-semibold text-slate-800">Title Placeholder</h4>
-<p className="mt-1 text-sm text-slate-500">It is our dedication to quality, professionalism, and unmatched privacy that makes Delhi Scarlet our clients‘ first choice.</p>
-</div>
-</div>
-</div>
+          {/* ICON HIGHLIGHTS – INLINE */}
+          {/* <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {features3.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                <div
+                  key={index}
+                  className="flex items-center gap-4 p-5 rounded-xl bg-white shadow border border-gray-100"
+                >
+                  <Icon className="w-6 h-6 text-pink-600" />
+                  <span className="font-semibold text-gray-800">
+                    {item.title}
+                  </span>
+                </div>
+              );
+            })}
+          </div> */}
 
+          {/* CTA */}
+          <div className="mt-12 flex flex-wrap gap-6">
+            <button className="group relative px-10 py-4 rounded-full overflow-hidden bg-gradient-to-r from-pink-600 to-purple-600 text-white font-semibold text-lg shadow-2xl">
+              <span className="relative z-10">Book Now</span>
+              <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition" />
+            </button>
 
-{/* Card 2 - accent gradient */}
-<div className="relative bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white rounded-2xl p-6 shadow-md overflow-hidden">
-<div className="flex items-start gap-4">
-<div className="w-12 h-12 rounded-lg flex items-center justify-center border border-white/20">
-<svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-white">
-<rect x="3" y="6" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.4" />
-<circle cx="12" cy="12" r="2" stroke="currentColor" strokeWidth="1.4" />
-</svg>
-</div>
-<div>
-<h4 className="font-semibold text-white">Title Placeholder</h4>
-<p className="mt-1 text-sm text-white/90">Our Delhi escorts are scrutinised to be great-looking and have sexy bodies to make you feel on top of the world. Our independent Delhi escorts work in their own way—from the girlfriend experience beyond expectations but with a transactional twist.</p>
-</div>
-</div>
-</div>
+            <button className="px-10 py-4 rounded-full bg-white text-gray-900 font-semibold text-lg border border-gray-200 shadow hover:shadow-md transition">
+              View Profiles
+            </button>
+          </div>
+        </div>
 
-{/* Card 3 */}
-<div className="relative bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white rounded-2xl p-6 shadow-md overflow-hidden">
-<div className="flex items-start gap-4">
-<div className="w-12 h-12 rounded-lg flex items-center justify-center border border-white/20">
-<svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-white">
-<rect x="3" y="6" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.4" />
-<circle cx="12" cy="12" r="2" stroke="currentColor" strokeWidth="1.4" />
-</svg>
-</div>
-<div>
-<h4 className="font-semibold text-white">Title Placeholder</h4>
-<p className="mt-1 text-sm text-white/90">They know how to engage, entertain, and beguile with both beauty and brains.
+        
 
-When you are with the Delhi Independent Escorts, you not only have a date, but you also get a memorable connection. Our clients continue to select us for our expectations in cleanliness, timing, and emotional intelligence.</p>
-</div>
-</div>
-</div>
+      </div>
+    </section>
+            {/* // */}
+            {/* new */}
+            <section className="relative bg-white py-28 px-4 md:px-10 overflow-hidden">
 
+      {/* Gradient Background */}
+      <div className="absolute -top-32 -right-32 w-[480px] h-[480px] bg-purple-500/20 rounded-full blur-[140px]" />
+      <div className="absolute -bottom-32 -left-32 w-[480px] h-[480px] bg-pink-500/20 rounded-full blur-[140px]" />
 
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
+        {/* LEFT – IMAGE */}
+        <div className="relative">
+          <div className="relative rounded-[30px] overflow-hidden shadow-2xl">
+            <img
+              src="/images/download (2).jpg"
+              alt="Luxury late night ambience"
+              className="w-full h-[650px] object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+            <div className="absolute bottom-6 left-6 right-6 text-white">
+              <p className="text-xl font-semibold">
+                Late Night • Calm • Premium
+              </p>
+              <p className="text-sm opacity-90">
+                Designed for relaxed & refined evenings
+              </p>
+            </div>
+          </div>
+        </div>
 
-{/* Card 4 */}
-<div className="relative bg-white rounded-2xl p-6 shadow-md overflow-hidden">
-<div className="flex items-start gap-4">
-<div className="w-12 h-12 rounded-lg flex items-center justify-center border border-gray-100">
-<svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-pink-500">
-<path d="M12 2l3 6 6 .5-4.5 3 1.5 6L12 15l-6 3 1.5-6L3 8.5 9 8 12 2z" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
-</svg>
-</div>
-<div>
-<h4 className="font-semibold text-slate-800">Title Placeholder</h4>
-<p className="mt-1 text-sm text-slate-500">Our high-class Delhi female escorts are good in conversation and dressed up well according to client requirements. Be it a hotel room all night or a high-class party, our Delhi Escort Service assures that your need is fulfilled with our hot Delhi call girls.</p>
-</div>
-</div>
-</div>
+        {/* RIGHT – CONTENT */}
+        <div>
+          <span className="inline-flex items-center gap-2 px-5 py-2 mb-6 text-xs font-semibold tracking-widest text-purple-700 bg-purple-50 rounded-full">
+            LATE NIGHT FOREIGNER ESCORTS
+          </span>
 
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-8">
+            Find Independent Girl in Delhi
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">
+              for Late Night Escort Service
+            </span>
+          </h2>
 
-</div>
-</div>
-</div>
+          <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-8">
+            Independent escorts are soft-spoken, neat, natural and can be booked across 5-star hotels, late at night. They are perfect for clients who want calm, peaceful, and genuine companionship without any rush. These
+          </p>
+
+          {/* POINTS */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {points.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                <div
+                  key={index}
+                  className="flex items-center gap-4 p-5 rounded-xl bg-white shadow border border-gray-100"
+                >
+                  <Icon className="w-6 h-6 text-purple-600" />
+                  <span className="text-gray-800 font-medium">
+                    {item.text}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* CTA */}
+          <div className="mt-12 flex gap-6 flex-wrap">
+            <button className="px-10 py-4 rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-semibold text-lg shadow-xl hover:scale-[1.03] transition">
+              Book Now
+            </button>
+            <button className="px-10 py-4 rounded-full border border-gray-300 text-gray-800 font-semibold text-lg hover:bg-gray-100 transition">
+              Contact Us
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white">
+      {/* Booking Process */}
+          <section className="py-16 px-4 md:px-8">
+            <div className="max-w-7xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                  How to Book Independent Call Girl in Delhi?
+                </h2>
+                <p className="text-gray-400">Booking an independent call-girl in Delhi stays simple and private. </p>
+              </div>
+    
+              <div className="grid md:grid-cols-4 gap-8">
+                {[
+                  {
+                    step: '01',
+                    title: 'Choose Your Independent Escort',
+                    desc: 'Search through trust-worthy profiles of unmarried Delhi girls, college girls, or professional friends. Pick the profile that matches your comfort and taste. Each listing goes through checks for safety and conduct, ensuring your experience stays smooth and stress-free from the start.',
+                    icon: <UserCheck className="w-8 h-8" />
+                  },
+                  {
+                    step: '02',
+                    title: 'Share Your Location & Time',
+                    desc: 'Enter your hotel name and your desired time. Independent escorts are time-conscious and will arrive on time without attracting attention. We verify and confirm only safe places as we ensure that all is safe and under control.',
+                    icon: <MessageCircle className="w-8 h-8" />
+                  },
+                  {
+                    step: '03',
+                    title: 'Get Private Confirmation ',
+                    desc: 'Once details are set, the booking gets confirmed quietly. You receive a private message with arrival information. The entire process stays fast, silent, and fully confidential.',
+                    icon: <Shield className="w-8 h-8" />
+                  },
+                  {
+                    step: '04',
+                    title: 'Enjoy Natural Companionship',
+                    desc: 'Your call girl is an independent lady with a well-groomed, polite, and comfortable arrival. She provides the right atmosphere of being at ease and spending time to enjoy without feeling pressured or embarrassing situations.',
+                    icon: <CreditCard className="w-8 h-8" />
+                  }
+                ].map((item, idx) => (
+                  <div key={idx} className="relative">
+                    <div className="text-center p-6 bg-gray-800/50 backdrop-blur-sm rounded-2xl border border-gray-700 h-full">
+                      <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-500 rounded-full mb-4">
+                        <div className="text-white font-bold">{item.step}</div>
+                      </div>
+                      <div className="text-pink-400 mb-3 flex justify-center">
+                        {item.icon}
+                      </div>
+                      <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                      <p className="text-gray-400">{item.desc}</p>
+                    </div>
+                    {idx < 3 && (
+                      <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-pink-500 to-purple-500"></div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+    </div>
+    {/* Hotels */}
+    {/* 5 star hotel */}
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+            Top 5-Star Hotels for Independent Escorts Service in Delhi
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+           Independent escorts are only organized in some premium hotels.
+          </p>
+        </motion.div>
+    
+        {/* Hotel Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {hotels.map((hotel) => (
+            <motion.div
+              key={hotel.id}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              whileHover={{ y: -10 }}
+              className={`bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group ${
+                activeHotel === hotel.id ? "ring-4 ring-purple-500" : ""
+              }`}
+              onClick={() => setActiveHotel(activeHotel === hotel.id ? null : hotel.id)}
+            >
+              {/* Hotel Image */}
+              <div className="relative h-60 overflow-hidden">
+                {/* Background Image */}
+                  <Image
+                    src={hotel.image}
+                    alt={hotel.name}
+                    fill
+                    priority
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div> */}
+                
+                <div className="absolute top-4 right-4 z-20 flex items-center bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
+                  <FaStar className="mr-1" />
+                  {hotel.rating}
+                </div>
+                <div className="absolute bottom-4 left-4 z-20 text-white">
+                  <h3 className="text-xl font-bold">{hotel.name}</h3>
+                  <p className="text-sm">{hotel.location}</p>
+                </div>
+                {/* Placeholder Image */}
+                {/* <div className="bg-gradient-to-br from-purple-100 to-pink-200 w-full h-full flex items-center justify-center">
+                  <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                </div> */}
+              </div>
+    
+              {/* Hotel Info */}
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">{hotel.description}</p>
+                {/* Amenities */}
+                <div className="mb-6">
+                  <h4 className="font-bold text-gray-800 mb-2">Key Amenities</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {hotel.amenities.slice(0, 4).map((amenity, index) => (
+                      <div key={index} className="flex items-center bg-gray-100 px-3 py-1.5 rounded-full text-sm">
+                        <span className="mr-2">{amenitiesIcons[amenity]}</span>
+                        {amenity}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                {/* Price and Features */}
+                <div className="flex justify-between items-center">
+                  <div>
+                    <div className="text-2xl font-bold text-purple-700">{hotel.price}</div>
+                    <div className="text-sm text-gray-500">per night</div>
+                  </div>
+                  <div className="flex space-x-2">
+                    {hotel.features.slice(0, 2).map((feature, index) => (
+                      <div key={index} className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">
+                        {feature}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                {/* Button */}
+                <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all">
+                  View Details
+                </button>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+    
+        {/* Featured Hotel - Theme matched */}
+        <motion.div 
+          className="mt-16 bg-gradient-to-r from-purple-700 to-pink-700 rounded-3xl overflow-hidden shadow-2xl"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+        >
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            {/* Image */}
+            <div className="relative min-h-[400px]">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
+              <div className="absolute bottom-6 left-6 z-20 text-white">
+                <h3 className="text-2xl font-bold">Exclusive Packages For Escort Service in Delhi</h3>
+                <p className="mt-2 max-w-md">The ultimate packages of pleasure are made to fatten you with beauty, fire, intimacy, and wild satisfaction.</p>
+              </div>
+              {/* Placeholder Image */}
+              <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
+                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+              </div>
+            </div>
+    
+            {/* Details */}
+            <div className="p-8 text-white">
+              <div className="flex items-center mb-4">
+                <FaStar className="text-yellow-400 mr-1" />
+                <FaStar className="text-yellow-400 mr-1" />
+                <FaStar className="text-yellow-400 mr-1" />
+                <FaStar className="text-yellow-400 mr-1" />
+                <FaStar className="text-yellow-400 mr-1" />
+                <span className="ml-2 font-semibold">Top Rated</span>
+              </div>
+              <h3 className="text-3xl font-bold mb-4">World Class Call Girls in Delhi: 100+ Profiles, Multiple Locations and Professional Team</h3>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Ready Elite high-profile models 24/7</li>
+                <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Erotic fantasies made to order</li>
+                <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Confirmed escorts keeping class, discretion and passion.</li>
+                {/* <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Michelin restaurant reservations</li>
+                <li className="flex items-center"><FaCheck className="text-green-400 mr-2" /> Free spa credits</li> */}
+              </ul>
+              <div className="flex space-x-4">
+                <button className="px-6 py-3 bg-white text-purple-800 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+                  Explore Packages
+                </button>
+                <button className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
+                  Contact Concierge
+                </button>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+    {/* END Hotel */}
+    
+            {/* why choice us */}
+            <section className="min-h-screen flex items-center justify-center bg-white px-4 py-14 sm:px-6 lg:p-8">
+  <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+    {/* LEFT SIDE */}
+    <div className="lg:col-span-5 relative">
+
+      {/* Big Gradient Circle (desktop only) */}
+      <div className="absolute -left-32 -top-32 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-purple-700 via-pink-500 to-rose-400 blur-sm hidden lg:block" />
+
+      {/* Content */}
+      <div className="relative z-10 rounded-3xl lg:bg-transparent bg-gradient-to-br from-purple-700 via-pink-500 to-rose-400 p-8 sm:p-10 lg:py-24 lg:px-12 text-white">
+        <h3 className="text-2xl sm:text-3xl font-semibold">Why Choose Delhi Girl for Independent Escorts Service in Delhi?</h3>
+        <div className="w-14 h-1 bg-white rounded mt-4 mb-5"></div>
+        <p className="text-white/90 text-sm sm:text-base leading-relaxed">
+          We focus on verified profiles and private companionship.
+        </p>
+      </div>
+
+      {/* Logo box – hide on very small screens */}
+      <div className="absolute right-4 bottom-4 sm:right-0 sm:bottom-0 w-36 h-24 rounded-tl-2xl bg-gradient-to-br from-purple-700 via-pink-500 to-rose-400 hidden sm:flex items-center justify-center text-white p-3 shadow-md">
+        <div className="flex items-center gap-3">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <path d="M12 1L3 5v6c0 5 4 9 9 11 5-2 9-6 9-11V5l-9-4z" stroke="white" strokeWidth="1.2"/>
+            <path d="M9.5 12.5l1.75 1.75L15.5 10" stroke="white" strokeWidth="1.4"/>
+          </svg>
+          <div className="text-xs font-medium leading-tight">
+            YOUR<br />LOGO
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* RIGHT SIDE CARDS */}
+    <div className="lg:col-span-7">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+        {/* Card 1 */}
+        <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-md">
+          <div className="flex gap-4">
+            <div className="w-11 h-11 rounded-lg flex items-center justify-center border">
+              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-pink-500">
+                <path d="M12 2l7 3v5c0 5-3.58 9.74-7 11-3.42-1.26-7-6-7-11V5l7-3z" stroke="currentColor" strokeWidth="1.4"/>
+              </svg>
+            </div>
+            <div>
+              <h4 className="font-semibold text-slate-800 text-base">
+                Verified Independent Profiles
+              </h4>
+              <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+                Each independent female escort passes personal checks for safety, conduct, and authenticity. You meet genuine self-managed girls with real pictures and clear details.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white rounded-2xl p-5 sm:p-6 shadow-md">
+          <div className="flex gap-4">
+            <div className="w-11 h-11 rounded-lg flex items-center justify-center border border-white/30">
+              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
+                <rect x="3" y="6" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.4"/>
+                <circle cx="12" cy="12" r="2" stroke="currentColor" strokeWidth="1.4"/>
+              </svg>
+            </div>
+            <div>
+              <h4 className="font-semibold text-base">Natural, Polite & Friendly Companions</h4>
+              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+                Independent escorts talk quietly, act in a respectable manner and maintain low tones during the meeting. Ease and comfort are the driving forces of all interactions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 3 */}
+        <div className="bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white rounded-2xl p-5 sm:p-6 shadow-md">
+          <div className="flex gap-4">
+            <div className="w-11 h-11 rounded-lg flex items-center justify-center border border-white/30">
+              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
+                <rect x="3" y="6" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.4"/>
+                <circle cx="12" cy="12" r="2" stroke="currentColor" strokeWidth="1.4"/>
+              </svg>
+            </div>
+            <div>
+              <h4 className="font-semibold text-base">Private & Secure Booking System</h4>
+              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+                Your privacy stays protected at all stages. We do not have to use irrelevant questions and do not discuss personal information.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 4 */}
+        <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-md">
+          <div className="flex gap-4">
+            <div className="w-11 h-11 rounded-lg flex items-center justify-center border">
+              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-pink-500">
+                <path d="M12 2l3 6 6 .5-4.5 3 1.5 6L12 15l-6 3 1.5-6L3 8.5 9 8 12 2z" stroke="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <h4 className="font-semibold text-slate-800 text-base">
+                Best for Corporate & Business Clients
+              </h4>
+              <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+                Delhi call girls work independently and know how to behave in a professional way. They suit dinners, lounges, travel stays, and hotel companionship without discomfort.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 5 */}
+        <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-md">
+          <div className="flex gap-4">
+            <div className="w-11 h-11 rounded-lg flex items-center justify-center border">
+              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-pink-500">
+                <path d="M12 2l3 6 6 .5-4.5 3 1.5 6L12 15l-6 3 1.5-6L3 8.5 9 8 12 2z" stroke="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <h4 className="font-semibold text-slate-800 text-base">
+                Book Now, Pay on Arrival
+              </h4>
+              <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+                Bookings stay simple, with payment after arrival. This suits clients who prefer clarity and safety in arrangements.
+              </p>
+            </div>
+          </div>
+        </div>
+
+         {/* Card 6 */}
+        <div className="bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white rounded-2xl p-5 sm:p-6 shadow-md">
+          <div className="flex gap-4">
+            <div className="w-11 h-11 rounded-lg flex items-center justify-center border border-white/30">
+              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
+                <rect x="3" y="6" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.4"/>
+                <circle cx="12" cy="12" r="2" stroke="currentColor" strokeWidth="1.4"/>
+              </svg>
+            </div>
+            <div>
+              <h4 className="font-semibold text-base">Smooth Coordination for All 5-Star Hotels</h4>
+              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+               Independent escorts enter hotels quietly and meet clients with grace. Everything runs clean, controlled, and private
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
 </section>
+
 {/* // */}
 
 
@@ -941,147 +1541,99 @@ When you are with the Delhi Independent Escorts, you not only have a date, but y
                       </div>
                       </section>
                 {/* end pricing */}
-                {/* Location */}
-            <section className="py-16 bg-gradient-to-r from-white via-amber-50 to-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: -12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-10"
-        >
-          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-1 rounded-full shadow-sm">
-            <HiLocationMarker className="text-2xl" />
-            <span className="text-sm font-semibold">Where You Can Book</span>
-          </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                     Our Service Areas & Premium Locations
-                  </h2>
+                {/* start */}
+                <section className="relative bg-white py-20 px-4 sm:px-6 lg:px-10 overflow-hidden">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
+    {/* LEFT CONTENT */}
+    <div className="relative z-10">
+      <span className="inline-block mb-4 px-4 py-1 text-sm font-medium rounded-full bg-gradient-to-r from-purple-600 to-pink-500 text-white">
+        International Companionship
+      </span>
+
+      <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900 leading-tight">
+        Hire Independent Escorts in Delhi <br className="hidden sm:block" />
+        for Natural Dating Experience
+      </h2>
+
+      <div className="w-16 h-1 bg-gradient-to-r from-purple-600 to-pink-500 rounded mt-4 mb-6"></div>
+
+      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+       If you want companionship that feels easy and genuine, an independent girl in Delhi fits well. These girls maintain neat grooming, friendly talk, and a natural style that keeps the evening light. Whether you choose a college girl, professional, or mature companion, each brings real presence and steady energy.
+      </p>
+
+    </div>
+
+    {/* RIGHT CONTENT CARD */}
+    <div className="relative">
+      <div className="absolute -top-10 -right-10 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl"></div>
+
+      <div className="relative bg-gradient-to-br from-purple-700 via-pink-500 to-rose-400 rounded-3xl p-8 sm:p-10 text-white shadow-xl">
+        <h3 className="text-2xl sm:text-3xl font-semibold mb-4">
+          Enjoy Relaxing, Spa-Like Comfort With Independent Call Girls in Delhi
+        </h3>
+
+        <p className="text-white/90 text-sm sm:text-base leading-relaxed">
+          Independent female escorts create a calm setting through gentle talk and warm manners. Their presence feels easy instead of formal, helping you relax after a long day. For short visits or quiet hotel time, their steady energy makes the experience soothing and memorable.
+        </p>
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          <span className="px-4 py-2 text-xs rounded-full bg-white/15">
+            Soft-Spoken
+          </span>
+          <span className="px-4 py-2 text-xs rounded-full bg-white/15">
+            Well-Mannered
+          </span>
+          <span className="px-4 py-2 text-xs rounded-full bg-white/15">
+            International Etiquette
+          </span>
+          <span className="px-4 py-2 text-xs rounded-full bg-white/15">
+            Relaxed Experience
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+            {/* end */}
+            {/* next start */}
+            <section className="relative bg-white py-20 px-4 sm:px-6 lg:px-10 overflow-hidden">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+
+    
+  </div>
+</section>
+            {/* end next */}             
+    {/* hhhh */}
+                    <section className="w-full py-16 px-6 bg-gradient-to-r from-pink-600 to-purple-600 text-white">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+        
+        {/* Text Section */}
+        <div className="space-y-6">
+          <h2 className="text-4xl font-bold leading-tight">
+            Contact Independent Call Girl Agency in Delhi for Private & High-Class Service
+          </h2>
+          <p className="text-lg opacity-90 leading-relaxed">
+           Connect anytime to book verified independent escorts for hotel companionship. Safe handling, real profiles, and smooth booking are assured.
+          </p>
           
 
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            Our call girl services in Delhi are available across multiple prime locations in Delhi NCR — from Aerocity hotel luxury to discreet home visits. Choose your preferred area and book a verified companion with confidence.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {locations.map((loc, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: i * 0.12 }}
-              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-2xl border border-amber-50"
-            >
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white">
-                  {loc.icon}
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900">{loc.title}</h3>
-                  <p className="text-sm text-gray-500 mt-1">{loc.subtitle}</p>
-                </div>
-              </div>
-
-              <ul className="mt-4 space-y-2 text-gray-600 text-sm">
-                {loc.points.map((p, idx) => (
-                  <li key={idx} className="flex items-start gap-3">
-                    <span className="mt-0.5 text-amber-500">•</span>
-                    <span>{p}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-6 flex items-center justify-between">
-                <span className="text-xs text-amber-700 font-medium">Available 24/7</span>
-                <a
-                  href="#booking"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg text-sm shadow hover:bg-amber-700 transition"
-                >
-                  Book Now
-                </a>
-              </div>
-            </motion.div>
-          ))}
+          <button className="mt-4 bg-white text-pink-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:bg-gray-100 transition">
+            Book Now
+          </button>
         </div>
 
-        <div className="mt-10 text-center">
-          <p className="text-gray-600 max-w-3xl mx-auto">
-            Prefer a custom request? We also handle special bookings for events, corporate visits, and long stays. Our team ensures verified profiles and discreet arrangements for all service types.
-          </p>
-        </div>
-      </div>
-    </section>
-    {/* Location */}
-                {/* why choose us section */}
-            <section className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold">Why <span className="italic text-indigo-600">Choose</span> Seven Figure Agency?</h2>
-          <p className="mt-3 text-gray-500">Here’s why businesses choose us to handle their digital needs:</p>
-        </div>
-
-        <div className="relative">
-          {/* Vertical dashed center line for desktop */}
-          <div className="hidden md:block absolute inset-x-1/2 transform -translate-x-1/2 top-0 bottom-0 w-px">
-            <div className="h-full w-px bg-gradient-to-b from-transparent via-gray-200 to-transparent pointer-events-none" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-10">
-            {features.map((f, idx) => {
-              const isLeft = idx % 2 === 0
-              return (
-                <div key={f.id} className={`relative md:py-6 md:pr-6 ${isLeft ? 'md:pl-0 md:pr-10' : 'md:pl-10 md:pr-0'}`}>
-                  {/* connector dot on center */}
-                  <div className={`hidden md:block absolute top-6 -right-6 md:translate-x-1/2 ${isLeft ? 'md:-right-6' : 'md:-left-6'} z-10`}>
-                    <div className={`h-4 w-4 rounded-full ${f.dot} ring-4 ring-white shadow-md`} />
-                  </div>
-
-                  <div className={`relative bg-white rounded-xl shadow-lg overflow-hidden border border-gray-50`}>
-                    <div className={`p-6 md:p-8`}>
-                      <div className="flex items-start gap-4">
-                        <div className={`flex-shrink-0 h-12 w-12 rounded-lg flex items-center justify-center ${f.dot} text-white font-bold`}> 
-                          {/* small icon - use first letter */}
-                          <span className="text-lg">{f.title.charAt(0)}</span>
-                        </div>
-                        <div>
-                          <h3 className="text-lg font-semibold text-gray-900">{f.title}</h3>
-                          <p className="mt-2 text-sm text-gray-500 max-w-xl">{f.desc}</p>
-                        </div>
-                      </div>
-                    </div>
-                    {/* pastel background pill bottom-left to mimic image */}
-                    <div className={`absolute inset-0 -z-10 rounded-xl`} style={{ background: `linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.03) 100%)` }} />
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-
-          {/* Dotted SVG connectors (only on md+) */}
-          <svg className="hidden md:block absolute inset-0 pointer-events-none" aria-hidden>
-            {features.map((_, i) => {
-              // draw curved connectors between pairs: index 0 connects to 1, 1->2 visually etc.
-              // We'll draw short dotted arcs near each pair using path commands — approximate positions.
-              const y = 80 + i * 110
-              const x1 = 0
-              return (
-                <path key={i} d={`M50 ${y} C250 ${y+10}, 350 ${y+10}, 550 ${y}`} stroke="#E5E7EB" strokeWidth="1" strokeDasharray="6 6" fill="none" />
-              )
-            })}
-          </svg>
+        {/* Image Section */}
+        <div>
+          <img
+            src="/images/spa-banner.jpg"
+            alt="Luxury Spa"
+            className="rounded-2xl shadow-xl w-full object-cover"
+          />
         </div>
 
       </div>
-
-      <style jsx>{`
-        @media (min-width: 768px) {
-          /* add spacing to left column cards so they appear staggered */
-          .grid > div:nth-child(odd) { transform: translateX(-20px); }
-          .grid > div:nth-child(even) { transform: translateX(20px); }
-        }
-      `}</style>
     </section>
                 {/* FAQ Section */}
                     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">

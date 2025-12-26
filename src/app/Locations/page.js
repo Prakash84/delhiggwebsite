@@ -25,7 +25,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "Royal escapades with your own cavalry of style, blending grace with hot titillation, grinding bodies, kisses, caressing touches and a night to fuse you, both inward and out. The atmosphere, the sumptuousness, the woman, all that becomes hard to resist the sense of pleasure.",
-        image: "/hotel-royale.jpg",
+        image: "/images/theleela.jpg",
         amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
         price: "₹25,000",
         features: ["Ocean View", "Private Beach", "Helipad"]
@@ -36,7 +36,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "A private fantasy playground. She moves up, lips rubbing your skin, fingers making a dangerous path, the body being wrapped around you, and the night becomes wild, passionate and addictive.",
-        image: "/hotel-azure.jpg",
+        image: "/images/tajpalace.webp",
         amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
         price: "₹45,000",
         features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
@@ -47,7 +47,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "Blameless high-fashion and eroticism. Your escort knows how to strip your stress, get into your arms and ride your urges with the perfect measure of control, slow, deep, intense or fast and heated.",
-        image: "/hotel-alpine.jpg",
+        image: "/images/oberoihotel.webp",
         amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
         price: "₹38,000",
         features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
@@ -58,7 +58,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "A classics of luxury in which passion strikes more. She anticipates warm mouths, cooing moans, tight hugs, intense orgasms, and a night filled with an intoxicating touch that she dominates and makes you go through exciting pleasure heights.",
-        image: "/hotel-oasis.jpg",
+        image: "/images/itcmaurya.jpg",
         amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
         price: "₹32,000",
         features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
@@ -69,7 +69,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "A glamorous mixture of fashion and passion. She understands how to creep into your bed, and put her thighs around you, and coo all kinds of foul allurements, and get you out of the world beyond your room.",
-        image: "/hotel-emerald.jpg",
+        image: "/images/jwmarriott.webp",
         amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
         price: "₹28,000",
         features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
@@ -80,7 +80,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "There is classic opulence combined with fire and brim. Your retinue is slow, voluptuous, then fierce, wild love-making, riding you, teasing you, holding you, and making a night to remember.",
-        image: "/hotel-sapphire.jpg",
+        image: "/images/imperial.webp",
         amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
         price: "₹52,000",
         features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
@@ -820,120 +820,6 @@ const services = [
             </section>
                 {/* End Location */}
            
-            {/* iCON LOCATION */}
-<section className="py-24 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <motion.div 
-      className="text-center mb-20 relative z-10"
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.8 }}
-    >
-      {/* Decorative Tag */}
-      <motion.div
-        className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20 px-5 py-2 rounded-full mb-6"
-        initial={{ opacity: 0, scale: 0.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 0.2, duration: 0.5 }}
-      >
-        <div className="w-2 h-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 animate-pulse"></div>
-        <span className="text-purple-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
-      </motion.div>
-      
-      {/* Heading */}
-      <motion.h2
-        className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3, duration: 0.6 }}
-      >
-        Our Top-Notch 5 Star{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
-          Hotels for Escort Service in Delhi
-        </span>
-      </motion.h2>
-      
-      {/* Subheading */}
-      <motion.p
-        className="text-gray-600 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.4, duration: 0.5 }}
-      >
-        Discover our exclusive spa outlets at top luxury hotels across the city
-      </motion.p>
-      
-      {/* Decorative line */}
-      <motion.div
-        className="flex justify-center mt-10"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-      >
-        <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
-      </motion.div>
-    </motion.div>
-
-    {/* Outlets Grid */}
-    <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-      {outlets.map((outlet, index) => (
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ 
-            duration: 0.6, 
-            delay: index * 0.1,
-            type: "spring",
-            stiffness: 100
-          }}
-          viewport={{ once: true, amount: 0.2 }}
-          whileHover={{ 
-            y: -10,
-            boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-          }}
-          className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl border border-purple-100 relative overflow-hidden group"
-        >
-          {/* Rating Ribbon */}
-          <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
-            <Star className="w-3 h-3 fill-white" />
-            <span>{outlet.rating}</span>
-          </div>
-          
-          {/* Icon */}
-          <div className="flex justify-center mb-6">
-            <div className="relative">
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-5 rounded-full shadow-inner group-hover:shadow-md transition-all duration-300">
-                {outlet.icon}
-              </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
-            </div>
-          </div>
-
-          {/* Hotel Name */}
-          <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">
-            {outlet.name}
-          </h3>
-          
-          {/* Tag */}
-          <div className="inline-block bg-purple-50 border border-purple-200 text-purple-700 text-xs px-3 py-1 rounded-full mb-4">
-            {outlet.tag}
-          </div>
-
-          {/* Description */}
-          <p className="text-gray-600 text-sm leading-relaxed mb-6">
-            {outlet.desc}
-          </p>
-          
-          {/* Decorative line */}
-          <div className="h-0.5 bg-gradient-to-r from-transparent via-purple-200 to-transparent w-3/4 mx-auto group-hover:via-pink-400 transition-colors duration-300"></div>
-        </motion.div>
-      ))}
-    </div>
-  </div>
-</section>
-{/* END iCON LOCATION */}
             {/* 5 star hotel */}
 <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
   <div className="max-w-7xl mx-auto">
@@ -1603,6 +1489,21 @@ Your room turns into the comfort zone, your fantasy turns out to be the way, and
       </div>
     </motion.div>
   </div>
+  <div className="mt-12 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              Get started with Delhi Girls for Escort Service in Hotel & Home
+            </h3>
+            <p className="text-gray-600">
+             Book your upscale beauty today and enter into a night of passion, chemistry, pleasure and uncontrollable intimacy.
+            </p>
+          </div>
+          <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-300 whitespace-nowrap">
+            Book Now
+          </button>
+        </div>
+      </div>
 </section>
 {/* end 300 content section  */}
 

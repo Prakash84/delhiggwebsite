@@ -7,12 +7,26 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import {  FaSwimmingPool, FaWifi, FaUtensils, FaConciergeBell, FaParking, FaSpa, FaStar, FaCheck } from 'react-icons/fa';
 import { FiSearch, FiChevronDown, FiMail, FiMessageSquare, FiHelpCircle } from 'react-icons/fi';
+import { 
+  ShieldCheck, 
+  Users, 
+  Briefcase, 
+  Heart, 
+  Star, 
+  Building 
+} from 'lucide-react';
+import { 
+  Lock,   
+  Clock, 
+  Shield, 
+  Home 
+} from 'lucide-react';
 
 
 
 export default function Delhiescorts({
-  title = "Premium Personal Services",
-  subtitle = "Luxury experience — Book trusted professionals across Delhi",
+  title = "Elite Charm & Premium Dating Partner With Aerocity escorts",
+  subtitle = "Need someone to make your stress disappear as soon as someone enters your Aerocity suite? Select from our Aerocity escorts and have fun at your doorstep.",
   ctaPrimary = "Book Now",
   ctaSecondary = "View Services",
   image = "/images/bannermodel.jpg" // use local optimized image
@@ -25,10 +39,10 @@ export default function Delhiescorts({
         const hotels = [
           {
             id: 1,
-            name: "Grand Royale Palace",
-            location: "Bangkok, Thailand",
+            name: "JW Marriott, Aerocity",
+            location: "Delhi, India ",
             rating: 5,
-            description: "An iconic luxury hotel offering breathtaking views of the city skyline and the Chao Phraya River.",
+            description: "A well-dressed, energetic hotel wherein your guests act as a soothing, sophisticated atmosphere that transforms your hotel room into an exclusive getaway to the stress of the city.",
             image: "/images/lajpatnagahotel.avif",
             amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
             price: "₹25,000",
@@ -36,10 +50,10 @@ export default function Delhiescorts({
           },
           {
             id: 2,
-            name: "Azure Waters Resort",
-            location: "Maldives",
+            name: "Andaz Delhi Hyatt Concept",
+            location: "Delhi, India",
             rating: 5,
-            description: "Experience paradise in our overwater villas with direct access to crystal-clear lagoons.",
+            description: "Friendly to modern environment and artistic interiors. Your friend improves the evening with style, friendliness, and an intelligent discussion that is very easy to follow.",
             image: "/images/JwMarriott_CP.jpg",
             amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
             price: "₹45,000",
@@ -47,10 +61,10 @@ export default function Delhiescorts({
           },
           {
             id: 3,
-            name: "Alpine Peak Lodge",
-            location: "Swiss Alps, Switzerland",
+            name: "Pullman New Delhi Aerocity",
+            location: "Delhi, India",
             rating: 5,
-            description: "Majestic mountain retreat with ski-in/ski-out access and panoramic alpine views.",
+            description: "An elegant, global-style hotel that can suit customers with fine companionship ,with a seamles,s easy interaction.",
             image: "/images/jaypeeVasantAerocity.png",
             amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
             price: "₹38,000",
@@ -58,10 +72,10 @@ export default function Delhiescorts({
           },
           {
             id: 4,
-            name: "Oasis Desert Mirage",
-            location: "Dubai, UAE",
+            name: "Novotel New Delhi Aerocity",
+            location: "Delhi, India",
             rating: 5,
-            description: "Luxurious desert sanctuary blending traditional Arabian hospitality with modern opulence.",
+            description: "The place is alive, and it gets even more so when accompanied by an escort that is charming, light-humoured and full of comfortable energy.",
             image: "/images/holidayIn_CP.jpg",
             amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
             price: "₹32,000",
@@ -69,10 +83,10 @@ export default function Delhiescorts({
           },
           {
             id: 5,
-            name: "Emerald Bay Retreat",
-            location: "Bali, Indonesia",
+            name: "Holiday Inn, Aerocity",
+            location: "Delhi, India",
             rating: 5,
-            description: "Tropical paradise nestled in lush rainforest with stunning ocean vistas and traditional Balinese architecture.",
+            description: "One of the most tranquil spots that the clients would want to be in, trying to relax after flights or a hard day at work, having the chance to find pleasant company.",
             image: "/images/pullmanAerocity.jpg",
             amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
             price: "₹28,000",
@@ -80,10 +94,10 @@ export default function Delhiescorts({
           },
           {
             id: 6,
-            name: "Sapphire Sky Tower",
-            location: "New York City, USA",
+            name: "Roseate House, Aerocity Zone",
+            location: "Delhi, India",
             rating: 5,
-            description: "Ultra-modern luxury in the heart of Manhattan with panoramic city views from every suite.",
+            description: "An upscale, luxurious atmosphere that goes well with a friend who understands how to combine classiness with a feeling of comfort.",
             image: "/images/tajmahalhotel_lajpatnagar.jpg",
             amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
             price: "₹52,000",
@@ -216,50 +230,50 @@ export default function Delhiescorts({
   const faqs = [
     {
       id: 1,
-      question: 'How do I create an account?',
-      answer: 'Creating an account is simple. Click on the "Sign Up" button in the top right corner, fill in your details including name, email, and password, then verify your email address.',
+      question: 'Are escorts allowed to visit Aerocity hotels without hassle?',
+      answer: 'Yes. Escorts come in unannounced, like any other guest. Aerocity hotels are privacy-conscious, and our companions understand how to move about in a professional manner in order to allow zero attention or interruption.',
       category: 'account',
     },
     {
       id: 2,
-      question: 'What payment methods do you accept?',
-      answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers. All transactions are securely processed with 256-bit encryption.',
+      question: 'Do Aerocity escorts differ from Delhi escorts?',
+      answer: 'The Aerocity escorts are chosen to be elegant, groomed, and socially mature which is befitting to the international traveller and visitors to corporations. They give it a peaceful and sophisticated air that suits this luxury belt.',
       category: 'payments',
     },
     {
       id: 3,
-      question: 'Can I modify my booking after confirmation?',
-      answer: 'Yes, you can modify your booking up to 24 hours before your scheduled appointment. Simply log into your account, go to "My Bookings", and select "Modify". Changes are subject to availability.',
+      question: 'Can we book an escort for a long layover?',
+      answer: 'Absolutely. Most of the clients in transit employ escorts on a short-term basis. Friends will come fast, and they will provide a calming presence and assist you in relaxing before your new flight.',
       category: 'booking',
     },
     {
       id: 4,
-      question: 'How do I cancel a reservation?',
-      answer: 'To cancel a reservation, go to "My Bookings" in your account dashboard, select the booking you wish to cancel, and click "Cancel". Cancellation policies vary by service type - please review before confirming.',
+      question: 'Are there escorts in escorting clients in Aerocity lounges or restaurants?',
+      answer: 'Yes. Escorts are bearers of elegant manners and openness to conversation, and hence they are the best companions of fine meals, visit to the lounge, or socializing at night within Aerocity.',
       category: 'booking',
     },
     {
       id: 5,
-      question: 'What is your refund policy?',
-      answer: 'We offer full refunds for cancellations made at least 48 hours in advance. Cancellations within 24-48 hours receive a 50% refund. No refunds are available for cancellations within 24 hours of the appointment.',
+      question: 'Does the service have a secure and confidential service to business travellers?',
+      answer: 'Completely. Our level of confidentiality is high, we only need few details, and we make sure that escorts are will be at their lowest profile. No harm was done to your identity.',
       category: 'payments',
     },
     {
       id: 6,
-      question: 'Are your services available internationally?',
-      answer: 'Yes, we currently operate in 15 countries worldwide. Please check our locations page for specific service availability in your region. Additional fees may apply for international bookings.',
+      question: 'Is it possible to choose an escort depending on personality?',
+      answer: 'Yes. You want an escort who is soft-spoken, cheerful, elegant, confident, or even mature, and we have a match to your emotional comfort.',
       category: 'services',
     },
     {
       id: 7,
-      question: 'How do I reset my password?',
-      answer: 'Click "Forgot Password" on the login page, enter your registered email, and you will receive a password reset link. This link expires in 30 minutes for security reasons.',
+      question: 'Are late night escorts possible in Aerocity?',
+        answer: 'Yes. Aerocity runs 24/7 — and so do we. Escorts will be at your request any time you need to be warmly company.',
       category: 'account',
     },
     {
       id: 8,
-      question: 'What safety measures do you have in place?',
-      answer: 'All our staff undergo thorough background checks and professional training. We offer contactless payment options, 24/7 support, and an emergency contact system for your safety.',
+      question: 'Why would Aerocity be the place of choice as an escort?',
+      answer: 'Its five-star hotels, global atmosphere and privacy levels makes it ideal to have a discreet and high-end companionship. Escorts fit very well and customer feel easy and comfortable.',
       category: 'services',
     },
   ];
@@ -289,6 +303,162 @@ export default function Delhiescorts({
 { name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
 { name: 'JAIPUR', img: '/images/jwmarriott.jpeg' },
 ]
+const services = [
+    {
+      id: "01",
+      title: "Airport and Travel Accompaniment Service",
+      desc: "Ideal for travellers coming or leaving via IGI. Escorts are a way of relaxing and having a good talk with someone to relieve the burden of long travel and hotel stay stress.",
+      tag: "Business Meets",
+    },
+    {
+      id: "02",
+      title: "Luxury Hotel Companionship",
+      desc: "Perfect clients who like to spend quiet and comfy evenings in their suite. Escorts are warm, emotionally supportive, and sophisticated, helping you feel deeply relaxed.",
+      tag: "Private Time",
+    },
+    {
+      id: "03",
+      title: "Lounge & Fine Dining Escorts",
+      desc: "The already memorable restaurants of Aerocity are even more memorable with a friend who can bring class, social grace, and conversation that is both interesting and easygoing.",
+      tag: "Parties & Events",
+    },
+    {
+      id: "04",
+      title: "Corporate Event Escorts",
+      desc: "For summits, conferences, business meetings, and gatherings at hotels in Aerocity, our escorts will present themselves in a mature, socially competent manner.",
+      tag: "Dinner Dates",
+    },
+    {
+      id: "05",
+      title: "Transit Client Companionship Short Stay",
+      desc: "For clients on quick contact or a journey at a short distance, escorts can be a wonderful experience, good companionship, and soothing to the client who does not feel that there is haste.",
+      tag: "Trips & Travel",
+    },
+    {
+      id: "06",
+      title: "High End Independent Escorts in Aerocity",
+      desc8: "To people who like genuine chemistry and arousal of natural association, independent escorts provide character, coziness, and reality.",
+      tag: "Independent",
+    },
+  ];
+
+  // why choice us
+  const services2 = [
+  {
+    icon: <ShieldCheck className="w-6 h-6" />,
+    title: "Complete Discretion for Hotel Visits",
+    description: "Aerocity hotels are tough, yet our escorts deal with the entrance in a professional manner. They fit in perfectly like guests with zero attention and complete confidentiality.",
+    color: "text-green-600",
+    bgColor: "bg-green-50"
+  },
+  {
+    icon: <Users className="w-6 h-6" />,
+    title: "Highly Verified, Selective Profiles",
+    description: "All escorts are filtered in terms of personality, grooming, social etiquette and reliability. Aerocity captures a sophisticated audience and that is the quality we are displaying in our profiles.",
+    color: "text-blue-600",
+    bgColor: "bg-blue-50"
+  },
+  {
+    icon: <Briefcase className="w-6 h-6" />,
+    title: "Perfect for Business Travellers",
+    description: "The majority of Aerocity clients are worn out after traveling or holding meetings. Our escorts provide a solid, non-invasive company, a good company, and a companionable company that cannot overwhelm them.",
+    color: "text-purple-600",
+    bgColor: "bg-purple-50"
+  },
+  {
+    icon: <Heart className="w-6 h-6" />,
+    title: "Personalized Companionship Experience",
+    description: "Escorts can be as talkative, silent, deep, funny, or mellow as you desire. It depends on your comfort; they just merge with it.",
+    color: "text-pink-600",
+    bgColor: "bg-pink-50"
+  },
+  {
+    icon: <Star className="w-6 h-6" />,
+    title: "Elegant, Mature, Well-Groomed Escorts",
+    description: "Look for polished looks, manners, clarity of communication, and emotional intelligence, all of which are appropriate to the exclusive hospitality culture of Aerocity.",
+    color: "text-amber-600",
+    bgColor: "bg-amber-50"
+  },
+  {
+    icon: <Building className="w-6 h-6" />,
+    title: "Trusted Across NCR Hotels & Business Hubs",
+    description: "Delhi Girl is reputable among professional organizations, has authentic profiles, and provides escorts who meet the demands of high-end hotel settings.",
+    color: "text-indigo-600",
+    bgColor: "bg-indigo-50"
+  }
+];
+// Booking Step
+const steps = [
+  {
+    number: "01",
+    title: "Explore Profiles",
+    description: "Filter through friends according to the looks, personality, and accessibility until you get the one that matches your vibe",
+    color: "from-blue-500 to-cyan-500"
+  },
+  {
+    number: "02",
+    title: "Share Your Hotel & Timing",
+    description: "Include room information and your choice of a convenient and desirable visit.",
+    color: "from-purple-500 to-pink-500"
+  },
+  {
+    number: "03",
+    title: "Confirm Booking Privately",
+    description: "You are given an inconspicuous confirmation of arrival. Nothing is complicated and secret.",
+    color: "from-green-500 to-emerald-500"
+  },
+  {
+    number: "04",
+    title: "Escort Comes in a professional manner",
+    description: "Your escort is coming in as an ordinary guest, clean, serene, and unemotional, so that no one is about to notice him.",
+    color: "from-amber-500 to-orange-500"
+  },
+  {
+    number: "05",
+    title: "Get Cozy and Natural Company",
+    description: "You need to relax into the night with a companion who brings with him the reassuring presence, attractiveness, and closeness that fit into your comfort.",
+    color: "from-red-500 to-rose-500"
+  }
+];
+// benifits
+const benefits = [
+  {
+    icon: <Lock className="w-6 h-6" />,
+    title: "Seamless Privacy Inside 5-Star Hotels",
+    description: "The Aerocity hotels are maintained to international standards, and thus privacy becomes easy. Escorts come as ordinary visitors, blend in the space well, and establish a relaxed and seamless experience. You like to be with people without feeling concerned about being attended to, making noises, and making unnecessary checks; all this is naturally subtle.",
+    features: ["International standards", "Zero attention drawn", "Relaxed experience"]
+  },
+  {
+    icon: <Briefcase className="w-6 h-6" />,
+    title: "Perfect for Business Travelers & Transit Stays",
+    description: "Majority of the Aerocity customers come to the venue exhausted, overworked, or mentally exhausted. Escorts in this regard know how to beat the rhythm of airport schedules, late flights and protracted meetings. They provide a grounding company, considerate conversation and emotional comfort that makes you unwind and feel like being human once more.",
+    features: ["Airport schedule aware", "Emotional comfort", "Non-invasive presence"]
+  },
+  {
+    icon: <Star className="w-6 h-6" />,
+    title: "High-Quality Escorts Matching Aerocity’s Vibe",
+    description: "Aerocity appeals to sophisticated, global travellers - hence, escorts that are chosen in this area are laden with sophistication, grooming, etiquette, and smooth social appeal. They are very energetic and are befitting luxury hotels, upscale lounges, and business settings.",
+    features: ["Luxury hotel appropriate", "Global traveler suitable", "Upscale lounge ready"]
+  },
+  {
+    icon: <Clock className="w-6 h-6" />,
+    title: "Round-the-Clock Availability for Flexible Needs",
+    description: "You can arrive at midnight, get up early, or do something on the spur of the moment, but at any time, you can enjoy the company of escorts. The flexibility is at par with the travellers who are not bound to any specific schedules.",
+    features: ["No schedule restrictions", "Instant bookings", "Last-minute arrangements"]
+  },
+  {
+    icon: <Shield className="w-6 h-6" />,
+    title: "A Calm, Safe, Controlled Environment",
+    description: "Aerocity is one of the most secure hospitality clusters of NCR. All this, including the security and the ease of access, facilitates the comfort of companionship without any hitch. The clients are not afraid to invite escorts since the setting is organized, peaceful, and well-managed.",
+    features: ["Enhanced security", "Easy access", "Comfort assured"]
+  },
+  {
+    icon: <Home className="w-6 h-6" />,
+    title: "Premium Ambience That Enhances the Experience",
+    description: "Five-star rooms, signature lounges, low lighting, soft music, and advanced interiors automatically boost the mood. Your friend follows in upon that mood and makes your evening something warm and cozy and delightfully luxurious.",
+    features: ["Luxurious rooms", "Mood lighting", "Cozy atmosphere"]
+  }
+];
   return (
     <>
     <header className="relative overflow-hidden bg-gradient-to-r from-rose-50 via-white to-amber-50">
@@ -441,25 +611,20 @@ export default function Delhiescorts({
           {/* CONTENT AREA */}
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            Experience Pure Luxury & Ultimate Relaxation
+                            Your Premier Destination for High-Profile Call girls in Aerocity
                           </h2>
             {/* <h2 className="text-4xl md:text-5xl font-bold from-purple-600 to-pink-600 bg-clip-text font-serif mb-6">
               Experience Pure Luxury & Ultimate Relaxation
             </h2> */}
 
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              {/* 👉 Yaha apna 300 words ka content paste kar do */}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis 
-              dignissim lorem, nec cursus massa sollicitudin et. Integer pretium, ipsum 
-              nec tincidunt cursus, libero justo tincidunt dui, eget facilisis tortor 
-              risus vitae nulla. Sed non sapien eget nisl convallis porttitor. Nam 
-              mattis orci eu elit fermentum, vitae consequat tortor malesuada. Nulla 
-              facilisi. Suspendisse potenti. Mauris vel suscipit ex, ut tempus sem. 
-              Donec at lorem id sapien convallis tempor. Integer iaculis sem vel velit 
-              fringilla malesuada. Vivamus luctus fringilla lorem non viverra. Cras 
-              aliquet, felis vel tempus iaculis, nisi orci volutpat felis, non varius 
-              velit nibh vitae neque. Phasellus efficitur ex at mauris dictum, sit amet 
-              posuere massa ultricies. Mauris elementum rhoncus nulla eget fermentum. 
+              Aerocity is the place where the luxury, travel and nightlife of Delhi converge with five-star hotels, nightclubs, business people, and men who like to relax in the company of refined people after long and hard working days. Delhi Girl introduces Call girls in Aerocity who go hand in hand with this setting: refined, dignified, adult, and of course, charismatic.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              Our Aerocity escorts enter your suite with an air of quiet assurance and that assuring quality which quiets the mind immediately. They know the rhythm of business travellers, the silence after meetings, the need to talk to real people, and the need for a company that is more welcoming than suffocating.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              You are looking to relax with someone, someone to take you to a lounge or someone who just gets you and does not need to push the mood on you; these Call girls in Aerocity fit well in any case. Delhi Girl makes each of the experiences in Aerocity premium, intimate, well-organized, and an emotional experience
             </p>
             
 
@@ -483,10 +648,10 @@ export default function Delhiescorts({
                           className="text-center mb-16"
                         >
                           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            Our Premium Location in Aerocity
+                            Prime Areas We Cover for Escort service in Aerocity
                           </h2>
                           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                            Meet our diverse team of professionals who bring excellence and passion to every engagement.
+                            Every hotel, lounge, luxurious suites, and private meeting areas around the Aerocity hospitality belt.
                           </p>
                         </motion.div>
                 
@@ -656,97 +821,7 @@ export default function Delhiescorts({
                           </div>
                         </div>
                         {/* End Staff Showcase */}
-                    {/* content */}
-                   <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-
-        {/* Heading */}
-        <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-            Experience Luxury Like Never Before
-          </h2>
-
-          <p className="text-gray-600 max-w-2xl mx-auto mt-4 text-lg">
-            Step into a world of comfort, elegance, and unforgettable hospitality.
-            Designed for premium travellers, these luxury spaces combine world-class
-            amenities with breathtaking views and exceptional service.
-          </p>
-        </div>
-
-        {/* Main Card */}
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-
-          {/* Left Image */}
-          <div className="relative rounded-2xl overflow-hidden shadow-xl group">
-            <Image
-              src="/images/@stepsister_videos_2025_hd • Milkshake Website Builder.jpeg"  // ⭐ apni image yaha lagao
-              alt="Luxury Hotel"
-              width={800}
-              height={550}
-              className="rounded-2xl transition-all duration-700 group-hover:scale-105"
-            />
-
-            {/* Rating Badge */}
-            <div className="absolute top-4 right-4 bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-md">
-              ★ 5-Star
-            </div>
-          </div>
-
-          {/* Right Content */}
-          <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Grand Royale Luxury Suites
-            </h3>
-
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Discover absolute perfection in the heart of the city. Our luxury
-              suites are crafted with premium interiors, warm lighting, and
-              breathtaking skyline views. Enjoy 24/7 butler service, multi-cuisine
-              dining, infinity pools, and world-class spa therapies — all designed
-              to offer an unforgettable stay for global travellers, couples, and
-              families seeking the highest standard of comfort and privacy.
-            </p>
-             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Discover absolute perfection in the heart of the city. Our luxury
-              suites are crafted with premium interiors, warm lighting, and
-              breathtaking skyline views. Enjoy 24/7 butler service, multi-cuisine
-              dining, infinity pools, and world-class spa therapies — all designed
-              to offer an unforgettable stay for global travellers, couples, and
-              families seeking the highest standard of comfort and privacy.
-            </p>
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Discover absolute perfection in the heart of the city. Our luxury
-              suites are crafted with premium interiors, warm lighting, and
-              breathtaking skyline views.
-            </p>
-
-            {/* Key Amenities */}
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              <span className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
-                Infinity Pool
-              </span>
-              <span className="px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm font-semibold">
-                Luxury Spa
-              </span>
-              <span className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
-                24/7 Butler
-              </span>
-              <span className="px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm font-semibold">
-                Fine Dining
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between mt-4">
-              <p className="text-2xl font-bold text-purple-600">₹25,000</p>
-              <button className="px-7 py-3 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl font-medium shadow-md hover:opacity-90 transition-all">
-                Book Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-                    </section>
+                    
                     
                     {/* 5 star hotel */}
                     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
@@ -757,10 +832,10 @@ export default function Delhiescorts({
                           className="text-center mb-16"
                         >
                           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            Our 5-Star Hotel Collection
+                            5-Star Hotels for Escort service in Aerocity
                           </h2>
                           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                            Discover the world&apos;s most exclusive luxury hotels and resorts, each offering unparalleled service and unforgettable experiences.
+                            Higher levels of companionship are offered with the privacy of leading luxury hotels at IGI Airport.
                           </p>
                         </motion.div>
                     
@@ -893,125 +968,252 @@ export default function Delhiescorts({
                       </div>
                     </div>
                     {/* END Hotel */}
-                    {/* cont */}
-                    <div className="min-h-screen flex items-center justify-center p-4 md:p-8">
-                      <div className="max-w-7xl w-full">
-                        <div className="relative">
-                          {/* Main content card */}
-                          <div className="bg-white rounded-3xl overflow-hidden shadow-2xl shadow-purple-500/10">
-                            
-                            {/* Gradient header stripe */}
-                            {/* <div className="relative h-2 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600"></div> */}
-                            
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 md:p-10">
-                              
-                              {/* Text Content */}
-                              <div className="space-y-6 lg:pr-8">
-                                <div>
-                                  <span className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-600/10 to-pink-600/10 text-purple-600 text-sm font-medium mb-4">
-                                    Featured Content
-                                  </span>
-                                  <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-                                    Modern Design with <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Stunning Gradient</span> Effects
-                                  </h1>
-                                </div>
-                                
-                                <div className="space-y-4 text-gray-600 leading-relaxed">
-                                  <p>
-                                    Welcome to our modern content section, designed with a captivating purple-to-pink gradient theme. 
-                                    This design leverages Next.js and Tailwind CSS to create a visually stunning and performant user 
-                                    experience. The gradient flow from purple-600 to pink-600 creates a dynamic visual hierarchy that 
-                                    guides the users attention through the content.
-                                  </p>   
-                                  <p>
-                                    The implementation uses Tailwinds gradient utilities for a subtle yet engaging effect. Notice how 
-                                    the gradient accents create depth without overwhelming the content. This approach ensures readability 
-                                    while maintaining visual appeal.
-                                  </p>                          
-                                  <p>
-                                    Responsive design is built in with mobile-first breakpoints. The layout adapts seamlessly from 
-                                    mobile to desktop, with the image and text reordering naturally. The clean white background ensures 
-                                    the content remains the focal point while gradient elements provide visual interest.
-                                  </p>                               
-                                  <p>
-                                    This component demonstrates how to effectively use color gradients in modern web design. The 
-                                    purple-pink combination evokes creativity, innovation, and energy - perfect for technology, 
-                                    design, or creative industry applications.
-                                  </p>
-                                </div>
-                                
-                                <div className="flex flex-wrap gap-4 pt-4">
-                                  <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30">
-                                    Learn More
-                                  </button>
-                                  <button className="px-6 py-3 rounded-xl bg-transparent text-gray-700 font-semibold border border-gray-300 hover:border-purple-400 hover:text-purple-700 transition-all duration-300">
-                                    View Examples
-                                  </button>
-                                </div>
-                                
-                                {/* Stats */}
-                                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
-                                  <div className="text-center">
-                                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">98%</div>
-                                    <div className="text-sm text-gray-500">Satisfaction</div>
-                                  </div>
-                                  <div className="text-center">
-                                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">24/7</div>
-                                    <div className="text-sm text-gray-500">Support</div>
-                                  </div>
-                                  <div className="text-center">
-                                    <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">5.0</div>
-                                    <div className="text-sm text-gray-500">Rating</div>
-                                  </div>
-                                </div>
-                              </div>
-                              
-                              {/* Image Section */}
-                              <div className="relative flex items-center justify-center lg:justify-end">
-                                <div className="relative w-full max-w-md">
-                                  {/* Main image container */}
-                                  <div className="relative rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
-                                    <div className="aspect-video relative bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center">
-                                      {/* Placeholder image - replace with your actual image */}
-                                      <div className="text-center p-8">
-                                        <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center">
-                                          <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                                          </svg>
-                                        </div>
-                                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Visual Content</h3>
-                                        <p className="text-gray-600">Replace with your image</p>
-                                        <p className="text-sm text-purple-600 mt-4">Recommended: 800×600px</p>
-                                      </div>
-                                    </div>
-                                    {/* Image caption with gradient */}
-                                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-purple-600 to-pink-600 p-3">
-                                      <p className="text-white text-sm font-medium text-center">Modern gradient design</p>
-                                    </div>
-                                  </div>
-                                  {/* Gradient accent element */}
-                                  <div className="absolute -bottom-3 -right-3 w-16 h-16 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center text-white font-bold text-sm shadow-lg">
-                                    NEW
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            
-                            {/* Footer with subtle gradient */}
-                            <div className="px-8 py-4 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-gray-200">
-                              <div className="flex flex-wrap justify-between items-center text-sm text-gray-600">
-                                <div>Gradient Content Section • Built with Next.js & Tailwind</div>
-                                <div className="flex space-x-4">
-                                  <a href="#" className="hover:text-purple-600 transition-colors font-medium">Share</a>
-                                  <a href="#" className="hover:text-pink-600 transition-colors font-medium">Save</a>
-                                  <a href="#" className="hover:text-purple-600 transition-colors font-medium">Export</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <section className="w-full bg-slate-950 py-16 lg:py-24">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+
+        {/* Heading */}
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="inline-flex rounded-full border border-purple-500/40 bg-purple-500/10 px-4 py-1 text-xs font-medium tracking-wide text-purple-300 uppercase">
+            Our Escort Services in Gurugram
+          </p>
+
+          <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+            Our Escort{" "}
+            <span className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text text-transparent">
+              Services in Aerocity
+            </span>
+          </h2>
+
+          <p className="mt-4 text-sm sm:text-base text-slate-300/80">
+            Designed to appeal to travellers, business visitors, luxury staycationers,and men who want to have a smooth companion.
+          </p>
+        </div>
+
+        {/* Grid */}
+        <div className="mt-10 grid gap-6 md:mt-14 md:grid-cols-2">
+          {services.map((service) => (
+            <article
+              key={service.id}
+              className="group relative overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900/80 via-slate-900 to-slate-950/80 p-6 shadow-[0_18px_45px_rgba(0,0,0,0.65)] transition-transform duration-300 hover:-translate-y-1 hover:border-purple-500/60 hover:shadow-[0_24px_60px_rgba(0,0,0,0.85)] sm:p-7"
+            >
+              {/* Top row */}
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-xs font-semibold text-purple-300 ring-1 ring-purple-500/40">
+                    {service.id}
+                  </span>
+                  <h3 className="text-base font-semibold leading-snug text-white sm:text-lg">
+                    {service.title}
+                  </h3>
+                </div>
+
+                <span className="rounded-full bg-purple-500/10 px-3 py-1 text-[11px] font-medium text-purple-200 ring-1 ring-purple-500/30">
+                  {service.tag}
+                </span>
+              </div>
+
+              {/* Divider */}
+              <div className="mt-4 h-px w-full bg-gradient-to-r from-slate-700/60 via-slate-800 to-slate-900" />
+
+              {/* Description */}
+              <p className="mt-4 text-sm leading-relaxed text-slate-300/90">
+                {service.desc}
+              </p>
+
+              {/* Footer Line */}
+              <div className="mt-5 flex items-center justify-between text-xs text-slate-400">
+                <span className="flex items-center gap-1.5">
+                  <span className="h-1.5 w-1.5 rounded-full bg-purple-400/80 group-hover:bg-pink-400" />
+                  Tailored for modern, discreet experiences
+                </span>
+
+                <span className="hidden text-[11px] uppercase tracking-wide text-slate-500 sm:inline">
+                  Gurugram · Premium Companionship
+                </span>
+              </div>
+
+              {/* Hover Glow */}
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 translate-y-10 bg-gradient-to-t from-purple-700/20 via-pink-600/10 to-transparent opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100" />
+            </article>
+          ))}
+        </div>
+
+      </div>
+    </section>
+    {/* why choice us */}
+    <section className="py-16">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Why Choose Delhi Girl for Escort Service in Aerocity
+        </h2>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          An exclusive, high-quality, and secret service tailored to the needs of high-profile travellers and business people.
+        </p>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services2.map((service, index) => (
+          <div 
+            key={index}
+            className="group p-6 rounded-2xl border border-gray-200 hover:border-gray-300 bg-white hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+          >
+            <div className={`inline-flex p-3 rounded-xl ${service.bgColor} ${service.color} mb-4`}>
+              {service.icon}
+            </div>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              {service.title}
+            </h3>
+            <p className="text-gray-600">
+              {service.description}
+            </p>
+            <div className="mt-4 pt-4 border-t border-gray-100">
+              <span className="text-sm font-medium text-gray-500 group-hover:text-blue-600 transition-colors">
+                Learn more →
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+    {/* Booking Step */}
+     <section className="py-16">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          How to Book Our Call Girls in Aerocity
+        </h2>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          An impeccable booking experience among busy people and travellers.
+        </p>
+      </div>
+      
+      <div className="relative">
+        {/* Connection Line */}
+        <div className="hidden lg:block absolute left-0 right-0 top-1/2 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-red-200 -translate-y-1/2 z-0"></div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 relative z-10">
+          {steps.map((step, index) => (
+            <div key={index} className="flex flex-col items-center">
+              {/* Step Number Circle */}
+              <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${step.color} flex items-center justify-center mb-6 shadow-lg`}>
+                <span className="text-white font-bold text-xl">{step.number}</span>
+              </div>
+              
+              {/* Step Content */}
+              <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300 text-center w-full">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                  {step.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {step.description}
+                </p>
+              </div>
+              
+              {/* Arrow for mobile */}
+              {index < steps.length - 1 && (
+                <div className="lg:hidden my-4">
+                  <div className="w-8 h-8 mx-auto rotate-90 text-gray-300">
+                    ↓
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      <div className="mt-12 bg-gray-900 text-white rounded-2xl p-8 md:p-10">
+        <div className="max-w-3xl mx-auto text-center">
+          <h3 className="text-2xl md:text-3xl font-bold mb-6">
+            Ready for an Exceptional Experience?
+          </h3>
+          <p className="text-gray-300 mb-8">
+            Book your premium Aerocity escort service with complete discretion 
+            and professional handling. Perfect for business travelers, executives, 
+            and discerning visitors.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300">
+              Browse Profiles
+            </button>
+            <button className="px-8 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300">
+              Contact Support
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* benifits */}
+    <section className="py-16 bg-gradient-to-b from-white to-gray-50 rounded-3xl p-6 md:p-8">
+      <div className="text-center mb-12">
+        <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-medium mb-4">
+          <Star className="w-4 h-4 mr-2" />
+          Premium Benefits
+        </div>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Benefits of Booking Escort Services in Aerocity
+        </h2>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          Benefits of Booking Escort Services in Aerocity
+By selecting Aerocity to spend time with, you are not only selecting a place, but you are also selecting an experience that is being molded by luxury, privacy, and emotional comfort. The development of this section of the Delhi NCR is aimed at travellers, executives, and men looking for a relaxed company after a hard day, lateness, or consecutive meetings.
+
+Delhi Girl takes that ease a notch higher by having friends who will make you feel comfortable, close, and a soothing presence that moves your stay to a whole new level.
+
+        </p>
+      </div>
+      
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {benefits.map((benefit, index) => (
+          <div 
+            key={index}
+            className="group bg-white p-6 rounded-2xl border border-gray-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300"
+          >
+            <div className="flex items-start gap-4">
+              <div className="p-3 rounded-xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
+                <div className="text-blue-600">
+                  {benefit.icon}
+                </div>
+              </div>
+              
+              <div className="flex-1">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  {benefit.description}
+                </p>
+                
+                <ul className="space-y-2">
+                  {benefit.features.map((feature, idx) => (
+                    <li key={idx} className="flex items-center text-sm text-gray-500">
+                      <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mr-3"></div>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      <div className="mt-12 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              Book the Top-Rated Professional for Escort Services in Aerocity
+            </h3>
+            <p className="text-gray-600">
+             Share beautiful company that is warm, conversational, charming and feels comfortable. Be it a business traveller, a business guest, or a person who just wants to relax in his or her luxury suite, Delhi Girl offers an experience that has been customised to his or her mood and comfort.
+            </p>
+          </div>
+          <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-300 whitespace-nowrap">
+            Book Now
+          </button>
+        </div>
+      </div>
+    </section>
+                    
 
                     {/* hhhh */}
                     <section className="w-full py-16 px-6 bg-gradient-to-r from-pink-600 to-purple-600 text-white">
@@ -1049,72 +1251,7 @@ export default function Delhiescorts({
 
       </div>
     </section>
-    {/* content section */}
-    <section className="w-full py-16 px-6 bg-white">
-      <div className="max-w-6xl mx-auto text-center space-y-6">
-
-        {/* Gradient Heading */}
-        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-          Premium Spa & Wellness Experience
-        </h2>
-
-        {/* Subtitle */}
-        <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-          Indulge in a world-class spa experience designed to relax your mind, body, 
-          and soul. Enjoy soothing therapies, premium oils, and 5-star hospitality.
-        </p>
-
-        {/* bottom pink-purple line */}
-        <div className="w-32 h-1 mx-auto bg-gradient-to-r from-pink-600 to-purple-600 rounded-full"></div>
-
-        {/* White Card */}
-        <div className="mt-12 bg-white rounded-2xl shadow-xl p-10 text-left space-y-4">
-
-          {/* Badge */}
-          <span className="inline-block px-4 py-2 text-sm font-semibold 
-            text-white bg-gradient-to-r from-pink-600 to-purple-600 rounded-full shadow-lg">
-            5-Star Wellness
-          </span>
-
-          {/* Title */}
-          <h3 className="text-2xl font-semibold text-gray-900">
-            Why Choose Our Luxury Spa?
-          </h3>
-
-          {/* Paragraph */}
-          <p className="text-gray-700 leading-relaxed text-lg">
-            We offer a unique combination of traditional healing and modern wellness therapies. 
-            From deep tissue and aromatherapy to relaxing hot stone sessions, every experience is 
-            tailored for complete relaxation. Our certified therapists, premium oils, and serene 
-            ambiance ensure an unforgettable wellness journey.
-          </p>
-
-          {/* Gradient Tags */}
-          <div className="flex flex-wrap gap-3 mt-4">
-            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
-              Premium Oils
-            </span>
-            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
-              Aromatherapy
-            </span>
-            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
-              Luxury Rooms
-            </span>
-            <span className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium">
-              Certified Experts
-            </span>
-          </div>
-
-        </div>
-
-        {/* CTA Button */}
-        <button className="mt-8 px-8 py-4 font-semibold rounded-xl shadow-lg
-          bg-gradient-to-r from-pink-600 to-purple-600 text-white hover:opacity-90 transition">
-          Book Now
-        </button>
-
-      </div>
-    </section>
+    
 
     {/* FAQ Section */}
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
