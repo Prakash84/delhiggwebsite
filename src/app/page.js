@@ -117,7 +117,7 @@ export default function Home({
         two: '10k',
         night: '15k'
       },
-      features: ['Deep tissue massage', 'Aromatherapy', 'Hot stone therapy', 'Reflexology']
+      features: [ 'Delhi Local Girls', 'Complete satisfaction', 'Girlfriend Experience', 'Full Body To Body Nuru massage - Nude']
     },
     {
       id: 'college',
@@ -130,7 +130,7 @@ export default function Home({
         two: '20k',
         night: '30k'
       },
-      features: ['Social events', 'Campus tours', 'Study sessions', 'City exploration']
+      features: ['5 Star Hotel', 'Girlfriend Experience', 'Deep French Kiss', 'Blow Job (BJ)']
     },
     {
       id: 'airhostess',
@@ -143,7 +143,7 @@ export default function Home({
         two: '30k',
         night: '45k'
       },
-      features: ['Travel companionship', 'Multilingual conversation', 'Etiquette training', 'Event hosting']
+      features: ['5 Star Hotel', 'High Profile Airhostess', 'Girlfriend Experience', 'Deep French Kiss']
     },
     {
       id: 'foreigner',
@@ -156,7 +156,7 @@ export default function Home({
         two: '40k',
         night: '60k'
       },
-      features: ['Cultural exchange', 'Language practice', 'International cuisine', 'Global perspective']
+      features: ['5 Star Hotel', 'Foreigner Staff', 'Girlfriend Experience', 'Deep French Kiss']
     },
     {
       id: 'celebrity',
@@ -169,7 +169,7 @@ export default function Home({
         two: '60k',
         night: '90k'
       },
-      features: ['VIP events', 'Red carpet appearances', 'Personalized experiences', 'Discretion guaranteed']
+      features: ['5 Star Hotel', 'Insta Model', 'Girlfriend Experience', 'Celebrity Profile']
     }
   ];
     {/* end pricing */}

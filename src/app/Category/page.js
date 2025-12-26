@@ -117,72 +117,72 @@ export default function Category() {
           const [selectedDuration, setSelectedDuration] = useState('session'); // 'session', 'two', 'night'
         
         const pricingPlans = [
-          {
-            id: 'spa',
-            title: 'Spa Staff',
-            icon: <FaSpa className="text-pink-500" />,
-            description: 'Professional spa therapists for ultimate relaxation',
-            color: 'from-pink-500 to-rose-500',
-            pricing: {
-              session: '5k',
-              two: '10k',
-              night: '15k'
-            },
-            features: ['Deep tissue massage', 'Aromatherapy', 'Hot stone therapy', 'Reflexology']
-          },
-          {
-            id: 'college',
-            title: 'College Girls',
-            icon: <FaGraduationCap className="text-blue-500" />,
-            description: 'Energetic and vibrant companions',
-            color: 'from-blue-500 to-indigo-600',
-            pricing: {
-              session: '10k',
-              two: '20k',
-              night: '30k'
-            },
-            features: ['Social events', 'Campus tours', 'Study sessions', 'City exploration']
-          },
-          {
-            id: 'airhostess',
-            title: 'Airhostess',
-            icon: <FaPlane className="text-teal-500" />,
-            description: 'Professional and sophisticated companions',
-            color: 'from-teal-500 to-emerald-600',
-            pricing: {
-              session: '15k',
-              two: '30k',
-              night: '45k'
-            },
-            features: ['Travel companionship', 'Multilingual conversation', 'Etiquette training', 'Event hosting']
-          },
-          {
-            id: 'foreigner',
-            title: 'Foreigner',
-            icon: <FaGlobeAsia className="text-amber-500" />,
-            description: 'International companions for cultural exchange',
-            color: 'from-amber-500 to-orange-500',
-            pricing: {
-              session: '20k',
-              two: '40k',
-              night: '60k'
-            },
-            features: ['Cultural exchange', 'Language practice', 'International cuisine', 'Global perspective']
-          },
-          {
-            id: 'celebrity',
-            title: 'Celebrity',
-            icon: <FaCrown className="text-purple-500" />,
-            description: 'Exclusive high-profile companions',
-            color: 'from-purple-600 to-fuchsia-600',
-            pricing: {
-              session: '30k',
-              two: '60k',
-              night: '90k'
-            },
-            features: ['VIP events', 'Red carpet appearances', 'Personalized experiences', 'Discretion guaranteed']
-          }
-        ];
+    {
+      id: 'spa',
+      title: 'Spa Staff',
+      icon: <FaSpa className="text-pink-500" />,
+      description: 'Professional spa therapists for ultimate relaxation',
+      color: 'from-pink-500 to-rose-500',
+      pricing: {
+        session: '5k',
+        two: '10k',
+        night: '15k'
+      },
+      features: [ 'Delhi Local Girls', 'Complete satisfaction', 'Girlfriend Experience', 'Full Body To Body Nuru massage - Nude']
+    },
+    {
+      id: 'college',
+      title: 'College Girls',
+      icon: <FaGraduationCap className="text-blue-500" />,
+      description: 'Energetic and vibrant companions',
+      color: 'from-blue-500 to-indigo-600',
+      pricing: {
+        session: '10k',
+        two: '20k',
+        night: '30k'
+      },
+      features: ['5 Star Hotel', 'Girlfriend Experience', 'Deep French Kiss', 'Blow Job (BJ)']
+    },
+    {
+      id: 'airhostess',
+      title: 'Airhostess',
+      icon: <FaPlane className="text-teal-500" />,
+      description: 'Professional and sophisticated companions',
+      color: 'from-teal-500 to-emerald-600',
+      pricing: {
+        session: '15k',
+        two: '30k',
+        night: '45k'
+      },
+      features: ['5 Star Hotel', 'High Profile Airhostess', 'Girlfriend Experience', 'Deep French Kiss']
+    },
+    {
+      id: 'foreigner',
+      title: 'Foreigner',
+      icon: <FaGlobeAsia className="text-amber-500" />,
+      description: 'International companions for cultural exchange',
+      color: 'from-amber-500 to-orange-500',
+      pricing: {
+        session: '20k',
+        two: '40k',
+        night: '60k'
+      },
+      features: ['5 Star Hotel', 'Foreigner Staff', 'Girlfriend Experience', 'Deep French Kiss']
+    },
+    {
+      id: 'celebrity',
+      title: 'Celebrity',
+      icon: <FaCrown className="text-purple-500" />,
+      description: 'Exclusive high-profile companions',
+      color: 'from-purple-600 to-fuchsia-600',
+      pricing: {
+        session: '30k',
+        two: '60k',
+        night: '90k'
+      },
+      features: ['5 Star Hotel', 'Insta Model', 'Girlfriend Experience', 'Celebrity Profile']
+    }
+  ];
           {/* end pricing */}
           // FAQ Section
               const [activeCategory1, setActiveCategory1] = useState('all');
