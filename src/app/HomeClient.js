@@ -14,7 +14,7 @@ import {   Users } from "lucide-react";
 export default function Home({
   images = ['/images/6631.jpg'], // keep single image or pass swiper images externally
   imageUrl = '/images/pretty-sensual-blonde-model-laying-bed-enjoy-her-morning-luxury-hotel-wearing-burgundy-silk-nightdress-robe-blind-hairs-beauty-face-boudoir-style.jpg',
-  title = 'Affordable Escort Services',
+  title = 'Affordable call girl Services',
   subtitle = '• Pay after Meeting, NO Advance Payment',
   cta = 'Book Now',
   ctaHref = '#',
@@ -39,7 +39,7 @@ export default function Home({
       name: 'Sophia Martinez',
       role: 'Senior Airhostess',
       category: 'airhostess',
-      description: 'Our airhostess escorts are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess call girls in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
+      description: 'Our airhostess call girls are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess call girls in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
       image: '/images/Airhostess_girl.jpg', // Placeholder image path
     },
     { 
@@ -378,7 +378,7 @@ export default function Home({
     {
       id: 3,
       title: "5 Star Hotels",
-      description: "Complete privacy and reliable escorting services throughout the NCR of Delhi.",
+      description: "Complete privacy and reliable call girling services throughout the NCR of Delhi.",
       icon: "🔒"
     },
     {
@@ -502,27 +502,26 @@ src: '/images/bedposition.webp',
 ]
 
 const locations = [
-  "Delhi Escorts",
-  "AIIMS Escorts",
-  "Ashok Nagar Escorts",
-  "Ashok Vihar Escorts",
-  "Ashram Escorts",
-  "Bhikaji Cama Place Escorts",
-  "Bijwasan Escorts",
-  "Chanakyapuri Escorts",
-  "Chandni Chowk Escorts",
-  "Chattarpur Escorts",
-  "Chawri Bazar Escorts",
-  "Civil Lines Escorts",
-  "Connaught Place Escorts",
-  "Daryaganj Escorts",
-  "Defence Colony Escorts",
-  "Delhi Cantt Escorts",
-  "Dhaula Kuan Escorts",
-  "Dilshad Garden Escorts",
-  "Dwarka Escorts",
-  "East Of Kailash Escorts",
-    
+  "Call Girl in CP",
+  "Call girl in dwaka",
+  "Call girl in janakpuri",
+  "Call girl in ghaziabad",
+  "Call girl in Paharganj",
+  "Call girl in Rohini",
+  "Call girl in Noida",
+  "Call girl in Lajpat Nagar",
+  "Call girl in Aerocity",
+  "Call girl in Gurgaon",
+  "Call girl in Mahipalpur",
+  "Call girl in Vasant Kunj",
+  "Call girl in Karol Bagh",
+  "Call girl in Saket",
+  "Call girl in Hauz Khas",
+  "Call girl in Greater Kailash",
+  "Call girl in Dilshad Garden",
+  "Call girl in Dwarka",
+  "Call girl in East Of Kailash",
+  "Call girl in Nehru Place", 
 ];
   return (
     <>
@@ -557,10 +556,10 @@ const locations = [
                   <p className="inline-block px-3 py-1 rounded-full bg-white/10 text-xs sm:text-sm mb-3">Premium • Discreet • Verified</p>
 
                   <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mt-2">
-                    Hire the best calls girls in Delhi from Delhi Girl | Book Now Pay Later
+                    Hire the best call girls in Delhi from Delhi Girl | Book Now Pay Later
                   </h1>
 
-                  <p className="mt-3 text-sm sm:text-base md:text-lg text-white/90 max-w-prose">Get Full Service With No Questions asked with Delhi Girls, finest escort service in Delhi</p>
+                  <p className="mt-3 text-sm sm:text-base md:text-lg text-white/90 max-w-prose">Get Full Service With No Questions asked with Delhi Girls, finest call girl service in Delhi</p>
 
                   <div className="mt-6 flex items-center gap-3 flex-wrap">
                     <a
@@ -663,11 +662,11 @@ const locations = [
       </p>
 
       <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-        Fullfill all your sexual fantasies with best escort service in Delhi
+        Fullfill all your sexual fantasies with best call girl service in Delhi
       </h2>
 
       <p className="mt-3 text-sm sm:text-base text-gray-600">
-        Whether you have a fantasy to cum on face or want anal sex without hearing no, turn to Delhi Girls, most reliable team of calls girls in Delhi. Book now pay later at best 24x7 escort services in Delhi
+        Whether you have a fantasy to cum on face or want anal sex without hearing no, turn to Delhi Girls, most reliable team of call girls in Delhi. Book now pay later at best 24x7 call girl services in Delhi
       </p>
     </div>
     {/* ===== END HEADING ===== */}
@@ -719,7 +718,7 @@ const locations = [
                         transition={{ delay: 0.3 }}
                         viewport={{ once: true }}
                       >
-                        Top Notch Escort Service in{" "}
+                        Top Notch call girl Service in{" "}
                         <span className="relative">
                           <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
                             Delhi To Fulfill All Your Needs
@@ -736,14 +735,14 @@ const locations = [
                         viewport={{ once: true }}
                       >
                         <p className="text-gray-600 text-lg leading-relaxed">
-                         Delhi Girl is one of the leading agencies offering Escort Service in Delhi, highly recommended to those who have a secret fantasy to fulfil without compromising on any desires. At Delh Girls, our team of best Delhi call girls brings your long-held desires to life. The allure, the chemistry, the intimacy, the fire -it all comes easy when you bring our elite Delhi Girl companions into your world. Each moment is a heady mix of silk, scent, and skin, designed to dissolve your stress and start with raw, delicious pleasure.{" "}
+                         Delhi Girl is one of the leading agencies offering call girl Service in Delhi, highly recommended to those who have a secret fantasy to fulfil without compromising on any desires. At Delh Girls, our team of best Delhi call girls brings your long-held desires to life. The allure, the chemistry, the intimacy, the fire -it all comes easy when you bring our elite Delhi Girl companions into your world. Each moment is a heady mix of silk, scent, and skin, designed to dissolve your stress and start with raw, delicious pleasure.{" "}
                           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
                             
                           </strong>
                           
                         </p>
                         <p className="text-gray-600 text-lg leading-relaxed">
-                          The thing is that you do not simply book an escort service in Delhi, you get a woman who comprehends your mood, syncs up with your rhythm, arouses your senses, and makes you feel like the sole man in the room. We have call girls in Delhi at from every category, including russian models, celebrities, Air hostesses, College girls, Milf and so on. Just book your favourite call girl, and you will never regret choosing us for call girls in Delhi. Remember the name Delhi Girl for booking high-end models, daring professionals, ardent sweethearts, and seductive enchantresses who are well aware of making the night memorable. Leave your girl, hold our calls girls who never complain.{" "}
+                          The thing is that you do not simply book an call girl service in Delhi, you get a woman who comprehends your mood, syncs up with your rhythm, arouses your senses, and makes you feel like the sole man in the room. We have call girls in Delhi at from every category, including russian models, celebrities, Air hostesses, College girls, Milf and so on. Just book your favourite call girl, and you will never regret choosing us for call girls in Delhi. Remember the name Delhi Girl for booking high-end models, daring professionals, ardent sweethearts, and seductive enchantresses who are well aware of making the night memorable. Leave your girl, hold our call girls who never complain.{" "}
                           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
                             
                           </strong>
@@ -1092,7 +1091,7 @@ const locations = [
               {/* Description */}
               <div className="prose max-w-none mb-8">
                 <p className="text-gray-700">
-                 Aerocity, Connaught Palace, Rajorie Garden, Saket, or Mahipalpur, our Delhi escorts come unannounced and keep it very subtle and sensual. 
+                 Aerocity, Connaught Palace, Rajorie Garden, Saket, or Mahipalpur, our Delhi call girls come unannounced and keep it very subtle and sensual. 
                 </p>
                 <p className="text-gray-700">These places remain swarming, and our own people enliven them still more with their charms and passion. You want to spend a slow, teasing evening of sensual connection or a full-engagement, large-scale, passionate night, where she takes charge and makes you mad, then Delhi Girl shows the exact route of pleasure as you always want. </p>
                 <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Trusted Companion for the Call Girlservice in gurgaon</span>
@@ -1103,7 +1102,7 @@ const locations = [
               <p className="text-gray-700 text-lg mb-8 leading-relaxed">
                 An exclusive collection that is designed to meet the needs of men that desire sophistication, fire, adventure, and perfect closeness.
               </p> 
-              <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Claim Best Delhi Escorts Service: Enjoy Ultimate Comfort</span>
+              <span className="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Claim Best Delhi call girls Service: Enjoy Ultimate Comfort</span>
               <p className="text-gray-700 text-lg mb-8 leading-relaxed">
                 Get lost in sheer delight, tender skin, sensual warmth, seductive curves and memorable intimacy with our classiest beauties who know how to make you go all the way.
               </p> 
@@ -1237,7 +1236,7 @@ const locations = [
           transition={{ delay: 0.4, duration: 0.5 }}
         >
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-6 text-center">Why Our Escort Service in Delhi Stand Out</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center">Why Our call girl Service in Delhi Stand Out</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 { value: '200+', label: 'Professionals' },
@@ -1373,7 +1372,7 @@ View All Cities
                 <p className="text-gray-600 text-lg leading-relaxed">
                  Delhi Girl is the place to go for men are obsessed with russian call girls in Delhi, who like class, chemistry, and seduction in an ideal combination. Our red hot Delhi call girls come in with mesmerising eyes, curvy forms, addictive charm, and a warm, seductive manner that wraps around you like velvet. They can make you forget your worries, tempt your body, make you relax, or burn your entire night down.
 
-Say hello to your sexy dating partner at Delhi Girl, the hub of calls girls in Delhi who are ever ready to take your nights to the next level of whispers, intimate love, audaciousness, and smooth relationships, making it feel genuine and natural. 
+Say hello to your sexy dating partner at Delhi Girl, the hub of call girls in Delhi who are ever ready to take your nights to the next level of whispers, intimate love, audaciousness, and smooth relationships, making it feel genuine and natural. 
 
 {" "}
                   <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
@@ -1581,7 +1580,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Enjoy Top-Rated <span className="text-rose-600">Escort Service in Noida</span>
+            Enjoy Top-Rated <span className="text-rose-600">call girl Service in Noida</span>
           </h2>
           <p className="text-lg text-gray-700">
          No one can solve that Noida nights can be turned into memorable escapes as well as Delhi Girl. Our top-rated call girls in Delhi reinvent the meaning of luxury due to their daring confidence and their gracious charm, and natural chemistry. They understand how to get things to go when necessary, leave it to you when you desire, and that just right speed where pleasure is not in a hurry, and that grows, rises, and explodes right when you want it the most.
@@ -1590,7 +1589,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
             It is the air of Noida that is intoxicating with the entry of our companions into the room. Our Delhi Girl’s soft skin touch, warm breath running down your neck, naughty strokes, slow mesmerizing moves all create a rhythmic beat with your heart and make you get more into the moment.
           </p>
           <p className="text-lg text-gray-700">
-            These are not just escorts. They are women who know fantasy, romance, flirtation, seduction, and smacking hot, sweet sex. They fit any of your moods, from quiet to passionate to adventurous. Your nights in Noida end up being tales you would love to repeat over and over after watching Delhi Girl.
+            These are not just call girls. They are women who know fantasy, romance, flirtation, seduction, and smacking hot, sweet sex. They fit any of your moods, from quiet to passionate to adventurous. Your nights in Noida end up being tales you would love to repeat over and over after watching Delhi Girl.
           </p>
           
           <button className="bg-rose-600 hover:bg-rose-700 text-white px-8 py-3 rounded-full shadow-lg transition-all text-lg">
@@ -1631,7 +1630,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
             Relax and Rejuvenate At 5 star  <span className="text-pink-600">hotels with VIP call girls in Delhi</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
+            There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our call girls know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. There is organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy whether she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you.
           </p>
           
           <div className="flex gap-4">
@@ -1658,10 +1657,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-            Enjoy pleasure and luxury <span className="text-pink-600">with the elite Independent escorts in Delhi</span>
+            Enjoy pleasure and luxury <span className="text-pink-600">with the elite Independent call girls in Delhi</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-           There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our escorts in Delhi know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. 
+           There is no better than a Delhi Girl in terms of clothes that mix high-end beauty and irresistible sensuality. Our call girls in Delhi know how to make even a normal night magnetic when her eyes are fixed on yours and all the rest of the world is forgotten. 
 
 With our Delhi Call Girls, you will enjoy the organic chemistry, real-life warmth, and the pleasure goes deeper than you imagine. You feel the sparkling intimacy when she lays her arms around you, brings her lips closer with an inviting smile, or draws you towards her, embracing you. Our Delhi Girl every action will make you irresistible to grab her and spend the best night of your entire life.
 
@@ -1721,7 +1720,7 @@ With our Delhi Call Girls, you will enjoy the organic chemistry, real-life warmt
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4"
           >
-            Get Pocket - Friendly Escort Services in Delhi With High-Profile Models
+            Get Pocket - Friendly call girl Services in Delhi With High-Profile Models
           </motion.h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
            Enjoy with affordable call girls in Delhi at 5 star hotels. We offer 5 star rates Call Girlservice in Delhi.
@@ -1909,7 +1908,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
-             Aerocity is one of the best places where travellers can be found, and Delhi Girl can get hotel companionship in Aerocity by offering elegant and professional call girls. These escorts are very mature and composed, befitting the high-end international traveller. They come silently, socialize without any issues, and create a friendly atmosphere the moment they arrive.
+             Aerocity is one of the best places where travellers can be found, and Delhi Girl can get hotel companionship in Aerocity by offering elegant and professional call girls. These call girls are very mature and composed, befitting the high-end international traveller. They come silently, socialize without any issues, and create a friendly atmosphere the moment they arrive.
             </p>
           </div>
 
@@ -1939,7 +1938,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Premium Delhi Escorts for Sexual Entertainment 24/7
+            Premium Delhi call girls for Sexual Entertainment 24/7
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             How the Capital is Redefining Style and Empowerment
@@ -1983,12 +1982,12 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
               transition={{ duration: 0.7, delay: 0.2 }}
             >
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-                Invite Best Call Girls for ultimate escort service in Gurgaon
+                Invite Best Call Girls for ultimate call girl service in Gurgaon
               </h3>
               
               <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
                 <p>
-                 Delhi Girl is the best option for escort service in Gurgaon as far as irresistible pleasure is concerned. Our russian models knows how to seduce, tease, and thrill you with each move. Our Gurgaon call girls carry a magnetic appeal: soft lips, aggressive curves, warm touches, playful strokes, and a seductive rhythm that makes you find yourself right in the moment.
+                 Delhi Girl is the best option for call girl service in Gurgaon as far as irresistible pleasure is concerned. Our russian models knows how to seduce, tease, and thrill you with each move. Our Gurgaon call girls carry a magnetic appeal: soft lips, aggressive curves, warm touches, playful strokes, and a seductive rhythm that makes you find yourself right in the moment.
                 </p>
                 
                 <p>
@@ -2063,7 +2062,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
                                 className="text-center mb-16"
                               >
                                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                                  Best in class Escort Service at Top Hotels
+                                  Best in class call girl Service at Top Hotels
                                 </h2>
                                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                                  Spend on luxurious time with high-end friends who take your experience to the next level in the best hotels in Delhi NCR.
@@ -2163,7 +2162,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
                                 {/* Text on Image */}
                                 <div className="absolute bottom-6 left-6 z-20 text-white">
                                   <h3 className="text-2xl font-bold">
-                                    Luxury Package for Escort Service in Gurgaon
+                                    Luxury Package for call girl Service in Gurgaon
                                   </h3>
                                   <p className="mt-2 max-w-md">
                                     An exquisite, luxurious, male-oriented experience aimed at men who are
@@ -2173,8 +2172,8 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
 
                                 {/* Real Image */}
                                 <Image
-                                  src="/images/luxury-escort-gurgaon.jpg" // 👈 apni image ka path
-                                  alt="Luxury Escort Service in Gurgaon"
+                                  src="/images/luxury-call girl-gurgaon.jpg" // 👈 apni image ka path
+                                  alt="Luxury call girl Service in Gurgaon"
                                   fill
                                   className="object-cover"
                                   priority
@@ -2334,9 +2333,9 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl lg:text-3xl font-bold mb-4">Enjoy the Finest Pleasure to your doorstep with Escort Service in Noida</h3>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">Enjoy the Finest Pleasure to your doorstep with call girl Service in Noida</h3>
                 <p className="mb-6">
-                  Delhi Girl is best at those who like pure sensual magic right to your door in Noida. Our escorts come with charisma dripping with their grin, the self-belief in their walk and an erotic vulnerability that adjoins your area when she walks in. It can be a passionate, intimate affair, leisurely and erotic, fun and games, rendezvous, a blend of all these or some combination of all these — these friends know how to mould the night to your requirements. Each motion, each word, each touch, seems to be purposeful, alluring, and designed to drag you further into the realm of pleasure.                </p>
+                  Delhi Girl is best at those who like pure sensual magic right to your door in Noida. Our call girls come with charisma dripping with their grin, the self-belief in their walk and an erotic vulnerability that adjoins your area when she walks in. It can be a passionate, intimate affair, leisurely and erotic, fun and games, rendezvous, a blend of all these or some combination of all these — these friends know how to mould the night to your requirements. Each motion, each word, each touch, seems to be purposeful, alluring, and designed to drag you further into the realm of pleasure.                </p>
                 
                 <button className="px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-gray-100 transition-colors">
                   Read Full Story
@@ -2510,7 +2509,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Book the Best Escort Service in Delhi Today
+            Book the Best call girl Service in Delhi Today
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
            The luxurious beauty, cozy romance and sexually charged dates are designed to experience memorable nights.

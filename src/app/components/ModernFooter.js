@@ -39,7 +39,7 @@ const ModernFooter = () => {
                 <FaPaperPlane className="text-white text-xl" />
               </div>
               <span className="ml-3 text-2xl font-bold bg-gradient-to-r from-amber-400 to-orange-400 bg-clip-text text-transparent">
-                LuxeConnect
+                Delhi Girl
               </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-xs">
@@ -75,12 +75,12 @@ const ModernFooter = () => {
             </h3>
             <ul className="space-y-3">
               {[
-                { name: "Spa Professionals", link: "#" },
-                { name: "College Companions", link: "#" },
-                { name: "Air Hostess Escorts", link: "#" },
-                { name: "International Models", link: "#" },
-                { name: "Celebrity Experiences", link: "#" },
-                { name: "Corporate Events", link: "#" },
+                { name: "Foreigner Staff", link: "/Category/Foreignmodel" },
+                { name: "Air Hostess", link: "/Category/Airhostess" },
+                { name: "Independent Profile", link: "/Category/Independentprofile" },
+                { name: "High Profile", link: "/Category/Celebrityprofile" },
+                { name: "College Girl", link: "/Category/spastaff" },
+                // { name: "Corporate Events", link: "#" },
               ].map((item, i) => (
                 <li key={i}>
                   <Link href={item.link} className="text-gray-400 hover:text-amber-400 transition-colors flex items-center">
