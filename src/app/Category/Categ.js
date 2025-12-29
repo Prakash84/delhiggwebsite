@@ -50,7 +50,7 @@ export default function Category() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -58,7 +58,7 @@ export default function Category() {
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -66,7 +66,7 @@ export default function Category() {
       role: 'Marketing Student',
       category: 'college',
       description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -74,7 +74,7 @@ export default function Category() {
       role: 'International Model',
       category: 'foreign',
       description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -82,7 +82,7 @@ export default function Category() {
       role: 'Corporate Executive',
       category: 'highprofile',
       description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -90,7 +90,7 @@ export default function Category() {
       role: 'First Class Hostess',
       category: 'airhostess',
       description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -98,7 +98,7 @@ export default function Category() {
       role: 'Film Actress',
       category: 'celebrity',
       description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -106,7 +106,7 @@ export default function Category() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
     const filteredStaff = activeCategory === 'all' 
@@ -264,37 +264,37 @@ export default function Category() {
     title: "Sensual Hotel Accomplice.",
     description:
       "You get into your hotel room, and the mood changes the moment she walks in - cool confidence, warmth, easy charisma. She is sitting nearby, knows your mood, and allows the chemistry to develop. The touch of her sweet voice, her gentle movements, and the close atmosphere transform your room into an intimate and slow-burning escape.",
-    image: "/images/smiling.jpg", // Add your image path here
+    image: "/Webpimages/smiling.webp", // Add your image path here
   },
   {
     title: "Elegant Dinner Date with Hidden Heat",
     description:
       "She’s the woman who turns heads the moment she enters. A composed smile, such a friendly expression, such a gentle coquettishness that you find yourself minding all night. It could be a fine-dining or a low-tone lounge; she leans out just far enough to make your thoughts very warm and almost perilous.",
-    image: "/images/cheerful-attractive-young-woman-standing-with-hands-head.jpg", // Add your image path here
+    image: "/Webpimages/cheerful-attractive-young-woman-standing-with-hands-head.webp", // Add your image path here
   },
   {
     title: "Late-Night Warmth & Intimate Vibes",
     description:
       "Descending onto the city like warmth in the middle of the night, she comes with a slow, calming energy. She is very reassuring but exceptionally seductive. She sits nearby, speaks gently and allows the night to pass at your speed - creating a silence that is so addictive.",
-    image: "/images/Celebrity_girl.jpg", // Add your image path here
+    image: "/Webpimages/Celebrity_girl.webp", // Add your image path here
   },
   {
     title: "Corporate Travel Companion with Hidden Seduction",
     description:
       "She conducts herself gracefully before the world, though there is warmth about her voice that is reserved just for you. Her presence is your secret indulgence of the travelling or of long residence, caresses, mute laughter, and an electricity that boils only a little under the skin, eager to be shut out with you behind the door.",
-    image: "/images/housewife.webp", // Add your image path here
+    image: "/Webpimages/housewife.webp", // Add your image path here
   },
   {
     title: "Party & Celebration Companion",
     description:
       "She fills the room with life, and she is very confident, playful, and teasing. Her light touches, unobtrusive gaze and open energy ensure that you are glued to her. Regardless of being hosts or guests, she can create that type of tension that will be remembered even way after the party is over.",
-    image: "/images/Cindy.jpeg", // Add your image path here
+    image: "/Webpimages/Cindy.webp", // Add your image path here
   },
   {
     title: " Independent Friendly Companion",
     description:
       "She comes, easy-smiling, easy-going, that light flirtation that is not made, but which is natural. The warmth of an independent girl has another effect, personal, close,and  real. The dialogue is effortless, the chemistry is built up and you find yourself in a room that is a bit warmer, softer and is all yours.",
-    image: "/images/model1.jpeg", // Add your image path here
+    image: "/Webpimages/model1.webp", // Add your image path here
   },
   
   // Add more categories as needed
@@ -307,7 +307,7 @@ export default function Category() {
       <div className="absolute inset-0 z-0">
         {/* Use `fill` and `object-cover` (no layout/objectFit) + sizes for responsive loading */}
         <Image
-          src="/images/studio-shot-brunette-girl-tunic-bed.jpg"
+          src="/Webpimages/studio-shot-brunette-girl-tunic-bed.webp"
           alt="Spa and Wellness Background"
           fill
           className="object-cover w-full h-full opacity-90"
@@ -615,7 +615,7 @@ export default function Category() {
               style={{ boxShadow: '0 30px 60px rgba(0,0,0,0.12)' }}
             >
               <div className="relative aspect-[4/3] w-full">
-                <Image src='/images/mmm.jpg' alt="spa" fill style={{ objectFit: 'cover' }} />
+                <Image src='/Webpimages/mmm.webp' alt="spa" fill style={{ objectFit: 'cover' }} />
               </div>
             </motion.div>
 
@@ -629,7 +629,7 @@ export default function Category() {
               style={{ boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
             >
               <div className="relative aspect-[16/10] w-full">
-                <Image src='/images/413965.jpg' alt="spa2" fill style={{ objectFit: 'cover' }} />
+                <Image src='/Webpimages/413965.webp' alt="spa2" fill style={{ objectFit: 'cover' }} />
               </div>
             </motion.div>
 
@@ -673,7 +673,7 @@ export default function Category() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <Image
                   loading="lazy"
-                  src="/images/4201724.jpg"
+                  src="/Webpimages/4201724.webp"
                   alt="Luxury Spa Experience"
                   fill
                   className="object-cover rounded-[2.5rem] transform group-hover:scale-105 transition-transform duration-700"
@@ -960,7 +960,7 @@ export default function Category() {
                   <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl group h-[550px]">
                     <Image
                       loading="lazy"
-                      src="/images/413965.jpg"
+                      src="/Webpimages/413965.webp"
                       alt="Luxury Spa Experience"
                       layout="fill"
                       objectFit="cover"
@@ -1054,7 +1054,7 @@ You want to find a late-night company that is relaxing, respectful and luxurious
 
           <div className="relative rounded-2xl overflow-hidden shadow-xl group">
             <Image
-              src="/images/@stepsister_videos_2025_hd • Milkshake Website Builder.jpeg"  // ⭐ apni image yaha lagao
+              src="/Webpimages/@stepsister_videos_2025_hd • Milkshake Website Builder.webp"  // ⭐ apni image yaha lagao
               alt="Luxury Hotel"
               width={800}
               height={550}
@@ -1262,7 +1262,7 @@ Our celebrity escorts are the ideal choice to those clients who desire exclusivi
                             <div className="bg-white p-6 rounded-2xl shadow-sm">
                               <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                                 <img
-                                  src="/images/7170.jpg"
+                                  src="/Webpimages/7170.webp"
                                   alt="Premium Body Spa"
                                   className="w-full h-full object-cover rounded-xl"
                                 />

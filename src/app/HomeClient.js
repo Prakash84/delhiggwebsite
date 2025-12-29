@@ -40,7 +40,7 @@ export default function Home({
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: 'Our airhostess call girls are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess call girls in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
-      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     { 
       id: 2,
@@ -48,7 +48,7 @@ export default function Home({
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Alex Johnson is a confident and stylish TV personality with a charming presence. She knows how to connect easily and make every moment enjoyable. If you are looking for a celebrity call Girls in Delhi with class, confidence, and elegance, Alex offers premium companionship for parties, events, and private meetings with full discretion.',
-      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+      image: '/Webpimages/model.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -96,7 +96,7 @@ export default function Home({
       role: 'Engineering Student',
       category: 'college',
       description: 'Ava Garcia is a smart and confident engineering student with a friendly and calm personality. She is well-spoken and easy to connect with. If you are looking for a college girl call Girls in Delhi who offers comfortable companionship with privacy and respect, Ava is a great choice.',
-      image: '/Webpimages/1.webp', // Placeholder image path
+      image: '/Webpimages/American full videos.webp', // Placeholder image path
     },
   ];
   const filteredStaff = activeCategory === 'all' 
@@ -452,21 +452,24 @@ export default function Home({
 { name: 'Kalkaji', img: '/Webpimages/jwmarriott.webp' },
 ]
 const profiles = [
+  { image: '/Webpimages/download7.webp' },
+  { image: '/Webpimages/download (7).webp' },
+  { image: '/Webpimages/download (19).webp' },
+  { image: '/Webpimages/download (14).webp' },
   { image: '/Webpimages/modelg.webp' },
   { image: '/Webpimages/18244.webp' },
   { image: '/Webpimages/172420-8871.webp' },
-  { image: '/Webpimages/4201724.webp' },
+  
   { image: '/Webpimages/7168.webp' },
   { image: '/Webpimages/49.webp' },
-  { image: '/Webpimages/2291.webp' },
+  
 
   { image: '/Webpimages/modelg.webp' },
   { image: '/Webpimages/18244.webp' },
   { image: '/Webpimages/172420-8871.webp' },
-  { image: '/Webpimages/4201724.webp' },
   { image: '/Webpimages/7168.webp' },
   { image: '/Webpimages/49.webp' },
-  { image: '/Webpimages/2291.webp' },
+  
 ]
 const items = [
 {
@@ -785,7 +788,7 @@ const locations = [
             >
               <div className="rounded-md overflow-hidden border-1 border-white">
                 <Image
-                  src='/Webpimages/27110283.webp'
+                  src='/Webpimages/download (31).webp'
                   alt="property 1"
                   width={900}
                   height={600}
@@ -804,7 +807,7 @@ const locations = [
             >
               <div className="rounded-md overflow-hidden border-1 border-white">
                 <Image
-                  src='/Webpimages/18244.webp'
+                  src='/Webpimages/download (30).webp'
                   alt="property 2"
                   width={900}
                   height={600}
@@ -1016,7 +1019,7 @@ const locations = [
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500 group">
               <div className="relative h-96">
                 <Image 
-                  src="/Webpimages/modelg.webp" 
+                  src="/Webpimages/fashion-portrait-beautiful-blonde-model.webp" 
                   alt="Relaxing Spa Massage"
                   layout="fill"
                   objectFit="cover"
@@ -1029,8 +1032,8 @@ const locations = [
             
             <div className="grid grid-cols-2 gap-6">
               {[
-                {src: "/Webpimages/6637.webp", alt: "Spa Ambience"},
-                {src: "/Webpimages/27110283.webp", alt: "Luxury Spa"}
+                {src: "/Webpimages/download (34).webp", alt: "Spa Ambience"},
+                {src: "/Webpimages/32586.webp", alt: "Luxury Spa"}
               ].map((img, idx) => (
                 <div key={idx} className="relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-500 group">
                   <div className="relative h-56">
@@ -1564,7 +1567,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="relative"
         >
           <Image
-            src="/Webpimages/172420-8871.webp"
+            src="/Webpimages/download (9).webp"
             alt="Sensual Spa Experience"
             width={520}
             height={550}
@@ -1961,7 +1964,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
                   <div className="relative w-full h-full">
                     <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full flex items-center justify-center">
                       <img 
-                        src="/Webpimages/30848.webp" 
+                        src="/Webpimages/download (12).webp" 
                         alt="Delhi Fashion" 
                         className="object-cover w-full h-full rounded-xl"
                       />
@@ -2173,7 +2176,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
 
                                 {/* Real Image */}
                                 <Image
-                                  src="/Webpimages/luxury-call girl-gurgaon.webp" // 👈 apni image ka path
+                                  src="/Webpimages/bannermodel.webp" // 👈 apni image ka path
                                   alt="Luxury call girl Service in Gurgaon"
                                   fill
                                   className="object-cover"
