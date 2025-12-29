@@ -12,8 +12,8 @@ import {   Users } from "lucide-react";
 
 
 export default function Home({
-  images = ['/images/6631.jpg'], // keep single image or pass swiper images externally
-  imageUrl = '/images/pretty-sensual-blonde-model-laying-bed-enjoy-her-morning-luxury-hotel-wearing-burgundy-silk-nightdress-robe-blind-hairs-beauty-face-boudoir-style.jpg',
+  Webpimages = ['/Webpimages/6631.webp'], // keep single image or pass swiper Webpimages externally
+  imageUrl = '/Webpimages/pretty-sensual-blonde-model-laying-bed-enjoy-her-morning-luxury-hotel-wearing-burgundy-silk-nightdress-robe-blind-hairs-beauty-face-boudoir-style.webp',
   title = 'Affordable call girl Services',
   subtitle = '• Pay after Meeting, NO Advance Payment',
   cta = 'Book Now',
@@ -40,7 +40,7 @@ export default function Home({
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: 'Our airhostess call girls are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess call girls in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     { 
       id: 2,
@@ -48,7 +48,7 @@ export default function Home({
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Alex Johnson is a confident and stylish TV personality with a charming presence. She knows how to connect easily and make every moment enjoyable. If you are looking for a celebrity call Girls in Delhi with class, confidence, and elegance, Alex offers premium companionship for parties, events, and private meetings with full discretion.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ export default function Home({
       role: 'Marketing Student',
       category: 'college',
       description: 'Emma Wilson is a smart and confident marketing student with a friendly and positive nature. She is well-spoken and easy to connect with, making her a great choice for relaxed companionship. If you are looking for a Delhi college girl with a modern mindset and classy presence, Emma offers a comfortable and discreet experience.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -64,7 +64,7 @@ export default function Home({
       role: 'International Model',
       category: 'foreign',
       description: 'Isabella Rossi is a stunning international model with a confident personality and elegant style. She carries herself with grace and knows how to make every meeting special. If you are looking for a foreign call Girls in Delhi with premium looks and classy companionship, Isabella offers a luxurious and discreet experience.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -72,7 +72,7 @@ export default function Home({
       role: 'Corporate Executive',
       category: 'highprofile',
       description: 'Olivia Chen is a smart and confident corporate executive with a polished personality. She understands professionalism, good conversation, and classy company. If you are looking for a high profile call Girls in Delhi for business dinners, meetings, or private time, Olivia offers premium companionship with complete discretion and comfort.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -80,7 +80,7 @@ export default function Home({
       role: 'First Class Hostess',
       category: 'airhostess',
       description: 'Mia Thompson is a well-groomed and elegant first class hostess with a calm and confident personality. She knows how to make people feel comfortable with her polite nature and smooth conversation. If you are looking for an airhostess call Girls in Delhi who offers premium companionship with class and discretion, Mia is a perfect choice.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -88,7 +88,7 @@ export default function Home({
       role: 'Film Actress',
       category: 'celebrity',
       description: 'Chloe Williams is a graceful film actress with a strong screen presence and elegant personality. She is confident, well-mannered, and knows how to carry herself with style. If you are looking for a celebrity call Girls in Delhi who offers premium companionship for events, parties, or private meetings, Chloe brings class, charm, and complete discretion.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -96,7 +96,7 @@ export default function Home({
       role: 'Engineering Student',
       category: 'college',
       description: 'Ava Garcia is a smart and confident engineering student with a friendly and calm personality. She is well-spoken and easy to connect with. If you are looking for a college girl call Girls in Delhi who offers comfortable companionship with privacy and respect, Ava is a great choice.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
   const filteredStaff = activeCategory === 'all' 
@@ -184,7 +184,7 @@ export default function Home({
             location: "Delhi, India",
             rating: 5,
             description: "The Leela Palace with our entourage, where we make your night hot with classy seduction, friendly vibe, and luxury intimate gay company.",
-            image: "/images/lajpatnagahotel.avif",
+            image: "/Webpimages/lajpatnagahotel.webp",
             amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
             price: "₹25,000",
             features: ["Ocean View", "Private Beach", "Helipad"]
@@ -195,7 +195,7 @@ export default function Home({
             location: "Delhi, India",
             rating: 5,
             description: "A legendary dreamy den in which your friend transforms the atmosphere into a seductive memorable experience that would satisfy your most secret desires.",
-            image: "/images/JwMarriott_CP.jpg",
+            image: "/Webpimages/JwMarriott_CP.webp",
             amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
             price: "₹45,000",
             features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
@@ -206,7 +206,7 @@ export default function Home({
             location: "Delhi, India",
             rating: 5,
             description: "A grand hotel where beauty meets and savors in the presence of your companion aspires a moment of warmth, enticement, and unruffled delight.",
-            image: "/images/jaypeeVasantAerocity.png",
+            image: "/Webpimages/jaypeeVasantAerocity.webp",
             amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
             price: "₹38,000",
             features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
@@ -217,7 +217,7 @@ export default function Home({
             location: "Dubai, UAE",
             rating: 5,
             description: "Luxurious desert sanctuary blending traditional Arabian hospitality with modern opulence.",
-            image: "/images/holidayIn_CP.jpg",
+            image: "/Webpimages/holidayIn_CP.webp",
             amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
             price: "₹32,000",
             features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
@@ -228,7 +228,7 @@ export default function Home({
             location: "Bali, Indonesia",
             rating: 5,
             description: "Tropical paradise nestled in lush rainforest with stunning ocean vistas and traditional Balinese architecture.",
-            image: "/images/pullmanAerocity.jpg",
+            image: "/Webpimages/pullmanAerocity.webp",
             amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
             price: "₹28,000",
             features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
@@ -239,7 +239,7 @@ export default function Home({
             location: "New York City, USA",
             rating: 5,
             description: "Ultra-modern luxury in the heart of Manhattan with panoramic city views from every suite.",
-            image: "/images/tajmahalhotel_lajpatnagar.jpg",
+            image: "/Webpimages/tajmahalhotel_lajpatnagar.webp",
             amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
             price: "₹52,000",
             features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
@@ -405,7 +405,7 @@ export default function Home({
       description: "Delhi's fashion scene is undergoing a remarkable transformation. Young women across the capital are redefining street style with a blend of traditional and contemporary elements. From Chandni Chowk's vibrant markets to the chic boutiques of South Delhi, a new fashion movement is emerging that celebrates individuality while honoring cultural heritage.",
       category: 'fashion',
       readTime: '8 min read',
-      image: '/delhi-fashion.jpg'
+      image: '/delhi-fashion.webp'
     },
     {
       id: 2,
@@ -413,7 +413,7 @@ export default function Home({
       description: "The humid Delhi monsoon brings unique challenges for skincare. Discover how to maintain glowing skin during the rainy season with these dermatologist-approved tips. Learn about the best ingredients to combat humidity-induced breakouts and how to adjust your routine for maximum effectiveness during Delhi's wettest months.",
       category: 'beauty',
       readTime: '6 min read',
-      image: '/monsoon-skincare.jpg'
+      image: '/monsoon-skincare.webp'
     },
     {
       id: 3,
@@ -421,7 +421,7 @@ export default function Home({
       description: "Delhi is witnessing a surge in women-led initiatives that are transforming communities. From tech startups in Cyber Hub to social enterprises in Old Delhi, women are breaking barriers and creating impactful change. This article explores the inspiring stories of 5 Delhi women who are reshaping their industries and paving the way for future generations.",
       category: 'lifestyle',
       readTime: '10 min read',
-      image: '/women-empowerment.jpg'
+      image: '/women-empowerment.webp'
     },
     {
       id: 4,
@@ -429,7 +429,7 @@ export default function Home({
       description: "As Delhi prepares for the festive season, discover how to create stunning looks that blend tradition with modern flair. This comprehensive guide covers everything from selecting the perfect fabrics for Delhi's climate to accessorizing your outfit with locally-made jewelry. We've curated looks for every occasion, whether you're attending a Diwali gathering or a wedding celebration.",
       category: 'fashion',
       readTime: '12 min read',
-      image: '/festival-fashion.jpg'
+      image: '/festival-fashion.webp'
     },
   ];
 
@@ -438,66 +438,66 @@ export default function Home({
     : articles.filter(article => article.category === activeCategory);
   {/* End Sample content data */}
   const cities = [
-{ name: 'Noida', img: '/images/hotel3.webp' },
-{ name: 'Gurgaon', img: '/images/lajpatnagahotel.avif' },
-{ name: 'Faridabaad', img: '/images/RoseateHouse.jpg' },
-{ name: 'Mahipalpur', img: '/images/paschimvihar.jpg' },
-{ name: 'Aerocity', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'Connaught Place', img: '/images/Andazhat.jpg' },
-{ name: 'New Friends Colony', img: '/images/holidayIn_CP.jpg' },
-{ name: 'Dwarka', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-{ name: 'Paharganj', img: '/images/paschimvihar.jpg' },
-{ name: 'Vasant kunj', img: '/images/hotel2.jpg' },
-{ name: 'Lajpat Nagar ', img: '/images/pullmanAerocity.jpg' },
-{ name: 'Kalkaji', img: '/images/jwmarriott.jpeg' },
+{ name: 'Noida', img: '/Webpimages/hotel3.webp' },
+{ name: 'Gurgaon', img: '/Webpimages/lajpatnagahotel.webp' },
+{ name: 'Faridabaad', img: '/Webpimages/RoseateHouse.webp' },
+{ name: 'Mahipalpur', img: '/Webpimages/paschimvihar.webp' },
+{ name: 'Aerocity', img: '/Webpimages/JwMarriott_CP.webp' },
+{ name: 'Connaught Place', img: '/Webpimages/Andazhat.webp' },
+{ name: 'New Friends Colony', img: '/Webpimages/holidayIn_CP.webp' },
+{ name: 'Dwarka', img: '/Webpimages/tajmahalhotel_lajpatnagar.webp' },
+{ name: 'Paharganj', img: '/Webpimages/paschimvihar.webp' },
+{ name: 'Vasant kunj', img: '/Webpimages/hotel2.webp' },
+{ name: 'Lajpat Nagar ', img: '/Webpimages/pullmanAerocity.webp' },
+{ name: 'Kalkaji', img: '/Webpimages/jwmarriott.webp' },
 ]
 const profiles = [
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 ]
 const items = [
 {
 title: 'Adult Companion Only for 18+',
 // subtitle: 'Only for 18+',
-src: '/images/18+.webp',
+src: '/Webpimages/18+.webp',
 },
 {
 title: 'Anal Sex on Special Deman',
 // subtitle: 'Special Deman',
-src: '/images/anal.webp',
+src: '/Webpimages/anal.webp',
 },
 {
 title: 'Kama-Sutra Sex Pose',
 // subtitle: 'Sex Pose',
-src: '/images/kamasutra.webp',
+src: '/Webpimages/kamasutra.webp',
 },
 {
 title: 'Without Condom Sucking',
 // subtitle: 'Sucking',
-src: '/images/SUCKING.webp',
+src: '/Webpimages/SUCKING.webp',
 },
 {
 title: 'Enjoy All Sexual Activity',
 // subtitle: 'Sexual Activity',
-src: '/images/anal.webp',
+src: '/Webpimages/anal.webp',
 },
 {
 title: 'Get Best Sensual Encounter in Bed',
 subtitle: 'Sensual Encounter in Bed',
-src: '/images/bedposition.webp',
+src: '/Webpimages/bedposition.webp',
 }
 ]
 
@@ -772,7 +772,7 @@ const locations = [
           </div>
         </div>
     
-        {/* Right: Polaroid-ish images */}
+        {/* Right: Polaroid-ish Webpimages */}
         <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end">
           <div className="w-full max-w-lg lg:max-w-2xl relative">
             {/* Top image */}
@@ -785,7 +785,7 @@ const locations = [
             >
               <div className="rounded-md overflow-hidden border-1 border-white">
                 <Image
-                  src='/images/27110283.jpg'
+                  src='/Webpimages/27110283.webp'
                   alt="property 1"
                   width={900}
                   height={600}
@@ -804,7 +804,7 @@ const locations = [
             >
               <div className="rounded-md overflow-hidden border-1 border-white">
                 <Image
-                  src='/images/18244.jpg'
+                  src='/Webpimages/18244.webp'
                   alt="property 2"
                   width={900}
                   height={600}
@@ -1016,7 +1016,7 @@ const locations = [
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500 group">
               <div className="relative h-96">
                 <Image 
-                  src="/images/modelg.jpg" 
+                  src="/Webpimages/modelg.webp" 
                   alt="Relaxing Spa Massage"
                   layout="fill"
                   objectFit="cover"
@@ -1029,8 +1029,8 @@ const locations = [
             
             <div className="grid grid-cols-2 gap-6">
               {[
-                {src: "/images/6637.jpg", alt: "Spa Ambience"},
-                {src: "/images/27110283.jpg", alt: "Luxury Spa"}
+                {src: "/Webpimages/6637.webp", alt: "Spa Ambience"},
+                {src: "/Webpimages/27110283.webp", alt: "Luxury Spa"}
               ].map((img, idx) => (
                 <div key={idx} className="relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-500 group">
                   <div className="relative h-56">
@@ -1472,7 +1472,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
               <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl transform group w-full h-[500px]">
                 <Image
                   loading="lazy"
-                  src="/images/413965.jpg"
+                  src="/Webpimages/413965.webp"
                   alt="Spa Interior"
                   layout="fill"
                   objectFit="cover"
@@ -1564,7 +1564,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
           className="relative"
         >
           <Image
-            src="/images/172420-8871.jpg"
+            src="/Webpimages/172420-8871.webp"
             alt="Sensual Spa Experience"
             width={520}
             height={550}
@@ -1611,7 +1611,7 @@ You want a person sensual, a person playful, a person charming, a person fiercel
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/32586.jpg" 
+              src="/Webpimages/32586.webp" 
               alt="Delhi Girl"
               width={500}
               height={600}
@@ -1695,7 +1695,7 @@ With our Delhi Call Girls, you will enjoy the organic chemistry, real-life warmt
         >
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/49.jpg" // apni image ka path daalna
+              src="/Webpimages/49.webp" // apni image ka path daalna
               alt="Delhi Girl Lifestyle"
               width={600}
               height={500}
@@ -1961,7 +1961,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
                   <div className="relative w-full h-full">
                     <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full flex items-center justify-center">
                       <img 
-                        src="/images/30848.jpg" 
+                        src="/Webpimages/30848.webp" 
                         alt="Delhi Fashion" 
                         className="object-cover w-full h-full rounded-xl"
                       />
@@ -2173,7 +2173,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
 
                                 {/* Real Image */}
                                 <Image
-                                  src="/images/luxury-call girl-gurgaon.jpg" // 👈 apni image ka path
+                                  src="/Webpimages/luxury-call girl-gurgaon.webp" // 👈 apni image ka path
                                   alt="Luxury call girl Service in Gurgaon"
                                   fill
                                   className="object-cover"
@@ -2344,7 +2344,7 @@ These friends introduce a fresh breeze, light humour, easy-going interaction, pl
               </div>
               <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden">
                 <Image
-                  src='/images/cda1687d-1464-4b62-9549-2dd04a5cbb05.jpeg'
+                  src='/Webpimages/cda1687d-1464-4b62-9549-2dd04a5cbb05.webp'
                   alt='{hotel.name}'
                   fill                                        
                   className="object-cover object-center"     
