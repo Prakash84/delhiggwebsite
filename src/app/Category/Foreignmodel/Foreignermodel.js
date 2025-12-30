@@ -1210,6 +1210,13 @@ If you are fond of soft-spoken, well-groomed, clean, and premium foreign models 
               {/* Placeholder Image */}
               <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
                 <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                <div>
+                  <img
+                    src="/Webpimages/young-woman-lying-alone.webp"
+                    alt="Luxury Spa"
+                    className="rounded-2xl shadow-xl w-full object-cover"
+                  />
+                </div>
               </div>
             </div>
     
@@ -1583,7 +1590,7 @@ If you are fond of soft-spoken, well-groomed, clean, and premium foreign models 
         {/* Image Section */}
         <div>
           <img
-            src="/Webpimages/spa-banner.webp"
+            src="/Webpimages/young-woman.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

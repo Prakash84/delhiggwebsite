@@ -68,7 +68,7 @@ export default function Foreignmodel() {
       role: 'TV Personality',
       category: 'foreign',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+      image: '/Webpimages/download (29).webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -213,21 +213,24 @@ const current = priceMap[tier]
               //End FAQ Section
 
               const profiles = [
+  { image: '/Webpimages/download7.webp' },
+  { image: '/Webpimages/download (7).webp' },
+  { image: '/Webpimages/download (19).webp' },
+  { image: '/Webpimages/download (14).webp' },
   { image: '/Webpimages/modelg.webp' },
   { image: '/Webpimages/18244.webp' },
   { image: '/Webpimages/172420-8871.webp' },
-  { image: '/Webpimages/4201724.webp' },
+  
   { image: '/Webpimages/7168.webp' },
   { image: '/Webpimages/49.webp' },
-  { image: '/Webpimages/2291.webp' },
+  
 
   { image: '/Webpimages/modelg.webp' },
   { image: '/Webpimages/18244.webp' },
   { image: '/Webpimages/172420-8871.webp' },
-  { image: '/Webpimages/4201724.webp' },
   { image: '/Webpimages/7168.webp' },
   { image: '/Webpimages/49.webp' },
-  { image: '/Webpimages/2291.webp' },
+  
 ]
 const content = `At Delhi Escorts Agency, we redefine personalised luxury by combining professional care, complete discretion, and a client-first approach. Our team of highly trained therapists and hosts are selected for their skills, professionalism, and commitment to exceptional service. Every interaction is handled with respect and sensitivity, ensuring you feel comfortable, valued, and understood from the moment you connect with us.
 
@@ -386,7 +389,7 @@ const features1 = [
       {/* Background image - place your image at /public/Webpimages/hero-banner.webp */}
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/Webpimages/6637.webp"
+          src="/Webpimages/bannermodel.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -407,7 +410,7 @@ const features1 = [
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white"
+              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white"
             >
               Try College Call <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Girls in Delhi for Youthful,</span>
               <br /> Tempting, Slow-Burn Chemistry <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">| Book Now</span>
@@ -570,15 +573,15 @@ This is why Delhi college call girls feel so addictive. They carry a raw charm t
             {/* Top image - rotated slightly */}
             <div className="absolute -top-8 -right-6 transform rotate-6 shadow-2xl rounded-xl border-8 border-white bg-white">
               {/* Replace the src with your public path or a remote URL */}
-              <div className="w-72 h-48 relative rounded-lg overflow-hidden">
-                <Image src="/Webpimages/27110283.webp" alt="top" layout="fill" objectFit="cover" />
+              <div className="w-82 h-68 relative rounded-lg overflow-hidden">
+                <Image src="/Webpimages/download33.webp" alt="top" layout="fill" objectFit="cover" />
               </div>
             </div>
 
             {/* Bottom image - rotated opposite */}
             <div className="absolute bottom-0 left-0 transform -rotate-3 shadow-2xl rounded-xl border-8 border-white bg-white">
-              <div className="w-80 h-56 relative rounded-lg overflow-hidden">
-                <Image src="/Webpimages/modelg.webp" alt="bottom" layout="fill" objectFit="cover" />
+              <div className="w-90 h-76 relative rounded-lg overflow-hidden">
+                <Image src="/Webpimages/download34.webp" alt="bottom" layout="fill" objectFit="cover" />
               </div>
             </div>
 
@@ -1245,7 +1248,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image */}
         <div>
           <img
-            src="https://Webpimages.unsplash.com/photo-1524504388940-b1c1722653e1"
+            src="/Webpimages/download (27).webp"
             alt="College Girl Companionship Delhi"
             className="rounded-2xl shadow-lg object-cover"
           />
@@ -1321,7 +1324,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image */}
         <div className="relative">
           <img
-            src="https://Webpimages.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            src="/Webpimages/download (28).webp"
             alt="College Escort Service in Delhi"
             className="rounded-3xl shadow-xl object-cover"
           />
@@ -1895,7 +1898,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image Section */}
         <div>
           <img
-            src="/Webpimages/spa-banner.webp"
+            src="/Webpimages/download32.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

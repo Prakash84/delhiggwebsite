@@ -46,7 +46,7 @@ export default function Foreignmodel() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ export default function Foreignmodel() {
       role: 'TV Personality',
       category: 'foreign',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Signin.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ export default function Foreignmodel() {
       role: 'Marketing Student',
       category: 'college',
       description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -70,7 +70,7 @@ export default function Foreignmodel() {
       role: 'International Model',
       category: 'foreign',
       description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -78,7 +78,7 @@ export default function Foreignmodel() {
       role: 'Corporate Executive',
       category: 'foreign',
       description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -86,7 +86,7 @@ export default function Foreignmodel() {
       role: 'First Class Hostess',
       category: 'foreign',
       description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -94,7 +94,7 @@ export default function Foreignmodel() {
       role: 'Film Actress',
       category: 'celebrity',
       description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -102,7 +102,7 @@ export default function Foreignmodel() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
     const filteredStaff = activeCategory === 'all' 
@@ -197,24 +197,28 @@ const current = priceMap[tier]
               setOpenQuestion(openQuestion === id ? null : id);
             };
               //End FAQ Section
-
               const profiles = [
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/download7.webp' },
+  { image: '/Webpimages/download (7).webp' },
+  { image: '/Webpimages/download (19).webp' },
+  { image: '/Webpimages/download (14).webp' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  
 
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  
 ]
+
+
 const content = `At Delhi Escorts Agency, we redefine personalised luxury by combining professional care, complete discretion, and a client-first approach. Our team of highly trained therapists and hosts are selected for their skills, professionalism, and commitment to exceptional service. Every interaction is handled with respect and sensitivity, ensuring you feel comfortable, valued, and understood from the moment you connect with us.
 
 We take privacy seriously: appointments are confidential, records are protected, and every booking is managed with discrete communication. Whether you prefer a tranquil home visit or the refined setting of a premium hotel, our team adapts to your needs while maintaining the highest safety and hygiene standards. Our rigorous background checks, ongoing training, and quality audits ensure consistency and trust in every experience.
@@ -275,7 +279,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "Ideal for guests who prefer refined interiors and calm surroundings. Airline-style air hostess escorts match this ambience with their tidy appearance and graceful manners, adding to the sense of luxury. They are natural to the high standards of the hotel, and they make you have a relaxing, well-controlled stay during your booking.",
-          image: "/images/theleela.jpg",
+          image: "/Webpimages/theleela.webp",
           amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
           price: "₹25,000",
           features: ["Ocean View", "Private Beach", "Helipad"]
@@ -286,7 +290,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "It has been widely used among corporate travellers and suits well with airline-style escorts who have a better idea of what business travellers want. Their composed communication, reliable timing, and low-key presence help you loosen up after meetings. They blend well with the formal backdrop and at the same time, make the interaction approachable, cosy and simple.",
-          image: "/images/tajpalace.webp",
+          image: "/Webpimages/tajpalace.webp",
           amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
           price: "₹45,000",
           features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
@@ -297,7 +301,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "This hotel is situated nearby the airport and, in many ways, can appeal to international and local professionals. Airline-style air hostess escorts can come in at convenient time and behave appropriately between international crowds. Their travel background, grooming, and polished presence make them ideal for guests who value professionalism along with a relaxed, human connection.",
-          image: "/images/jwmarriott.webp",
+          image: "/Webpimages/jwmarriott.webp",
           amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
           price: "₹38,000",
           features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
@@ -308,7 +312,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "Want to book Air Hostess Escorts in Delhi to add value to your stay at the Oberoi hotel? We have got your back with a hot air hostess to bring your fantasy to reality by spending private time with an air hostess. Recharge yourself with one of the hottest Air Hostess Escorts in Delhi for Full Service.",
-          image: "/images/oberoihotel.webp",
+          image: "/Webpimages/oberoihotel.webp",
           amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
           price: "₹32,000",
           features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
@@ -319,7 +323,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "Visitors who love both modern and traditional luxury like being in ITC Maurya. Airline-type air hostess escorts are a perfect match to this mix with the refined conversation, deferential behaviour and exquisite manners. Their presence adds to the coziness of the space, and you have a nice balance between formality and personal comfort when you are staying.",
-          image: "/images/itcmaurya.jpg",
+          image: "/Webpimages/itcmaurya.webp",
           amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
           price: "₹28,000",
           features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
@@ -330,7 +334,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "The Imperial’s classic charm and heritage feel harmonize with companions who carry old-school grace and modern grooming. Their fully matured interaction style, composed body language and understated sophistication make your stay there seamless and carefully personalised, particularly when you are a visitor who pays attention to detail and appreciates a good company.",
-          image: "/images/imperial.webp",
+          image: "/Webpimages/imperial.webp",
           amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
           price: "₹52,000",
           features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
@@ -369,10 +373,10 @@ const features1 = [
        
     {/* banner */}
                <header className="relative w-full h-screen min-h-[560px] flex items-center">
-      {/* Background image - place your image at /public/images/hero-banner.jpg */}
+      {/* Background image - place your image at /public/Webpimages/hero-banner.webp */}
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/images/6637.jpg"
+          src="/Webpimages/modelg.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -393,7 +397,7 @@ const features1 = [
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white"
+              className="text-3xl sm:text-4xl lg:text-4xl font-extrabold leading-tight text-white"
             >
               Book Air <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Hostess Escorts in Delhi</span>
               <br /> for Full Service | Book <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">|Now Pay Later| Free Dating Partner</span>
@@ -460,7 +464,7 @@ const features1 = [
                   {/* replace with small preview image if you want */}
                   {/* <div className="w-full h-full flex items-center justify-center text-gray-300">Profile Preview</div> */}
                   <Image
-          src="/images/18244.jpg"
+          src="/Webpimages/imagee.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -552,15 +556,15 @@ const features1 = [
             {/* Top image - rotated slightly */}
             <div className="absolute -top-8 -right-6 transform rotate-6 shadow-2xl rounded-xl border-8 border-white bg-white">
               {/* Replace the src with your public path or a remote URL */}
-              <div className="w-72 h-48 relative rounded-lg overflow-hidden">
-                <Image src="/images/27110283.jpg" alt="top" layout="fill" objectFit="cover" />
+              <div className="w-82 h-68 relative rounded-lg overflow-hidden">
+                <Image src="/Webpimages/young-woman.webp" alt="top" layout="fill" objectFit="cover" />
               </div>
             </div>
 
             {/* Bottom image - rotated opposite */}
             <div className="absolute bottom-0 left-0 transform -rotate-3 shadow-2xl rounded-xl border-8 border-white bg-white">
-              <div className="w-80 h-56 relative rounded-lg overflow-hidden">
-                <Image src="/images/modelg.jpg" alt="bottom" layout="fill" objectFit="cover" />
+              <div className="w-90 h-76 relative rounded-lg overflow-hidden">
+                <Image src="/Webpimages/imagee.webp" alt="bottom" layout="fill" objectFit="cover" />
               </div>
             </div>
 
@@ -925,7 +929,7 @@ Their spotless grooming, fresh appearance, and polite behaviour clearly set them
         {/* Right Image */}
         <div className="relative">
           <img
-            src="/images/redhot.jpg"
+            src="/Webpimages/redhot.webp"
             alt="Elegant Independent Delhi Girl"
             className="rounded-3xl shadow-xl object-cover"
           />
@@ -958,9 +962,9 @@ Their spotless grooming, fresh appearance, and polite behaviour clearly set them
         <div className="relative">
           <div className="relative rounded-[30px] overflow-hidden shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+              src="/Webpimages/downloadd6.webp"
               alt="Luxury late night ambience"
-              className="w-full h-[440px] object-cover"
+              className="w-full h-[590px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white">
@@ -1187,6 +1191,13 @@ Their spotless grooming, fresh appearance, and polite behaviour clearly set them
           <div className="grid grid-cols-1 lg:grid-cols-2">
             {/* Image */}
             <div className="relative min-h-[400px]">
+              <div>
+          <img
+            src="/Webpimages/young-woman.webp"
+            alt="Luxury Spa"
+            className="rounded-2xl shadow-xl w-full object-cover"
+          />
+        </div>
               <div className="absolute inset-0 bg-gradient-to-r from-purple-800/30 to-pink-800/30 z-10"></div>
               <div className="absolute bottom-6 left-6 z-20 text-white">
                 <h3 className="text-2xl font-bold">Exclusive Packages For Escort Service in Delhi</h3>
@@ -1543,7 +1554,7 @@ Their spotless grooming, fresh appearance, and polite behaviour clearly set them
         {/* Image Section */}
         <div>
           <img
-            src="/images/spa-banner.jpg"
+            src="/Webpimages/pretty-sensual-blonde-model-laying-bed-enjoy-her-morning-luxury-hotel-wearing-burgundy-silk-nightdress-robe-blind-hairs-beauty-face-boudoir-style.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />
