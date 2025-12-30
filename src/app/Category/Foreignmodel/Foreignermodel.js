@@ -50,7 +50,7 @@ export default function Foreignmodel() {
       role: 'TV Personality',
       category: 'foreign',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+      image: '/Webpimages/download31.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -195,21 +195,24 @@ const current = priceMap[tier]
               //End FAQ Section
 
               const profiles = [
+  { image: '/Webpimages/download7.webp' },
+  { image: '/Webpimages/download (7).webp' },
+  { image: '/Webpimages/download (19).webp' },
+  { image: '/Webpimages/download (14).webp' },
   { image: '/Webpimages/modelg.webp' },
   { image: '/Webpimages/18244.webp' },
   { image: '/Webpimages/172420-8871.webp' },
-  { image: '/Webpimages/4201724.webp' },
+  
   { image: '/Webpimages/7168.webp' },
   { image: '/Webpimages/49.webp' },
-  { image: '/Webpimages/2291.webp' },
+  
 
   { image: '/Webpimages/modelg.webp' },
   { image: '/Webpimages/18244.webp' },
   { image: '/Webpimages/172420-8871.webp' },
-  { image: '/Webpimages/4201724.webp' },
   { image: '/Webpimages/7168.webp' },
   { image: '/Webpimages/49.webp' },
-  { image: '/Webpimages/2291.webp' },
+  
 ]
 const content = `At Delhi Escorts Agency, we redefine personalised luxury by combining professional care, complete discretion, and a client-first approach. Our team of highly trained therapists and hosts are selected for their skills, professionalism, and commitment to exceptional service. Every interaction is handled with respect and sensitivity, ensuring you feel comfortable, valued, and understood from the moment you connect with us.
 
@@ -364,11 +367,11 @@ const features1 = [
     <>
        
     {/* banner */}
-               <header className="relative w-full h-screen min-h-[560px] flex items-center">
+               <header className="relative w-full h-screen min-h-[460px] flex items-center">
       {/* Background image - place your image at /public/Webpimages/hero-banner.webp */}
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/Webpimages/6637.webp"
+          src="/Webpimages/fashion-portrait-beautiful-blonde-model.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -840,15 +843,15 @@ If you are fond of soft-spoken, well-groomed, clean, and premium foreign models 
             {/* Top image - rotated slightly */}
             <div className="absolute -top-8 -right-6 transform rotate-6 shadow-2xl rounded-xl border-8 border-white bg-white">
               {/* Replace the src with your public path or a remote URL */}
-              <div className="w-72 h-48 relative rounded-lg overflow-hidden">
-                <Image src="/Webpimages/27110283.webp" alt="top" layout="fill" objectFit="cover" />
+              <div className="w-82 h-68 relative rounded-lg overflow-hidden">
+                <Image src="/Webpimages/download432.webp" alt="top" layout="fill" objectFit="cover" />
               </div>
             </div>
 
             {/* Bottom image - rotated opposite */}
             <div className="absolute bottom-0 left-0 transform -rotate-3 shadow-2xl rounded-xl border-8 border-white bg-white">
-              <div className="w-80 h-56 relative rounded-lg overflow-hidden">
-                <Image src="/Webpimages/modelg.webp" alt="bottom" layout="fill" objectFit="cover" />
+              <div className="w-90 h-76 relative rounded-lg overflow-hidden">
+                <Image src="/Webpimages/downloadd3.webp" alt="bottom" layout="fill" objectFit="cover" />
               </div>
             </div>
 
@@ -883,9 +886,9 @@ If you are fond of soft-spoken, well-groomed, clean, and premium foreign models 
         <div className="relative">
           <div className="relative rounded-[28px] overflow-hidden shadow-2xl">
             <img
-              src="/Webpimages/beautiful-woman-with-healthy-body-black-background.webp"
+              src="/Webpimages/Evie Lee Mikomin (1).webp"
               alt="Luxury lounge ambience"
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[650px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white">

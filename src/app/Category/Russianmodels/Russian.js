@@ -29,7 +29,7 @@ export default function Russianmodels() {
       role: 'Senior Airhostess',
       category: 'Independentprofile',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ export default function Russianmodels() {
       role: 'TV Personality',
       category: 'Independentprofile',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ export default function Russianmodels() {
       role: 'Marketing Student',
       category: 'college',
       description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ export default function Russianmodels() {
       role: 'International Model',
       category: 'foreign',
       description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -61,7 +61,7 @@ export default function Russianmodels() {
       role: 'Corporate Executive',
       category: 'Russianmodels',
       description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -69,7 +69,7 @@ export default function Russianmodels() {
       role: 'First Class Hostess',
       category: 'Russianmodels',
       description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -77,7 +77,7 @@ export default function Russianmodels() {
       role: 'Film Actress',
       category: 'Russianmodels',
       description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -85,7 +85,7 @@ export default function Russianmodels() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
     const filteredStaff = activeCategory === 'all' 
@@ -182,21 +182,21 @@ const current = priceMap[tier]
               //End FAQ Section
 
               const profiles = [
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 ]
 
 const features = [
@@ -262,10 +262,10 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
        
     {/* banner */}
                <header className="relative w-full h-screen min-h-[560px] flex items-center">
-      {/* Background image - place your image at /public/images/hero-banner.jpg */}
+      {/* Background image - place your image at /public/Webpimages/hero-banner.webp */}
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/images/6637.jpg"
+          src="/Webpimages/6637.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -353,7 +353,7 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
                   {/* replace with small preview image if you want */}
                   {/* <div className="w-full h-full flex items-center justify-center text-gray-300">Profile Preview</div> */}
                   <Image
-          src="/images/18244.jpg"
+          src="/Webpimages/18244.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -733,14 +733,14 @@ points: ["Safe home visits", "Verified profiles", "Discreet arrival & departure"
             <div className="absolute -top-8 -right-6 transform rotate-6 shadow-2xl rounded-xl border-8 border-white bg-white">
               {/* Replace the src with your public path or a remote URL */}
               <div className="w-72 h-48 relative rounded-lg overflow-hidden">
-                <Image src="/images/27110283.jpg" alt="top" layout="fill" objectFit="cover" />
+                <Image src="/Webpimages/27110283.webp" alt="top" layout="fill" objectFit="cover" />
               </div>
             </div>
 
             {/* Bottom image - rotated opposite */}
             <div className="absolute bottom-0 left-0 transform -rotate-3 shadow-2xl rounded-xl border-8 border-white bg-white">
               <div className="w-80 h-56 relative rounded-lg overflow-hidden">
-                <Image src="/images/modelg.jpg" alt="bottom" layout="fill" objectFit="cover" />
+                <Image src="/Webpimages/modelg.webp" alt="bottom" layout="fill" objectFit="cover" />
               </div>
             </div>
 
