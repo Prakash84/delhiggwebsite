@@ -50,7 +50,7 @@ export default function Category() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
+      image: '/Webpimages/follow for more.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -58,7 +58,7 @@ export default function Category() {
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+      image: '/Webpimages/HOT VAIRAL.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -106,7 +106,7 @@ export default function Category() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/Webpimages/1.webp', // Placeholder image path
+      image: '/Webpimages/downloadd5.webp', // Placeholder image path
     },
   ];
     const filteredStaff = activeCategory === 'all' 
@@ -270,13 +270,13 @@ export default function Category() {
     title: "Elegant Dinner Date with Hidden Heat",
     description:
       "She’s the woman who turns heads the moment she enters. A composed smile, such a friendly expression, such a gentle coquettishness that you find yourself minding all night. It could be a fine-dining or a low-tone lounge; she leans out just far enough to make your thoughts very warm and almost perilous.",
-    image: "/Webpimages/cheerful-attractive-young-woman-standing-with-hands-head.webp", // Add your image path here
+    image: "/Webpimages/Evie Lee Mikomin (1).webp", // Add your image path here
   },
   {
     title: "Late-Night Warmth & Intimate Vibes",
     description:
       "Descending onto the city like warmth in the middle of the night, she comes with a slow, calming energy. She is very reassuring but exceptionally seductive. She sits nearby, speaks gently and allows the night to pass at your speed - creating a silence that is so addictive.",
-    image: "/Webpimages/Celebrity_girl.webp", // Add your image path here
+    image: "/Webpimages/mmm.webp", // Add your image path here
   },
   {
     title: "Corporate Travel Companion with Hidden Seduction",
@@ -307,7 +307,7 @@ export default function Category() {
       <div className="absolute inset-0 z-0">
         {/* Use `fill` and `object-cover` (no layout/objectFit) + sizes for responsive loading */}
         <Image
-          src="/Webpimages/studio-shot-brunette-girl-tunic-bed.webp"
+          src="/Webpimages/bannermodel.webp"
           alt="Spa and Wellness Background"
           fill
           className="object-cover w-full h-full opacity-90"
@@ -673,7 +673,7 @@ export default function Category() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <Image
                   loading="lazy"
-                  src="/Webpimages/4201724.webp"
+                  src="/Webpimages/download (17).webp"
                   alt="Luxury Spa Experience"
                   fill
                   className="object-cover rounded-[2.5rem] transform group-hover:scale-105 transition-transform duration-700"

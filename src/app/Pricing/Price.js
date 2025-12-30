@@ -26,7 +26,7 @@ export default function Pricing() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ export default function Pricing() {
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ export default function Pricing() {
       role: 'Marketing Student',
       category: 'college',
       description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ export default function Pricing() {
       role: 'International Model',
       category: 'foreign',
       description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export default function Pricing() {
       role: 'Corporate Executive',
       category: 'highprofile',
       description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ export default function Pricing() {
       role: 'First Class Hostess',
       category: 'airhostess',
       description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -74,7 +74,7 @@ export default function Pricing() {
       role: 'Film Actress',
       category: 'celebrity',
       description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -82,7 +82,7 @@ export default function Pricing() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
       const filteredStaff = activeCategory === 'all' 
@@ -309,7 +309,7 @@ export default function Pricing() {
             {/* Main image */}
             <div className="relative h-80 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/spaStaffInsta.jpg"
+                src="/Webpimages/spaStaffInsta.webp"
                 alt="Happy customer"
                 layout="fill"
                 objectFit="cover"
@@ -322,11 +322,11 @@ export default function Pricing() {
               </div>
             </div>
             
-            {/* Secondary images */}
+            {/* Secondary Webpimages */}
             <div className="space-y-4">
               {/* <div className="relative h-36 rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/"
+                  src="/Webpimages/"
                   alt="Feature preview"
                   layout="fill"
                   objectFit="cover"
@@ -342,7 +342,7 @@ export default function Pricing() {
               
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/1.jpg"
+                  src="/Webpimages/1.webp"
                   alt="Community image"
                   layout="fill"
                   objectFit="cover"
@@ -533,7 +533,7 @@ export default function Pricing() {
           <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl transform group w-full h-[500px]">
             <Image
               loading="lazy"
-              src="/images/celebrityspastaff.jpg"
+              src="/Webpimages/celebrityspastaff.webp"
               alt="Spa Interior"
               layout="fill"
               objectFit="cover"
@@ -578,7 +578,7 @@ export default function Pricing() {
           <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl group h-[550px]">
             <Image
               loading="lazy"
-              src="/images/413965.jpg"
+              src="/Webpimages/413965.webp"
               alt="Luxury Spa Experience"
               layout="fill"
               objectFit="cover"
@@ -890,7 +890,7 @@ export default function Pricing() {
 
           <div className="relative h-96">
             <Image
-              src="/images/7168.jpg"
+              src="/Webpimages/7168.webp"
               alt="Expert therapist performing massage"
               layout="fill"
               objectFit="cover"
@@ -911,7 +911,7 @@ export default function Pricing() {
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-purple-100">
           <div className="relative h-96">
             <Image
-              src="/images/27110283.jpg"
+              src="/Webpimages/27110283.webp"
               alt="Premium spa oils"
               layout="fill"
               objectFit="cover"
@@ -1150,7 +1150,7 @@ export default function Pricing() {
           <div className="relative">
             <div className="relative h-190 rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/1.jpg"
+                src="/Webpimages/1.webp"
                 alt="Girls using our platform"
                 layout="fill"
                 objectFit="cover"

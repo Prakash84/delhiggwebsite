@@ -109,7 +109,7 @@ export default function Services() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -117,7 +117,7 @@ export default function Services() {
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -125,7 +125,7 @@ export default function Services() {
       role: 'Marketing Student',
       category: 'college',
       description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -133,7 +133,7 @@ export default function Services() {
       role: 'International Model',
       category: 'foreign',
       description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -141,7 +141,7 @@ export default function Services() {
       role: 'Corporate Executive',
       category: 'highprofile',
       description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -149,7 +149,7 @@ export default function Services() {
       role: 'First Class Hostess',
       category: 'airhostess',
       description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -157,7 +157,7 @@ export default function Services() {
       role: 'Film Actress',
       category: 'celebrity',
       description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -165,7 +165,7 @@ export default function Services() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
         const filteredStaff = activeCategory === 'all' 
@@ -277,42 +277,42 @@ export default function Services() {
     description:
       "We have busty female models with big boobs to provide boobs pressing services to young boys and men.",
     icon: "/path-to-your-icon1.svg",
-    image: "/images/client-1.webp",
+    image: "/Webpimages/client-1.webp",
   },
   {
     title: "CUM IN MOUTH",
     description:
       "Most of the men enjoy when he climax in the mouth of their girl. Now you can enjoy Cum in mouth with Sonal.",
     icon: "/path-to-your-icon2.svg",
-    image: "/images/client-2.webp",
+    image: "/Webpimages/client-2.webp",
   },
   {
     title: "GIRL FOR DATE",
     description:
       "Want Real Dating Service Experience? We have real girlfriends who are available to give you real dating experience.",
     icon: "/path-to-your-icon3.svg",
-    image: "/images/client-3.webp",
+    image: "/Webpimages/client-3.webp",
   },
   {
     title: "ANAL SEX",
     description:
       "We all know that Anal Sex is hard to find, but with Sexy Sonal, you can enjoy Anal or DP Sex service with your girl.",
     icon: "/path-to-your-icon4.svg",
-    image: "/images/client-4.webp",
+    image: "/Webpimages/client-4.webp",
   },
   {
     title: "RUSSIAN GIRL",
     description:
       "Are you a real fan of Russian Girls? We have most beautiful Russian Call Girls in Delhi starting from Rs. 6000 only.",
     icon: "/path-to-your-icon5.svg",
-    image: "/images/client-5.webp",
+    image: "/Webpimages/client-5.webp",
   },
   {
     title: "PAY PER HOUR",
     description:
       "Need Delhi Escorts but you are out of your budget? Don't worry, take our service and pay hourly after getting satisfaction.",
     icon: "/path-to-your-icon6.svg",
-    image: "/images/client-6.webp",
+    image: "/Webpimages/client-6.webp",
   },
 ];
 //
@@ -322,61 +322,61 @@ const services1= [
     title: "Airhostess Escorts",
     description:
       "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
-    image: "/images/smiling.jpg", // Add your image path here
+    image: "/Webpimages/smiling.webp", // Add your image path here
   },
   {
     title: "College Girls Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/images/cheerful-attractive-young-woman-standing-with-hands-head.jpg", // Add your image path here
+    image: "/Webpimages/cheerful-attractive-young-woman-standing-with-hands-head.webp", // Add your image path here
   },
   {
     title: "Hign Profile Escorts",
     description:
       "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
-    image: "/images/Celebrity_girl.jpg", // Add your image path here
+    image: "/Webpimages/Celebrity_girl.webp", // Add your image path here
   },
   {
     title: "Housewife Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/images/housewife.webp", // Add your image path here
+    image: "/Webpimages/housewife.webp", // Add your image path here
   },
   {
     title: "Independent Escorts",
     description:
       "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
-    image: "/images/Cindy.jpeg", // Add your image path here
+    image: "/Webpimages/Cindy.webp", // Add your image path here
   },
   {
     title: "Model Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/images/model1.jpeg", // Add your image path here
+    image: "/Webpimages/model1.webp", // Add your image path here
   },
   {
     title: "Party Girl Escorts",
     description:
       "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
-    image: "/images/party-escorts.webp", // Add your image path here
+    image: "/Webpimages/party-escorts.webp", // Add your image path here
   },
   {
     title: "Russian Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/images/Signin.jpeg", // Add your image path here
+    image: "/Webpimages/Signin.webp", // Add your image path here
   },
   {
     title: "Strip Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/images/strip-club.webp", // Add your image path here
+    image: "/Webpimages/strip-club.webp", // Add your image path here
   },
   {
     title: "VIP Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/images/neww1.jpg", // Add your image path here
+    image: "/Webpimages/neww1.webp", // Add your image path here
   },
   // Add more categories as needed
 ];
@@ -479,7 +479,7 @@ n                </a>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                 <div className="relative rounded-2xl overflow-hidden bg-gradient-to-tr from-white/40 to-white/10 shadow-xl h-64 md:h-80">
                   <Image
-                    src="/images/spaStaffInsta.jpg"
+                    src="/Webpimages/spaStaffInsta.webp"
                     alt="Happy customer"
                     fill
                     sizes="(max-width: 640px) 100vw, 50vw"
@@ -496,7 +496,7 @@ n                </a>
                 <div className="space-y-4">
                   <div className="relative rounded-2xl overflow-hidden bg-white/60 shadow-md h-36 md:h-40">
                     <Image
-                      src="/images/1.jpg"
+                      src="/Webpimages/1.webp"
                       alt="Community image"
                       fill
                       sizes="(max-width: 640px) 100vw, 30vw"
@@ -512,7 +512,7 @@ n                </a>
 
                   <div className="relative rounded-2xl overflow-hidden bg-white/60 shadow-md h-36 md:h-40">
                     <Image
-                      src="/images/2.jpg"
+                      src="/Webpimages/2.webp"
                       alt="Relaxing treatment"
                       fill
                       sizes="(max-width: 640px) 100vw, 30vw"
@@ -644,7 +644,7 @@ n                </a>
             <div className="bg-white p-6 rounded-2xl shadow-sm">
               <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                 <img
-                  src="/images/7170.jpg"
+                  src="/Webpimages/7170.webp"
                   alt="Premium Body Spa"
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -1351,7 +1351,7 @@ n                </a>
         <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500 group">
           <div className="relative h-96">
             <Image 
-              src="/images/6631.jpg" 
+              src="/Webpimages/6631.webp" 
               alt="Relaxing Spa Massage"
               layout="fill"
               objectFit="cover"
@@ -1364,8 +1364,8 @@ n                </a>
         
         <div className="grid grid-cols-2 gap-6">
           {[
-            {src: "/images/6637.jpg", alt: "Spa Ambience"},
-            {src: "/images/27110283.jpg", alt: "Luxury Spa"}
+            {src: "/Webpimages/6637.webp", alt: "Spa Ambience"},
+            {src: "/Webpimages/27110283.webp", alt: "Luxury Spa"}
           ].map((img, idx) => (
             <div key={idx} className="relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-500 group">
               <div className="relative h-56">

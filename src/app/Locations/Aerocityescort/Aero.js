@@ -29,7 +29,7 @@ export default function Delhiescorts({
   subtitle = "Need someone to make your stress disappear as soon as someone enters your Aerocity suite? Select from our Aerocity escorts and have fun at your doorstep.",
   ctaPrimary = "Book Now",
   ctaSecondary = "View Services",
-  image = "/images/bannermodel.jpg" // use local optimized image
+  image = "/Webpimages/bannermodel.webp" // use local optimized image
 })
 
 {
@@ -43,7 +43,7 @@ export default function Delhiescorts({
             location: "Delhi, India ",
             rating: 5,
             description: "A well-dressed, energetic hotel wherein your guests act as a soothing, sophisticated atmosphere that transforms your hotel room into an exclusive getaway to the stress of the city.",
-            image: "/images/lajpatnagahotel.avif",
+            image: "/Webpimages/lajpatnagahotel.webp",
             amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
             price: "₹25,000",
             features: ["Ocean View", "Private Beach", "Helipad"]
@@ -54,7 +54,7 @@ export default function Delhiescorts({
             location: "Delhi, India",
             rating: 5,
             description: "Friendly to modern environment and artistic interiors. Your friend improves the evening with style, friendliness, and an intelligent discussion that is very easy to follow.",
-            image: "/images/JwMarriott_CP.jpg",
+            image: "/Webpimages/JwMarriott_CP.webp",
             amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
             price: "₹45,000",
             features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
@@ -65,7 +65,7 @@ export default function Delhiescorts({
             location: "Delhi, India",
             rating: 5,
             description: "An elegant, global-style hotel that can suit customers with fine companionship ,with a seamles,s easy interaction.",
-            image: "/images/jaypeeVasantAerocity.png",
+            image: "/Webpimages/jaypeeVasantAerocity.webp",
             amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
             price: "₹38,000",
             features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
@@ -76,7 +76,7 @@ export default function Delhiescorts({
             location: "Delhi, India",
             rating: 5,
             description: "The place is alive, and it gets even more so when accompanied by an escort that is charming, light-humoured and full of comfortable energy.",
-            image: "/images/holidayIn_CP.jpg",
+            image: "/Webpimages/holidayIn_CP.webp",
             amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
             price: "₹32,000",
             features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
@@ -87,7 +87,7 @@ export default function Delhiescorts({
             location: "Delhi, India",
             rating: 5,
             description: "One of the most tranquil spots that the clients would want to be in, trying to relax after flights or a hard day at work, having the chance to find pleasant company.",
-            image: "/images/pullmanAerocity.jpg",
+            image: "/Webpimages/pullmanAerocity.webp",
             amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
             price: "₹28,000",
             features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
@@ -98,7 +98,7 @@ export default function Delhiescorts({
             location: "Delhi, India",
             rating: 5,
             description: "An upscale, luxurious atmosphere that goes well with a friend who understands how to combine classiness with a feeling of comfort.",
-            image: "/images/tajmahalhotel_lajpatnagar.jpg",
+            image: "/Webpimages/tajmahalhotel_lajpatnagar.webp",
             amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
             price: "₹52,000",
             features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
@@ -149,7 +149,7 @@ export default function Delhiescorts({
                 role: 'Senior Airhostess',
                 category: 'airhostess',
                 description: '5+ years experience with international airlines. Fluent in 4 languages.',
-                image: '/images/Airhostess_girl.jpg', // Placeholder image path
+                image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
               },
               {
                 id: 2,
@@ -157,7 +157,7 @@ export default function Delhiescorts({
                 role: 'TV Personality',
                 category: 'celebrity',
                 description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-                image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+                image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
               },
               {
                 id: 3,
@@ -165,7 +165,7 @@ export default function Delhiescorts({
                 role: 'Marketing Student',
                 category: 'college',
                 description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-                image: '/images/spaStaffInsta.jpg', // Placeholder image path
+                image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
               },
               {
                 id: 4,
@@ -173,7 +173,7 @@ export default function Delhiescorts({
                 role: 'International Model',
                 category: 'foreign',
                 description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-                image: '/images/celebrityspastaff.jpg', // Placeholder image path
+                image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
               },
               {
                 id: 5,
@@ -181,7 +181,7 @@ export default function Delhiescorts({
                 role: 'Corporate Executive',
                 category: 'highprofile',
                 description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-                image: '/images/49.jpg',
+                image: '/Webpimages/49.webp',
               },
               {
                 id: 6,
@@ -189,7 +189,7 @@ export default function Delhiescorts({
                 role: 'First Class Hostess',
                 category: 'airhostess',
                 description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-                image: '/images/smiling.jpg', // Placeholder image path
+                image: '/Webpimages/smiling.webp', // Placeholder image path
               },
               {
                 id: 7,
@@ -197,7 +197,7 @@ export default function Delhiescorts({
                 role: 'Film Actress',
                 category: 'celebrity',
                 description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-                image: '/images/413965.jpg', // Placeholder image path
+                image: '/Webpimages/413965.webp', // Placeholder image path
               },
               {
                 id: 8,
@@ -205,7 +205,7 @@ export default function Delhiescorts({
                 role: 'Engineering Student',
                 category: 'college',
                 description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-                image: '/images/1.jpg', // Placeholder image path
+                image: '/Webpimages/1.webp', // Placeholder image path
               },
             ];
             const filteredStaff = activeCategory === 'all' 
@@ -290,18 +290,18 @@ export default function Delhiescorts({
   };
     //End FAQ Section
     const cities = [
-{ name: 'DELHI', img: '/images/hotel3.webp' },
-{ name: 'MUMBAI', img: '/images/lajpatnagahotel.avif' },
-{ name: 'NOIDA', img: '/images/RoseateHouse.jpg' },
-{ name: 'BANGALORE', img: '/images/paschimvihar.jpg' },
-{ name: 'PUNE', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg' },
-{ name: 'GURGAON', img: '/images/holidayIn_CP.jpg' },
-{ name: 'HYDERABAD', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-{ name: 'KOLKATA', img: '/images/paschimvihar.jpg' },
-{ name: 'CHENNAI', img: '/images/hotel2.jpg' },
-{ name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
-{ name: 'JAIPUR', img: '/images/jwmarriott.jpeg' },
+{ name: 'DELHI', img: '/Webpimages/hotel3.webp' },
+{ name: 'MUMBAI', img: '/Webpimages/lajpatnagahotel.webp' },
+{ name: 'NOIDA', img: '/Webpimages/RoseateHouse.webp' },
+{ name: 'BANGALORE', img: '/Webpimages/paschimvihar.webp' },
+{ name: 'PUNE', img: '/Webpimages/JwMarriott_CP.webp' },
+{ name: 'AHMEDABAD', img: '/Webpimages/Andazhat.webp' },
+{ name: 'GURGAON', img: '/Webpimages/holidayIn_CP.webp' },
+{ name: 'HYDERABAD', img: '/Webpimages/tajmahalhotel_lajpatnagar.webp' },
+{ name: 'KOLKATA', img: '/Webpimages/paschimvihar.webp' },
+{ name: 'CHENNAI', img: '/Webpimages/hotel2.webp' },
+{ name: 'CHANDIGARH', img: '/Webpimages/pullmanAerocity.webp' },
+{ name: 'JAIPUR', img: '/Webpimages/jwmarriott.webp' },
 ]
 const services = [
     {
@@ -539,7 +539,7 @@ const benefits = [
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 rounded-xl overflow-hidden bg-gray-100 flex-shrink-0">
                     <img
-                      src="/images/18244.jpg"
+                      src="/Webpimages/18244.webp"
                       alt="Service sample"
                       className="w-full h-full object-cover"
                     />
@@ -599,7 +599,7 @@ const benefits = [
           {/* IMAGE AREA */}
           <div className="group relative overflow-hidden rounded-2xl shadow-xl">
             <Image
-              src="/images/beautiful-woman-with-healthy-body-black-background.jpg" // 👉 apni image yaha lagao
+              src="/Webpimages/beautiful-woman-with-healthy-body-black-background.webp" // 👉 apni image yaha lagao
               alt="Luxury Spa Image"
               width={700}
               height={500}
@@ -1243,7 +1243,7 @@ Delhi Girl takes that ease a notch higher by having friends who will make you fe
         {/* Image Section */}
         <div>
           <img
-            src="/images/spa-banner.jpg"
+            src="/Webpimages/spa-banner.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

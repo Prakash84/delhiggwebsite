@@ -60,7 +60,7 @@ export default function Foreignmodel() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/images/Airhostess_girl.jpg', // Placeholder image path
+      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -68,7 +68,7 @@ export default function Foreignmodel() {
       role: 'TV Personality',
       category: 'foreign',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/images/Celebrity_girl.jpg', // Placeholder image pathss
+      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -76,7 +76,7 @@ export default function Foreignmodel() {
       role: 'Marketing Student',
       category: 'college',
       description: 'Top of her class at NYU. Passionate about digital marketing trends.',
-      image: '/images/spaStaffInsta.jpg', // Placeholder image path
+      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -84,7 +84,7 @@ export default function Foreignmodel() {
       role: 'International Model',
       category: 'foreign',
       description: 'Milan-born fashion model. Featured in Vogue and Elle magazines.',
-      image: '/images/celebrityspastaff.jpg', // Placeholder image path
+      image: '/Webpimages/celebrityspastaff.webp', // Placeholder image path
     },
     {
       id: 5,
@@ -92,7 +92,7 @@ export default function Foreignmodel() {
       role: 'Corporate Executive',
       category: 'foreign',
       description: 'Fortune 500 company board member. MBA from Harvard Business School.',
-      image: '/images/49.jpg',
+      image: '/Webpimages/49.webp',
     },
     {
       id: 6,
@@ -100,7 +100,7 @@ export default function Foreignmodel() {
       role: 'First Class Hostess',
       category: 'foreign',
       description: 'Specialized in luxury travel experience. Trained in hospitality management.',
-      image: '/images/smiling.jpg', // Placeholder image path
+      image: '/Webpimages/smiling.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -108,7 +108,7 @@ export default function Foreignmodel() {
       role: 'Film Actress',
       category: 'celebrity',
       description: 'Rising star in independent cinema. Trained at Royal Academy of Dramatic Art.',
-      image: '/images/413965.jpg', // Placeholder image path
+      image: '/Webpimages/413965.webp', // Placeholder image path
     },
     {
       id: 8,
@@ -116,7 +116,7 @@ export default function Foreignmodel() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/images/1.jpg', // Placeholder image path
+      image: '/Webpimages/1.webp', // Placeholder image path
     },
   ];
     const filteredStaff = activeCategory === 'all' 
@@ -213,21 +213,21 @@ const current = priceMap[tier]
               //End FAQ Section
 
               const profiles = [
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 ]
 const content = `At Delhi Escorts Agency, we redefine personalised luxury by combining professional care, complete discretion, and a client-first approach. Our team of highly trained therapists and hosts are selected for their skills, professionalism, and commitment to exceptional service. Every interaction is handled with respect and sensitivity, ensuring you feel comfortable, valued, and understood from the moment you connect with us.
 
@@ -289,7 +289,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "An elegant space suited for clients who value calm and grace. Independent escorts walk freely here in light behaviour and well-dressed appearance that mixes organically.",
-          image: "/hotel-royale.jpg",
+          image: "/hotel-royale.webp",
           amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
           price: "₹25,000",
           features: ["Ocean View", "Private Beach", "Helipad"]
@@ -300,7 +300,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "Ideal for business travellers. Independent call girls enter discreetly and offer relaxed, friendly company after flights or meetings.",
-          image: "/hotel-azure.jpg",
+          image: "/hotel-azure.webp",
           amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
           price: "₹45,000",
           features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
@@ -311,7 +311,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "A peaceful hotel for quiet evenings. Independent escorts add gentle talk and comfortable company that feels easy and unforced.",
-          image: "/hotel-alpine.jpg",
+          image: "/hotel-alpine.webp",
           amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
           price: "₹38,000",
           features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
@@ -322,7 +322,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "Perfect for clients wanting a relaxed, spa-like feel. Independent female escorts bring balanced interaction that helps you fully unwind.",
-          image: "/hotel-oasis.jpg",
+          image: "/hotel-oasis.webp",
           amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
           price: "₹32,000",
           features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
@@ -333,7 +333,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "A professional setting popular with corporate guests. Independent escorts maintain mature conduct and neat grooming to suit premium surroundings.",
-          image: "/hotel-emerald.jpg",
+          image: "/hotel-emerald.webp",
           amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
           price: "₹28,000",
           features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
@@ -344,7 +344,7 @@ const features1 = [
           location: "New Delhi",
           rating: 5,
           description: "A chic mood and welcoming independent girls ensure that the evening is very smooth, light, and enjoyable",
-          image: "/hotel-sapphire.jpg",
+          image: "/hotel-sapphire.webp",
           amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
           price: "₹52,000",
           features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
@@ -383,10 +383,10 @@ const features1 = [
        
     {/* banner */}
                <header className="relative w-full h-screen min-h-[560px] flex items-center">
-      {/* Background image - place your image at /public/images/hero-banner.jpg */}
+      {/* Background image - place your image at /public/Webpimages/hero-banner.webp */}
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/images/6637.jpg"
+          src="/Webpimages/6637.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -474,7 +474,7 @@ const features1 = [
                   {/* replace with small preview image if you want */}
                   {/* <div className="w-full h-full flex items-center justify-center text-gray-300">Profile Preview</div> */}
                   <Image
-          src="/images/18244.jpg"
+          src="/Webpimages/18244.webp"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -571,14 +571,14 @@ This is why Delhi college call girls feel so addictive. They carry a raw charm t
             <div className="absolute -top-8 -right-6 transform rotate-6 shadow-2xl rounded-xl border-8 border-white bg-white">
               {/* Replace the src with your public path or a remote URL */}
               <div className="w-72 h-48 relative rounded-lg overflow-hidden">
-                <Image src="/images/27110283.jpg" alt="top" layout="fill" objectFit="cover" />
+                <Image src="/Webpimages/27110283.webp" alt="top" layout="fill" objectFit="cover" />
               </div>
             </div>
 
             {/* Bottom image - rotated opposite */}
             <div className="absolute bottom-0 left-0 transform -rotate-3 shadow-2xl rounded-xl border-8 border-white bg-white">
               <div className="w-80 h-56 relative rounded-lg overflow-hidden">
-                <Image src="/images/modelg.jpg" alt="bottom" layout="fill" objectFit="cover" />
+                <Image src="/Webpimages/modelg.webp" alt="bottom" layout="fill" objectFit="cover" />
               </div>
             </div>
 
@@ -941,7 +941,7 @@ This is why Delhi college call girls feel so addictive. They carry a raw charm t
         {/* Right Image */}
         <div className="relative">
           <img
-            src="/images/download432.jpg"
+            src="/Webpimages/download432.webp"
             alt="Elegant Independent Delhi Girl"
             className="rounded-3xl shadow-xl object-cover"
           />
@@ -972,7 +972,7 @@ This is why Delhi college call girls feel so addictive. They carry a raw charm t
         <div className="relative">
           <div className="relative rounded-[28px] overflow-hidden shadow-2xl">
             <img
-              src="/images/download645.jpg"
+              src="/Webpimages/download645.webp"
               alt="Luxury lounge ambience"
               className="w-full h-[500px] object-cover"
             />
@@ -1061,7 +1061,7 @@ This is why Delhi college call girls feel so addictive. They carry a raw charm t
         <div className="relative">
           <div className="relative rounded-[30px] overflow-hidden shadow-2xl">
             <img
-              src="/images/download31.jpg"
+              src="/Webpimages/download31.webp"
               alt="Luxury late night ambience"
               className="w-full h-[440px] object-cover"
             />
@@ -1191,7 +1191,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image */}
         <div className="relative">
           <img
-            src="/images/download (5).jpg"
+            src="/Webpimages/download (5).webp"
             alt="College Girl Companionship Delhi"
             className="rounded-3xl shadow-xl object-cover"
           />
@@ -1245,7 +1245,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image */}
         <div>
           <img
-            src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+            src="https://Webpimages.unsplash.com/photo-1524504388940-b1c1722653e1"
             alt="College Girl Companionship Delhi"
             className="rounded-2xl shadow-lg object-cover"
           />
@@ -1321,7 +1321,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image */}
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            src="https://Webpimages.unsplash.com/photo-1529626455594-4ff0802cfb7e"
             alt="College Escort Service in Delhi"
             className="rounded-3xl shadow-xl object-cover"
           />
@@ -1656,7 +1656,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image */}
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+            src="https://Webpimages.unsplash.com/photo-1505693416388-ac5ce068fe85"
             alt="Luxury Night Companionship Delhi"
             className="rounded-3xl shadow-xl object-cover"
           />
@@ -1895,7 +1895,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image Section */}
         <div>
           <img
-            src="/images/spa-banner.jpg"
+            src="/Webpimages/spa-banner.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

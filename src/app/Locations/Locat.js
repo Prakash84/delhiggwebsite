@@ -25,7 +25,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "Royal escapades with your own cavalry of style, blending grace with hot titillation, grinding bodies, kisses, caressing touches and a night to fuse you, both inward and out. The atmosphere, the sumptuousness, the woman, all that becomes hard to resist the sense of pleasure.",
-        image: "/images/theleela.jpg",
+        image: "/Webpimages/theleela.webp",
         amenities: ["Infinity Pool", "Michelin-star Restaurant", "Luxury Spa", "24/7 Butler Service"],
         price: "₹25,000",
         features: ["Ocean View", "Private Beach", "Helipad"]
@@ -36,7 +36,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "A private fantasy playground. She moves up, lips rubbing your skin, fingers making a dangerous path, the body being wrapped around you, and the night becomes wild, passionate and addictive.",
-        image: "/images/tajpalace.webp",
+        image: "/Webpimages/tajpalace.webp",
         amenities: ["Overwater Bungalows", "Coral Reef Access", "Underwater Restaurant", "Spa Sanctuary"],
         price: "₹45,000",
         features: ["Private Island", "Seaplane Transfer", "Glass Floor"]
@@ -47,7 +47,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "Blameless high-fashion and eroticism. Your escort knows how to strip your stress, get into your arms and ride your urges with the perfect measure of control, slow, deep, intense or fast and heated.",
-        image: "/images/oberoihotel.webp",
+        image: "/Webpimages/oberoihotel.webp",
         amenities: ["Ski Valet", "Heated Indoor Pool", "Mountain Spa", "Fondue Restaurant"],
         price: "₹38,000",
         features: ["Private Ski Lift", "Fireplace Lounges", "Chocolate Atelier"]
@@ -58,7 +58,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "A classics of luxury in which passion strikes more. She anticipates warm mouths, cooing moans, tight hugs, intense orgasms, and a night filled with an intoxicating touch that she dominates and makes you go through exciting pleasure heights.",
-        image: "/images/itcmaurya.jpg",
+        image: "/Webpimages/itcmaurya.webp",
         amenities: ["Private Oasis Pool", "Camel Rides", "Desert Spa", "Starlight Dining"],
         price: "₹32,000",
         features: ["Falconry Experience", "Gold-plated Interiors", "Private Dune"]
@@ -69,7 +69,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "A glamorous mixture of fashion and passion. She understands how to creep into your bed, and put her thighs around you, and coo all kinds of foul allurements, and get you out of the world beyond your room.",
-        image: "/images/jwmarriott.webp",
+        image: "/Webpimages/jwmarriott.webp",
         amenities: ["Cliffside Infinity Pool", "Jungle Spa", "Rice Terrace Dining", "Cultural Workshops"],
         price: "₹28,000",
         features: ["Volcano Views", "Sacred Spring", "Monkey Sanctuary"]
@@ -80,7 +80,7 @@ export default function Locations() {
         location: "New Delhi",
         rating: 5,
         description: "There is classic opulence combined with fire and brim. Your retinue is slow, voluptuous, then fierce, wild love-making, riding you, teasing you, holding you, and making a night to remember.",
-        image: "/images/imperial.webp",
+        image: "/Webpimages/imperial.webp",
         amenities: ["Rooftop Pool", "Sky Lounge", "Personal Shopper", "Broadway Concierge"],
         price: "₹52,000",
         features: ["Central Park View", "Penthouse Suites", "Private Elevator"]
@@ -233,27 +233,27 @@ export default function Locations() {
   },
 ];
 const cities = [
-{ name: 'DELHI', img: '/images/hotel3.webp' },
-{ name: 'MUMBAI', img: '/images/lajpatnagahotel.avif' },
-{ name: 'NOIDA', img: '/images/RoseateHouse.jpg' },
-{ name: 'BANGALORE', img: '/images/paschimvihar.jpg' },
-{ name: 'PUNE', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg' },
-{ name: 'GURGAON', img: '/images/holidayIn_CP.jpg' },
-{ name: 'HYDERABAD', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-{ name: 'KOLKATA', img: '/images/paschimvihar.jpg' },
-{ name: 'CHENNAI', img: '/images/hotel2.jpg' },
-{ name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
-{ name: 'JAIPUR', img: '/images/jwmarriott.jpeg' },
+{ name: 'DELHI', img: '/Webpimages/hotel3.webp' },
+{ name: 'MUMBAI', img: '/Webpimages/lajpatnagahotel.webp' },
+{ name: 'NOIDA', img: '/Webpimages/RoseateHouse.webp' },
+{ name: 'BANGALORE', img: '/Webpimages/paschimvihar.webp' },
+{ name: 'PUNE', img: '/Webpimages/JwMarriott_CP.webp' },
+{ name: 'AHMEDABAD', img: '/Webpimages/Andazhat.webp' },
+{ name: 'GURGAON', img: '/Webpimages/holidayIn_CP.webp' },
+{ name: 'HYDERABAD', img: '/Webpimages/tajmahalhotel_lajpatnagar.webp' },
+{ name: 'KOLKATA', img: '/Webpimages/paschimvihar.webp' },
+{ name: 'CHENNAI', img: '/Webpimages/hotel2.webp' },
+{ name: 'CHANDIGARH', img: '/Webpimages/pullmanAerocity.webp' },
+{ name: 'JAIPUR', img: '/Webpimages/jwmarriott.webp' },
 ]
 const profiles = [
-  { image: '/images/modelg.jpg' },
-  { image: '/images/18244.jpg' },
-  { image: '/images/172420-8871.jpg' },
-  { image: '/images/4201724.jpg' },
-  { image: '/images/7168.jpg' },
-  { image: '/images/49.jpg' },
-  { image: '/images/2291.jpg' },
+  { image: '/Webpimages/modelg.webp' },
+  { image: '/Webpimages/18244.webp' },
+  { image: '/Webpimages/172420-8871.webp' },
+  { image: '/Webpimages/4201724.webp' },
+  { image: '/Webpimages/7168.webp' },
+  { image: '/Webpimages/49.webp' },
+  { image: '/Webpimages/2291.webp' },
 ]
 
 const services = [
@@ -457,7 +457,7 @@ const services = [
           className="relative"
         >
           <Image
-            src="/images/RoseateHouse.jpg" // apni image path yaha dena
+            src="/Webpimages/RoseateHouse.webp" // apni image path yaha dena
             alt="Spa & Beauty"
             width={700}
             height={500}
@@ -706,7 +706,7 @@ const services = [
       </div>
     </div>
 
-    {/* Right: Polaroid-ish images */}
+    {/* Right: Polaroid-ish Webpimages */}
     <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end">
       <div className="w-full max-w-lg lg:max-w-2xl relative">
         {/* Top image */}
@@ -719,7 +719,7 @@ const services = [
         >
           <div className="rounded-md overflow-hidden border-1 border-white">
             <Image
-              src='/images/27110283.jpg'
+              src='/Webpimages/27110283.webp'
               alt="property 1"
               width={900}
               height={600}
@@ -738,7 +738,7 @@ const services = [
         >
           <div className="rounded-md overflow-hidden border-1 border-white">
             <Image
-              src='/images/6637.jpg'
+              src='/Webpimages/6637.webp'
               alt="property 2"
               width={900}
               height={600}
@@ -1097,7 +1097,7 @@ const services = [
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         <Image
           loading="lazy"
-          src="/images/6637.jpg"
+          src="/Webpimages/6637.webp"
           alt="Luxury Spa Experience"
           fill
           className="object-cover rounded-[2.5rem] transform group-hover:scale-105 transition-transform duration-700"
@@ -1422,7 +1422,7 @@ Your room turns into the comfort zone, your fantasy turns out to be the way, and
       <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl group h-[550px]">
         <Image
           loading="lazy"
-          src="/images/413965.jpg"
+          src="/Webpimages/413965.webp"
           alt="Luxury Spa Experience"
           layout="fill"
           objectFit="cover"
