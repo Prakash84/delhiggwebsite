@@ -40,7 +40,7 @@ export default function Home({
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: 'Our airhostess call girls are elegant, well-spoken, and professionally trained. They know how to make every moment comfortable and classy. If you are looking for a premium airhostess call girls in Delhi for private meetings, dinners, or hotel stays, these girls offer a calm, mature, and luxurious experience with complete privacy.',
-      image: '/Webpimages/smiling.webp', // Placeholder image path
+      image: '/Webpimages/follow for more.webp', // Placeholder image path
     },
     { 
       id: 2,
@@ -48,7 +48,7 @@ export default function Home({
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Alex Johnson is a confident and stylish TV personality with a charming presence. She knows how to connect easily and make every moment enjoyable. If you are looking for a celebrity call Girls in Delhi with class, confidence, and elegance, Alex offers premium companionship for parties, events, and private meetings with full discretion.',
-      image: '/Webpimages/model.webp', // Placeholder image pathss
+      image: '/Webpimages/downloadd6.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ export default function Home({
       role: 'Marketing Student',
       category: 'college',
       description: 'Emma Wilson is a smart and confident marketing student with a friendly and positive nature. She is well-spoken and easy to connect with, making her a great choice for relaxed companionship. If you are looking for a Delhi college girl with a modern mindset and classy presence, Emma offers a comfortable and discreet experience.',
-      image: '/Webpimages/spaStaffInsta.webp', // Placeholder image path
+      image: '/Webpimages/downloadd5.webp', // Placeholder image path
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ export default function Home({
       role: 'Corporate Executive',
       category: 'highprofile',
       description: 'Olivia Chen is a smart and confident corporate executive with a polished personality. She understands professionalism, good conversation, and classy company. If you are looking for a high profile call Girls in Delhi for business dinners, meetings, or private time, Olivia offers premium companionship with complete discretion and comfort.',
-      image: '/Webpimages/49.webp',
+      image: '/Webpimages/Evie Lee Mikomin.webp',
     },
     {
       id: 6,
@@ -80,7 +80,7 @@ export default function Home({
       role: 'First Class Hostess',
       category: 'airhostess',
       description: 'Mia Thompson is a well-groomed and elegant first class hostess with a calm and confident personality. She knows how to make people feel comfortable with her polite nature and smooth conversation. If you are looking for an airhostess call Girls in Delhi who offers premium companionship with class and discretion, Mia is a perfect choice.',
-      image: '/Webpimages/smiling.webp', // Placeholder image path
+      image: '/Webpimages/downloadee.webp', // Placeholder image path
     },
     {
       id: 7,
@@ -788,7 +788,7 @@ const locations = [
             >
               <div className="rounded-md overflow-hidden border-1 border-white">
                 <Image
-                  src='/Webpimages/download (31).webp'
+                  src='/Webpimages1/image2.webp'
                   alt="property 1"
                   width={900}
                   height={600}
@@ -807,7 +807,7 @@ const locations = [
             >
               <div className="rounded-md overflow-hidden border-1 border-white">
                 <Image
-                  src='/Webpimages/download (30).webp'
+                  src='/Webpimages1/Wantto.webp'
                   alt="property 2"
                   width={900}
                   height={600}
@@ -1019,7 +1019,7 @@ const locations = [
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500 group">
               <div className="relative h-96">
                 <Image 
-                  src="/Webpimages/fashion-portrait-beautiful-blonde-model.webp" 
+                  src="/Webpimages/32586.webp" 
                   alt="Relaxing Spa Massage"
                   layout="fill"
                   objectFit="cover"
@@ -1033,7 +1033,7 @@ const locations = [
             <div className="grid grid-cols-2 gap-6">
               {[
                 {src: "/Webpimages/download (34).webp", alt: "Spa Ambience"},
-                {src: "/Webpimages/32586.webp", alt: "Luxury Spa"}
+                {src: "/Webpimages1/download (51).webp", alt: "Luxury Spa"}
               ].map((img, idx) => (
                 <div key={idx} className="relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-500 group">
                   <div className="relative h-56">
@@ -1472,10 +1472,10 @@ You want a person sensual, a person playful, a person charming, a person fiercel
               transition={{ duration: 0.8, ease: "easeOut" }}
               viewport={{ once: true, margin: "-100px" }}
             >
-              <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl transform group w-full h-[500px]">
+              <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl transform group w-full h-[900px]">
                 <Image
                   loading="lazy"
-                  src="/Webpimages/413965.webp"
+                  src="/Webpimages/Evie Lee Mikomin (1).webp"
                   alt="Spa Interior"
                   layout="fill"
                   objectFit="cover"
@@ -1698,7 +1698,7 @@ With our Delhi Call Girls, you will enjoy the organic chemistry, real-life warmt
         >
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/Webpimages/49.webp" // apni image ka path daalna
+              src="/Webpimages1/download (34).webp" // apni image ka path daalna
               alt="Delhi Girl Lifestyle"
               width={600}
               height={500}
