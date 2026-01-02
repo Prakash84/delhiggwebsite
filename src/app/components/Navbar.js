@@ -22,21 +22,21 @@ export default function Navbar() {
   }, []);
 
   const Services = [
-    { name: "Foreigner Staff", href: "/Russian-Escorts-in-Delhi" },
-    { name: "Air Hostess", href: "/Air-Hostess-Escorts-in-Delhi" },
-    { name: "Independent Profile", href: "/Independent-escorts-in-Delhi" },
+    { name: "Foreigner Staff", href: "/russian-escorts-in-delhi" },
+    { name: "Air Hostess", href: "/air-hostess-escorts-in-delhi" },
+    { name: "Independent Profile", href: "/independent-escorts-in-delhi" },
     // { name: "Russian Model", href: "/Category/Russianmodels" },
-    { name: "High Profile", href: "/high-profile-escorts-in-Delhi" },
+    { name: "High Profile", href: "/high-profile-escorts-in-delhi" },
     // { name: "Spa Staff", href: "/Category/spastaff" },
-    { name: "College Girl", href: "/Collage-call-Girls-in-Delhi" },
+    { name: "College Girl", href: "/collage-call-girls-in-delhi" },
     
   ];
   const Locations = [
-    { name: "Delhi Escorts", href: "/Delhi-Escorts" },
+    { name: "Delhi Escorts", href: "/delhi-escorts" },
     { name: "Gurugram Escorts", href: "/call-girls-in-gurgaon" },
-    { name: "NOida Escorts", href: "/call-girls-in-Noida"},
-    { name: "Aerocity Escorts", href: "/Aerocity-escorts" },
-    { name: "Connaught Place Escorts", href: "/Call-girls-in-Connaught-Place" },
+    { name: "NOida Escorts", href: "/call-girls-in-noida"},
+    { name: "Aerocity Escorts", href: "/aerocity-escorts" },
+    { name: "Connaught Place Escorts", href: "/call-girls-in-connaught-place" },
    
     
   ];
@@ -66,7 +66,7 @@ export default function Navbar() {
             onMouseLeave={() => setIsServicesOpen(false)}
           >
             <Link 
-              href="/Model-Call-Girls-in-Delhi" // <-- यहां तू default category page ka route दे
+              href="/model-call-girls-in-delhi" // <-- यहां तू default category page ka route दे
               className="flex items-center gap-1 hover:text-pink-600 transition"
             >
               Categories <ChevronDown className="w-4 h-4" />
@@ -94,13 +94,13 @@ export default function Navbar() {
             </AnimatePresence>
           </div>
 
-          <Link href="/Cheap-call-girls-in-Delhi" className="hover:text-pink-600 transition">
+          <Link href="/cheap-call-girls-in-delhi" className="hover:text-pink-600 transition">
             Pricing
           </Link>
           <Link href="/Blogs" className="hover:text-pink-600 transition">
             Blog
           </Link>
-          <Link href="/Delhi-call-girl-service" className="hover:text-pink-600 transition">
+          <Link href="/delhi-call-girl-service" className="hover:text-pink-600 transition">
             Services
           </Link>
           
@@ -112,7 +112,7 @@ export default function Navbar() {
             onMouseLeave={() => setIsLocationsOpen(false)}
           >
             <Link 
-              href="/Escort-Service-in-Delhi" // <-- यहां तू default category page ka route दे
+              href="/escort-service-in-delhi" // <-- यहां तू default category page ka route दे
               className="flex items-center gap-1 hover:text-pink-600 transition"
             >
               Locations <ChevronDown className="w-4 h-4" />
@@ -186,7 +186,7 @@ export default function Navbar() {
               {/* Services inside mobile */}
               <div>
                 <Link 
-                  href="/Model-Call-Girls-in-Delhi" // <-- यहां भी default page का route दे
+                  href="/model-call-girls-in-delhi" // <-- यहां भी default page का route दे
                   className="flex items-center gap-1 w-full text-left"
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -216,16 +216,16 @@ export default function Navbar() {
               </div>
 
               
-              <Link href="/Cheap-call-girls-in-Delhi" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/cheap-call-girls-in-delhi" onClick={() => setIsMenuOpen(false)}>
                 Pricing
               </Link>
               <Link href="/Blogs" onClick={() => setIsMenuOpen(false)}>
                 Blog
               </Link>
-              <Link href="/Delhi-call-girl-service" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/delhi-call-girl-service" onClick={() => setIsMenuOpen(false)}>
                 Services
               </Link>
-              <Link href="/Escort-Service-in-Delhi" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/escort-service-in-delhi" onClick={() => setIsMenuOpen(false)}>
                 Locations
               </Link>
 
