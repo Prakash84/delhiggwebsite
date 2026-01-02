@@ -1,11 +1,11 @@
 import Foreignermodel from "./Foreignermodel";
 
 export const metadata = {
-  title: "Best Spa in Delhi For Complete Relaxation | Spa Delhi Offer @1999",
-  description: "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
+  title: "Foreigner & Russian Call Girls in Delhi | Verified Profiles, 30-Min Delivery",
+  description: "Foreigner and Russian call girls in Delhi with verified pics and 30 minute hotel delivery. Cash on delivery service available 24/7. Book now ",
   openGraph: {
-    title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
+    title: "Foreigner & Russian Call Girls in Delhi | Verified Profiles, 30-Min Delivery",
+    description: "Foreigner and Russian call girls in Delhi with verified pics and 30 minute hotel delivery. Cash on delivery service available 24/7. Book now ",
     images: ["/images/luxuryspaicon.png"], 
     type: "website",
   },
