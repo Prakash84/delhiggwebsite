@@ -97,7 +97,7 @@ export default function Navbar() {
           <Link href="/cheap-call-girls-in-delhi" className="hover:text-pink-600 transition">
             Pricing
           </Link>
-          <Link href="/Blogs" className="hover:text-pink-600 transition">
+          <Link href="/blogs" className="hover:text-pink-600 transition">
             Blog
           </Link>
           <Link href="/delhi-call-girl-service" className="hover:text-pink-600 transition">
