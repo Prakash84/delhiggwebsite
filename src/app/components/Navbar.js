@@ -142,7 +142,7 @@ export default function Navbar() {
               )}
             </AnimatePresence>
           </div>
-          <Link href="/contect-us" className="hover:text-pink-600 transition">
+          <Link href="/contact-us" className="hover:text-pink-600 transition">
             Contect us
           </Link>
 
