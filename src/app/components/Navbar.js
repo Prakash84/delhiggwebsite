@@ -58,6 +58,9 @@ export default function Navbar() {
           <Link href="/" className="hover:text-pink-600 transition">
             Home
           </Link>
+          <Link href="/about-us" className="hover:text-pink-600 transition">
+            About us
+          </Link>
 
           {/* Services Dropdown */}
           <div
@@ -139,6 +142,9 @@ export default function Navbar() {
               )}
             </AnimatePresence>
           </div>
+          <Link href="/contect-us" className="hover:text-pink-600 transition">
+            Contect us
+          </Link>
 
           {/* Social Icons */}
           <div className="flex gap-4 ml-4">
