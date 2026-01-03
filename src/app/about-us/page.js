@@ -293,6 +293,25 @@ export default function Abpage({
         </p>
       </motion.div>
     </section> */}
+    <section className="relative w-full h-[60vh] md:h-[70vh] flex items-center justify-center">
+      {/* Background image + dark overlay */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/Webpimages/download34.webp')" }}
+      >
+        <span className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center text-white px-6 max-w-4xl">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
+          About DelhiGirl
+        </h1>
+        <p className="text-lg md:text-xl leading-relaxed">
+          Celebrating the spirit, stories and style of Delhi’s women—one post at a time.
+        </p>
+      </div>
+    </section>
      <div className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-rose-50">
       {/* Floating decorative elements */}
       <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>

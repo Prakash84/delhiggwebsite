@@ -20,17 +20,27 @@ export default function page() {
     <main className="bg-neutral-950 text-white">
       
       {/* HERO SECTION */}
-      <section className="relative py-28 bg-gradient-to-b from-black to-neutral-900">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
-            Contact <span className="text-purple-400">Spa Delhi</span>
-          </h1>
-          <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-            Begin your luxury wellness journey with Spa Delhi. 
-            Reach out to us for bookings, enquiries, or personalized spa experiences across Delhi NCR.
-          </p>
-        </div>
-      </section>
+      <section
+  className="relative py-28 bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/Webpimages/download27.webp')",
+  }}
+>
+  {/* Dark Overlay */}
+  {/* <div className="absolute inset-0 bg-black/70"></div> */}
+
+  <div className="relative max-w-7xl mx-auto px-6 text-center">
+    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
+      Contact <span className="text-purple-400">Spa Delhi</span>
+    </h1>
+
+    <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+      Begin your luxury wellness journey with Spa Delhi. 
+      Reach out to us for bookings, enquiries, or personalized spa experiences across Delhi NCR.
+    </p>
+  </div>
+</section>
+
 
       {/* CONTENT SECTION */}
       <section className="py-24">
