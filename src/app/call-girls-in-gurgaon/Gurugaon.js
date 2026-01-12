@@ -757,7 +757,7 @@ const services = [
         >
           <div className="rounded-md overflow-hidden border-1 border-white">
             <Image
-              src='/Webpimages/27110283.webp'
+              src='/Webpimages1/download (29).webp'
               alt="property 1"
               width={900}
               height={600}
@@ -776,7 +776,7 @@ const services = [
         >
           <div className="rounded-md overflow-hidden border-1 border-white">
             <Image
-              src='/Webpimages/6637.webp'
+              src='/Webpimages1/download (36).webp'
               alt="property 2"
               width={900}
               height={600}
@@ -961,7 +961,12 @@ const services = [
                   </div>
                   {/* Placeholder Image */}
                   <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
-                    <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                    <img
+                        src="/Webpimages/32586.webp"
+                        alt="Luxury Spa"
+                        className="rounded-2xl shadow-xl w-full object-cover"
+                      />
+                    {/* <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" /> */}
                   </div>
                 </div>
 

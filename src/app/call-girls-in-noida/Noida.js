@@ -135,7 +135,7 @@ export default function Delhiescorts({
                 role: 'Senior Airhostess',
                 category: 'airhostess',
                 description: '5+ years experience with international airlines. Fluent in 4 languages.',
-                image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
+                image: '/Webpimages/follow for more.webp', // Placeholder image path
               },
               {
                 id: 2,
@@ -143,7 +143,7 @@ export default function Delhiescorts({
                 role: 'TV Personality',
                 category: 'celebrity',
                 description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-                image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+                image: '/Webpimages/downloadd6.webp', // Placeholder image pathss
               },
               {
                 id: 3,
@@ -191,7 +191,7 @@ export default function Delhiescorts({
                 role: 'Engineering Student',
                 category: 'college',
                 description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-                image: '/Webpimages/1.webp', // Placeholder image path
+                image: '/Webpimages/image1.webp', // Placeholder image path
               },
             ];
             const filteredStaff = activeCategory === 'all' 
@@ -429,7 +429,7 @@ export default function Delhiescorts({
           {/* IMAGE AREA */}
           <div className="group relative overflow-hidden rounded-2xl shadow-xl">
             <Image
-              src="/Webpimages/beautiful-woman-with-healthy-body-black-background.webp" // 👉 apni image yaha lagao
+              src="/Webpimages/download34.webp" // 👉 apni image yaha lagao
               alt="Luxury Spa Image"
               width={700}
               height={500}
@@ -857,7 +857,12 @@ export default function Delhiescorts({
                               </div>
                               {/* Placeholder Image */}
                               <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
-                                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                                {/* <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" /> */}
+                                <img
+                                  src="/Webpimages/SexyWomen.webp"
+                                  alt="Luxury Spa"
+                                  className="rounded-2xl shadow-xl w-full object-cover"
+                                />
                               </div>
                             </div>
                     
@@ -1041,7 +1046,7 @@ export default function Delhiescorts({
         {/* Image Section */}
         <div>
           <img
-            src="/Webpimages/spa-banner.webp"
+            src="/Webpimages/SexyWomen.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

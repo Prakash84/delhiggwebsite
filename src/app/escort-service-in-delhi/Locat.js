@@ -32,8 +32,7 @@ export default function Locations() {
       },
       {
         id: 2,
-        name: "Taj Palace, Diplomatic Enclave",
-        location: "New Delhi",
+        name: "Taj  hNew Delhi",
         rating: 5,
         description: "A private fantasy playground. She moves up, lips rubbing your skin, fingers making a dangerous path, the body being wrapped around you, and the night becomes wild, passionate and addictive.",
         image: "/Webpimages/tajpalace.webp",
@@ -719,7 +718,7 @@ const services = [
         >
           <div className="rounded-md overflow-hidden border-1 border-white">
             <Image
-              src='/Webpimages/27110283.webp'
+              src='/Webpimages/download30.webp'
               alt="property 1"
               width={900}
               height={600}
@@ -738,7 +737,7 @@ const services = [
         >
           <div className="rounded-md overflow-hidden border-1 border-white">
             <Image
-              src='/Webpimages/6637.webp'
+              src='/Webpimages/download27.webp'
               alt="property 2"
               width={900}
               height={600}
@@ -922,7 +921,14 @@ const services = [
           </div>
           {/* Placeholder Image */}
           <div className="bg-gradient-to-br from-purple-300 to-pink-400 w-full h-full flex items-center justify-center">
-            <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+            {/* <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" /> */}
+            <Image
+          loading="lazy"
+          src="/Webpimages/download27.webp"
+          alt="Luxury Spa Experience"
+          fill
+          className="object-cover rounded-[2.5rem] transform group-hover:scale-105 transition-transform duration-700"
+        />
           </div>
         </div>
 
@@ -1097,7 +1103,7 @@ const services = [
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         <Image
           loading="lazy"
-          src="/Webpimages/6637.webp"
+          src="/Webpimages/Signin.webp"
           alt="Luxury Spa Experience"
           fill
           className="object-cover rounded-[2.5rem] transform group-hover:scale-105 transition-transform duration-700"

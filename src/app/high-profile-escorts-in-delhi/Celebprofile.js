@@ -1868,7 +1868,7 @@ Spend your night with our College call Girls in Delhi who brings wild imaginatio
         {/* Image Section */}
         <div>
           <img
-            src="/Webpimages/spa-banner.webp"
+            src="/Webpimages/download34.webp"
             alt="Luxury Spa"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

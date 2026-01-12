@@ -109,7 +109,7 @@ export default function Services() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
+      image: '/Webpimages/follow for more.webp', // Placeholder image path
     },
     {
       id: 2,
@@ -117,7 +117,7 @@ export default function Services() {
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+      image: '/Webpimages/downloadd6.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -165,7 +165,7 @@ export default function Services() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/Webpimages/1.webp', // Placeholder image path
+      image: '/Webpimages/image1.webp', // Placeholder image path
     },
   ];
         const filteredStaff = activeCategory === 'all' 
@@ -328,13 +328,13 @@ const services1= [
     title: "College Girls Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/Webpimages/cheerful-attractive-young-woman-standing-with-hands-head.webp", // Add your image path here
+    image: "/Webpimages/image1.webp", // Add your image path here
   },
   {
     title: "Hign Profile Escorts",
     description:
       "Air hostess escorts refers to individuals who provide escort services and have a background or experience working as air hostesses or flight attendants in the airline industry.",
-    image: "/Webpimages/Celebrity_girl.webp", // Add your image path here
+    image: "/Webpimages/IA BY @MUNNDLY (1).webp", // Add your image path here
   },
   {
     title: "Housewife Escorts",
@@ -376,7 +376,7 @@ const services1= [
     title: "VIP Escorts",
     description:
       "College girls escorts refers to individuals who are currently enrolled in college or university and offer escort services. These escorts are typically young women pursuing higher education.",
-    image: "/Webpimages/neww1.webp", // Add your image path here
+    image: "/Webpimages/model.webp", // Add your image path here
   },
   // Add more categories as needed
 ];
@@ -496,7 +496,7 @@ n                </a>
                 <div className="space-y-4">
                   <div className="relative rounded-2xl overflow-hidden bg-white/60 shadow-md h-36 md:h-40">
                     <Image
-                      src="/Webpimages/1.webp"
+                      src="/Webpimages/download (34).webp"
                       alt="Community image"
                       fill
                       sizes="(max-width: 640px) 100vw, 30vw"
@@ -1351,7 +1351,7 @@ n                </a>
         <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500 group">
           <div className="relative h-96">
             <Image 
-              src="/Webpimages/6631.webp" 
+              src="/Webpimages/Waarom ik dit álle.webp" 
               alt="Relaxing Spa Massage"
               layout="fill"
               objectFit="cover"
@@ -1364,8 +1364,8 @@ n                </a>
         
         <div className="grid grid-cols-2 gap-6">
           {[
-            {src: "/Webpimages/6637.webp", alt: "Spa Ambience"},
-            {src: "/Webpimages/27110283.webp", alt: "Luxury Spa"}
+            {src: "/Webpimages/download34.webp", alt: "Spa Ambience"},
+            {src: "/Webpimages/download35.webp", alt: "Luxury Spa"}
           ].map((img, idx) => (
             <div key={idx} className="relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-500 group">
               <div className="relative h-56">

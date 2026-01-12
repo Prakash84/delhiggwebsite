@@ -77,7 +77,7 @@ import {
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
       highlight: false,
       ctaLink: "http://wa.link/njldxn",
-      icon: <FaSpa className="text-amber-500" />
+      icon: <FaSpa className="text-purple-500" />
     },
     {
       title: "Hotel Outlet",
@@ -86,7 +86,7 @@ import {
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
       ctaLink: "http://wa.link/u061wi",
-      icon: <FaHotel className="text-amber-500" />
+      icon: <FaHotel className="text-purple-500" />
     },
     {
       title: "5 Star Hotel Spa",
@@ -95,7 +95,7 @@ import {
       features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,
       ctaLink: "#",
-      icon: <FaCrown className="text-amber-500" />
+      icon: <FaCrown className="text-purple-500" />
     }
   ];
 
@@ -147,19 +147,19 @@ const featuresData = [
     title: "Wide Range of Luxurious Services",
     description:
       "SpaDelhi offers a wide range of massage treatments, carefully selected to suit each individual's mood, lifestyle, and requirements. Since a Full-Body Massage can be so invigorating, our B2B Massage and couples ' massages are designed to uplift your physical and emotional well-being. Every session is designed to offer the utmost relaxation, and each visit becomes a journey of comfort to remember.",
-    image: "/images/HelpstoDe-Stress.webp",
+    image: "/Webpimages/SexyWomen.webp",
   },
   {
     title: "Highly Skilled & Professional Therapists",
     description:
       "In our opinion, the competence of therapists significantly influences the quality of a spa. We have a team of certified, trained and highly skilled therapists at SpaDelhi who know the art of healing touch. They are not only interested in relaxation but also in providing high-quality personalised care, which helps reduce stress and enhances the state of well-being by improving blood flow and circulation.",
-    image: "/images/improvebloodflow.webp",
+    image: "/Webpimages/download34.webp",
   },
   {
     title: " Luxurious Ambience & Top Hotels Partnership",
     description:
       "The difference that makes SpaDelhi special is that we provide our exclusive services in 5-star hotels in Delhi NCR only, in places like Connaught Place, Dwarka, Aerocity, Noida and Gurgaon. Through these alliances, we can offer massages in five-star hotel environments, with a blend of both luxury and peace. The calmness, modernity and professionalism have guaranteed you the best spa experience in Delhi.",
-    image: "/images/SkinMoreRadiant.jpeg",
+    image: "/Webpimages/download35.webp",
   },
 ];
   const services = [
@@ -222,28 +222,28 @@ const specialFeatures = [
     desc: "Luxury spa at the heart of downtown with panoramic city views",
     rating: 5,
     tag: "Hotel Spa",
-    icon: <Sparkles className="w-6 h-6 text-amber-600" />
+    icon: <Sparkles className="w-6 h-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent" />
   },
   {
     name: "Lemon Tree Premier Aerocity",
     desc: "Beachfront sanctuary with ocean-inspired treatments",
     rating: 4.9,
     tag: "Hotel Spa",
-    icon: <Hotel className="w-6 h-6 text-amber-600" />
+    icon: <Hotel className="w-6 h-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent" />
   },
   {
     name: "Novotel New Delhi Aerocity",
     desc: "Rooftop wellness center with city skyline views",
     rating: 4.8,
     tag: "Hotel Spa",
-    icon: <Building2 className="w-6 h-6 text-amber-600" />
+    icon: <Building2 className="w-6 h-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent" />
   },
   {
     name: "The Grand New Delhi",
     desc: "Historic mansion transformed into a luxury spa retreat",
     rating: 5,
     tag: "Hotel Spa",
-    icon: <MapPin className="w-6 h-6 text-amber-600" />
+    icon: <MapPin className="w-6 h-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent" />
   },
 ];
 
@@ -312,10 +312,10 @@ export default function Abpage({
         </p>
       </div>
     </section>
-     <div className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-rose-50">
+     <div className="relative bg-gradient-to-b from-[#faf7f4] to-white overflow-hidden">
       {/* Floating decorative elements */}
       <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
-      <div className="absolute top-1/3 right-20 w-16 h-16 bg-amber-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
+      <div className="absolute top-1/3 right-20 w-16 h-16 bg-purple-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
       <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div>
       
       {/* Main content */}
@@ -323,14 +323,14 @@ export default function Abpage({
         {/* Text content - more minimal */}
         <div className="space-y-6 text-center lg:text-left">
           <div className="inline-flex items-center space-x-2 mb-6">
-            <div className="w-12 h-px bg-amber-600"></div>
-            <span className="text-amber-600 font-light tracking-widest">ABOUT US</span>
-            <div className="w-12 h-px bg-amber-600"></div>
+            <div className="w-12 h-px bg-purple-600"></div>
+            <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-light tracking-widest">ABOUT US</span>
+            <div className="w-12 h-px bg-purple-600"></div>
           </div>
           
           <h1 className="text-4xl md:text-5xl font-light text-gray-800">
              
-            <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Welcome</span>
+            <span className="block font-serif text-5xl md:text-6xl mb-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Welcome</span>
             To Spa Delhi
             <span className="block mt-2 font-medium"> Luxury Spa <span className="text-rose-600">Services Across NCR</span></span>
           </h1>
@@ -341,7 +341,7 @@ export default function Abpage({
           
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a href='/about'>
-               <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
+               <button className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
               <span><a href='/spa-price-in-delhi'>Our Prices</a></span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -367,7 +367,7 @@ export default function Abpage({
   <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
     <div className="relative w-full h-full">
       <img
-        src="/images/aromatherapy-featured-jpg.webp" // ✅ Yahan apna image path daal
+        src="/Webpimages1/download (30).webp" // ✅ Yahan apna image path daal
         alt="Spa Environment"
         className="w-full h-full object-cover"
       />
@@ -376,7 +376,7 @@ export default function Abpage({
 
   {/* Floating leaf decoration */}
   <div className="absolute -bottom-6 -right-6">
-    <svg className="w-24 h-24 text-amber-600/30" viewBox="0 0 100 100">
+    <svg className="w-24 h-24 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent/30" viewBox="0 0 100 100">
       <path
         fill="currentColor"
         d="M50,10 C70,10 90,30 90,50 C90,70 70,90 50,90 C30,90 10,70 10,50 C10,30 30,10 50,10 Z M50,25 C35,25 25,35 25,50 C25,65 35,75 50,75 C65,75 75,65 75,50 C75,35 65,25 50,25 Z"
@@ -387,7 +387,7 @@ export default function Abpage({
   {/* Minimalist stats */}
   <div className="absolute -left-4 bottom-8 bg-white p-4 shadow-md">
     <div className="text-center">
-      <div className="text-2xl font-serif text-amber-800">12+</div>
+      <div className="text-2xl font-serif bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">12+</div>
       <div className="text-xs text-gray-500 tracking-widest">YEARS</div>
     </div>
   </div>
@@ -417,7 +417,7 @@ export default function Abpage({
             className="space-y-6"
           >
             <motion.div
-                          className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
+                          className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent px-4 py-2 rounded-full mb-6 font-medium"
                           initial={{ opacity: 0, y: 20 }}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.2 }}
@@ -434,8 +434,8 @@ export default function Abpage({
                           viewport={{ once: true }}
                         >
                           Our Promise –<span className="relative">
-                            <span className="text-amber-600 z-10 relative">Luxury, Privacy & Professional Service</span>
-                            <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
+                            <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent z-10 relative">Luxury, Privacy & Professional Service</span>
+                            <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                           </span>
                         </motion.h2>
             <p className="text-gray-700 text-lg">
@@ -460,10 +460,10 @@ export default function Abpage({
             className="grid grid-cols-2 gap-4"
           >
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/152804.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
+              <img src="/Webpimages1/download (40).webp" alt="Luxury Spa Room" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/staff12.jpg" alt="Massage Session" className="w-full h-full object-cover" />
+              <img src="/Webpimages1/download (39).webp" alt="Massage Session" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>
@@ -480,26 +480,26 @@ export default function Abpage({
                   transition={{ duration: 0.8 }}
                 >
                   <motion.div
-                    className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/10 to-purple-500/5 border border-purple-500/20 px-5 py-2 rounded-full mb-6"
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                   >
-                    <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                    <span className="text-amber-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
+                    <div className="w-2 h-2 rounded-full bg-purple-500 animate-pulse"></div>
+                    <span className="text-purple-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
                   </motion.div>
                   
                   <motion.h2
-                    className="text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
+                    className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 font-serif"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                     Top Rated <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Luxury Spa in Delhi Noida Gurgoan</span>
+                     Top Rated <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Luxury Spa in Delhi Noida Gurgoan</span>
                   </motion.h2>
                   
                   <motion.p
-                    className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                    className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
@@ -513,7 +513,7 @@ export default function Abpage({
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                   >
-                    <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                    <div className="h-1 w-24 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full"></div>
                   </motion.div>
                 </motion.div>
         {/* First Row */}
@@ -525,7 +525,7 @@ export default function Abpage({
             transition={{ duration: 0.6 }}
           >
             <Image
-              src="/images/instamodels.jpg"
+              src="/Webpimages1/Watch bright.webp"
               alt="Luxury Spa in Delhi"
               width={600}
               height={400}
@@ -548,13 +548,13 @@ export default function Abpage({
                                       viewport={{ once: true }}
                                     >
                                       Your Trusted Massage <span className="relative">
-                                        <span className="text-amber-600 z-10 relative">Spa in Karol Bagh for Luxury & Healing</span>
-                                        <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
+                                        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent z-10 relative">Spa in Karol Bagh for Luxury & Healing</span>
+                                        <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                                       </span>
                                     </motion.h2>
             <p className="text-gray-600 text-lg leading-relaxed">
               Luxury Spa is a one halting joint whereby the combination of professional therapists, high-quality oils, and customized treatments combine to provide a long-lasting feeling of renewal. We will blend modern with traditional to make therapy plans that fit your body and lifestyle, thus, becoming one of the most reliable luxury spas in Delhi.
-              Our <span className="font-semibold text-amber-700"><a href='/'>massage spa in Delhi</a> </span> 
+              Our <span className="font-semibold text-purple-700"><a href='/'>massage spa in Delhi</a> </span> 
               was established several years ago with the prime goal of giving 
               pleasure with the perfect package of massage services to individuals 
               struggling with finding peace. Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation.
@@ -579,12 +579,12 @@ export default function Abpage({
                                       viewport={{ once: true }}
                                     >
                                       Comfort & Wellness <span className="relative">
-                                        <span className="text-amber-600 z-10 relative">at Our Luxury Massage Spa in Connaught Place</span>
-                                        <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
+                                        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent z-10 relative">at Our Luxury Massage Spa in Connaught Place</span>
+                                        <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                                       </span>
                                     </motion.h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-               <span className="font-semibold text-amber-700"></span> 
+               <span className="font-semibold text-purple-700"></span> 
               Our full-body massage in Connaught Place is an ideal destination where you can set yourself free and get all set to find the wonders with a deep relaxation massage led by the best massage therapist. We use advanced methods and old practices to design the therapy tactics which fit your body and lifestyle hence making us the most reliable luxury spas in Delhi. We have created our massage spa in Delhi some years ago with the best objective of providing pleasure with an ultimate package of massage services in Delhi to those that find it difficult to get peace. Luxury Spa is a single-point destination where master therapists, quality oils, and custom therapies will all be combined as one to provide a permanent feeling of renewal.
             </p>
           </motion.div>
@@ -597,7 +597,7 @@ export default function Abpage({
             className="order-1 md:order-2"
           >
             <Image
-              src="/images/239544.jpg"
+              src="/Webpimages1/Today’s heat feed.webp"
               alt="Full Body Massage in Connaught Place"
               width={600}
               height={400}
@@ -609,14 +609,14 @@ export default function Abpage({
     </section>
     {/* end luxury spa content section */}
     {/* //// */}
-    <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
+    <section className="relative py-16 bg-gradient-to-b from-[#faf7f4] to-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* LEFT: Image with stylish overlay */}
           <div className="relative order-2 lg:order-1 rounded-3xl overflow-hidden shadow-2xl">
             <div className="relative w-full h-80 sm:h-[420px] lg:h-[520px]">
               <Image
-                src='/images/185.jpg'
+                src='/Webpimages1/download (49).webp'
                 alt={alt}
                 fill
                 className="object-cover transform-gpu transition-transform duration-700 ease-out hover:scale-105"
@@ -627,20 +627,21 @@ export default function Abpage({
             {/* soft radial accent */}
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute -right-12 -top-12 w-48 h-48 rounded-full bg-amber-200 opacity-60 blur-3xl"
+              className="pointer-events-none absolute -right-12 -top-12 w-48 h-48 rounded-full bg-purple-200 opacity-60 blur-3xl"
             />
 
             {/* glass info card */}
             <div className="absolute left-6 bottom-6 w-[85%] sm:w-2/3 md:w-1/2 bg-white/60 backdrop-blur-md border border-white/30 rounded-xl p-4 shadow-md">
               <div className="flex items-start gap-3">
-                <div className="flex-none w-12 h-12 rounded-lg bg-amber-600/95 text-white grid place-items-center font-semibold">SG</div>
+                
+                <div className="flex-none w-12 h-12 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-white grid place-items-center font-semibold shadow-lg transition-all">SG</div>
                 <div className="flex-1">
-                  <p className="text-xs text-amber-900/80 uppercase font-medium">Signature</p>
-                  <p className="text-sm font-semibold text-amber-900">Therapy — Relax & Renew</p>
+                  <p className="text-xs bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent/80 uppercase font-medium">Signature</p>
+                  <p className="text-sm font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Therapy — Relax & Renew</p>
                   <p className="mt-1 text-xs text-gray-700">60 min • Aromatherapy • Expert therapist</p>
                 </div>
                 <div className="flex-none text-right">
-                  <p className="text-sm text-amber-900 font-bold">₹1,499</p>
+                  <p className="text-sm bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-bold">₹1,499</p>
                 </div>
               </div>
             </div>
@@ -648,49 +649,49 @@ export default function Abpage({
 
           {/* RIGHT: Content */}
           <div className="order-1 lg:order-2">
-            <span className="inline-block px-3 py-1 rounded-full bg-amber-600 text-white text-sm font-semibold">Spa Outlet</span>
+            <span className="inline-block px-3 py-1 rounded-full bg-rose-600 hover:bg-rose-700 text-white text-sm font-semibold">Spa Outlet</span>
 
-            <h2 className="mt-6 text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">
-              5-Star Experience at<span className="text-amber-600"> Premium Hotel Spa in Aerocity
+            <h2 className="mt-6 text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent leading-tight">
+              5-Star Experience at<span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> Premium Hotel Spa in Aerocity
 
 </span>
             </h2>
 
             <p className="mt-4 text-gray-700 max-w-xl">
-             We have also had the honour of collaborating with some of the most esteemed hotels to provide in-room massage and <a href='/spa-in-aerocity'><span className="text-amber-600"> spa in Aerocity</span></a>, Connaught Place (CP),  Noida, Gurgaon or Dwarka, SpaDelhi will bring its spa to your door.
+             We have also had the honour of collaborating with some of the most esteemed hotels to provide in-room massage and <a href='/spa-in-aerocity'><span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> spa in Aerocity</span></a>, Connaught Place (CP),  Noida, Gurgaon or Dwarka, SpaDelhi will bring its spa to your door.
             </p>
 
             {/* three highlight chips */}
             <div className="mt-6 flex flex-wrap gap-3">
-              <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-lg px-4 py-2">
-                <div className="w-8 h-8 rounded-md bg-amber-600/10 grid place-items-center text-amber-700 font-semibold">✓</div>
+              <div className="flex items-center gap-3 bg-purple-50 border border-purple-100 rounded-lg px-4 py-2">
+                <div className="w-8 h-8 rounded-md bg-purple-100 text-purple-800 grid place-items-center font-semibold">✓</div>
                 <div>
-                  <p className="text-sm font-semibold text-amber-900">Foreigner Therapists</p>
+                  <p className="text-sm font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Foreigner Therapists</p>
                   <p className="text-xs text-gray-600">Trained by hospitality pros</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-lg px-4 py-2">
-                <div className="w-8 h-8 rounded-md bg-amber-600/10 grid place-items-center text-amber-700 font-semibold">★</div>
+              <div className="flex items-center gap-3 bg-purple-50 border border-purple-100 rounded-lg px-4 py-2">
+                <div className="w-8 h-8 rounded-md bg-purple-100 text-purple-800 grid place-items-center font-semibold">★</div>
                 <div>
-                  <p className="text-sm font-semibold text-amber-900">5-Star Ambience</p>
+                  <p className="text-sm font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">5-Star Ambience</p>
                   <p className="text-xs text-gray-600">Hotel-grade comfort & privacy</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-lg px-4 py-2">
-                <div className="w-8 h-8 rounded-md bg-amber-600/10 grid place-items-center text-amber-700 font-semibold">⏱</div>
+              <div className="flex items-center gap-3 bg-purple-50 border border-purple-100 rounded-lg px-4 py-2">
+                <div className="w-8 h-8 rounded-md bg-purple-100 text-purple-800 grid place-items-center font-semibold">⏱</div>
                 <div>
-                  <p className="text-sm font-semibold text-amber-900">Flexible Slots</p>
+                  <p className="text-sm font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Flexible Slots</p>
                   <p className="text-xs text-gray-600">Morning to late-evening</p>
                 </div>
               </div>
-              <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-lg px-4 py-2">
-                <div className="w-8 h-8 rounded-md bg-amber-600/10 grid place-items-center text-amber-700">
+              <div className="flex items-center gap-3 bg-purple-50 border border-purple-100 rounded-lg px-4 py-2">
+                <div className="w-8 h-8 rounded-md bg-purple-100 text-purple-800 grid place-items-center">
                   <FaHotel className="text-lg" />  {/* Hotel icon */}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-amber-900">5 Star Outlet</p>
+                  <p className="text-sm font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">5 Star Outlet</p>
                   <p className="text-xs text-gray-600">Morning to late-evening</p>
                 </div>
               </div>
@@ -699,15 +700,15 @@ export default function Abpage({
             {/* description list */}
             <ul className="mt-6 space-y-3 text-gray-700">
               <li className="flex items-start gap-3">
-                <span className="mt-1 text-amber-600">•</span>
+                <span className="mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">•</span>
                 <span>Personalised treatment plan after a short consultation.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="mt-1 text-amber-600">•</span>
+                <span className="mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">•</span>
                 <span>Premium oils & clean, scented linens for absolute comfort.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="mt-1 text-amber-600">•</span>
+                <span className="mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">•</span>
                 <span>Strict safety protocols and trained staff at every outlet.</span>
               </li>
             </ul>
@@ -716,12 +717,12 @@ export default function Abpage({
             <div className="mt-8 flex items-center gap-4">
               <a
                 href="https://api.whatsapp.com/send?phone=919217255113"
-                className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
+                className="inline-block px-6 py-3 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
               >
                 Book a Session
               </a>
 
-              <a href="/massage-service-in-delhi" className="text-amber-900 font-medium hover:underline">Explore Services</a>
+              <a href="/massage-service-in-delhi" className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-medium hover:underline">Explore Services</a>
             </div>
           </div>
         </div>
@@ -731,7 +732,7 @@ export default function Abpage({
       {/* end content section */}
       {/* new content */}
       <section
-      className="bg-gradient-to-b from-amber-50 via-white to-amber-100 py-16"
+      className="bg-gradient-to-b from-purple-50 via-white to-purple-100 py-16"
       aria-labelledby="spa-content-heading"
       role="region"
     >
@@ -749,14 +750,14 @@ export default function Abpage({
             <div className="relative w-full h-72 sm:h-96 lg:h-[480px]">
               {imageSrc ? (
                 <Image
-                  src='/images/staff5.jpg'
+                  src='/Webpimages1/image2.webp'
                   alt={alt || 'Spa image'}
                   fill
                   className="object-cover"
                   priority
                 />
               ) : (
-                <div className="w-full h-full flex items-center justify-center bg-amber-50 text-amber-700">
+                <div className="w-full h-full flex items-center justify-center bg-purple-50 text-purple-700">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-24 h-24 opacity-40" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1110 0c0 2.96-3.5 6.96-5 8.93C10.5 15.96 7 11.96 7 9z" />
                   </svg>
@@ -764,7 +765,7 @@ export default function Abpage({
               )}
 
               {/* Badge overlay */}
-              <div className="absolute left-6 bottom-6 bg-amber-900/85 text-white rounded-xl px-4 py-3 backdrop-blur-sm">
+              <div className="absolute left-6 bottom-6 bg-rose-600 hover:bg-rose-700 text-white text-white rounded-xl px-4 py-3 backdrop-blur-sm">
                 <p className="text-sm opacity-90">Signature Package</p>
                 <p className="font-semibold leading-tight">Relax & Renew — 60 mins</p>
               </div>
@@ -779,9 +780,9 @@ export default function Abpage({
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="inline-block px-3 py-1 rounded-full bg-amber-600 text-white text-sm font-semibold">Premium Spa</p>
+            <p className="inline-block px-3 py-1 rounded-full bg-rose-600 hover:bg-rose-700 text-white text-sm font-semibold">Premium Spa</p>
 
-            <h2 id="spa-content-heading" className="mt-6 text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">{title}</h2>
+            <h2 id="spa-content-heading" className="mt-6 text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent leading-tight">{title}</h2>
 
             <p className="mt-4 text-gray-700 max-w-xl">{subtitle}</p>
 
@@ -790,14 +791,14 @@ export default function Abpage({
     <Link
       href={ctaHref}
       aria-label={ctaText || 'Book session'}
-      className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:brightness-95 transition"
+      className="inline-block px-6 py-3 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-semibold shadow hover:brightness-95 transition"
     >
       {ctaText}
     </Link>
         ) : (
           <button
             type="button"
-            className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:brightness-95 transition"
+            className="inline-block px-6 py-3 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-semibold shadow hover:brightness-95 transition"
             aria-label={ctaText || 'Book session'}
           >
             {ctaText}
@@ -806,7 +807,7 @@ export default function Abpage({
 
         <a
           href="#learn"
-          className="inline-block px-6 py-3 rounded-full border border-amber-200 text-amber-900 font-medium hover:bg-amber-50 transition text-center"
+          className="inline-block px-6 py-3 rounded-full border border-purple-200 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-medium hover:bg-purple-50 transition text-center"
           aria-label="Learn more about treatments"
         >
           Learn More
@@ -816,25 +817,25 @@ export default function Abpage({
 
             {/* === static content blocks (no Feature function) === */}
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-white rounded-lg p-4 border border-amber-100">
-                <h4 className="text-amber-900 font-semibold">Skilled Therapists</h4>
+              <div className="bg-white rounded-lg p-4 border border-purple-100">
+                <h4 className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-semibold">Skilled Therapists</h4>
                 <p className="text-sm text-gray-600 mt-1">Certified professionals handpicked for expertise and care.</p>
               </div>
 
-              <div className="bg-white rounded-lg p-4 border border-amber-100">
-                <h4 className="text-amber-900 font-semibold">Safe & Hygienic</h4>
+              <div className="bg-white rounded-lg p-4 border border-purple-100">
+                <h4 className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-semibold">Safe & Hygienic</h4>
                 <p className="text-sm text-gray-600 mt-1">Strict sanitation protocols and premium linens for client safety.</p>
               </div>
             </div>
             {/* === end static blocks === */}
 
             <div className="mt-6 flex flex-wrap items-center gap-4">
-              <div className="flex items-center gap-3 bg-amber-50 px-3 py-2 rounded-full border border-amber-100">
-                <span className="text-amber-900 font-semibold">24+</span>
+              <div className="flex items-center gap-3 bg-purple-50 px-3 py-2 rounded-full border border-purple-100">
+                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-semibold">24+</span>
                 <span className="text-sm text-gray-600">Outlets</span>
               </div>
-              <div className="flex items-center gap-3 bg-amber-50 px-3 py-2 rounded-full border border-amber-100">
-                <span className="text-amber-900 font-semibold">5★</span>
+              <div className="flex items-center gap-3 bg-purple-50 px-3 py-2 rounded-full border border-purple-100">
+                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-semibold">5★</span>
                 <span className="text-sm text-gray-600">Hotel partners</span>
               </div>
             </div>
@@ -844,7 +845,7 @@ export default function Abpage({
     </section>
 
     {/* ///// */}
-     <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
+     <section className="py-16 bg-gradient-to-b from-purple-50 to-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
@@ -858,7 +859,7 @@ export default function Abpage({
           >
             <div className="relative w-full h-80 sm:h-[420px] lg:h-[520px]">
               <Image
-                src="/images/80535.jpg"
+                src="/Webpimages1/download (51).webp"
                 alt="Relaxing spa interior"
                 fill
                 className="object-cover"
@@ -875,8 +876,8 @@ export default function Abpage({
             transition={{ duration: 0.6 }}
             className="order-1 lg:order-2"
           >
-            <p className="text-sm font-medium text-amber-600 uppercase">Our Promise</p>
-            <h3 className="mt-3 text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">
+            <p className="text-sm font-medium bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent uppercase">Our Promise</p>
+            <h3 className="mt-3 text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent leading-tight">
               Why Choose Spa Delhi for Relaxation & Wellness
             </h3>
             <p className="mt-4 text-gray-700 max-w-xl">
@@ -885,36 +886,36 @@ export default function Abpage({
             </p>
 
             {/* Static feature points */}
-            <div className="mt-8 border-l-2 border-amber-100 pl-6 space-y-6">
+            <div className="mt-8 border-l-2 border-purple-100 pl-6 space-y-6">
               <div className="relative pl-2">
-                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center shadow-sm">
+                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-rose-600 hover:bg-rose-700 text-white flex items-center justify-center shadow-sm">
                   <FaLeaf className="w-3 h-3" />
                 </div>
-                <h4 className="text-lg font-semibold text-amber-900">Holistic Therapies</h4>
-                <p className="text-sm text-gray-600 mt-1">We are providing a team of highly experienced <span className="text-sm text-amber-600 mt-1 font-bold">foreigner therapists, Thai therapists, and Indian therapists,</span> all professionally trained in luxury spa treatments.</p>
+                <h4 className="text-lg font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Holistic Therapies</h4>
+                <p className="text-sm text-gray-600 mt-1">We are providing a team of highly experienced <span className="text-sm bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mt-1 font-bold">foreigner therapists, Thai therapists, and Indian therapists,</span> all professionally trained in luxury spa treatments.</p>
               </div>
 
               <div className="relative pl-2">
-                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center shadow-sm">
+                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-rose-600 hover:bg-rose-700 text-white flex items-center justify-center shadow-sm">
                   <FaHands className="w-3 h-3" />
                 </div>
-                <h4 className="text-lg font-semibold text-amber-900">Our Services</h4>
-                <p className="text-sm text-gray-600 mt-1">Choose from a wide range of our signature therapies including: <span className="text-sm text-amber-600 mt-1 font-bold">B2B Massage, Couple Massage, Erotic Massage</span></p>
+                <h4 className="text-lg font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Our Services</h4>
+                <p className="text-sm text-gray-600 mt-1">Choose from a wide range of our signature therapies including: <span className="text-sm bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mt-1 font-bold">B2B Massage, Couple Massage, Erotic Massage</span></p>
               </div>
 
               <div className="relative pl-2">
-                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center shadow-sm">
+                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-rose-600 hover:bg-rose-700 text-white flex items-center justify-center shadow-sm">
                   <FaHeartbeat className="w-3 h-3" />
                 </div>
-                <h4 className="text-lg font-semibold text-amber-900">5-Star Outlets</h4>
-                <p className="text-sm text-gray-600 mt-1">We proudly serve our guests at luxury 5-star hotels across Delhi NCR: <span className='text-sm text-amber-600 mt-1 font-bold'>Novotel, The Suryaa, The Park</span></p>
+                <h4 className="text-lg font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">5-Star Outlets</h4>
+                <p className="text-sm text-gray-600 mt-1">We proudly serve our guests at luxury 5-star hotels across Delhi NCR: <span className='text-sm bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mt-1 font-bold'>Novotel, The Suryaa, The Park</span></p>
               </div>
 
               <div className="relative pl-2">
-                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center shadow-sm">
+                <div className="absolute -left-8 top-0 w-6 h-6 rounded-full bg-rose-600 hover:bg-rose-700 text-white flex items-center justify-center shadow-sm">
                   <FaClock className="w-3 h-3" />
                 </div>
-                <h4 className="text-lg font-semibold text-amber-900">Flexible Timings</h4>
+                <h4 className="text-lg font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Flexible Timings</h4>
                 <p className="text-sm text-gray-600 mt-1">Extended hours & easy booking to suit busy lives.</p>
               </div>
             </div>
@@ -926,8 +927,8 @@ export default function Abpage({
      <section className="py-16 bg-white" aria-labelledby="about-extra-heading">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-10">
-          <p className="text-sm font-medium text-amber-600 uppercase">About Us — Quick Look</p>
-          <h2 id="about-extra-heading" className="mt-3 text-3xl md:text-4xl font-extrabold text-amber-900">
+          <p className="text-sm font-medium bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent uppercase">About Us — Quick Look</p>
+          <h2 id="about-extra-heading" className="mt-3 text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
             Our Vision, Mission & Values at Spa in Delhi 
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
@@ -937,33 +938,33 @@ export default function Abpage({
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Vision */}
-          <article className="bg-amber-50 border border-amber-100 rounded-2xl p-6 text-center shadow-sm">
-            <div className="mx-auto w-14 h-14 rounded-full bg-amber-600/10 flex items-center justify-center text-amber-700 mb-4">
+          <article className="bg-purple-50 border border-purple-100 rounded-2xl p-6 text-center shadow-sm">
+            <div className="mx-auto w-14 h-14 rounded-full bg-purple-100 text-purple-800 flex items-center justify-center mb-4">
               <FaEye className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold text-amber-900 mb-2">Vision</h3>
+            <h3 className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">Vision</h3>
             <p className="text-sm text-gray-600">
               To be the best massage centre in Delhi. All treatments are designed not only to restore your muscles but also to rejuvenate your energy, alleviate stress, and promote overall well-being. Ayurvedic massages, including aromatherapy, are among the methods we use in treatment to heal the body.
             </p>
           </article>
 
           {/* Mission */}
-          <article className="bg-white border border-amber-100 rounded-2xl p-6 text-center shadow-sm">
-            <div className="mx-auto w-14 h-14 rounded-full bg-amber-600/10 flex items-center justify-center text-amber-700 mb-4">
+          <article className="bg-white border border-purple-100 rounded-2xl p-6 text-center shadow-sm">
+            <div className="mx-auto w-14 h-14 rounded-full bg-purple-100 text-purple-800 flex items-center justify-center mb-4">
               <FaBullseye className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold text-amber-900 mb-2">Mission</h3>
+            <h3 className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">Mission</h3>
             <p className="text-sm text-gray-600">
               We strive to offer a sense of wellness, relaxation, and rejuvenation to all individuals who enter our doors. Our mission is to provide an environment that combines luxury and affordability and where therapies that are designed to meet the lifestyle of each client are offered.
             </p>
           </article>
 
           {/* Values */}
-          <article className="bg-amber-50 border border-amber-100 rounded-2xl p-6 text-center shadow-sm">
-            <div className="mx-auto w-14 h-14 rounded-full bg-amber-600/10 flex items-center justify-center text-amber-700 mb-4">
+          <article className="bg-purple-50 border border-purple-100 rounded-2xl p-6 text-center shadow-sm">
+            <div className="mx-auto w-14 h-14 rounded-full bg-purple-100 text-purple-800 flex items-center justify-center mb-4">
               <FaHandsHelping className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold text-amber-900 mb-2">Values</h3>
+            <h3 className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">Values</h3>
             <p className="text-sm text-gray-600">
               We are of the opinion that trust forms the basis of any wellness endeavour. This is the reason why Spa Delhi ensures the hygiene, privacy, as well as professionalism. All therapists receive specialized training and each session will be quality checked to maintain a safe, comfortable environment among all of our guests.
             </p>
@@ -971,18 +972,18 @@ export default function Abpage({
         </div>
 
         {/* Stats & CTA */}
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-r from-amber-50 to-white rounded-2xl p-6 border border-amber-100">
+        <div className="mt-10 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-r from-purple-50 to-white rounded-2xl p-6 border border-purple-100">
           <div className="flex gap-6 items-center">
             <div className="text-center">
-              <div className="text-amber-900 font-extrabold text-2xl">24+</div>
+              <div className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-extrabold text-2xl">24+</div>
               <div className="text-sm text-gray-600">Outlets</div>
             </div>
             <div className="text-center">
-              <div className="text-amber-900 font-extrabold text-2xl">5★</div>
+              <div className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-extrabold text-2xl">5★</div>
               <div className="text-sm text-gray-600">Hotel partners</div>
             </div>
             <div className="text-center">
-              <div className="text-amber-900 font-extrabold text-2xl">100k+</div>
+              <div className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-extrabold text-2xl">100k+</div>
               <div className="text-sm text-gray-600">Happy customers</div>
             </div>
           </div>
@@ -990,13 +991,13 @@ export default function Abpage({
           <div className="flex items-center gap-4">
             <a
               href="/contact"
-              className="inline-block px-5 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:brightness-95 transition"
+              className="inline-block px-5 py-3 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-semibold shadow hover:brightness-95 transition"
             >
               Contact & Book
             </a>
             <a
               href="/spa-therapist-jobs-in-delhi"
-              className="text-amber-900 font-medium hover:underline"
+              className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-medium hover:underline"
             >
               Join Our Team
             </a>
@@ -1011,7 +1012,7 @@ export default function Abpage({
       {/* new content */}
        
             {/* icon uytlet */}
-    <section className="py-24 bg-gradient-to-b from-amber-50 to-white">
+    <section className="py-24 bg-gradient-to-b from-purple-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-20"
@@ -1021,26 +1022,26 @@ export default function Abpage({
           transition={{ duration: 0.8 }}
         >
           <motion.div
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/10 to-purple-500/5 border border-purple-500/20 px-5 py-2 rounded-full mb-6"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-            <span className="text-amber-700 font-medium tracking-wider">Hotel Outlet</span>
+            <div className="w-2 h-2 rounded-full bg-purple-500 animate-pulse"></div>
+            <span className="text-purple-700 font-medium tracking-wider">Hotel Outlet</span>
           </motion.div>
           
           <motion.h2
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 font-serif"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            Spa Services  <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">at Top 5-Star Hotels in Delhi</span>
+            Spa Services  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">at Top 5-Star Hotels in Delhi</span>
           </motion.h2>
           
           <motion.p
-            className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+            className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
@@ -1054,7 +1055,7 @@ export default function Abpage({
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+            <div className="h-1 w-24 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full"></div>
           </motion.div>
         </motion.div>
 
@@ -1076,10 +1077,10 @@ export default function Abpage({
                 y: -10,
                 boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
               }}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl border border-amber-100 relative overflow-hidden group"
+              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl border border-purple-100 relative overflow-hidden group"
             >
               {/* Premium ribbon */}
-              <div className="absolute top-4 right-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
+              <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
                 <Star className="w-3 h-3 fill-white" />
                 <span>{outlet.rating}</span>
               </div>
@@ -1087,7 +1088,7 @@ export default function Abpage({
               {/* Icon with subtle shine effect */}
               <div className="flex justify-center mb-6">
                 <div className="relative">
-                  <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-5 rounded-full shadow-inner group-hover:shadow-md transition-all duration-300">
+                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-5 rounded-full shadow-inner group-hover:shadow-md transition-all duration-300">
                     {outlet.icon}
                   </div>
                   <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -1095,26 +1096,26 @@ export default function Abpage({
               </div>
 
               {/* Hotel Name */}
-              <h3 className="text-xl font-bold text-amber-900 mb-3 font-serif">
+              <h3 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-3 font-serif">
                 {outlet.name}
               </h3>
               
               {/* Tag */}
-              <div className="inline-block bg-amber-50 border border-amber-200 text-amber-700 text-xs px-3 py-1 rounded-full mb-4">
+              <div className="inline-block bg-purple-50 border border-purple-200 text-purple-700 text-xs px-3 py-1 rounded-full mb-4">
                 {outlet.tag}
               </div>
 
               {/* Description */}
-              <p className="text-amber-800/80 text-sm leading-relaxed mb-6">
+              <p className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent/80 text-sm leading-relaxed mb-6">
                 {outlet.desc}
               </p>
               
               {/* Decorative line */}
-              <div className="h-0.5 bg-gradient-to-r from-transparent via-amber-200 to-transparent w-3/4 mx-auto group-hover:via-amber-400 transition-colors duration-300"></div>
+              <div className="h-0.5 bg-gradient-to-r from-transparent via-purple-200 to-transparent w-3/4 mx-auto group-hover:via-purple-400 transition-colors duration-300"></div>
               
               {/* Button */}
               {/* <div className="mt-6">
-                <button className="text-amber-700 text-sm font-medium hover:text-amber-900 flex items-center justify-center gap-1.5 mx-auto transition-colors duration-200 group-hover:gap-2">
+                <button className="text-purple-700 text-sm font-medium hover:bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent flex items-center justify-center gap-1.5 mx-auto transition-colors duration-200 group-hover:gap-2">
                   <span>Explore Location</span>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -1142,26 +1143,26 @@ export default function Abpage({
                     transition={{ duration: 0.8 }}
                   >
                     <motion.div
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+                      className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/10 to-purple-500/5 border border-purple-500/20 px-5 py-2 rounded-full mb-6"
                       initial={{ opacity: 0, scale: 0.9 }}
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                      <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                      <span className="text-amber-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
+                      <div className="w-2 h-2 rounded-full bg-purple-500 animate-pulse"></div>
+                      <span className="text-purple-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
                     </motion.div>
                     
                     <motion.h2
-                      className="text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
+                      className="text-4xl md:text-5xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 font-serif"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Foreign Certified Staff <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">best for Thai spa & B2B Therapy  in Spa Delhi</span>
+                      Foreign Certified Staff <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">best for Thai spa & B2B Therapy  in Spa Delhi</span>
                     </motion.h2>
                     
                     <motion.p
-                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                      className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
@@ -1175,7 +1176,7 @@ export default function Abpage({
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.5, duration: 0.5 }}
                     >
-                      <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                      <div className="h-1 w-24 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full"></div>
                     </motion.div>
                   </motion.div>
           
@@ -1198,7 +1199,7 @@ export default function Abpage({
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-amber-800 font-serif mb-3">
+                  <h3 className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-serif mb-3">
                     {item.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -1222,9 +1223,9 @@ export default function Abpage({
                                           viewport={{ once: true }}
                                           transition={{ duration: 0.6 }}
                                         >
-                                          <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
+                                          <span className="text-lg font-medium text-purple-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
                                           <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">Why Guests Choose Our Premium Spa in Delhi Noida Gurgoan</h1>
-                                          <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
+                                          <div className="w-24 h-1 bg-purple-600 mx-auto rounded-full"></div>
                                         </motion.div>
               
                                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -1239,12 +1240,12 @@ export default function Abpage({
                                               transition={{ duration: 0.7 }}
                                             >
                                               <div className="flex items-center gap-4 mb-6">
-                                                <div className="bg-amber-100 p-3 rounded-xl">
-                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <div className="bg-purple-100 p-3 rounded-xl">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                                                   </svg>
                                                 </div>
-                                                <h2 className="text-3xl font-bold text-amber-800 mb-6">
+                                                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
                                                   Foreigner Staff
                                                 </h2>
                                               </div>
@@ -1258,7 +1259,7 @@ export default function Abpage({
                                                     {title: 'Uzbeki Therapist', desc: 'Space designed with sacred geometry to enhance therapeutic benefits'}
                                                   ].map((item, index) => (
                                                     <div key={index} className="bg-indigo-50 p-4 rounded-xl">
-                                                      <h3 className="font-bold text-amber-800 mb-2">{item.title}</h3>
+                                                      <h3 className="font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">{item.title}</h3>
                                                       <p className="text-sm text-gray-600">{item.desc}</p>
                                                     </div>
                                                   ))}
@@ -1267,7 +1268,7 @@ export default function Abpage({
                                                   This holistic framework allows us to create treatments that don't just relax temporarily but catalyze lasting change. Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
                                                 </p>
                                               <div className="mt-6">
-                                                <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">60-90 min | From ₹2,800</span>
+                                                <span className="inline-block bg-purple-100 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent py-1 px-4 rounded-full text-sm font-medium">60-90 min | From ₹2,800</span>
                                               </div>
                                             </motion.div>
                                             
@@ -1279,12 +1280,12 @@ export default function Abpage({
                                               transition={{ duration: 0.7, delay: 0.1 }}
                                             >
                                               <div className="flex items-center gap-4 mb-6">
-                                                <div className="bg-amber-100 p-3 rounded-xl">
-                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <div className="bg-purple-100 p-3 rounded-xl">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                                                   </svg>
                                                 </div>
-                                                <h2 className="text-3xl font-bold text-amber-800 mb-6">
+                                                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
                                                   Why Go For Delhi Spa
                                                 </h2>
                                               </div>
@@ -1298,7 +1299,7 @@ export default function Abpage({
                                                     'Deep Tissue Sculpting', 'Craniosacral'
                                                   ].map((item, index) => (
                                                     <li key={index} className="flex items-center">
-                                                      <div className="w-2 h-2 bg-amber-800 rounded-full mr-3"></div>
+                                                      <div className="w-2 h-2 bg-purple-800 rounded-full mr-3"></div>
                                                       <span className="text-gray-600">{item}</span>
                                                     </li>
                                                   ))}
@@ -1307,7 +1308,7 @@ export default function Abpage({
                                                   Beyond technical excellence, we select therapists for their intuitive healing abilities. Monthly training includes emotional intelligence development and energy work certification. This investment shows in our 98% client retention rate and numerous industry awards.
                                                 </p>
                                               <div className="mt-6">
-                                                <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">75-90 min | From ₹3,200</span>
+                                                <span className="inline-block bg-purple-100 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent py-1 px-4 rounded-full text-sm font-medium">75-90 min | From ₹3,200</span>
                                               </div>
                                             </motion.div>
                                           </div>
@@ -1322,12 +1323,12 @@ export default function Abpage({
                                               transition={{ duration: 0.7 }}
                                             >
                                               <div className="flex items-center gap-4 mb-6">
-                                                <div className="bg-amber-100 p-3 rounded-xl">
-                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <div className="bg-purple-100 p-3 rounded-xl">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                   </svg>
                                                 </div>
-                                                <h2 className="text-3xl font-bold text-amber-800 mb-6">
+                                                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
                                                   Top Rated Services
                                                 </h2>
                                               </div>
@@ -1343,7 +1344,7 @@ export default function Abpage({
                                                   {icon: '🌎', text: 'Carbon Offsetting'},
                                                  {icon: '🏺', text: 'Handcrafted Products'}
                                                 ].map((item, index) => (
-                                                  <span key={index} className="bg-[#f0eae3] text-amber-800 px-4 py-2 rounded-full flex items-center">
+                                                  <span key={index} className="bg-[#f0eae3] bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent px-4 py-2 rounded-full flex items-center">
                                                     <span className="mr-2 text-xl">{item.icon}</span>
                                                     {item.text}
                                                   </span>
@@ -1356,7 +1357,7 @@ export default function Abpage({
                                               
                                               
                                               <div className="mt-6">
-                                                <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">60-120 min | From ₹2,500</span>
+                                                <span className="inline-block bg-purple-100 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent py-1 px-4 rounded-full text-sm font-medium">60-120 min | From ₹2,500</span>
                                               </div>
                                             </motion.div>
                                             
@@ -1368,8 +1369,8 @@ export default function Abpage({
                                               transition={{ duration: 0.7, delay: 0.1 }}
                                             >
                                               <div className="flex items-center gap-4 mb-6">
-                                                <div className="bg-amber-100 p-3 rounded-xl">
-                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <div className="bg-purple-100 p-3 rounded-xl">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                                                   </svg>
                                                 </div>
@@ -1386,7 +1387,7 @@ export default function Abpage({
                                                   {icon: '🏩', text: 'The Suryaa New Delhi (NFC)'},
                                                   
                                                 ].map((item, index) => (
-                                                  <span key={index} className="bg-[#f0eae3] text-amber-800 px-4 py-2 rounded-full flex items-center">
+                                                  <span key={index} className="bg-[#f0eae3] bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent px-4 py-2 rounded-full flex items-center">
                                                     <span className="mr-2 text-xl">{item.icon}</span>
                                                     {item.text}
                                                   </span>
@@ -1396,14 +1397,14 @@ export default function Abpage({
                                                 Our product line features sustainably harvested ingredients from ethical cooperatives. We've partnered with local environmental initiatives, donating 5% of profits to wetland conservation.
                                               </p>
                                               <div className="mt-6">
-                                                <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">3-6 hours | From ₹8,500</span>
+                                                <span className="inline-block bg-purple-100 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent py-1 px-4 rounded-full text-sm font-medium">3-6 hours | From ₹8,500</span>
                                               </div>
                                             </motion.div>
                                           </div>
                                         </div>
               
                                         <motion.div 
-                                          className="mt-16 bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-8 text-white shadow-xl"
+                                          className="mt-16 bg-gradient-to-r from-purple-700 to-purple-600 rounded-2xl p-8 text-white shadow-xl"
                                           initial={{ opacity: 0, y: 30 }}
                                           whileInView={{ opacity: 1, y: 0 }}
                                           viewport={{ once: true }}
@@ -1500,7 +1501,7 @@ export default function Abpage({
       </section>
       
           {/* F&Q Section */}
-                <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
+                <section className="py-16 bg-gradient-to-b from-purple-50 to-white">
                   <div className="max-w-5xl mx-auto px-4">
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
@@ -1510,22 +1511,22 @@ export default function Abpage({
                       className="text-center mb-14"
                     >
                       <motion.div
-                        className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
+                        className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-purple-100 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-medium"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                       >
-                        <FaStar className="text-amber-500" />
+                        <FaStar className="text-purple-500" />
                         Questions? We’re here to help
                       </motion.div>
-                      <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
-                        Frequently Asked <span className="text-amber-600">Questions</span>
+                      <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-serif mb-4">
+                        Frequently Asked <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Questions</span>
                       </h2>
-                      <p className="text-amber-800 max-w-2xl mx-auto text-lg">
+                      <p className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent max-w-2xl mx-auto text-lg">
                         Everything you need to know about our luxurious spa services and how to book them.
                       </p>
                       <div className="flex justify-center mt-6">
-                        <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                        <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full"></div>
                       </div>
                     </motion.div>
           
@@ -1538,23 +1539,23 @@ export default function Abpage({
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.4, delay: index * 0.1 }}
                           viewport={{ once: true }}
-                          className="bg-white rounded-2xl shadow-lg overflow-hidden border border-amber-100"
+                          className="bg-white rounded-2xl shadow-lg overflow-hidden border border-purple-100"
                         >
                           <button
                             onClick={() => toggleFAQ(index)}
                             className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
                           >
                             <div className="flex items-start space-x-4">
-                              <div className="mt-1 p-2 bg-amber-50 rounded-lg">
+                              <div className="mt-1 p-2 bg-purple-50 rounded-lg">
                                 {faq.icon}
                               </div>
-                              <h3 className="text-lg md:text-xl font-medium text-amber-900 group-hover:text-amber-700 transition-colors">
+                              <h3 className="text-lg md:text-xl font-medium bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent group-hover:text-purple-700 transition-colors">
                                 {faq.question}
                               </h3>
                             </div>
                             <div className="ml-4 flex-shrink-0">
                               <svg
-                                className={`w-6 h-6 text-amber-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
+                                className={`w-6 h-6 text-purple-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -1578,8 +1579,8 @@ export default function Abpage({
                                 transition={{ duration: 0.3 }}
                                 className="overflow-hidden"
                               >
-                                <div className="px-6 pb-6 pt-2 border-t border-amber-50">
-                                  <p className="text-amber-700">
+                                <div className="px-6 pb-6 pt-2 border-t border-purple-50">
+                                  <p className="text-purple-700">
                                     {faq.answer}
                                   </p>
                                 </div>
@@ -1596,17 +1597,17 @@ export default function Abpage({
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.4 }}
                       viewport={{ once: true }}
-                      className="mt-14 bg-gradient-to-r from-amber-500 to-amber-600 rounded-2xl p-8 text-center text-white shadow-xl"
+                      className="mt-14 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl p-8 text-center text-white shadow-xl"
                     >
                       <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
                       <p className="mb-5 max-w-2xl mx-auto">
                         Our wellness team is here to assist you. Reach out and we’ll help you find the perfect treatment.
                       </p>
                       <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <button className="px-6 py-3 bg-white text-amber-700 font-medium rounded-full shadow-md hover:bg-amber-100 transition-colors">
+                        <button className="px-6 py-3 bg-white text-purple-700 font-medium rounded-full shadow-md hover:bg-purple-100 transition-colors">
                           Contact Us
                         </button>
-                        <button className="px-6 py-3 bg-amber-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
+                        <button className="px-6 py-3 bg-purple-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
                           Book Appointment
                         </button>
                       </div>

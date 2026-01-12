@@ -26,7 +26,7 @@ export default function Pricing() {
       role: 'Senior Airhostess',
       category: 'airhostess',
       description: '5+ years experience with international airlines. Fluent in 4 languages.',
-      image: '/Webpimages/Airhostess_girl.webp', // Placeholder image path
+      image: '/Webpimages/download (33).webp', // Placeholder image path
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ export default function Pricing() {
       role: 'TV Personality',
       category: 'celebrity',
       description: 'Award-winning host of "Nightlife" show. Known for vibrant personality.',
-      image: '/Webpimages/Celebrity_girl.webp', // Placeholder image pathss
+      image: '/Webpimages/image1.webp', // Placeholder image pathss
     },
     {
       id: 3,
@@ -82,7 +82,7 @@ export default function Pricing() {
       role: 'Engineering Student',
       category: 'college',
       description: 'Robotics club president. Developing AI solutions for sustainable energy.',
-      image: '/Webpimages/1.webp', // Placeholder image path
+      image: '/Webpimages/download (15).webp', // Placeholder image path
     },
   ];
       const filteredStaff = activeCategory === 'all' 
@@ -342,7 +342,7 @@ export default function Pricing() {
               
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/Webpimages/1.webp"
+                  src="/Webpimages/download34.webp"
                   alt="Community image"
                   layout="fill"
                   objectFit="cover"
@@ -911,7 +911,7 @@ export default function Pricing() {
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-purple-100">
           <div className="relative h-96">
             <Image
-              src="/Webpimages/27110283.webp"
+              src="/Webpimages/download33.webp"
               alt="Premium spa oils"
               layout="fill"
               objectFit="cover"
@@ -1150,7 +1150,7 @@ export default function Pricing() {
           <div className="relative">
             <div className="relative h-190 rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/Webpimages/1.webp"
+                src="/Webpimages/download (4).webp"
                 alt="Girls using our platform"
                 layout="fill"
                 objectFit="cover"
