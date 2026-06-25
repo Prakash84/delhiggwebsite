@@ -715,17 +715,17 @@ const locations = [
         {/* Left: Text */}
         <div className="order-2 lg:order-1 text-center lg:text-left">
           <motion.h2
-                        className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
+                        className="text-2xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3 }}
                         viewport={{ once: true }}
                       >
-                        Top Notch call girl Service in{" "}
+                        Most demanded call-girl services in Delhi{" "}
                         <span className="relative">
                           
                           <span className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                            Delhi To Fulfill All Your Needs
+                            to achieve your fantasies
                           </span>
                           <span className="absolute bottom-2 left-0 w-full h-3 bg-purple-200/60 z-0"></span>
                         </span>
@@ -739,14 +739,15 @@ const locations = [
                         viewport={{ once: true }}
                       >
                         <p className="text-gray-600 text-lg leading-relaxed">
-                         Delhi Girl is one of the leading agencies offering call girl Service in Delhi, highly recommended to those who have a secret fantasy to fulfil without compromising on any desires. At Delh Girls, our team of best Delhi call girls brings your long-held desires to life. The allure, the chemistry, the intimacy, the fire -it all comes easy when you bring our elite Delhi Girl companions into your world. Each moment is a heady mix of silk, scent, and skin, designed to dissolve your stress and start with raw, delicious pleasure.{" "}
+                         Experience full relaxation and energy at our escorts in Delhi, using traditional techniques of Eastern Europe during the luxury session. We have trained call girls in Delhi to give the touch of traditional wellness therapies with the help of escorts in Delhi  and rejuvenation designed to remove tension, mood and revitalize your body. Our professional call girls are trained in providing services without disagreeing with your fantasy requirements.{" "}
                           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
                             
                           </strong>
                           
                         </p>
                         <p className="text-gray-600 text-lg leading-relaxed">
-                          The thing is that you do not simply book an call girl service in Delhi, you get a woman who comprehends your mood, syncs up with your rhythm, arouses your senses, and makes you feel like the sole man in the room. We have call girls in Delhi at from every category, including russian models, celebrities, Air hostesses, College girls, Milf and so on. Just book your favourite call girl, and you will never regret choosing us for call girls in Delhi. Remember the name Delhi Girl for booking high-end models, daring professionals, ardent sweethearts, and seductive enchantresses who are well aware of making the night memorable. Leave your girl, hold our call girls who never complain.{" "}
+                          As per the demand of clients, we do have many girls as per the preferences, including models, air hostesses, college young girls, and celebrities and so on. We will give you real photos of the girls before the session starts, just to have a confirmation from your side. That the call girls in Delhi is enough to fully meet your needs, uplift your mood, arouse your senses and make your body relax by fulfilling all the requirements. By getting the confirmation of an escorts in Delhi for your enjoyable day or night.
+{" "}
                           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
                             
                           </strong>
@@ -823,13 +824,88 @@ const locations = [
       </div>
                   </section>
                   {/* End Content Hero Section */}
+
+                  {/* start */}
+                  <section className="relative py-10 bg-gradient-to-b from-[#faf7f4] to-white overflow-hidden">
+      
+      {/* Soft background glow */}
+      <div className="absolute -top-12 -left-32 w-[420px] h-[420px] rounded-full blur-[120px]" />
+      <div className="absolute -bottom-32 -right-32 w-[420px] h-[420px] bg-purple-500/20 rounded-full blur-[120px]" />
+
+      <div className="relative container mx-auto px-4 md:px-10">
+
+        {/* Heading */}
+        <div className="max-w-5xl mx-auto text-center mb-16">
+          
+
+          <h2 className="text-3xl Female to Male Massagemd:text-4xl font-bold text-gray-900 mb-4">
+            Affordable call girl services in Delhi
+          </h2>
+
+          <p className="text-gray-600 text-lg leading-relaxed">
+           Get your desire fulfilled with affordable call girls in Delhi at 5-star hotels. We arrange a girl with an affordable price range for our customers. 
+          </p>
+        </div>
+
+        {/* Info Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          {/* Connaught Place */}
+          <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition">
+            <div className="flex items-center gap-3 mb-4">
+              <Users className="text-pink-500 w-6 h-6" />
+              <h3 className="text-xl font-semibold text-gray-900">
+                5-Star Hotel outlets
+              </h3>
+            </div>
+            <p className="text-gray-600 leading-relaxed">
+               We provide services in 5-star hotels to maintain privacy and hygiene.
+            </p>
+          </div>
+
+          {/* Aerocity */}
+          <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition">
+            <div className="flex items-center gap-3 mb-4">
+              <Users className="text-purple-500 w-6 h-6" />
+              <h3 className="text-xl font-semibold text-gray-900">
+                Customized Sessions
+              </h3>
+            </div>
+            <p className="text-gray-600 leading-relaxed">
+              We provide sessions as per customer desire and, on the basis of requirement, call girls will be allotted.
+            </p>
+          </div>
+
+          {/* Mahipalpur */}
+          <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition">
+            <div className="flex items-center gap-3 mb-4">
+              <MapPin className="text-pink-500 w-6 h-6" />
+              <h3 className="text-xl font-semibold text-gray-900">
+                High profile Models
+              </h3>
+            </div>
+            <p className="text-gray-600 leading-relaxed">
+            In this category the session is attended by a professional high profile model. 
+            </p>
+          </div>
+          
+        </div>
+        <h2 className="text-2xl mt-5 Female to Male Massagemd:text-4xl font-bold text-gray-700 mb-4">
+            We offer services in prime location of Delhi
+          </h2>
+          <p className="text-gray-600 text-lg leading-relaxed">
+           We provide call girl services at prime locations in Delhi NCR. With our highly professional models, we became the best call-girl service provider in Delhi.
+          </p>
+      </div>
+    </section>
+                  {/* end */}
                   <section className="bg-gradient-to-b from-amber-50 to-white py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left: Text */}
           <div className="text-center lg:text-left">
             <motion.h2
-                    className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
+                    className="text-2xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
@@ -852,17 +928,15 @@ const locations = [
                     viewport={{ once: true }}
                   >
                     <p className="text-gray-600 text-lg leading-relaxed">
-                         
-                      Trusted,{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                        discreet and professional
-                      </strong>
-                      , companionship for events,{" "}
-                      <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
-                       travel,
+                       <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
+                        Delhi Girls
+                      </strong> {" "} 
+                       provides a 
+                       {" "}<strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-medium">
+                        call-girl 
                       </strong>{" "}
-                      and curated experiences across Delhi.{" "}
-                      
+                       
+                       with maintained high professionalism and trust for any companionship at events, parties or just private sessions across Delhi.
                     </p>
                     
                   </motion.div>
@@ -897,7 +971,7 @@ const locations = [
                   </svg>
                 </div>
                 <h4 className="text-sm font-semibold">Verified Profiles</h4>
-                <p className="mt-1 text-xs text-gray-500">Identity & background-checked</p>
+                <p className="mt-1 text-xs text-gray-500">We have escorts in Delhi with full verification and background checks.</p>
               </div>
 
               <div className="bg-white rounded-2xl p-4 shadow-sm text-center">
@@ -907,7 +981,7 @@ const locations = [
                   </svg>
                 </div>
                 <h4 className="text-sm font-semibold">No Advance Payment</h4>
-                <p className="mt-1 text-xs text-gray-500">Secure & private handling</p>
+                <p className="mt-1 text-xs text-gray-500">We don't recommend you to give advance payment. After attending a satisfying session, then payment will be made.</p>
               </div>
 
               <div className="bg-white rounded-2xl p-4 shadow-sm text-center">
@@ -918,7 +992,7 @@ const locations = [
                   </svg>
                 </div>
                 <h4 className="text-sm font-semibold">High Profile Model</h4>
-                <p className="mt-1 text-xs text-gray-500">Tailored experiences & planning</p>
+                <p className="mt-1 text-xs text-gray-500">We do have high profile models as per your needs. We offer escorts in Delhi.</p>
               </div>
             </div>
           </div>
@@ -966,7 +1040,7 @@ const locations = [
 </div>
 
               <div className="mt-4 text-xs text-gray-500">
-                All profiles are verified and available for lawful, non-sexual companionship & event services only.
+                We are trusted in providing 100% satisfaction for customers.
               </div>
             </div>
 
@@ -983,8 +1057,8 @@ const locations = [
         {/* Small CTA strip */}
         <div className="mt-12 bg-white rounded-2xl p-6 shadow-inner border border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <div className="text-sm font-semibold text-gray-800">Need something special?</div>
-            <div className="text-xs text-gray-500">Custom experiences for birthdays, corporate events, travel & more.</div>
+            <div className="text-sm font-semibold text-gray-800">Our call girls in Delhi</div>
+            <div className="text-xs text-gray-500">Visit Delhi Girls, which eases stress and also pampers you. Both services will boost your mood, ease your muscles and give you a luxurious experience tailored to your preferences.</div>
           </div>
           <div className="flex gap-3">
             <a href="#contact" className="px-5 py-2 rounded-full bg-emerald-500 text-white text-sm">Enquire Now</a>
@@ -1150,10 +1224,10 @@ const locations = [
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Trusted Call Girl Services in Delhi – VIP Companions for Every Occasion
+            Highly Demanded Call Girls in Delhi
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Meet our diverse team of professionals who bring excellence and passion to every engagement.
+            The below-mentioned Delhi Girls  are always in high demand due to their unique way of providing services.
           </p>
         </motion.div>
 
